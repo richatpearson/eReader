@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_book" kind="class" prot="public">
+    <compoundname>PxePlayerBook</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_book_8h" local="no">PxePlayerBook.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_book_1a7b90d0569e28b2c8a548ce58fdd78089" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the title of the book </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1ad6112557a3413f32dae81ca61db34840" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::isbn</definition>
+        <argsstring></argsstring>
+        <name>isbn</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the isbn of the book </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a218bf45943504045b908b7c438b994f0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::edition</definition>
+        <argsstring></argsstring>
+        <name>edition</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book edition </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1ac76f59149fa39a3e4eb15cfcf289c2dd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::coverUrl</definition>
+        <argsstring></argsstring>
+        <name>coverUrl</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book cover url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a1396e4a5a219032f3482ab1556797790" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::thumbUrl</definition>
+        <argsstring></argsstring>
+        <name>thumbUrl</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book thumbnail URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1ae185e74c9aac16d5d592aeba1111defb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::lastAccessTs</definition>
+        <argsstring></argsstring>
+        <name>lastAccessTs</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString to hold the user last access time stamp of the book </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="43" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a6ac644b4bfb5a693764b81454c10ee0a" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::expirationDate</definition>
+        <argsstring></argsstring>
+        <name>expirationDate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book subscription expiration date </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="48" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1aca64d2186c8e621147758cdc0f53245b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::copyrightInfo</definition>
+        <argsstring></argsstring>
+        <name>copyrightInfo</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book&apos;s copyright information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="53" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a96ae409bbcb6826fb23457e188b658fd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::subject</definition>
+        <argsstring></argsstring>
+        <name>subject</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book&apos;s subject </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="58" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a10d22f7a9625bb431db977410093dc7b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::publisher</definition>
+        <argsstring></argsstring>
+        <name>publisher</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book&apos;s publisher details </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="63" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1ab9a69b163da02700afe3466551e03c8a" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::creator</definition>
+        <argsstring></argsstring>
+        <name>creator</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book&apos;s creator name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="68" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1ad8a2e06c55f191348773ee7b7e2ca3d9" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the date information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="73" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a2fd2a2d7a8761a35377955b5ef9683eb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::language</definition>
+        <argsstring></argsstring>
+        <name>language</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the language information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="78" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1aa673b642a388b3ebde37ccaf03cc7ad4" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book&apos;s short descriptions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="83" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1aebb4a95ecf0dd74f70abe6c234171d4b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::bookUUID</definition>
+        <argsstring></argsstring>
+        <name>bookUUID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="88" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a1ddad2064600a6239eb5dc4e007d2e7c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBook::author</definition>
+        <argsstring></argsstring>
+        <name>author</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book&apos;s author name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="93" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a36d7ed8749aa6ab03a805aed527811aa" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerBook::pageURLS</definition>
+        <argsstring></argsstring>
+        <name>pageURLS</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the list of page URL&apos;s </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="98" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a540dc3b69e8d585b9fdb4c344609d9c7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerBook::isWarningPeriod</definition>
+        <argsstring></argsstring>
+        <name>isWarningPeriod</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A BOOL variable to check book subscription warning period </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="103" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1af6b425654a214e8d5cdc4bd3be2a4203" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerBook::isExpired</definition>
+        <argsstring></argsstring>
+        <name>isExpired</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A BOOL variable to check book has expired </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="108" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a9e8503084ff1fe4c3f501be74cce61a5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerBook::isFavorite</definition>
+        <argsstring></argsstring>
+        <name>isFavorite</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A BOOL variable to check the book has favourite </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="113" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a925ea189e97b526295cecdc85f13279b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerBook::isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A BOOL variable to check book has active </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="118" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_1a1c5d347398ddb5ab9b4b5b0a322f1d40" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerBook::withAnnotations</definition>
+        <argsstring></argsstring>
+        <name>withAnnotations</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A BOOL variable to check book has notes </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="123" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the book data downloaded from the server into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="63">
+        <label>PxePlayerBook</label>
+        <link refid="interface_pxe_player_book"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="65">
+        <label>PxePlayerBook</label>
+        <link refid="interface_pxe_player_book"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_book_1a1ddad2064600a6239eb5dc4e007d2e7c" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>author</name></member>
+      <member refid="interface_pxe_player_book_1aebb4a95ecf0dd74f70abe6c234171d4b" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_book_1aca64d2186c8e621147758cdc0f53245b" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>copyrightInfo</name></member>
+      <member refid="interface_pxe_player_book_1ac76f59149fa39a3e4eb15cfcf289c2dd" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>coverUrl</name></member>
+      <member refid="interface_pxe_player_book_1ab9a69b163da02700afe3466551e03c8a" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>creator</name></member>
+      <member refid="interface_pxe_player_book_1ad8a2e06c55f191348773ee7b7e2ca3d9" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>date</name></member>
+      <member refid="interface_pxe_player_book_1aa673b642a388b3ebde37ccaf03cc7ad4" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>description</name></member>
+      <member refid="interface_pxe_player_book_1a218bf45943504045b908b7c438b994f0" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>edition</name></member>
+      <member refid="interface_pxe_player_book_1a6ac644b4bfb5a693764b81454c10ee0a" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>expirationDate</name></member>
+      <member refid="interface_pxe_player_book_1a925ea189e97b526295cecdc85f13279b" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>isActive</name></member>
+      <member refid="interface_pxe_player_book_1ad6112557a3413f32dae81ca61db34840" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>isbn</name></member>
+      <member refid="interface_pxe_player_book_1af6b425654a214e8d5cdc4bd3be2a4203" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>isExpired</name></member>
+      <member refid="interface_pxe_player_book_1a9e8503084ff1fe4c3f501be74cce61a5" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>isFavorite</name></member>
+      <member refid="interface_pxe_player_book_1a540dc3b69e8d585b9fdb4c344609d9c7" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>isWarningPeriod</name></member>
+      <member refid="interface_pxe_player_book_1a2fd2a2d7a8761a35377955b5ef9683eb" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>language</name></member>
+      <member refid="interface_pxe_player_book_1ae185e74c9aac16d5d592aeba1111defb" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>lastAccessTs</name></member>
+      <member refid="interface_pxe_player_book_1a36d7ed8749aa6ab03a805aed527811aa" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>pageURLS</name></member>
+      <member refid="interface_pxe_player_book_1a10d22f7a9625bb431db977410093dc7b" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>publisher</name></member>
+      <member refid="interface_pxe_player_book_1a96ae409bbcb6826fb23457e188b658fd" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>subject</name></member>
+      <member refid="interface_pxe_player_book_1a1396e4a5a219032f3482ab1556797790" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>thumbUrl</name></member>
+      <member refid="interface_pxe_player_book_1a7b90d0569e28b2c8a548ce58fdd78089" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>title</name></member>
+      <member refid="interface_pxe_player_book_1a1c5d347398ddb5ab9b4b5b0a322f1d40" prot="public" virt="non-virtual"><scope>PxePlayerBook</scope><name>withAnnotations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_page_operation_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerPageOperation()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_page_operation_07_08_1a2a52e887869b9d4978e059b18896eb3c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type><ref refid="interface_pxe_player_pages_query" kindref="compound">PxePlayerPagesQuery</ref> *</type>
+        <definition>PxePlayerPagesQuery* PxePlayerPageOperation()::query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.m" line="17" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.m" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="271">
+        <label>PxePlayerPageOperation()</label>
+        <link refid="category_pxe_player_page_operation_07_08"/>
+        <childnode refid="272" relation="usage">
+          <edgelabel>query</edgelabel>
+        </childnode>
+      </node>
+      <node id="272">
+        <label>PxePlayerPagesQuery</label>
+        <link refid="interface_pxe_player_pages_query"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="274">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="275">
+        <label>NSObject</label>
+      </node>
+      <node id="273">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="274" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.m" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.m" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_page_operation_07_08_1a2a52e887869b9d4978e059b18896eb3c" prot="public" virt="non-virtual"><scope>PxePlayerPageOperation()</scope><name>query</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

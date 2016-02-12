@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_u_i_navigation_controller_07_orientation_08" kind="category" prot="public">
+    <compoundname>UINavigationController(Orientation)</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" line="36" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="36" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

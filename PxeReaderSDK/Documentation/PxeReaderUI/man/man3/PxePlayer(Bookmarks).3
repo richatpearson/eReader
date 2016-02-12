@@ -1,0 +1,113 @@
+.TH "PxePlayer(Bookmarks)" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayer(Bookmarks) \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayer\&.h>\fP
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBgetBookmarksWithCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBaddBookmarkWithTitle:andURL:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBcheckBookmarkWithURL:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBeditBookmarkWithTitle:andURL:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBdeleteBookmarkWithURL:withCompletionHandler:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 238 of file PxePlayer\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) addBookmarkWithTitle: (NSString*)bookmarkTitle(NSString*)url(PxePlayerBookmark*, NSError*)handler"
+addBookmarkWithTitle:andPageId:withCompletionHandler
+.PP
+Add page as bookmarked\&.
+.PP
+This method mark the page as bookmarked\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Returns whether page has bookmarked or not\&. 
+.RE
+.PP
+
+.PP
+Definition at line 272 of file PxePlayer\&.m\&.
+.SS "- (void) checkBookmarkWithURL: (NSString*)contentID(PxePlayerCheckBookmark*, NSError*)handler"
+checkBookmarkWithId:WithCompletionHandler:
+.PP
+Check correponding page has bookmarked or not\&.
+.PP
+This method checks the page has bookmarked or not\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Returns the page has bookmarked or not\&. 
+.RE
+.PP
+
+.PP
+Definition at line 284 of file PxePlayer\&.m\&.
+.SS "- (void) deleteBookmarkWithURL: (NSString*)url(PxePlayerBookmark*, NSError*)handler"
+deleteBookmarkWithPageId:WithCompletionHandler:
+.PP
+Remove the bookmark from the page\&.
+.PP
+This method just remove the bookmark on the page\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Bookmark on page will be removed\&. 
+.RE
+.PP
+
+.PP
+Definition at line 307 of file PxePlayer\&.m\&.
+.SS "- (void) editBookmarkWithTitle: (NSString*)bookmarkTitle(NSString*)contentID(PxePlayerBookmark*, NSError*)handler"
+editBookmarkWithTitle:andPageId:withCompletionHandler
+.PP
+Edit the properties of the bookmarked page\&.
+.PP
+This method allow the user to edit the properties of bookmarked page\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Return whether bookmark has updated with new details or not\&. 
+.RE
+.PP
+
+.PP
+Definition at line 295 of file PxePlayer\&.m\&.
+.SS "- (void) getBookmarksWithCompletionHandler: (PxePlayerBookmarks*, NSError*)handler"
+getBookmarksWithCompletionHandler:
+.PP
+Retrieve bookmarked pages reference\&.
+.PP
+This method just retrieve bookmarked pages reference in the book
+.PP
+\fBReturns:\fP
+.RS 4
+Returns the array of reference of bookmarked pages\&. 
+.RE
+.PP
+
+.PP
+Definition at line 261 of file PxePlayer\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

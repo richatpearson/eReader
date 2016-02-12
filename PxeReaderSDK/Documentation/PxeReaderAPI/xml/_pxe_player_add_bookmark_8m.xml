@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_add_bookmark_8m" kind="file">
+    <compoundname>PxePlayerAddBookmark.m</compoundname>
+    <includes refid="_pxe_player_add_bookmark_8h" local="yes">PxePlayerAddBookmark.h</includes>
+    <incdepgraph>
+      <node id="124">
+        <label>PxePlayerBookmark.h</label>
+        <link refid="_pxe_player_bookmark_8h"/>
+      </node>
+      <node id="123">
+        <label>PxePlayerAddBookmark.h</label>
+        <link refid="_pxe_player_add_bookmark_8h"/>
+        <childnode refid="124" relation="include">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>PxePlayerAddBookmark.m</label>
+        <link refid="PxePlayerAddBookmark.m"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerAddBookmark.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Swamy<sp/>Manju<sp/>R<sp/>on<sp/>02/08/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_add_bookmark_8h" kindref="compound">PxePlayerAddBookmark.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_add_bookmark" kindref="compound">PxePlayerAddBookmark</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.m"/>
+  </compounddef>
+</doxygen>

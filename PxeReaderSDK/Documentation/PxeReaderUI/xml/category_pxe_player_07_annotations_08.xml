@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_07_annotations_08" kind="category" prot="public">
+    <compoundname>PxePlayer(Annotations)</compoundname>
+    <includes refid="_pxe_player_8h" local="no">PxePlayer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_pxe_player_07_annotations_08_1af77b76a936a039550119cb381f6fadaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Annotations)::getAnnotationsWithCompletionHandler:</definition>
+        <argsstring>(PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAnnotationsWithCompletionHandler:</name>
+        <param>
+          <type>PxePlayerNotes *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getAnnotationsWithCompletionHandler:</para><para>Get annotations in the page.</para><para>This method returns the all annotations in the page.</para><para><simplesect kind="return"><para>Returns the array of annotations reference in the page. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="369" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_annotations_08_1adc782f450891626f9a8a643e86ea4b63" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Annotations)::getAllAnnotationsWithCompletionHandler:</definition>
+        <argsstring>(PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAllAnnotationsWithCompletionHandler:</name>
+        <param>
+          <type>PxePlayerNotes *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getAllAnnotationsWithCompletionHandler:</para><para>Remove all cached data from the filesystem.</para><para>This method just remove the all cached data from the filesystem.</para><para><simplesect kind="return"><para>Cached data will be cleared. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="379" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_annotations_08_1a0b8a6759a8033cd36d53ee9f2c942dbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Annotations)::getAnnotationsForContent:withCompletionHandler:</definition>
+        <argsstring>(NSString *contentID,[withCompletionHandler] PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAnnotationsForContent:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>contentID</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerNotes *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getAnnotationsForContentWithCompletionHandler:</para><para>Remove all cached data from the filesystem.</para><para>This method just remove the all cached data from the filesystem.</para><para><simplesect kind="return"><para>Cached data will be cleared. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="390" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_annotations_08_1ab9277ba9cb562ee39249fcd4aec564e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Annotations)::getAllAnnotationsForContent:withCompletionHandler:</definition>
+        <argsstring>(NSString *contentID,[withCompletionHandler] PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAllAnnotationsForContent:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>contentID</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerNotes *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getAllAnnotationsForContentWithCompletionHandler:</para><para>Remove all cached data from the filesystem.</para><para>This method just remove the all cached data from the filesystem.</para><para><simplesect kind="return"><para>Cached data will be cleared. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="401" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_annotations_08_1ab9fa27896dac76e5fbd93c33f11c6593" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Annotations)::addAnnotations:forContentID:withCompletionHandler:</definition>
+        <argsstring>(NSArray *annotations,[forContentID] NSString *contentID,[withCompletionHandler] PxePlayerAnnotations *, NSError *handler)</argsstring>
+        <name>addAnnotations:forContentID:withCompletionHandler:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>annotations</declname>
+        </param>
+        <param>
+          <attributes>[forContentID]</attributes>
+          <type>NSString *</type>
+          <declname>contentID</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerAnnotations *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addAnnotations:withCompletionHandler:</para><para>Add annotation on the page.</para><para>This method add the new annotation on the page.</para><para><simplesect kind="return"><para>The annotations will be added into the page. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="413" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_annotations_08_1a64c8f18a69509f87d7b68edd5c180ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Annotations)::updateAnnotations:forContentID:withCompletionHandler:</definition>
+        <argsstring>(NSArray *annotations,[forContentID] NSString *contentID,[withCompletionHandler] PxePlayerAnnotations *, NSError *handler)</argsstring>
+        <name>updateAnnotations:forContentID:withCompletionHandler:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>annotations</declname>
+        </param>
+        <param>
+          <attributes>[forContentID]</attributes>
+          <type>NSString *</type>
+          <declname>contentID</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerAnnotations *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>updateAnnotations:withCompletionHandler:</para><para>Update annotations on the page</para><para>This method updates the edited details of the existing annotations.</para><para><simplesect kind="return"><para>The annotations on the page will be updated with edited properties. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="426" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_annotations_08_1a68b66342678e553a27733485471d00de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Annotations)::deleteAnnotationForContentID:WithCompletionHandler:</definition>
+        <argsstring>(NSString *contentID,[WithCompletionHandler] PxePlayerDeleteAnnotation *, NSError *handler)</argsstring>
+        <name>deleteAnnotationForContentID:WithCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>contentID</declname>
+        </param>
+        <param>
+          <attributes>[WithCompletionHandler]</attributes>
+          <type>PxePlayerDeleteAnnotation *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>deleteAnnotationWithCompletionHandler:</para><para>Delete annotations on the page.</para><para>This method remove the annotations on the page.</para><para><simplesect kind="return"><para>The annotation on the page will be removed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="438" bodyend="449"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="369" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" bodystart="369" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_07_annotations_08_1ab9fa27896dac76e5fbd93c33f11c6593" prot="public" virt="virtual"><scope>PxePlayer(Annotations)</scope><name>addAnnotations:forContentID:withCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_annotations_08_1a68b66342678e553a27733485471d00de" prot="public" virt="virtual"><scope>PxePlayer(Annotations)</scope><name>deleteAnnotationForContentID:WithCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_annotations_08_1ab9277ba9cb562ee39249fcd4aec564e3" prot="public" virt="virtual"><scope>PxePlayer(Annotations)</scope><name>getAllAnnotationsForContent:withCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_annotations_08_1adc782f450891626f9a8a643e86ea4b63" prot="public" virt="virtual"><scope>PxePlayer(Annotations)</scope><name>getAllAnnotationsWithCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_annotations_08_1a0b8a6759a8033cd36d53ee9f2c942dbd" prot="public" virt="virtual"><scope>PxePlayer(Annotations)</scope><name>getAnnotationsForContent:withCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_annotations_08_1af77b76a936a039550119cb381f6fadaa" prot="public" virt="virtual"><scope>PxePlayer(Annotations)</scope><name>getAnnotationsWithCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_annotations_08_1a64c8f18a69509f87d7b68edd5c180ba6" prot="public" virt="virtual"><scope>PxePlayer(Annotations)</scope><name>updateAnnotations:forContentID:withCompletionHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

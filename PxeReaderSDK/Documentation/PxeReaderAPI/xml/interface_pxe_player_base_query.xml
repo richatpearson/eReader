@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_base_query" kind="class" prot="public">
+    <compoundname>PxePlayerBaseQuery</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <derivedcompoundref refid="interface_pxe_player_book_query" prot="public" virt="non-virtual">PxePlayerBookQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_navigations_query" prot="public" virt="non-virtual">PxePlayerNavigationsQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_search_books_query" prot="public" virt="non-virtual">PxePlayerSearchBooksQuery</derivedcompoundref>
+    <includes refid="_pxe_player_base_query_8h" local="no">PxePlayerBaseQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBaseQuery::userUUID</definition>
+        <argsstring></argsstring>
+        <name>userUUID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBaseQuery.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBaseQuery.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBaseQuery::authToken</definition>
+        <argsstring></argsstring>
+        <name>authToken</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the auth token </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBaseQuery.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBaseQuery.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the query into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="51">
+        <label>PxePlayerMediaQuery</label>
+        <link refid="interface_pxe_player_media_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>PxePlayerNoteDeleteQuery</label>
+        <link refid="interface_pxe_player_note_delete_query"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>PxePlayerSearchURLsQuery</label>
+        <link refid="interface_pxe_player_search_u_r_ls_query"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>PxePlayerContentAnnotationsQuery</label>
+        <link refid="interface_pxe_player_content_annotations_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>PxePlayerPagesQuery</label>
+        <link refid="interface_pxe_player_pages_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>PxePlayerBookmarkQuery</label>
+        <link refid="interface_pxe_player_bookmark_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>PxePlayerNotesQuery</label>
+        <link refid="interface_pxe_player_notes_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>PxePlayerSearchBooksQuery</label>
+        <link refid="interface_pxe_player_search_books_query"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>PxePlayerDeleteBookmarkQuery</label>
+        <link refid="interface_pxe_player_delete_bookmark_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>PxePlayerSearchNCXQuery</label>
+        <link refid="interface_pxe_player_search_n_c_x_query"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>PxePlayerChaptersQuery</label>
+        <link refid="interface_pxe_player_chapters_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>PxePlayerBookQuery</label>
+        <link refid="interface_pxe_player_book_query"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>PxePlayerAddAnnotationQuery</label>
+        <link refid="interface_pxe_player_add_annotation_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>PxePlayerAddNoteQuery</label>
+        <link refid="interface_pxe_player_add_note_query"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>PxePlayerSearchBookQuery</label>
+        <link refid="interface_pxe_player_search_book_query"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>NSObject</label>
+      </node>
+      <node id="45">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>PxePlayerTocQuery</label>
+        <link refid="interface_pxe_player_toc_query"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBaseQuery.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBaseQuery.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerBaseQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerBaseQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

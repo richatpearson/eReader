@@ -1,0 +1,97 @@
+.TH "<PageContentDelegate>" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+<PageContentDelegate> \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageContentViewController\&.h>\fP
+.PP
+Inherits <PxePlayerBookDelegate>\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(NSUInteger) - \fBscalePageToFit\fP"
+.br
+.ti -1c
+.RI "(void) - \fBloadBrowserWithURL:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBpageContentDidLoad:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBpageContentLoading:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBpageLoadFailed:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A Protocol to which send's the page content view's few properties present status  <NSObject>, extented from \fBNSObject\fP 
+.PP
+Definition at line 21 of file PxePlayerPageContentViewController\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) loadBrowserWithURL: (NSString *)relativeURL\fC [optional]\fP"
+Load the external URL on external browser 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,relativeURL\fP as a URL for external link will be loaded in the external browser 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+UIWebView 
+.RE
+.PP
+
+.SS "- (void) pageContentDidLoad: (NSString *)loadedPage\fC [optional]\fP"
+This method called when current page has been loaded 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,loadedPage,returns\fP the page currently rendered on the book 
+.RE
+.PP
+
+.SS "- (void) pageContentLoading: (NSString *)loadingPage\fC [optional]\fP"
+This method getting called when page content is loading 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,loadingPage,returns\fP the currently loading page 
+.RE
+.PP
+
+.SS "- (void) pageLoadFailed: (NSString *)pageURL\fC [optional]\fP"
+This method getting called when page loading has been failed 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageURL,returns\fP the loading page URL when the page loading has been failed 
+.RE
+.PP
+
+.SS "- (NSUInteger) scalePageToFit "
+Set the auto scale option to the UIWebView , page can auto-scale or resize based on the view frame 
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger , returns the current auto scale status either enabled or disabled 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+UIWebView 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

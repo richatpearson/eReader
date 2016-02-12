@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_media_type" kind="class" prot="public">
+    <compoundname>PxePlayerMediaType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_media_type_8h" local="no">PxePlayerMediaType.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_media_type_1a5baff885faa36d468e390b825658d8ad" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMediaType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the type of the media </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaType.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaType.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_type_1a7ec2c3313fed4481e66a9e43b42b352b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMediaType::typeLabel</definition>
+        <argsstring></argsstring>
+        <name>typeLabel</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the type label </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaType.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaType.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the media type </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="176">
+        <label>PxePlayerMediaType</label>
+        <link refid="interface_pxe_player_media_type"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="178">
+        <label>PxePlayerMediaType</label>
+        <link refid="interface_pxe_player_media_type"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaType.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaType.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_media_type_1a5baff885faa36d468e390b825658d8ad" prot="public" virt="non-virtual"><scope>PxePlayerMediaType</scope><name>type</name></member>
+      <member refid="interface_pxe_player_media_type_1a7ec2c3313fed4481e66a9e43b42b352b" prot="public" virt="non-virtual"><scope>PxePlayerMediaType</scope><name>typeLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

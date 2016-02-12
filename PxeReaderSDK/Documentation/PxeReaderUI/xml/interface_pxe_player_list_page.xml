@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_list_page" kind="class" prot="public">
+    <compoundname>PxePlayerListPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSManagedObject</basecompoundref>
+    <includes refid="_pxe_player_list_page_8h" local="no">PxePlayerListPage.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_list_page_1a71b187ae06b78a81b0039e24b97ec243" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>NSNumber *</type>
+        <definition>NSNumber* PxePlayerListPage::pageIndex</definition>
+        <argsstring></argsstring>
+        <name>pageIndex</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSNumber variable for page index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" line="17" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_list_page_1a1cc9ccb5cb6469d229ec0d504ce70d21" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerListPage::pageURL</definition>
+        <argsstring></argsstring>
+        <name>pageURL</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable for page url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" line="22" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_list_page_1a6ae590b4ac2d96af1bdc01b6ff1c5ce7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerListPage::urlTag</definition>
+        <argsstring></argsstring>
+        <name>urlTag</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable for url tag </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" line="27" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>PxePlayerListPage</label>
+        <link refid="interface_pxe_player_list_page"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>NSManagedObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="54">
+        <label>PxePlayerListPage</label>
+        <link refid="interface_pxe_player_list_page"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>NSManagedObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" line="13" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_list_page_1a71b187ae06b78a81b0039e24b97ec243" prot="public" virt="non-virtual"><scope>PxePlayerListPage</scope><name>pageIndex</name></member>
+      <member refid="interface_pxe_player_list_page_1a1cc9ccb5cb6469d229ec0d504ce70d21" prot="public" virt="non-virtual"><scope>PxePlayerListPage</scope><name>pageURL</name></member>
+      <member refid="interface_pxe_player_list_page_1a6ae590b4ac2d96af1bdc01b6ff1c5ce7" prot="public" virt="non-virtual"><scope>PxePlayerListPage</scope><name>urlTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

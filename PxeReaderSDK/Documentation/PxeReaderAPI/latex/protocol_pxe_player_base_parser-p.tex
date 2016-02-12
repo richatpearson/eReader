@@ -1,0 +1,96 @@
+\hypertarget{protocol_pxe_player_base_parser-p}{\section{$<$Pxe\-Player\-Base\-Parser$>$ Protocol Reference}
+\label{protocol_pxe_player_base_parser-p}\index{$<$\-Pxe\-Player\-Base\-Parser$>$@{$<$\-Pxe\-Player\-Base\-Parser$>$}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Base\-Parser.\-h$>$}
+
+Inheritance diagram for $<$Pxe\-Player\-Base\-Parser$>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{protocol_pxe_player_base_parser-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(N\-S\-Dictionary $\ast$) -\/ \hyperlink{protocol_pxe_player_base_parser-p_a2fa950852f2e1825b5dc923e9d66829d}{parse\-Data\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_base_parser-p_ab7d1135887db45a14aebe304bfbcddeb}{parse\-Data\-From\-U\-R\-L\-:with\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_base_parser-p_acea3b0e43bf7c45bcd6978cf641c5097}{parse\-Data\-From\-U\-R\-L\-Array\-:with\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_base_parser-p_af53b80aa420a6a41a4cb1beeef57abe5}{parse\-Data\-From\-N\-C\-X\-U\-R\-L\-:with\-Handler\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Protocol which send's the instructions while parsing to the class which implemented it  $<$\-N\-S\-Object$>$, extented from \hyperlink{class_n_s_object-p}{N\-S\-Object} 
+
+Definition at line 22 of file Pxe\-Player\-Base\-Parser.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{protocol_pxe_player_base_parser-p_a2fa950852f2e1825b5dc923e9d66829d}{\index{Pxe\-Player\-Base\-Parser-\/p@{Pxe\-Player\-Base\-Parser-\/p}!parse\-Data\-:@{parse\-Data\-:}}
+\index{parse\-Data\-:@{parse\-Data\-:}!PxePlayerBaseParser-p@{Pxe\-Player\-Base\-Parser-\/p}}
+\subsubsection[{parse\-Data\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Dictionary$\ast$) parse\-Data\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Data $\ast$)}]{data}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_base_parser-p_a2fa950852f2e1825b5dc923e9d66829d}
+This method would be called to parse data from the file and returns the parsed result as a dictionary format 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Data,data} & need to be parsed \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_pxe_player_base_parser-p_af53b80aa420a6a41a4cb1beeef57abe5}{\index{Pxe\-Player\-Base\-Parser-\/p@{Pxe\-Player\-Base\-Parser-\/p}!parse\-Data\-From\-N\-C\-X\-U\-R\-L\-:with\-Handler\-:@{parse\-Data\-From\-N\-C\-X\-U\-R\-L\-:with\-Handler\-:}}
+\index{parse\-Data\-From\-N\-C\-X\-U\-R\-L\-:with\-Handler\-:@{parse\-Data\-From\-N\-C\-X\-U\-R\-L\-:with\-Handler\-:}!PxePlayerBaseParser-p@{Pxe\-Player\-Base\-Parser-\/p}}
+\subsubsection[{parse\-Data\-From\-N\-C\-X\-U\-R\-L\-:with\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) parse\-Data\-From\-N\-C\-X\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{url}
+\item[{withHandler:({\bf Parsing\-Handler})}]{parsing\-Handler}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_base_parser-p_af53b80aa420a6a41a4cb1beeef57abe5}
+This method would be called to parse N\-C\-X data from the U\-R\-L and returns the parsed result into the block handler 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,url} & is a server location in which data to be downloaded and parsed \\
+\hline
+{\em Parsing\-Handler,parsing\-Handler} & is a block would receive the parsed result \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_pxe_player_base_parser-p_ab7d1135887db45a14aebe304bfbcddeb}{\index{Pxe\-Player\-Base\-Parser-\/p@{Pxe\-Player\-Base\-Parser-\/p}!parse\-Data\-From\-U\-R\-L\-:with\-Handler\-:@{parse\-Data\-From\-U\-R\-L\-:with\-Handler\-:}}
+\index{parse\-Data\-From\-U\-R\-L\-:with\-Handler\-:@{parse\-Data\-From\-U\-R\-L\-:with\-Handler\-:}!PxePlayerBaseParser-p@{Pxe\-Player\-Base\-Parser-\/p}}
+\subsubsection[{parse\-Data\-From\-U\-R\-L\-:with\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) parse\-Data\-From\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{url}
+\item[{withHandler:({\bf Parsing\-Handler})}]{parsing\-Handler}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_base_parser-p_ab7d1135887db45a14aebe304bfbcddeb}
+This method would be called to parse data from the specific U\-R\-L and returns the parsed result into the block handler 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,url} & is a server location in which data to be downloaded and parsed \\
+\hline
+{\em Parsing\-Handler,parsing\-Handler} & is a block would receive the parsed result \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_pxe_player_base_parser-p_acea3b0e43bf7c45bcd6978cf641c5097}{\index{Pxe\-Player\-Base\-Parser-\/p@{Pxe\-Player\-Base\-Parser-\/p}!parse\-Data\-From\-U\-R\-L\-Array\-:with\-Handler\-:@{parse\-Data\-From\-U\-R\-L\-Array\-:with\-Handler\-:}}
+\index{parse\-Data\-From\-U\-R\-L\-Array\-:with\-Handler\-:@{parse\-Data\-From\-U\-R\-L\-Array\-:with\-Handler\-:}!PxePlayerBaseParser-p@{Pxe\-Player\-Base\-Parser-\/p}}
+\subsubsection[{parse\-Data\-From\-U\-R\-L\-Array\-:with\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) parse\-Data\-From\-U\-R\-L\-Array\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array $\ast$)}]{navigation\-Array}
+\item[{withHandler:({\bf Parsing\-Handler})}]{parsing\-Handler}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_base_parser-p_acea3b0e43bf7c45bcd6978cf641c5097}
+This method would be called to parse data from the array of U\-R\-L's and returns the parsed result into the block handler 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,navigation\-Array} & is a array with list of U\-R\-L's need to be parsed \\
+\hline
+{\em Parsing\-Handler,parsing\-Handler} & is a block would receive the parsed result \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this protocol was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+parser/\hyperlink{_pxe_player_base_parser_8h}{Pxe\-Player\-Base\-Parser.\-h}\end{DoxyCompactItemize}

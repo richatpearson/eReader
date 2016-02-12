@@ -1,0 +1,140 @@
+\hypertarget{_pxe_player_page_manager_8m}{\section{Pxe\-Player\-Page\-Manager.\-m File Reference}
+\label{_pxe_player_page_manager_8m}\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}}
+}
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Data\-Manager.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Book\-Details.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Page\-Details.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-List\-Page.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Page\-Manager.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Page\-Operations.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Interface.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Search\-U\-R\-Ls\-Query.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-U\-R\-L\-Array\-Parser.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-U\-I\-Constants.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}N\-S\-String+\-Extension.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Toc.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}H\-M\-Cache.\-h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_aff6e58c053aac3f19793f9e3c8082862}{I\-N\-I\-T\-I\-A\-L\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-C\-O\-U\-N\-T}~5
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_a6c8ca3c5a462c3e1937fd1a1e7b30b96}{P\-A\-G\-E\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-L\-E\-N\-G\-T\-H}~1
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_ad77c21d0edd7ba072798eda8d149c13f}{M\-A\-X\-\_\-\-H\-I\-S\-T\-O\-R\-Y\-\_\-\-C\-O\-U\-N\-T}~10
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_a03f2d54957f77b96ba4f7e54dd783dcd}{N\-C\-X\-\_\-\-N\-A\-V\-M\-A\-P}~@\char`\"{}nav\-Map\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_af857dadf3a3bea85bd103e680000c410}{N\-C\-X\-\_\-\-N\-A\-V\-P\-O\-I\-N\-T}~@\char`\"{}nav\-Point\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_af063dca085ff822ee2948a17bdcdd0f9}{N\-C\-X\-\_\-\-I\-D}~@\char`\"{}id\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_acb7aff89969e8246f074e9602dd02b3c}{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-L\-A\-B\-E\-L}~@\char`\"{}nav\-Label\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_a1a582e92e105b29cdf154ee8ed4bf4da}{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-E\-X\-T}~@\char`\"{}text\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_a6a78f7aba0362b380611c708af770f8b}{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-I\-T\-L\-E}~@\char`\"{}title\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_a7361badcaf1d419e06e453182b62dd38}{N\-C\-X\-\_\-\-P\-L\-A\-Y\-O\-R\-D\-E\-R}~@\char`\"{}play\-Order\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_a378ca30c6b19c67d7013d32a69870cf6}{N\-C\-X\-\_\-\-T\-E\-X\-T}~@\char`\"{}text\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_aa0c3ee14111b2ce035c1f8cd3dea6b5f}{N\-C\-X\-\_\-\-C\-O\-N\-T\-E\-N\-T}~@\char`\"{}content\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_manager_8m_a67a82ad4196f8d4cfe98a239e58e8c6f}{N\-C\-X\-\_\-\-S\-R\-C}~@\char`\"{}src\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_pxe_player_page_manager_8m_aff6e58c053aac3f19793f9e3c8082862}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!I\-N\-I\-T\-I\-A\-L\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-C\-O\-U\-N\-T@{I\-N\-I\-T\-I\-A\-L\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-C\-O\-U\-N\-T}}
+\index{I\-N\-I\-T\-I\-A\-L\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-C\-O\-U\-N\-T@{I\-N\-I\-T\-I\-A\-L\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-C\-O\-U\-N\-T}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{I\-N\-I\-T\-I\-A\-L\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-C\-O\-U\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-N\-I\-T\-I\-A\-L\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-C\-O\-U\-N\-T~5}}\label{_pxe_player_page_manager_8m_aff6e58c053aac3f19793f9e3c8082862}
+
+
+Definition at line 10 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_ad77c21d0edd7ba072798eda8d149c13f}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!M\-A\-X\-\_\-\-H\-I\-S\-T\-O\-R\-Y\-\_\-\-C\-O\-U\-N\-T@{M\-A\-X\-\_\-\-H\-I\-S\-T\-O\-R\-Y\-\_\-\-C\-O\-U\-N\-T}}
+\index{M\-A\-X\-\_\-\-H\-I\-S\-T\-O\-R\-Y\-\_\-\-C\-O\-U\-N\-T@{M\-A\-X\-\_\-\-H\-I\-S\-T\-O\-R\-Y\-\_\-\-C\-O\-U\-N\-T}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{M\-A\-X\-\_\-\-H\-I\-S\-T\-O\-R\-Y\-\_\-\-C\-O\-U\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-A\-X\-\_\-\-H\-I\-S\-T\-O\-R\-Y\-\_\-\-C\-O\-U\-N\-T~10}}\label{_pxe_player_page_manager_8m_ad77c21d0edd7ba072798eda8d149c13f}
+
+
+Definition at line 12 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_aa0c3ee14111b2ce035c1f8cd3dea6b5f}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-C\-O\-N\-T\-E\-N\-T@{N\-C\-X\-\_\-\-C\-O\-N\-T\-E\-N\-T}}
+\index{N\-C\-X\-\_\-\-C\-O\-N\-T\-E\-N\-T@{N\-C\-X\-\_\-\-C\-O\-N\-T\-E\-N\-T}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-C\-O\-N\-T\-E\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-C\-O\-N\-T\-E\-N\-T~@\char`\"{}content\char`\"{}}}\label{_pxe_player_page_manager_8m_aa0c3ee14111b2ce035c1f8cd3dea6b5f}
+
+
+Definition at line 22 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_af063dca085ff822ee2948a17bdcdd0f9}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-I\-D@{N\-C\-X\-\_\-\-I\-D}}
+\index{N\-C\-X\-\_\-\-I\-D@{N\-C\-X\-\_\-\-I\-D}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-I\-D~@\char`\"{}id\char`\"{}}}\label{_pxe_player_page_manager_8m_af063dca085ff822ee2948a17bdcdd0f9}
+
+
+Definition at line 16 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_acb7aff89969e8246f074e9602dd02b3c}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-L\-A\-B\-E\-L@{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-L\-A\-B\-E\-L}}
+\index{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-L\-A\-B\-E\-L@{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-L\-A\-B\-E\-L}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-L\-A\-B\-E\-L}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-L\-A\-B\-E\-L~@\char`\"{}nav\-Label\char`\"{}}}\label{_pxe_player_page_manager_8m_acb7aff89969e8246f074e9602dd02b3c}
+
+
+Definition at line 17 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_a1a582e92e105b29cdf154ee8ed4bf4da}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-E\-X\-T@{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-E\-X\-T}}
+\index{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-E\-X\-T@{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-E\-X\-T}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-E\-X\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-E\-X\-T~@\char`\"{}text\char`\"{}}}\label{_pxe_player_page_manager_8m_a1a582e92e105b29cdf154ee8ed4bf4da}
+
+
+Definition at line 18 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_a6a78f7aba0362b380611c708af770f8b}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-I\-T\-L\-E@{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-I\-T\-L\-E}}
+\index{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-I\-T\-L\-E@{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-I\-T\-L\-E}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-I\-T\-L\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-N\-A\-V\-\_\-\-T\-I\-T\-L\-E~@\char`\"{}title\char`\"{}}}\label{_pxe_player_page_manager_8m_a6a78f7aba0362b380611c708af770f8b}
+
+
+Definition at line 19 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_a03f2d54957f77b96ba4f7e54dd783dcd}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-N\-A\-V\-M\-A\-P@{N\-C\-X\-\_\-\-N\-A\-V\-M\-A\-P}}
+\index{N\-C\-X\-\_\-\-N\-A\-V\-M\-A\-P@{N\-C\-X\-\_\-\-N\-A\-V\-M\-A\-P}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-N\-A\-V\-M\-A\-P}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-N\-A\-V\-M\-A\-P~@\char`\"{}nav\-Map\char`\"{}}}\label{_pxe_player_page_manager_8m_a03f2d54957f77b96ba4f7e54dd783dcd}
+
+
+Definition at line 14 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_af857dadf3a3bea85bd103e680000c410}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-N\-A\-V\-P\-O\-I\-N\-T@{N\-C\-X\-\_\-\-N\-A\-V\-P\-O\-I\-N\-T}}
+\index{N\-C\-X\-\_\-\-N\-A\-V\-P\-O\-I\-N\-T@{N\-C\-X\-\_\-\-N\-A\-V\-P\-O\-I\-N\-T}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-N\-A\-V\-P\-O\-I\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-N\-A\-V\-P\-O\-I\-N\-T~@\char`\"{}nav\-Point\char`\"{}}}\label{_pxe_player_page_manager_8m_af857dadf3a3bea85bd103e680000c410}
+
+
+Definition at line 15 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_a7361badcaf1d419e06e453182b62dd38}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-P\-L\-A\-Y\-O\-R\-D\-E\-R@{N\-C\-X\-\_\-\-P\-L\-A\-Y\-O\-R\-D\-E\-R}}
+\index{N\-C\-X\-\_\-\-P\-L\-A\-Y\-O\-R\-D\-E\-R@{N\-C\-X\-\_\-\-P\-L\-A\-Y\-O\-R\-D\-E\-R}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-P\-L\-A\-Y\-O\-R\-D\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-P\-L\-A\-Y\-O\-R\-D\-E\-R~@\char`\"{}play\-Order\char`\"{}}}\label{_pxe_player_page_manager_8m_a7361badcaf1d419e06e453182b62dd38}
+
+
+Definition at line 20 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_a67a82ad4196f8d4cfe98a239e58e8c6f}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-S\-R\-C@{N\-C\-X\-\_\-\-S\-R\-C}}
+\index{N\-C\-X\-\_\-\-S\-R\-C@{N\-C\-X\-\_\-\-S\-R\-C}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-S\-R\-C}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-S\-R\-C~@\char`\"{}src\char`\"{}}}\label{_pxe_player_page_manager_8m_a67a82ad4196f8d4cfe98a239e58e8c6f}
+
+
+Definition at line 23 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_a378ca30c6b19c67d7013d32a69870cf6}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!N\-C\-X\-\_\-\-T\-E\-X\-T@{N\-C\-X\-\_\-\-T\-E\-X\-T}}
+\index{N\-C\-X\-\_\-\-T\-E\-X\-T@{N\-C\-X\-\_\-\-T\-E\-X\-T}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{N\-C\-X\-\_\-\-T\-E\-X\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-C\-X\-\_\-\-T\-E\-X\-T~@\char`\"{}text\char`\"{}}}\label{_pxe_player_page_manager_8m_a378ca30c6b19c67d7013d32a69870cf6}
+
+
+Definition at line 21 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{_pxe_player_page_manager_8m_a6c8ca3c5a462c3e1937fd1a1e7b30b96}{\index{Pxe\-Player\-Page\-Manager.\-m@{Pxe\-Player\-Page\-Manager.\-m}!P\-A\-G\-E\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-L\-E\-N\-G\-T\-H@{P\-A\-G\-E\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-L\-E\-N\-G\-T\-H}}
+\index{P\-A\-G\-E\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-L\-E\-N\-G\-T\-H@{P\-A\-G\-E\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-L\-E\-N\-G\-T\-H}!PxePlayerPageManager.m@{Pxe\-Player\-Page\-Manager.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-L\-E\-N\-G\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D\-\_\-\-L\-E\-N\-G\-T\-H~1}}\label{_pxe_player_page_manager_8m_a6c8ca3c5a462c3e1937fd1a1e7b30b96}
+
+
+Definition at line 11 of file Pxe\-Player\-Page\-Manager.\-m.
+

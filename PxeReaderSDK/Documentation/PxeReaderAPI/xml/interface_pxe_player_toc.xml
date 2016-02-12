@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_toc" kind="class" prot="public">
+    <compoundname>PxePlayerToc</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSCoding&gt;</basecompoundref>
+    <includes refid="_pxe_player_toc_8h" local="no">PxePlayerToc.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_toc_1ac43471fca323aaa0e960197775177087" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerToc::tocEntries</definition>
+        <argsstring></argsstring>
+        <name>tocEntries</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the array of toc entries </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerToc.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerToc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to handle the array of toc entries parsed from the URL or file. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="355">
+        <label>&lt;NSCoding&gt;</label>
+      </node>
+      <node id="353">
+        <label>PxePlayerToc</label>
+        <link refid="interface_pxe_player_toc"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="355" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="354">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="358">
+        <label>&lt;NSCoding&gt;</label>
+      </node>
+      <node id="356">
+        <label>PxePlayerToc</label>
+        <link refid="interface_pxe_player_toc"/>
+        <childnode refid="357" relation="public-inheritance">
+        </childnode>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerToc.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerToc.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_toc_1ac43471fca323aaa0e960197775177087" prot="public" virt="non-virtual"><scope>PxePlayerToc</scope><name>tocEntries</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

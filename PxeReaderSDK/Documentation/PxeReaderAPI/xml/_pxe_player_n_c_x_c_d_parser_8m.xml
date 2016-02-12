@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_n_c_x_c_d_parser_8m" kind="file">
+    <compoundname>PxePlayerNCXCDParser.m</compoundname>
+    <includes refid="_pxe_player_n_c_x_c_d_parser_8h" local="yes">PxePlayerNCXCDParser.h</includes>
+    <includes local="yes">PxePlayer.h</includes>
+    <includes local="yes">PxePlayerPageDetails.h</includes>
+    <includes local="yes">PxePlayerDataManager.h</includes>
+    <incdepgraph>
+      <node id="25">
+        <label>PxePlayerTocParser.h</label>
+        <link refid="_pxe_player_toc_parser_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>PxePlayerDataManager.h</label>
+      </node>
+      <node id="27">
+        <label>PxePlayer.h</label>
+      </node>
+      <node id="28">
+        <label>PxePlayerPageDetails.h</label>
+      </node>
+      <node id="24">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="26">
+        <label>PxePlayerBaseParser.h</label>
+        <link refid="_pxe_player_base_parser_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>PxePlayerNCXCDParser.h</label>
+        <link refid="_pxe_player_n_c_x_c_d_parser_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>parser/PxePlayerNCXCDParser.m</label>
+        <link refid="PxePlayerNCXCDParser.m"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1a03f2d54957f77b96ba4f7e54dd783dcd" prot="public" static="no">
+        <name>NCX_NAVMAP</name>
+        <initializer>@&quot;navMap&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="14" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1af857dadf3a3bea85bd103e680000c410" prot="public" static="no">
+        <name>NCX_NAVPOINT</name>
+        <initializer>@&quot;navPoint&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="15" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1af063dca085ff822ee2948a17bdcdd0f9" prot="public" static="no">
+        <name>NCX_ID</name>
+        <initializer>@&quot;id&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="16" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1acb7aff89969e8246f074e9602dd02b3c" prot="public" static="no">
+        <name>NCX_NAV_LABEL</name>
+        <initializer>@&quot;navLabel&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="17" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1a1a582e92e105b29cdf154ee8ed4bf4da" prot="public" static="no">
+        <name>NCX_NAV_TEXT</name>
+        <initializer>@&quot;text&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="18" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1a6a78f7aba0362b380611c708af770f8b" prot="public" static="no">
+        <name>NCX_NAV_TITLE</name>
+        <initializer>@&quot;title&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="19" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1a7361badcaf1d419e06e453182b62dd38" prot="public" static="no">
+        <name>NCX_PLAYORDER</name>
+        <initializer>@&quot;playOrder&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="20" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1a378ca30c6b19c67d7013d32a69870cf6" prot="public" static="no">
+        <name>NCX_TEXT</name>
+        <initializer>@&quot;text&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="21" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1aa0c3ee14111b2ce035c1f8cd3dea6b5f" prot="public" static="no">
+        <name>NCX_CONTENT</name>
+        <initializer>@&quot;content&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="22" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_n_c_x_c_d_parser_8m_1a67a82ad4196f8d4cfe98a239e58e8c6f" prot="public" static="no">
+        <name>NCX_SRC</name>
+        <initializer>@&quot;src&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" line="23" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerNCXCDParser.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>11/02/14.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_n_c_x_c_d_parser_8h" kindref="compound">PxePlayerNCXCDParser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;PxePlayer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;PxePlayerPageDetails.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;PxePlayerDataManager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_pxe_player_n_c_x_c_d_parser_8m_1a03f2d54957f77b96ba4f7e54dd783dcd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NCX_NAVMAP<sp/>@&quot;navMap&quot;</highlight></codeline>
+<codeline lineno="15" refid="_pxe_player_n_c_x_c_d_parser_8m_1af857dadf3a3bea85bd103e680000c410" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_NAVPOINT<sp/>@&quot;navPoint&quot;</highlight></codeline>
+<codeline lineno="16" refid="_pxe_player_n_c_x_c_d_parser_8m_1af063dca085ff822ee2948a17bdcdd0f9" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_ID<sp/>@&quot;id&quot;</highlight></codeline>
+<codeline lineno="17" refid="_pxe_player_n_c_x_c_d_parser_8m_1acb7aff89969e8246f074e9602dd02b3c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_NAV_LABEL<sp/>@&quot;navLabel&quot;</highlight></codeline>
+<codeline lineno="18" refid="_pxe_player_n_c_x_c_d_parser_8m_1a1a582e92e105b29cdf154ee8ed4bf4da" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_NAV_TEXT<sp/>@&quot;text&quot;</highlight></codeline>
+<codeline lineno="19" refid="_pxe_player_n_c_x_c_d_parser_8m_1a6a78f7aba0362b380611c708af770f8b" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_NAV_TITLE<sp/>@&quot;title&quot;</highlight></codeline>
+<codeline lineno="20" refid="_pxe_player_n_c_x_c_d_parser_8m_1a7361badcaf1d419e06e453182b62dd38" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_PLAYORDER<sp/>@&quot;playOrder&quot;</highlight></codeline>
+<codeline lineno="21" refid="_pxe_player_n_c_x_c_d_parser_8m_1a378ca30c6b19c67d7013d32a69870cf6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_TEXT<sp/>@&quot;text&quot;</highlight></codeline>
+<codeline lineno="22" refid="_pxe_player_n_c_x_c_d_parser_8m_1aa0c3ee14111b2ce035c1f8cd3dea6b5f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_CONTENT<sp/>@&quot;content&quot;</highlight></codeline>
+<codeline lineno="23" refid="_pxe_player_n_c_x_c_d_parser_8m_1a67a82ad4196f8d4cfe98a239e58e8c6f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NCX_SRC<sp/>@&quot;src&quot;</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_n_c_x_c_d_parser" kindref="compound">PxePlayerNCXCDParser</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Private<sp/>methods</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">-(BOOL)parsePageDetails:(NSDictionary*)data<sp/>withParentId:(NSString*)parentId<sp/>childrenFound:(BOOL)isChildren</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary<sp/>*ncxContent<sp/>=<sp/>data[NCX_CONTENT];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![ncxContent<sp/>isKindOfClass:[NSDictionary<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*pageUrl<sp/>=<sp/>ncxContent[NCX_SRC];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pageUrl)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([pageUrl<sp/>rangeOfString:</highlight><highlight class="stringliteral">@&quot;http:/&quot;</highlight><highlight class="normal">].location<sp/>==<sp/>NSNotFound)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageUrl<sp/>=<sp/>[[[PxePlayer<sp/>sharedInstance]<sp/>getNCXURL]<sp/>stringByAppendingString:pageUrl];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PxePlayerDataManager<sp/>*dataManager<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[PxePlayerDataManager<sp/>sharedInstance];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSManagedObjectContext<sp/>*objectContext<sp/><sp/><sp/>=<sp/>[dataManager<sp/>getObjectContext];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*strippedURL<sp/>=<sp/>[pageUrl<sp/>componentsSeparatedByString:@&quot;#&quot;][0];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*<sp/>request<sp/>=<sp/>[NSFetchRequest<sp/>fetchRequestWithEntityName:NSStringFromClass([PxePlayerPageDetails<sp/>class])];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[request<sp/>setPredicate:[NSPredicate<sp/>predicateWithFormat:@&quot;(pageURL<sp/>contains[cd]<sp/>%@)<sp/>AND<sp/>(book.bookId<sp/>=<sp/>%@)&quot;,<sp/>strippedURL,<sp/>dataManager.contextId]];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[request<sp/>setFetchLimit:1];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>count<sp/>=<sp/>[[objectContext<sp/>executeFetchRequest:request<sp/>error:nil]<sp/>count];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!count)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface_pxe_player_toc_parser_1a4b7effc62fd499caf2df1fbd7a82b264" kindref="member">pageNumber</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*pageTitle<sp/>=<sp/>data[NCX_NAV_LABEL][NCX_NAV_TEXT][NCX_NAV_TITLE];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*urlTag<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSArray<sp/>*urlCom<sp/>=<sp/>[pageUrl<sp/>componentsSeparatedByString:@&quot;#&quot;];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageUrl<sp/>=<sp/>urlCom[0];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([urlCom<sp/>count]<sp/>&gt;<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>urlTag<sp/>=<sp/>urlCom[1];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PxePlayerPageDetails<sp/>*pageDetails<sp/>=<sp/>[NSEntityDescription<sp/>insertNewObjectForEntityForName:NSStringFromClass([PxePlayerPageDetails<sp/>class])<sp/>inManagedObjectContext:objectContext];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.pageId<sp/>=<sp/>data[NCX_ID];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.pageTitle<sp/>=<sp/>pageTitle;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.pageURL<sp/>=<sp/>pageUrl;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.parentId<sp/>=<sp/>parentId;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.urlTag<sp/>=<sp/>urlTag;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.pageNumber<sp/>=<sp/>[NSNumber<sp/>numberWithInt:self.pageNumber];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.isChildren<sp/>=<sp/>[NSNumber<sp/>numberWithBool:isChildren];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageDetails.book<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.currentBook;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![dataManager<sp/>save])<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">-(void)ripPagesIntoList:(NSArray*)childrens<sp/>parentId:(NSString*)parentId</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSDictionary<sp/>*dic<sp/>in<sp/>childrens)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([dic<sp/>isKindOfClass:[NSDictionary<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>children<sp/>=<sp/>dic[NCX_NAVPOINT];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BOOL<sp/>isChildren<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(children)<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isChildren<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>parsePageDetails:dic<sp/>withParentId:parentId<sp/>childrenFound:isChildren])<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DLog(</highlight><highlight class="stringliteral">@&quot;Error<sp/>inserting<sp/>pages<sp/>in<sp/>core<sp/>data....&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//move<sp/>to<sp/>the<sp/>root</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*rootId<sp/>=<sp/>(dic[NCX_ID]<sp/>==<sp/>nil)<sp/>?<sp/></highlight><highlight class="stringliteral">@&quot;root&quot;</highlight><highlight class="normal"><sp/>:<sp/>dic[<ref refid="_pxe_player_n_c_x_c_d_parser_8m_1af063dca085ff822ee2948a17bdcdd0f9" kindref="member">NCX_ID</ref>];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isChildren)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![children<sp/>isKindOfClass:[NSArray<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>children<sp/>=<sp/>@[children];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>ripPagesIntoList:children<sp/>parentId:rootId];</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXCDParser.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="protocol_page_content_delegate-p" kind="protocol" prot="public">
+    <compoundname>PageContentDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;PxePlayerBookDelegate&gt;</basecompoundref>
+    <includes refid="_pxe_player_page_content_view_controller_8h" local="no">PxePlayerPageContentViewController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_page_content_delegate-p_1a8ec70410318e1c9491a3b8ff90fb3e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger PageContentDelegate-p::scalePageToFit</definition>
+        <argsstring>()</argsstring>
+        <name>scalePageToFit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the auto scale option to the UIWebView , page can auto-scale or resize based on the view frame <simplesect kind="return"><para>NSUInteger , returns the current auto scale status either enabled or disabled </para></simplesect>
+<simplesect kind="see"><para>UIWebView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_page_content_delegate-p_1a84551682c91a6d18ddad35d016d47a90" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PageContentDelegate-p::loadBrowserWithURL:</definition>
+        <argsstring>(NSString *relativeURL)</argsstring>
+        <name>loadBrowserWithURL:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>relativeURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load the external URL on external browser <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>relativeURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as a URL for external link will be loaded in the external browser </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>UIWebView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_page_content_delegate-p_1a7fa10de862bfb7fd786eeead48ce7f55" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PageContentDelegate-p::pageContentDidLoad:</definition>
+        <argsstring>(NSString *loadedPage)</argsstring>
+        <name>pageContentDidLoad:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>loadedPage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method called when current page has been loaded <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>loadedPage</parametername>
+<parametername>returns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the page currently rendered on the book </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_page_content_delegate-p_1ad32506ebb19d686baabc0991f0b28833" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PageContentDelegate-p::pageContentLoading:</definition>
+        <argsstring>(NSString *loadingPage)</argsstring>
+        <name>pageContentLoading:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>loadingPage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method getting called when page content is loading <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>loadingPage</parametername>
+<parametername>returns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the currently loading page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_page_content_delegate-p_1a50f6ce09e4eceba345c4bed40422d38e" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PageContentDelegate-p::pageLoadFailed:</definition>
+        <argsstring>(NSString *pageURL)</argsstring>
+        <name>pageLoadFailed:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pageURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method getting called when page loading has been failed <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>pageURL</parametername>
+<parametername>returns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the loading page URL when the page loading has been failed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="13" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Protocol to which send&apos;s the page content view&apos;s few properties present status  &lt;NSObject&gt;, extented from <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>&lt;PxePlayerBookDelegate&gt;</label>
+      </node>
+      <node id="6">
+        <label>&lt;PageContentDelegate&gt;</label>
+        <link refid="protocol_page_content_delegate-p"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>&lt;PxePlayerBookDelegate&gt;</label>
+      </node>
+      <node id="8">
+        <label>&lt;PageContentDelegate&gt;</label>
+        <link refid="protocol_page_content_delegate-p"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="21" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" bodystart="21" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_page_content_delegate-p_1a84551682c91a6d18ddad35d016d47a90" prot="public" virt="virtual"><scope>PageContentDelegate-p</scope><name>loadBrowserWithURL:</name></member>
+      <member refid="protocol_page_content_delegate-p_1a7fa10de862bfb7fd786eeead48ce7f55" prot="public" virt="virtual"><scope>PageContentDelegate-p</scope><name>pageContentDidLoad:</name></member>
+      <member refid="protocol_page_content_delegate-p_1ad32506ebb19d686baabc0991f0b28833" prot="public" virt="virtual"><scope>PageContentDelegate-p</scope><name>pageContentLoading:</name></member>
+      <member refid="protocol_page_content_delegate-p_1a50f6ce09e4eceba345c4bed40422d38e" prot="public" virt="virtual"><scope>PageContentDelegate-p</scope><name>pageLoadFailed:</name></member>
+      <member refid="protocol_page_content_delegate-p_1a8ec70410318e1c9491a3b8ff90fb3e5b" prot="public" virt="virtual"><scope>PageContentDelegate-p</scope><name>scalePageToFit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

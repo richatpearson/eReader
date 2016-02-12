@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_book_details_8h" kind="file">
+    <compoundname>PxePlayerBookDetails.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">CoreData/CoreData.h</includes>
+    <includedby refid="_pxe_player_book_details_8m" local="yes">PxePlayerBookDetails.m</includedby>
+    <includedby refid="_pxe_player_page_details_8m" local="yes">PxePlayerPageDetails.m</includedby>
+    <includedby refid="_pxe_player_page_manager_8m" local="yes">PxePlayerPageManager.m</includedby>
+    <incdepgraph>
+      <node id="69">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="68">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="67">
+        <label>PxePlayerBookDetails.h</label>
+        <link refid="PxePlayerBookDetails.h"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="72">
+        <label>PxePlayerPageDetails.m</label>
+        <link refid="_pxe_player_page_details_8m"/>
+      </node>
+      <node id="70">
+        <label>PxePlayerBookDetails.h</label>
+        <link refid="PxePlayerBookDetails.h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>PxePlayerBookDetails.m</label>
+        <link refid="_pxe_player_book_details_8m"/>
+      </node>
+      <node id="73">
+        <label>PxePlayerPageManager.m</label>
+        <link refid="_pxe_player_page_manager_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_book_details" prot="public">PxePlayerBookDetails</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerBookDetails.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>09/12/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreData/CoreData.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_page_details" kindref="compound">PxePlayerPageDetails</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="interface_pxe_player_book_details" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_book_details" kindref="compound">PxePlayerBookDetails</ref><sp/>:<sp/>NSManagedObject</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="interface_pxe_player_book_details_1a0d116169121d2c2ff845beebdc18e8f7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>retain)<sp/>NSString<sp/>*<sp/><ref refid="interface_pxe_player_book_details_1a0d116169121d2c2ff845beebdc18e8f7" kindref="member">bookId</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="interface_pxe_player_book_details_1a34d0ade8fbd6a3bbe7cba760dec26d8c" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>retain)<sp/>NSString<sp/>*<sp/><ref refid="interface_pxe_player_book_details_1a34d0ade8fbd6a3bbe7cba760dec26d8c" kindref="member">bookTitle</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="interface_pxe_player_book_details_1a6da96231ab61dc6eed9e7856ebded73c" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>retain)<sp/>NSOrderedSet<sp/>*<ref refid="interface_pxe_player_book_details_1a6da96231ab61dc6eed9e7856ebded73c" kindref="member">pages</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h"/>
+  </compounddef>
+</doxygen>

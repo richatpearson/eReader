@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_page_content_view_controller" kind="class" prot="public">
+    <compoundname>PxePlayerPageContentViewController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;UIWebViewDelegate&gt;</basecompoundref>
+    <includes refid="_pxe_player_page_content_view_controller_8h" local="no">PxePlayerPageContentViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_page_content_view_controller_1abc82821b4b3302687cee6029b156f0fd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="weak">
+        <type>id&lt; <ref refid="protocol_page_content_delegate-p" kindref="compound">PageContentDelegate</ref> &gt;</type>
+        <definition>id&lt;PageContentDelegate&gt; PxePlayerPageContentViewController::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1ac1ee65bf42d314bdfb0e8f6e933ea826" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerPageContentViewController::initWithPage:withFrame:andDelegate:</definition>
+        <argsstring>(NSString *page,[withFrame] CGRect frame,[andDelegate] id delegate)</argsstring>
+        <name>initWithPage:withFrame:andDelegate:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <attributes>[withFrame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[andDelegate]</attributes>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method Intialise the page content view controller UI and all required settings and prepares for rendering into the screen <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>page</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>page url which going to be rendered into the internal webview </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CGRect</parametername>
+<parametername>frame</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>frame of the view which going to be rendered on top of the window </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+<parametername>delegate</parametername>
+<parametername>delegate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class can get notification from the self class for certain events </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="protocol_page_content_delegate-p" kindref="compound">PageContentDelegate</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="317" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1ac48e24862e5965de2e8bb122207a54e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageContentViewController::loadPage</definition>
+        <argsstring>()</argsstring>
+        <name>loadPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method used for freshly (re)load the page on the web view <simplesect kind="see"><para>UIWebView</para></simplesect>
+This method getting called whenever load or refresh the page and restored the page information to the local cache <simplesect kind="see"><para>UIWebView </para><simplesectsep/><para><ref refid="interface_pxe_player_loading_view" kindref="compound">PxePlayerLoadingView</ref> </para><simplesectsep/><para><ref refid="interface_h_m_cache" kindref="compound">HMCache</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="216" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a6e0cc4d9f70477ebac454c4ca421ed46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageContentViewController::isPageDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>isPageDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method return status of either page has been loaded or not <simplesect kind="return"><para>BOOL, returns page loaded or not</para></simplesect>
+This method getting called to retrieve whether page has loaded or not <simplesect kind="return"><para>BOOL, returns the whether page has loaded or not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="306" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a14807e6d4cdaea7a2cc4ba87b7a59e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageContentViewController::setPageId:</definition>
+        <argsstring>(NSString *pageId)</argsstring>
+        <name>setPageId:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pageId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the current page id <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>pageId</parametername>
+<parametername>current</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>page id will be assigned</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This method getting called to set the page id of the loaded page <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pageId</parametername>
+<parametername>pageId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>need to be set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="263" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1ae168e36dd9a9b4d6f613ca0e613a6989" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageContentViewController::getPageAbsoluteURL</definition>
+        <argsstring>()</argsstring>
+        <name>getPageAbsoluteURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the page&apos;s absolute URL <simplesect kind="return"><para>NSString , returns the current page absolute url</para></simplesect>
+This method getting called to retrieve the page absolute URL <simplesect kind="see"><para>[<ref refid="class_pxe_player" kindref="compound">PxePlayer</ref> <ref refid="_pxe_player_8h_1ab4a894a00a98a191f331a3e193769965" kindref="member">getNCXURL</ref>] </para></simplesect>
+<simplesect kind="return"><para>NSString, returns the page&apos;s absolute URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="272" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a12057b213465a87807f385f538184364" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageContentViewController::getPageRelativeURL</definition>
+        <argsstring>()</argsstring>
+        <name>getPageRelativeURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the page&apos;s relative URL <simplesect kind="return"><para>NSString , returns the current page relative url</para></simplesect>
+This method getting called to retrieve the page relative URL <simplesect kind="return"><para>NSString, returns the page&apos;s relative URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="290" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1aa0c98549d530b0e72cacb71e517d14cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageContentViewController::getPageUUID</definition>
+        <argsstring>()</argsstring>
+        <name>getPageUUID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the page&apos;s UUID <simplesect kind="return"><para>NSString , returns the current page UUID</para></simplesect>
+This method getting called to retrieve the page UUID <simplesect kind="return"><para>NSString, returns the page&apos;s id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="298" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a2ee7ab5ab5d4159e5fd53ca2538e5d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageContentViewController::highlightSearchWords:</definition>
+        <argsstring>(NSArray *highlightLabels)</argsstring>
+        <name>highlightSearchWords:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>highlightLabels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Highlight the search words in the rendered page <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>highlightLabels</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of labels that should be highlighted</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This method getting called to highlight the searched words in the page <simplesect kind="return"><para>NSString, returns the page&apos;s id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="593" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a5b826204805d08a5ab828230895a4115" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageContentViewController::updateFont</definition>
+        <argsstring>()</argsstring>
+        <name>updateFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method should be called to update the font properties into the page</para><para>This method getting called to update the font size of the page content <simplesect kind="see"><para>[UIWebView stringByEvaluatingJavaScriptFromString]; </para><simplesectsep/><para>[<ref refid="class_pxe_player" kindref="compound">PxePlayer</ref> <ref refid="_pxe_player_8h_1a2a59e2144714c28f08c22e61345e51c7" kindref="member">getPageFontSize</ref>] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="602" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a1d1a289d82656dec419bdece231cfdfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageContentViewController::updateTheme</definition>
+        <argsstring>()</argsstring>
+        <name>updateTheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method should be called to update the theme properties into the page</para><para>This method getting called to update the theme of the page content <simplesect kind="see"><para>[UIWebView stringByEvaluatingJavaScriptFromString]; </para><simplesectsep/><para>[<ref refid="class_pxe_player" kindref="compound">PxePlayer</ref> <ref refid="_pxe_player_8h_1a324144dbc3af9481da99515ebbdd7e89" kindref="member">getPageTheme</ref>] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="611" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a83dc743081b3625226cae810fbe027a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageContentViewController::gotoURLTag:</definition>
+        <argsstring>(NSString *urlTag)</argsstring>
+        <name>gotoURLTag:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>urlTag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method should be called to navigate to the particular title with in a page <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>urlTag</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>page url which going to be rendered into the internal webview</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This method getting called whenever page needs to navigate to the specifi titles in the page <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>urlTag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a id to navgate to the title with in the page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>UIWebView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="249" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_content_view_controller_1a1cd7abe0cc5c6ed1fe9251a8e6e32d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageContentViewController::setAnnotationLabel:</definition>
+        <argsstring>(NSString *label)</argsstring>
+        <name>setAnnotationLabel:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method should be called to set the annotation label <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>label</parametername>
+<parametername>annotate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the label on the page</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This method getting called to set the annotated label in the page <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an annotatated string that need to be highlighted </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>[UIWebView stringByEvaluatingJavaScriptFromString]; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="620" bodyend="623"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="60">
+        <label>PxePlayerPageContentViewController</label>
+        <link refid="interface_pxe_player_page_content_view_controller"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>&lt;UIWebViewDelegate&gt;</label>
+      </node>
+      <node id="61">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>PxePlayerPageContentViewController</label>
+        <link refid="interface_pxe_player_page_content_view_controller"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>&lt;UIWebViewDelegate&gt;</label>
+      </node>
+      <node id="64">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" line="62" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.h" bodystart="62" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_page_content_view_controller_1abc82821b4b3302687cee6029b156f0fd" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController</scope><name>delegate</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1ae168e36dd9a9b4d6f613ca0e613a6989" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>getPageAbsoluteURL</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a12057b213465a87807f385f538184364" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>getPageRelativeURL</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1aa0c98549d530b0e72cacb71e517d14cc" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>getPageUUID</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a83dc743081b3625226cae810fbe027a5" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>gotoURLTag:</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a2ee7ab5ab5d4159e5fd53ca2538e5d6a" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>highlightSearchWords:</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1ac1ee65bf42d314bdfb0e8f6e933ea826" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>initWithPage:withFrame:andDelegate:</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a6e0cc4d9f70477ebac454c4ca421ed46" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>isPageDidLoad</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1ac48e24862e5965de2e8bb122207a54e7" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>loadPage</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a1cd7abe0cc5c6ed1fe9251a8e6e32d43" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>setAnnotationLabel:</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a14807e6d4cdaea7a2cc4ba87b7a59e3b" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>setPageId:</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a5b826204805d08a5ab828230895a4115" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>updateFont</name></member>
+      <member refid="interface_pxe_player_page_content_view_controller_1a1d1a289d82656dec419bdece231cfdfc" prot="public" virt="virtual"><scope>PxePlayerPageContentViewController</scope><name>updateTheme</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

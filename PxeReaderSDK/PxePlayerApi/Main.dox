@@ -1,0 +1,72 @@
+/*! \mainpage PxeReader Library 
+ *
+ * \section intro_sec Introduction
+ *
+ * This is the introduction.
+ *
+ * \section start_sec Bootstrap 
+ *
+ * \subsection step1 * Assumptions 
+ * - A project in XCode is already created and available
+ * - If the app has to be tested on device or to distribute, end user must have necessary experience to handle certificate and profile creation/usage. It just covers how to integrate the library into a current iOS application
+ *
+ * \subsection step2 * Required environment 
+ *  - Mac OSX 10.8.4 and later
+ *  - XCode 5.0 (Recommended to use latest Base SDK. Currently its iOS 7.0)
+ *
+ * \subsection step3 * SVN Path for PxePlayerSDK
+ *
+ * http://subversion.pearsoncmg.com/data/reader-sdk/trunk/pxereaderios
+ *
+ * \subsection folder_structure * Folder Structure
+ * - PxeReaderSDK:
+ *  1. PxePlayerApi: Contains all the code related to placing requests, parsing, response, error handling with network etc
+ *  2. PxePlayerApiTests: Contains code for unit test cases (yet to implement)
+ *  3. PxePlayerApiUI: Contains all the code for rendering user interface views like bookshelf, book, bookmarking, adding notes and highlights, pages navigation, etc.
+ *  4. PxePlayerApi.xcodeproj : XCode project file
+ *
+ * - PxePlayerApp:
+ * 1. Sample App that is used for demo of "PxeReaderSDK"
+ * 
+ * \subsection step4 * Compiling the library:
+ * Open the PxePlayerApi.xcodeproj file in XCode. (Just double click it in Finder and it will open in XCode by default)
+ * - Creating the library for use with Simulator:
+ * 1. Select the build environment in XCode as shown in below image.
+ * 2. Build the code (Command+b keys or from menu Product->Build)
+ * 3. After successfully building, it will create a BUILD folder in "Derived Data" folder (The path of the folder is based on the settings in the XCode and so cannot give exact folder path.) with name "Debug-iphonesimulator".
+ *
+ * - Creating the library for use with Device:
+ * 1. Select the build environment in XCode as shown in below image.
+ * 2. Build the code (Command+b keys or from menu Product->Build)
+ * 3. After successfully building, it will create a BUILD folder in "Derived Data" folder (The path of the folder is based on the settings in the XCode and so cannot give exact folder path.) with name "Debug-iphoneos".
+ *
+ * - Contents of Build Folder: (Irrespective of building for Simulator or Device, the build folder consists of the following contents:
+ *
+ * 1. Include : A folder that consists of all the header files
+ * 2. libPxePlayerApi.a: Library related to REST API calls
+ * 3. libPxePlayerApiUI.a: Library related to user interface
+ * 4. PxePlayerApiResourceBundle.bundle: Assets related to user interface library.
+ *
+ * \subsection step5 * Integration of library (Adding library files & Compiling)
+ * 1. Copy the set of Simulator or Device related files.
+ * 2. Add them to XCode project.
+ * 3. Change the "Other Linker Flags" in Build Settings of project to "-all_load" 
+ *
+ * \section intro_sec UI Library methods to integrate with other apps:
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */

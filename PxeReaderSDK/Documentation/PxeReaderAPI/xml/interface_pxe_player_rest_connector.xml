@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_rest_connector" kind="class" prot="public">
+    <compoundname>PxePlayerRestConnector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_rest_connector_8h" local="no">PxePlayerRestConnector.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_pxe_player_rest_connector_1aacb027c2407c5c21e5219d66bff46e2d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerRestConnector::responseWithUrl:withParams:method:error:</definition>
+        <argsstring>(NSString *api,[withParams] NSDictionary *params,[method] NSString *method,[error] NSError **error)</argsstring>
+        <name>responseWithUrl:withParams:method:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>api</declname>
+        </param>
+        <param>
+          <attributes>[withParams]</attributes>
+          <type>NSDictionary *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <attributes>[method]</attributes>
+          <type>NSString *</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>responseWithUrl:withParams:error:</para><para>Performs a synchronous load of the given request, returning the formatted json object.</para><para>This method initiates a synchronous request, identifies the error status, and based on error status, it will parse the json object received into appropriate Objective C object and returns it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>api</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The api to request. It wont expect the complete URL. Only the last part of the URL is expected here. Inside the method it will prepare the full URL based on the WEBAPI_URL defined in URLConstants</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input parameters to be sent to POST request</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Out parameter (may be NULL) used if an error occurs while processing the request. Will not be modified if the load succeeds.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The formatted json object. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>this is section where network in not available,you can show some custom message here </para>        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.h" line="10" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.m" bodystart="21" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_rest_connector_1a7eca6e1a741f78fc80ad8664c8b336e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerRestConnector::responseWithUrlAsync:withParams:method:completionHandler:</definition>
+        <argsstring>(NSString *api,[withParams] NSDictionary *params,[method] NSString *method,[completionHandler] CompletionHandler handler)</argsstring>
+        <name>responseWithUrlAsync:withParams:method:completionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>api</declname>
+        </param>
+        <param>
+          <attributes>[withParams]</attributes>
+          <type>NSDictionary *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <attributes>[method]</attributes>
+          <type>NSString *</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <attributes>[completionHandler]</attributes>
+          <type><ref refid="_pxe_player_rest_connector_8h_1a49cddd5091115f4bf64f2a035ef5ca52" kindref="member">CompletionHandler</ref></type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.h" line="10" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.m" bodystart="143" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_rest_connector_1a1c34113cf1bb35f1aedb9db6d19710f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerRestConnector::responseWithURLAsync:withCompletionHandler:</definition>
+        <argsstring>(NSString *url,[withCompletionHandler] CompletionHandler handler)</argsstring>
+        <name>responseWithURLAsync:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="_pxe_player_rest_connector_8h_1a49cddd5091115f4bf64f2a035ef5ca52" kindref="member">CompletionHandler</ref></type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.h" line="10" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.m" bodystart="156" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_rest_connector_1a595dc3781bfc62df73ebd11a49c9bc18" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerRestConnector::responseDataWithURLAsync:withCompletionHandler:</definition>
+        <argsstring>(NSString *url,[withCompletionHandler] CompletionHandler handler)</argsstring>
+        <name>responseDataWithURLAsync:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="_pxe_player_rest_connector_8h_1a49cddd5091115f4bf64f2a035ef5ca52" kindref="member">CompletionHandler</ref></type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.h" line="10" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.m" bodystart="188" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_rest_connector_1a9f4147dbbed5182a2df16b483f0f1256" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerRestConnector::responseWithXMLURLAsync:withCompletionHandler:</definition>
+        <argsstring>(NSString *url,[withCompletionHandler] CompletionHandler handler)</argsstring>
+        <name>responseWithXMLURLAsync:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="_pxe_player_rest_connector_8h_1a49cddd5091115f4bf64f2a035ef5ca52" kindref="member">CompletionHandler</ref></type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.h" line="10" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.m" bodystart="173" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="302">
+        <label>PxePlayerRestConnector</label>
+        <link refid="interface_pxe_player_rest_connector"/>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="304">
+        <label>PxePlayerRestConnector</label>
+        <link refid="interface_pxe_player_rest_connector"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.h" line="13" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerRestConnector.h" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_rest_connector_1a595dc3781bfc62df73ebd11a49c9bc18" prot="public" virt="virtual"><scope>PxePlayerRestConnector</scope><name>responseDataWithURLAsync:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_rest_connector_1aacb027c2407c5c21e5219d66bff46e2d" prot="public" virt="virtual"><scope>PxePlayerRestConnector</scope><name>responseWithUrl:withParams:method:error:</name></member>
+      <member refid="interface_pxe_player_rest_connector_1a1c34113cf1bb35f1aedb9db6d19710f5" prot="public" virt="virtual"><scope>PxePlayerRestConnector</scope><name>responseWithURLAsync:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_rest_connector_1a7eca6e1a741f78fc80ad8664c8b336e5" prot="public" virt="virtual"><scope>PxePlayerRestConnector</scope><name>responseWithUrlAsync:withParams:method:completionHandler:</name></member>
+      <member refid="interface_pxe_player_rest_connector_1a9f4147dbbed5182a2df16b483f0f1256" prot="public" virt="virtual"><scope>PxePlayerRestConnector</scope><name>responseWithXMLURLAsync:withCompletionHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

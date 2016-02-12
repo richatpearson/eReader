@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_book_details" kind="class" prot="public">
+    <compoundname>PxePlayerBookDetails</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSManagedObject</basecompoundref>
+    <includes refid="_pxe_player_book_details_8h" local="no">PxePlayerBookDetails.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_book_details_1a0d116169121d2c2ff845beebdc18e8f7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookDetails::bookId</definition>
+        <argsstring></argsstring>
+        <name>bookId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_details_1a34d0ade8fbd6a3bbe7cba760dec26d8c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookDetails::bookTitle</definition>
+        <argsstring></argsstring>
+        <name>bookTitle</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book title </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" line="24" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_book_details_1a6da96231ab61dc6eed9e7856ebded73c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>NSOrderedSet *</type>
+        <definition>NSOrderedSet* PxePlayerBookDetails::pages</definition>
+        <argsstring></argsstring>
+        <name>pages</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSOrderedSet variable to hold the array of pages </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>PxePlayerBookDetails</label>
+        <link refid="interface_pxe_player_book_details"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>NSManagedObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>PxePlayerBookDetails</label>
+        <link refid="interface_pxe_player_book_details"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>NSManagedObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerBookDetails.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_book_details_1a0d116169121d2c2ff845beebdc18e8f7" prot="public" virt="non-virtual"><scope>PxePlayerBookDetails</scope><name>bookId</name></member>
+      <member refid="interface_pxe_player_book_details_1a34d0ade8fbd6a3bbe7cba760dec26d8c" prot="public" virt="non-virtual"><scope>PxePlayerBookDetails</scope><name>bookTitle</name></member>
+      <member refid="interface_pxe_player_book_details_1a6da96231ab61dc6eed9e7856ebded73c" prot="public" virt="non-virtual"><scope>PxePlayerBookDetails</scope><name>pages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

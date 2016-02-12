@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_toc_parser_8h" kind="file">
+    <compoundname>PxePlayerTocParser.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes refid="_pxe_player_base_parser_8h" local="yes">PxePlayerBaseParser.h</includes>
+    <includedby refid="_pxe_player_n_c_x_c_d_parser_8h" local="yes">parser/PxePlayerNCXCDParser.h</includedby>
+    <includedby refid="_pxe_player_toc_parser_8m" local="yes">parser/PxePlayerTocParser.m</includedby>
+    <includedby refid="_pxe_player_x_h_t_m_l_c_d_parser_8h" local="yes">parser/PxePlayerXHTMLCDParser.h</includedby>
+    <incdepgraph>
+      <node id="42">
+        <label>parser/PxePlayerTocParser.h</label>
+        <link refid="PxePlayerTocParser.h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="44">
+        <label>PxePlayerBaseParser.h</label>
+        <link refid="_pxe_player_base_parser_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="45">
+        <label>parser/PxePlayerTocParser.h</label>
+        <link refid="PxePlayerTocParser.h"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>parser/PxePlayerTocParser.m</label>
+        <link refid="_pxe_player_toc_parser_8m"/>
+      </node>
+      <node id="49">
+        <label>parser/PxePlayerXHTMLCDParser.h</label>
+        <link refid="_pxe_player_x_h_t_m_l_c_d_parser_8h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>parser/PxePlayerXHTMLCDParser.m</label>
+        <link refid="_pxe_player_x_h_t_m_l_c_d_parser_8m"/>
+      </node>
+      <node id="46">
+        <label>parser/PxePlayerNCXCDParser.h</label>
+        <link refid="_pxe_player_n_c_x_c_d_parser_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>parser/PxePlayerNCXCDParser.m</label>
+        <link refid="_pxe_player_n_c_x_c_d_parser_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_toc_parser" prot="public">PxePlayerTocParser</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerTocParser.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>26/02/14.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_base_parser_8h" kindref="compound">PxePlayerBaseParser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/>PxePlayerBookDetails;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="interface_pxe_player_toc_parser" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_toc_parser" kindref="compound">PxePlayerTocParser</ref><sp/>:<sp/>NSObject<sp/>&lt;<ref refid="protocol_pxe_player_base_parser-p" kindref="compound">PxePlayerBaseParser</ref>&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="interface_pxe_player_toc_parser_1a4b7effc62fd499caf2df1fbd7a82b264" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>NSInteger<sp/><ref refid="interface_pxe_player_toc_parser_1a4b7effc62fd499caf2df1fbd7a82b264" kindref="member">pageNumber</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="interface_pxe_player_toc_parser_1af92fc7c7e30af7e59a5d660d29ad7a02" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>PxePlayerBookDetails<sp/>*<ref refid="interface_pxe_player_toc_parser_1af92fc7c7e30af7e59a5d660d29ad7a02" kindref="member">currentBook</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerTocParser.h"/>
+  </compounddef>
+</doxygen>

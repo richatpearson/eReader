@@ -1,0 +1,62 @@
+\hypertarget{protocol_pxe_player_operation_delegate-p}{\section{$<$Pxe\-Player\-Operation\-Delegate$>$ Protocol Reference}
+\label{protocol_pxe_player_operation_delegate-p}\index{$<$\-Pxe\-Player\-Operation\-Delegate$>$@{$<$\-Pxe\-Player\-Operation\-Delegate$>$}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-Operation.\-h$>$}
+
+Inheritance diagram for $<$Pxe\-Player\-Operation\-Delegate$>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{protocol_pxe_player_operation_delegate-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_operation_delegate-p_a3b2105606b8df469075d5cfc9931c726}{operation\-Success\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_operation_delegate-p_aa51ed881ea55a516cfc01025a564ccd5}{operation\-Failed\-:error\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Protocol which send's the instructions while parsing to the class which implemented it  $<$\-N\-S\-Object$>$, extented from \hyperlink{class_n_s_object-p}{N\-S\-Object} 
+
+Definition at line 16 of file Pxe\-Player\-Page\-Operation.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{protocol_pxe_player_operation_delegate-p_aa51ed881ea55a516cfc01025a564ccd5}{\index{Pxe\-Player\-Operation\-Delegate-\/p@{Pxe\-Player\-Operation\-Delegate-\/p}!operation\-Failed\-:error\-:@{operation\-Failed\-:error\-:}}
+\index{operation\-Failed\-:error\-:@{operation\-Failed\-:error\-:}!PxePlayerOperationDelegate-p@{Pxe\-Player\-Operation\-Delegate-\/p}}
+\subsubsection[{operation\-Failed\-:error\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) operation\-Failed\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{key}
+\item[{error:(N\-S\-Error $\ast$)}]{error}
+\end{DoxyParamCaption}
+}}\label{protocol_pxe_player_operation_delegate-p_aa51ed881ea55a516cfc01025a564ccd5}
+This method would be called when given operation has been failed 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & to identify the operation in the queue \\
+\hline
+{\em N\-S\-Error,returns} & cause of error \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_pxe_player_operation_delegate-p_a3b2105606b8df469075d5cfc9931c726}{\index{Pxe\-Player\-Operation\-Delegate-\/p@{Pxe\-Player\-Operation\-Delegate-\/p}!operation\-Success\-:@{operation\-Success\-:}}
+\index{operation\-Success\-:@{operation\-Success\-:}!PxePlayerOperationDelegate-p@{Pxe\-Player\-Operation\-Delegate-\/p}}
+\subsubsection[{operation\-Success\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) operation\-Success\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{protocol_pxe_player_operation_delegate-p_a3b2105606b8df469075d5cfc9931c726}
+This method would be called when given operation has been successfull executed 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & to identify the operation in the queue \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this protocol was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_operation_8h}{Pxe\-Player\-Page\-Operation.\-h}\end{DoxyCompactItemize}

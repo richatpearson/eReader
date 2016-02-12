@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_base_query_8h" kind="file">
+    <compoundname>PxePlayerBaseQuery.h</compoundname>
+    <includedby refid="_pxe_player_navigations_query_8h" local="yes">PxePlayerNavigationsQuery.h</includedby>
+    <includedby refid="_pxe_player_base_query_8m" local="yes">PxePlayerBaseQuery.m</includedby>
+    <includedby refid="_pxe_player_book_query_8h" local="yes">PxePlayerBookQuery.h</includedby>
+    <includedby refid="_pxe_player_search_books_query_8h" local="yes">PxePlayerSearchBooksQuery.h</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <invincdepgraph>
+      <node id="162">
+        <label>PxePlayerBaseQuery.h</label>
+        <link refid="PxePlayerBaseQuery.h"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>PxePlayerBaseQuery.m</label>
+        <link refid="_pxe_player_base_query_8m"/>
+      </node>
+      <node id="168">
+        <label>PxePlayerQueryParser.m</label>
+        <link refid="_pxe_player_query_parser_8m"/>
+      </node>
+      <node id="195">
+        <label>PxePlayerSearchBooksQuery.h</label>
+        <link refid="_pxe_player_search_books_query_8h"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+      </node>
+      <node id="202">
+        <label>PxePlayerSearchBooksQuery.m</label>
+        <link refid="_pxe_player_search_books_query_8m"/>
+      </node>
+      <node id="163">
+        <label>PxePlayerNavigationsQuery.h</label>
+        <link refid="_pxe_player_navigations_query_8h"/>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>PxePlayerNavigationsQuery.m</label>
+        <link refid="_pxe_player_navigations_query_8m"/>
+      </node>
+      <node id="181">
+        <label>PxePlayerDeleteBookmarkQuery.h</label>
+        <link refid="_pxe_player_delete_bookmark_query_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>PxePlayerDeleteBookmarkQuery.m</label>
+        <link refid="_pxe_player_delete_bookmark_query_8m"/>
+      </node>
+      <node id="193">
+        <label>PxePlayerBookQuery.h</label>
+        <link refid="_pxe_player_book_query_8h"/>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="194">
+        <label>PxePlayerBookQuery.m</label>
+        <link refid="_pxe_player_book_query_8m"/>
+      </node>
+      <node id="179">
+        <label>PxePlayerContentAnnotationsQuery.h</label>
+        <link refid="_pxe_player_content_annotations_query_8h"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>PxePlayerContentAnnotationsQuery.m</label>
+        <link refid="_pxe_player_content_annotations_query_8m"/>
+      </node>
+      <node id="170">
+        <label>PxePlayerAddNoteQuery.h</label>
+        <link refid="_pxe_player_add_note_query_8h"/>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>PxePlayerAddNoteQuery.m</label>
+        <link refid="_pxe_player_add_note_query_8m"/>
+      </node>
+      <node id="177">
+        <label>PxePlayerChaptersQuery.h</label>
+        <link refid="_pxe_player_chapters_query_8h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>PxePlayerChaptersQuery.m</label>
+        <link refid="_pxe_player_chapters_query_8m"/>
+      </node>
+      <node id="166">
+        <label>PxePlayerInterface.m</label>
+        <link refid="_pxe_player_interface_8m"/>
+      </node>
+      <node id="199">
+        <label>PxePlayerSearchNCXQuery.h</label>
+        <link refid="_pxe_player_search_n_c_x_query_8h"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>PxePlayerSearchNCXQuery.m</label>
+        <link refid="_pxe_player_search_n_c_x_query_8m"/>
+      </node>
+      <node id="187">
+        <label>PxePlayerPagesQuery.h</label>
+        <link refid="_pxe_player_pages_query_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>PxePlayerPagesQuery.m</label>
+        <link refid="_pxe_player_pages_query_8m"/>
+      </node>
+      <node id="175">
+        <label>PxePlayerBookmarkQuery.h</label>
+        <link refid="_pxe_player_bookmark_query_8h"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>PxePlayerBookmarkQuery.m</label>
+        <link refid="_pxe_player_bookmark_query_8m"/>
+      </node>
+      <node id="183">
+        <label>PxePlayerTocQuery.h</label>
+        <link refid="_pxe_player_toc_query_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>PxePlayerTocQuery.m</label>
+        <link refid="_pxe_player_toc_query_8m"/>
+      </node>
+      <node id="172">
+        <label>PxePlayerNoteDeleteQuery.h</label>
+        <link refid="_pxe_player_note_delete_query_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>PxePlayerNoteDeleteQuery.m</label>
+        <link refid="_pxe_player_note_delete_query_8m"/>
+      </node>
+      <node id="197">
+        <label>PxePlayerSearchURLsQuery.h</label>
+        <link refid="_pxe_player_search_u_r_ls_query_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>PxePlayerSearchURLsQuery.m</label>
+        <link refid="_pxe_player_search_u_r_ls_query_8m"/>
+      </node>
+      <node id="185">
+        <label>PxePlayerMediaQuery.h</label>
+        <link refid="_pxe_player_media_query_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>PxePlayerMediaQuery.m</label>
+        <link refid="_pxe_player_media_query_8m"/>
+      </node>
+      <node id="164">
+        <label>PxePlayerAddAnnotationQuery.h</label>
+        <link refid="_pxe_player_add_annotation_query_8h"/>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>PxePlayerAddAnnotationQuery.m</label>
+        <link refid="_pxe_player_add_annotation_query_8m"/>
+      </node>
+      <node id="167">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+      <node id="169">
+        <label>PxePlayerNotesQuery.h</label>
+        <link refid="_pxe_player_notes_query_8h"/>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>PxePlayerPageOperations.m</label>
+        <link refid="_pxe_player_page_operations_8m"/>
+      </node>
+      <node id="174">
+        <label>PxePlayerNotesQuery.m</label>
+        <link refid="_pxe_player_notes_query_8m"/>
+      </node>
+      <node id="196">
+        <label>PxePlayerSearchBookQuery.h</label>
+        <link refid="_pxe_player_search_book_query_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>PxePlayerSearchBookQuery.m</label>
+        <link refid="_pxe_player_search_book_query_8m"/>
+      </node>
+      <node id="188">
+        <label>PxePlayerPageOperation.m</label>
+        <link refid="_pxe_player_page_operation_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_base_query" prot="public">PxePlayerBaseQuery</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTQuery.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>04/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="interface_pxe_player_base_query" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_base_query" kindref="compound">PxePlayerBaseQuery</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" kindref="member">userUUID</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" kindref="member">authToken</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBaseQuery.h"/>
+  </compounddef>
+</doxygen>

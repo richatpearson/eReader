@@ -1,0 +1,107 @@
+\hypertarget{category_pxe_player_page_manager_07_08}{\section{Pxe\-Player\-Page\-Manager() Category Reference}
+\label{category_pxe_player_page_manager_07_08}\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}}
+}
+Inheritance diagram for Pxe\-Player\-Page\-Manager()\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{category_pxe_player_page_manager_07_08}
+\end{center}
+\end{figure}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+B\-O\-O\-L \hyperlink{category_pxe_player_page_manager_07_08_a6593a02ae5353431f23a8fd7c74dd256}{is\-Playlist}
+\item 
+N\-S\-Integer \hyperlink{category_pxe_player_page_manager_07_08_adb201d14e3ca4f38e9ec2065f952c288}{total\-Pages}
+\item 
+N\-S\-Integer \hyperlink{category_pxe_player_page_manager_07_08_a05c4bdb4a35995cd2323311a4ddd5990}{current\-Page}
+\item 
+N\-S\-Integer \hyperlink{category_pxe_player_page_manager_07_08_accf769375dab7b61ec6e72229026cb9b}{virtual\-Current\-Page}
+\item 
+N\-S\-String $\ast$ \hyperlink{category_pxe_player_page_manager_07_08_a30a7e06d49dbb6083d1680e33cbe9935}{toc\-Url}
+\item 
+N\-S\-Mutable\-Array $\ast$ \hyperlink{category_pxe_player_page_manager_07_08_a67cd80bd4518f3d9f2a13575878543f6}{histories}
+\item 
+N\-S\-Array $\ast$ \hyperlink{category_pxe_player_page_manager_07_08_ada0666ce9183a61c6523ccd9eaf56382}{custom\-Playlist}
+\item 
+Pxe\-Player\-Page\-Operations $\ast$ \hyperlink{category_pxe_player_page_manager_07_08_a736f70880c4e6ba6af0bb9a793096333}{page\-Operations}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_pxe_player_page_manager}{Pxe\-Player\-Page\-Manager} class extension where private variables and methods to be declared \begin{DoxySeeAlso}{See Also}
+\hyperlink{class_pxe_player_operation_queue_delegate-p}{Pxe\-Player\-Operation\-Queue\-Delegate} 
+\end{DoxySeeAlso}
+
+
+Definition at line 46 of file Pxe\-Player\-Page\-Manager.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{category_pxe_player_page_manager_07_08_a05c4bdb4a35995cd2323311a4ddd5990}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!current\-Page@{current\-Page}}
+\index{current\-Page@{current\-Page}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{current\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) current\-Page\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{category_pxe_player_page_manager_07_08_a05c4bdb4a35995cd2323311a4ddd5990}
+N\-S\-Integer which hold the current page index 
+
+Definition at line 61 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{category_pxe_player_page_manager_07_08_ada0666ce9183a61c6523ccd9eaf56382}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!custom\-Playlist@{custom\-Playlist}}
+\index{custom\-Playlist@{custom\-Playlist}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{custom\-Playlist}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Array$\ast$) custom\-Playlist\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{category_pxe_player_page_manager_07_08_ada0666ce9183a61c6523ccd9eaf56382}
+N\-S\-Array , array of U\-R\-L's which used to be render custom playlist from the book 
+
+Definition at line 81 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{category_pxe_player_page_manager_07_08_a67cd80bd4518f3d9f2a13575878543f6}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!histories@{histories}}
+\index{histories@{histories}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{histories}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Mutable\-Array$\ast$) histories\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{category_pxe_player_page_manager_07_08_a67cd80bd4518f3d9f2a13575878543f6}
+N\-S\-Mutable\-Array which holds the array of pages that user navigated that user can undo the navigation 
+
+Definition at line 76 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{category_pxe_player_page_manager_07_08_a6593a02ae5353431f23a8fd7c74dd256}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!is\-Playlist@{is\-Playlist}}
+\index{is\-Playlist@{is\-Playlist}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{is\-Playlist}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) is\-Playlist\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{category_pxe_player_page_manager_07_08_a6593a02ae5353431f23a8fd7c74dd256}
+Bool value which sets the book has custom playlist or not 
+
+Definition at line 51 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{category_pxe_player_page_manager_07_08_a736f70880c4e6ba6af0bb9a793096333}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!page\-Operations@{page\-Operations}}
+\index{page\-Operations@{page\-Operations}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{page\-Operations}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (Pxe\-Player\-Page\-Operations$\ast$) page\-Operations\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{category_pxe_player_page_manager_07_08_a736f70880c4e6ba6af0bb9a793096333}
+Pxe\-Player\-Page\-Operations are download queue which holds the array of page U\-R\-L's to download sequentially \begin{DoxySeeAlso}{See Also}
+Pxe\-Player\-Page\-Operations 
+
+Pxe\-Player\-Page\-Operation 
+\end{DoxySeeAlso}
+
+
+Definition at line 88 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{category_pxe_player_page_manager_07_08_a30a7e06d49dbb6083d1680e33cbe9935}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!toc\-Url@{toc\-Url}}
+\index{toc\-Url@{toc\-Url}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{toc\-Url}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) toc\-Url\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{category_pxe_player_page_manager_07_08_a30a7e06d49dbb6083d1680e33cbe9935}
+N\-S\-String value which holds the toc N\-C\-X U\-R\-L 
+
+Definition at line 71 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{category_pxe_player_page_manager_07_08_adb201d14e3ca4f38e9ec2065f952c288}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!total\-Pages@{total\-Pages}}
+\index{total\-Pages@{total\-Pages}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{total\-Pages}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) total\-Pages\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{category_pxe_player_page_manager_07_08_adb201d14e3ca4f38e9ec2065f952c288}
+N\-S\-Integer value which set the total number of pages in the book 
+
+Definition at line 56 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{category_pxe_player_page_manager_07_08_accf769375dab7b61ec6e72229026cb9b}{\index{Pxe\-Player\-Page\-Manager()@{Pxe\-Player\-Page\-Manager()}!virtual\-Current\-Page@{virtual\-Current\-Page}}
+\index{virtual\-Current\-Page@{virtual\-Current\-Page}!PxePlayerPageManager()@{Pxe\-Player\-Page\-Manager()}}
+\subsubsection[{virtual\-Current\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) virtual\-Current\-Page\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{category_pxe_player_page_manager_07_08_accf769375dab7b61ec6e72229026cb9b}
+N\-S\-Integer which hold the current transition page index 
+
+Definition at line 66 of file Pxe\-Player\-Page\-Manager.\-m.
+
+
+
+The documentation for this category was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_manager_8m}{Pxe\-Player\-Page\-Manager.\-m}\end{DoxyCompactItemize}

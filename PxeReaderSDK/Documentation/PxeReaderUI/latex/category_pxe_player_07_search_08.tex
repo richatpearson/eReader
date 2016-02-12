@@ -1,0 +1,97 @@
+\hypertarget{category_pxe_player_07_search_08}{\section{Pxe\-Player(Search) Category Reference}
+\label{category_pxe_player_07_search_08}\index{Pxe\-Player(\-Search)@{Pxe\-Player(\-Search)}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player.\-h$>$}
+
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_search_08_acaf2f1bc4d262bd134d2adac85466d4e}{submit\-N\-C\-X\-Url\-For\-Indexing\-:with\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_search_08_abb97b28097be6751b5941b3149c4e3b6}{submit\-Urls\-For\-Indexing\-:with\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_search_08_ae5bdbf7faea3fb4c58be4d995c96f648}{search\-Content\-:from\-:with\-Size\-:with\-Completion\-Handler\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 329 of file Pxe\-Player.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{category_pxe_player_07_search_08_ae5bdbf7faea3fb4c58be4d995c96f648}{\index{Pxe\-Player(\-Search)@{Pxe\-Player(\-Search)}!search\-Content\-:from\-:with\-Size\-:with\-Completion\-Handler\-:@{search\-Content\-:from\-:with\-Size\-:with\-Completion\-Handler\-:}}
+\index{search\-Content\-:from\-:with\-Size\-:with\-Completion\-Handler\-:@{search\-Content\-:from\-:with\-Size\-:with\-Completion\-Handler\-:}!PxePlayer(Search)@{Pxe\-Player(\-Search)}}
+\subsubsection[{search\-Content\-:from\-:with\-Size\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) search\-Content\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{search\-Term}
+\item[{from:(N\-S\-Integer)}]{result\-Start\-Offset}
+\item[{withSize:(N\-S\-Integer)}]{number\-Of\-Results}
+\item[{withCompletionHandler:(Pxe\-Player\-Search\-Pages$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_search_08_ae5bdbf7faea3fb4c58be4d995c96f648}
+search\-Content\-:with\-Max\-Results\-:and\-Page\-Number\-:with\-Completion\-Handler
+
+Search any content inside the book.
+
+This method search the content in the book and returns the results of pages reference which holds the search content.
+
+\begin{DoxyReturn}{Returns}
+Returns the pages reference having search terms . 
+\end{DoxyReturn}
+
+
+Definition at line 344 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_search_08_acaf2f1bc4d262bd134d2adac85466d4e}{\index{Pxe\-Player(\-Search)@{Pxe\-Player(\-Search)}!submit\-N\-C\-X\-Url\-For\-Indexing\-:with\-Completion\-Handler\-:@{submit\-N\-C\-X\-Url\-For\-Indexing\-:with\-Completion\-Handler\-:}}
+\index{submit\-N\-C\-X\-Url\-For\-Indexing\-:with\-Completion\-Handler\-:@{submit\-N\-C\-X\-Url\-For\-Indexing\-:with\-Completion\-Handler\-:}!PxePlayer(Search)@{Pxe\-Player(\-Search)}}
+\subsubsection[{submit\-N\-C\-X\-Url\-For\-Indexing\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) submit\-N\-C\-X\-Url\-For\-Indexing\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{url}
+\item[{withCompletionHandler:(N\-S\-String$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_search_08_acaf2f1bc4d262bd134d2adac85466d4e}
+Submit the N\-C\-X U\-R\-L for C\-M indexing to intialize the search and media content preparation . 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,url} & is a reference of N\-C\-X U\-R\-L to be send to server for indexing and media content prepartion . \\
+\hline
+{\em (void} & ($^\wedge$)(N\-S\-String$\ast$, N\-S\-Error$\ast$))handler, is a block which receives the index id for given N\-C\-X U\-R\-L \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+completion\-Handler\-:(void ($^\wedge$)(N\-S\-String$\ast$, N\-S\-Error$\ast$))handler; 
+\end{DoxySeeAlso}
+
+
+Definition at line 323 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_search_08_abb97b28097be6751b5941b3149c4e3b6}{\index{Pxe\-Player(\-Search)@{Pxe\-Player(\-Search)}!submit\-Urls\-For\-Indexing\-:with\-Completion\-Handler\-:@{submit\-Urls\-For\-Indexing\-:with\-Completion\-Handler\-:}}
+\index{submit\-Urls\-For\-Indexing\-:with\-Completion\-Handler\-:@{submit\-Urls\-For\-Indexing\-:with\-Completion\-Handler\-:}!PxePlayer(Search)@{Pxe\-Player(\-Search)}}
+\subsubsection[{submit\-Urls\-For\-Indexing\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) submit\-Urls\-For\-Indexing\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{urls}
+\item[{withCompletionHandler:(N\-S\-String$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_search_08_abb97b28097be6751b5941b3149c4e3b6}
+Get the current book table of contents specific branch of tree 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,root\-Id} & is a reference to retreive a particular branch from the given root id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Array , returns the particular branch of table of contents title from the tree 
+\end{DoxyReturn}
+
+
+Definition at line 334 of file Pxe\-Player.\-m.
+
+
+
+The documentation for this category was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_8h}{Pxe\-Player.\-h}\item 
+\hyperlink{_pxe_player_8m}{Pxe\-Player.\-m}\end{DoxyCompactItemize}

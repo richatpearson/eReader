@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_u_r_l_array_parser_8h" kind="file">
+    <compoundname>PxePlayerURLArrayParser.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes refid="_pxe_player_base_parser_8h" local="yes">PxePlayerBaseParser.h</includes>
+    <includedby refid="_pxe_player_u_r_l_array_parser_8m" local="yes">parser/PxePlayerURLArrayParser.m</includedby>
+    <incdepgraph>
+      <node id="60">
+        <label>parser/PxePlayerURLArrayParser.h</label>
+        <link refid="PxePlayerURLArrayParser.h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="62">
+        <label>PxePlayerBaseParser.h</label>
+        <link refid="_pxe_player_base_parser_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="63">
+        <label>parser/PxePlayerURLArrayParser.h</label>
+        <link refid="PxePlayerURLArrayParser.h"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>parser/PxePlayerURLArrayParser.m</label>
+        <link refid="_pxe_player_u_r_l_array_parser_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_u_r_l_array_parser" prot="public">PxePlayerURLArrayParser</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerURLArrayParser.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>SVV<sp/>on<sp/>10/28/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Satyam.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_base_parser_8h" kindref="compound">PxePlayerBaseParser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="interface_pxe_player_u_r_l_array_parser" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_u_r_l_array_parser" kindref="compound">PxePlayerURLArrayParser</ref><sp/>:<sp/>NSObject<sp/>&lt;<ref refid="protocol_pxe_player_base_parser-p" kindref="compound">PxePlayerBaseParser</ref>&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerURLArrayParser.h"/>
+  </compounddef>
+</doxygen>

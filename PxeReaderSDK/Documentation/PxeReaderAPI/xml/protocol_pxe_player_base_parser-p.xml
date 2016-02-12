@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="protocol_pxe_player_base_parser-p" kind="protocol" prot="public">
+    <compoundname>PxePlayerBaseParser-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="interface_pxe_player_n_c_x_parser" prot="public" virt="non-virtual">PxePlayerNCXParser</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_toc_parser" prot="public" virt="non-virtual">PxePlayerTocParser</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_u_r_l_array_parser" prot="public" virt="non-virtual">PxePlayerURLArrayParser</derivedcompoundref>
+    <includes refid="_pxe_player_base_parser_8h" local="no">PxePlayerBaseParser.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_pxe_player_base_parser-p_1a2fa950852f2e1825b5dc923e9d66829d" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary* PxePlayerBaseParser-p::parseData:</definition>
+        <argsstring>(NSData *data)</argsstring>
+        <name>parseData:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to parse data from the file and returns the parsed result as a dictionary format <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSData</parametername>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>need to be parsed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_base_parser-p_1ab7d1135887db45a14aebe304bfbcddeb" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerBaseParser-p::parseDataFromURL:withHandler:</definition>
+        <argsstring>(NSString *url,[withHandler] ParsingHandler parsingHandler)</argsstring>
+        <name>parseDataFromURL:withHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withHandler]</attributes>
+          <type><ref refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" kindref="member">ParsingHandler</ref></type>
+          <declname>parsingHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to parse data from the specific URL and returns the parsed result into the block handler <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a server location in which data to be downloaded and parsed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParsingHandler</parametername>
+<parametername>parsingHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a block would receive the parsed result </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_base_parser-p_1acea3b0e43bf7c45bcd6978cf641c5097" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerBaseParser-p::parseDataFromURLArray:withHandler:</definition>
+        <argsstring>(NSArray *navigationArray,[withHandler] ParsingHandler parsingHandler)</argsstring>
+        <name>parseDataFromURLArray:withHandler:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>navigationArray</declname>
+        </param>
+        <param>
+          <attributes>[withHandler]</attributes>
+          <type><ref refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" kindref="member">ParsingHandler</ref></type>
+          <declname>parsingHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to parse data from the array of URL&apos;s and returns the parsed result into the block handler <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>navigationArray</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a array with list of URL&apos;s need to be parsed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParsingHandler</parametername>
+<parametername>parsingHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a block would receive the parsed result </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_base_parser-p_1af53b80aa420a6a41a4cb1beeef57abe5" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerBaseParser-p::parseDataFromNCXURL:withHandler:</definition>
+        <argsstring>(NSString *url,[withHandler] ParsingHandler parsingHandler)</argsstring>
+        <name>parseDataFromNCXURL:withHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withHandler]</attributes>
+          <type><ref refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" kindref="member">ParsingHandler</ref></type>
+          <declname>parsingHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to parse NCX data from the URL and returns the parsed result into the block handler <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a server location in which data to be downloaded and parsed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParsingHandler</parametername>
+<parametername>parsingHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a block would receive the parsed result </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Protocol which send&apos;s the instructions while parsing to the class which implemented it  &lt;NSObject&gt;, extented from <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>PxePlayerNCXParser</label>
+        <link refid="interface_pxe_player_n_c_x_parser"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>PxePlayerNCXCDParser</label>
+        <link refid="interface_pxe_player_n_c_x_c_d_parser"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>PxePlayerXHTMLCDParser</label>
+        <link refid="interface_pxe_player_x_h_t_m_l_c_d_parser"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>PxePlayerURLArrayParser</label>
+        <link refid="interface_pxe_player_u_r_l_array_parser"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>PxePlayerTocParser</label>
+        <link refid="interface_pxe_player_toc_parser"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="40">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" line="22" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" bodystart="22" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_base_parser-p_1a2fa950852f2e1825b5dc923e9d66829d" prot="public" virt="virtual"><scope>PxePlayerBaseParser-p</scope><name>parseData:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1af53b80aa420a6a41a4cb1beeef57abe5" prot="public" virt="virtual"><scope>PxePlayerBaseParser-p</scope><name>parseDataFromNCXURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1ab7d1135887db45a14aebe304bfbcddeb" prot="public" virt="virtual"><scope>PxePlayerBaseParser-p</scope><name>parseDataFromURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1acea3b0e43bf7c45bcd6978cf641c5097" prot="public" virt="virtual"><scope>PxePlayerBaseParser-p</scope><name>parseDataFromURLArray:withHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

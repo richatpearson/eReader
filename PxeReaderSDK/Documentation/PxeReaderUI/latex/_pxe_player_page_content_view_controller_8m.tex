@@ -1,0 +1,82 @@
+\hypertarget{_pxe_player_page_content_view_controller_8m}{\section{Pxe\-Player\-Page\-Content\-View\-Controller.\-m File Reference}
+\label{_pxe_player_page_content_view_controller_8m}\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+}
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Page\-Content\-View\-Controller.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Pages\-Web\-View.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Loading\-View.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-U\-I\-Constants.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}H\-M\-Cache.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}N\-S\-String+\-Extension.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Page.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-U\-R\-L\-Constants.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Pxe\-Player\-Light\-Box\-View\-Controller.\-h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_pxe_player_page_content_view_controller_8m_abd5c8ab57c190a6522ccdbf0ed7577da}{D\-I\-S\-A\-B\-L\-E\-D}~@\char`\"{}disabled\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_content_view_controller_8m_ae4f07d825461436e02843325c7b6ed8d}{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T}~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}default\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/main.\-css\textbackslash{}\char`\"{} /$>$\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_content_view_controller_8m_a3e04b2b5d8fad15e9a642cc22d60f347}{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A}~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}sepia\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/sepia.\-css\textbackslash{}\char`\"{} /$>$\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_content_view_controller_8m_a1328728c1a9ca1fae01eb59db4985986}{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T}~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}night\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/night.\-css\textbackslash{}\char`\"{} /$>$\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_content_view_controller_8m_aa5ff02efa13c3bc572cb5bf288befd98}{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}default\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/main.\-css\textbackslash{}\char`\"{} disabled/$>$\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_content_view_controller_8m_a0aef83cd9439768b0613cd4042e7654a}{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}sepia\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/sepia.\-css\textbackslash{}\char`\"{} disabled/$>$\char`\"{}
+\item 
+\#define \hyperlink{_pxe_player_page_content_view_controller_8m_a4570b6e710a09a48f6f5c622ed32b746}{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}night\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/night.\-css\textbackslash{}\char`\"{} disabled/$>$\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_pxe_player_page_content_view_controller_8m_abd5c8ab57c190a6522ccdbf0ed7577da}{\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}!D\-I\-S\-A\-B\-L\-E\-D@{D\-I\-S\-A\-B\-L\-E\-D}}
+\index{D\-I\-S\-A\-B\-L\-E\-D@{D\-I\-S\-A\-B\-L\-E\-D}!PxePlayerPageContentViewController.m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+\subsubsection[{D\-I\-S\-A\-B\-L\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-I\-S\-A\-B\-L\-E\-D~@\char`\"{}disabled\char`\"{}}}\label{_pxe_player_page_content_view_controller_8m_abd5c8ab57c190a6522ccdbf0ed7577da}
+
+
+Definition at line 20 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{_pxe_player_page_content_view_controller_8m_ae4f07d825461436e02843325c7b6ed8d}{\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}!L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T@{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T}}
+\index{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T@{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T}!PxePlayerPageContentViewController.m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+\subsubsection[{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}default\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/main.\-css\textbackslash{}\char`\"{} /$>$\char`\"{}}}\label{_pxe_player_page_content_view_controller_8m_ae4f07d825461436e02843325c7b6ed8d}
+
+
+Definition at line 22 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{_pxe_player_page_content_view_controller_8m_aa5ff02efa13c3bc572cb5bf288befd98}{\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}!L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D@{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}}
+\index{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D@{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}!PxePlayerPageContentViewController.m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+\subsubsection[{L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\-I\-N\-K\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}default\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/main.\-css\textbackslash{}\char`\"{} disabled/$>$\char`\"{}}}\label{_pxe_player_page_content_view_controller_8m_aa5ff02efa13c3bc572cb5bf288befd98}
+
+
+Definition at line 26 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{_pxe_player_page_content_view_controller_8m_a1328728c1a9ca1fae01eb59db4985986}{\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}!L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T@{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T}}
+\index{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T@{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T}!PxePlayerPageContentViewController.m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+\subsubsection[{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}night\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/night.\-css\textbackslash{}\char`\"{} /$>$\char`\"{}}}\label{_pxe_player_page_content_view_controller_8m_a1328728c1a9ca1fae01eb59db4985986}
+
+
+Definition at line 24 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{_pxe_player_page_content_view_controller_8m_a4570b6e710a09a48f6f5c622ed32b746}{\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}!L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D@{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}}
+\index{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D@{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}!PxePlayerPageContentViewController.m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+\subsubsection[{L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\-I\-N\-K\-\_\-\-N\-I\-G\-H\-T\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}night\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/night.\-css\textbackslash{}\char`\"{} disabled/$>$\char`\"{}}}\label{_pxe_player_page_content_view_controller_8m_a4570b6e710a09a48f6f5c622ed32b746}
+
+
+Definition at line 28 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{_pxe_player_page_content_view_controller_8m_a3e04b2b5d8fad15e9a642cc22d60f347}{\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}!L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A@{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A}}
+\index{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A@{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A}!PxePlayerPageContentViewController.m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+\subsubsection[{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}sepia\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/sepia.\-css\textbackslash{}\char`\"{} /$>$\char`\"{}}}\label{_pxe_player_page_content_view_controller_8m_a3e04b2b5d8fad15e9a642cc22d60f347}
+
+
+Definition at line 23 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{_pxe_player_page_content_view_controller_8m_a0aef83cd9439768b0613cd4042e7654a}{\index{Pxe\-Player\-Page\-Content\-View\-Controller.\-m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}!L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D@{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}}
+\index{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D@{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}!PxePlayerPageContentViewController.m@{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}}
+\subsubsection[{L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\-I\-N\-K\-\_\-\-S\-E\-P\-I\-A\-\_\-\-D\-I\-S\-A\-B\-L\-E\-D~@\char`\"{}$<$link type=\textbackslash{}\char`\"{}text/css\textbackslash{}\char`\"{} title=\textbackslash{}\char`\"{}sepia\textbackslash{}\char`\"{} rel=\textbackslash{}\char`\"{}alternate stylesheet\textbackslash{}\char`\"{} href=\textbackslash{}\char`\"{}../../assets/css/theme/sepia.\-css\textbackslash{}\char`\"{} disabled/$>$\char`\"{}}}\label{_pxe_player_page_content_view_controller_8m_a0aef83cd9439768b0613cd4042e7654a}
+
+
+Definition at line 27 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_toc_query" kind="class" prot="public">
+    <compoundname>PxePlayerTocQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_navigations_query" prot="public" virt="non-virtual">PxePlayerNavigationsQuery</basecompoundref>
+    <includes refid="_pxe_player_toc_query_8h" local="no">PxePlayerTocQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_toc_query_1aec89353d8d0f6f2f745e81162fe27a52" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerTocQuery::tocUrl</definition>
+        <argsstring></argsstring>
+        <name>tocUrl</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the list of table of content urls </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerTocQuery.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerTocQuery.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the table of contents query </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="371">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="372" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>NSObject</label>
+      </node>
+      <node id="370">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>PxePlayerTocQuery</label>
+        <link refid="interface_pxe_player_toc_query"/>
+        <childnode refid="370" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="375">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>NSObject</label>
+      </node>
+      <node id="374">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="373">
+        <label>PxePlayerTocQuery</label>
+        <link refid="interface_pxe_player_toc_query"/>
+        <childnode refid="374" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerTocQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerTocQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerTocQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerTocQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_toc_query_1aec89353d8d0f6f2f745e81162fe27a52" prot="public" virt="non-virtual"><scope>PxePlayerTocQuery</scope><name>tocUrl</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerTocQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

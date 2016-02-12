@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_page_operation" kind="class" prot="public">
+    <compoundname>PxePlayerPageOperation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSOperation</basecompoundref>
+    <includes refid="_pxe_player_page_operation_8h" local="no">PxePlayerPageOperation.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_page_operation_1a57ec43b30a26ea1b04081f9ed0b7d9a4" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="weak">
+        <type>id&lt; <ref refid="protocol_pxe_player_operation_delegate-p" kindref="compound">PxePlayerOperationDelegate</ref> &gt;</type>
+        <definition>id&lt;PxePlayerOperationDelegate&gt; PxePlayerPageOperation::pageDelegate</definition>
+        <argsstring></argsstring>
+        <name>pageDelegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A <ref refid="protocol_pxe_player_operation_delegate-p" kindref="compound">PxePlayerOperationDelegate</ref> protocol instance to send information to class which implements it </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" line="49" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_page_operation_1ae99c6e07252b13ecb652c50e8796e830" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerPageOperation::initWithQuery:</definition>
+        <argsstring>(PxePlayerPagesQuery *query)</argsstring>
+        <name>initWithQuery:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_pages_query" kindref="compound">PxePlayerPagesQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to initialise the operation with required query parameters <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="interface_pxe_player_pages_query" kindref="compound">PxePlayerPagesQuery</ref></parametername>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a model instance contains required page information to downlaod page data from the server </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" line="49" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.m" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operation_1a808493fa4430803e7546556b27170e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageOperation::getKey</definition>
+        <argsstring>()</argsstring>
+        <name>getKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to retrive the operation key <simplesect kind="return"><para>NSString, returns the identification key </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" line="49" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.m" bodystart="35" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class derived from the NSOperation to perform operation in the operation queue </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="266">
+        <label>PxePlayerPageOperation</label>
+        <link refid="interface_pxe_player_page_operation"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>NSOperation</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="268">
+        <label>PxePlayerPageOperation</label>
+        <link refid="interface_pxe_player_page_operation"/>
+        <childnode refid="269" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="269">
+        <label>NSOperation</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" line="43" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" bodystart="43" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_page_operation_1a808493fa4430803e7546556b27170e9a" prot="public" virt="virtual"><scope>PxePlayerPageOperation</scope><name>getKey</name></member>
+      <member refid="interface_pxe_player_page_operation_1ae99c6e07252b13ecb652c50e8796e830" prot="public" virt="virtual"><scope>PxePlayerPageOperation</scope><name>initWithQuery:</name></member>
+      <member refid="interface_pxe_player_page_operation_1a57ec43b30a26ea1b04081f9ed0b7d9a4" prot="public" virt="non-virtual"><scope>PxePlayerPageOperation</scope><name>pageDelegate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

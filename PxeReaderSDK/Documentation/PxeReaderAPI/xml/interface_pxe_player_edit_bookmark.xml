@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_edit_bookmark" kind="class" prot="public">
+    <compoundname>PxePlayerEditBookmark</compoundname>
+    <basecompoundref refid="interface_pxe_player_bookmark" prot="public" virt="non-virtual">PxePlayerBookmark</basecompoundref>
+    <includes refid="_pxe_player_edit_bookmark_8h" local="no">PxePlayerEditBookmark.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the edit bookmark </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="150">
+        <label>PxePlayerEditBookmark</label>
+        <link refid="interface_pxe_player_edit_bookmark"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>PxePlayerBookmark</label>
+        <link refid="interface_pxe_player_bookmark"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="153">
+        <label>PxePlayerEditBookmark</label>
+        <link refid="interface_pxe_player_edit_bookmark"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>PxePlayerBookmark</label>
+        <link refid="interface_pxe_player_bookmark"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerEditBookmark.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerEditBookmark.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_bookmark_1ac56c6dc4c71c9ef3010afe5b81a81cb3" prot="public" virt="non-virtual"><scope>PxePlayerEditBookmark</scope><name>bookmarkTitle</name></member>
+      <member refid="interface_pxe_player_bookmark_1ae4b45f207dd31a597e765f7d53fd13e7" prot="public" virt="non-virtual"><scope>PxePlayerEditBookmark</scope><name>contentID</name></member>
+      <member refid="interface_pxe_player_bookmark_1a4c5726238745b908389f27e7c04e1330" prot="public" virt="non-virtual"><scope>PxePlayerEditBookmark</scope><name>labels</name></member>
+      <member refid="interface_pxe_player_bookmark_1ab8b1e16b624fa00bbd92e6611222405c" prot="public" virt="non-virtual"><scope>PxePlayerEditBookmark</scope><name>uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

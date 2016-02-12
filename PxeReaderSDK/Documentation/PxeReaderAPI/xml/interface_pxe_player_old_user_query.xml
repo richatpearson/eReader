@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_old_user_query" kind="class" prot="public">
+    <compoundname>PxePlayerOldUserQuery</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_old_user_query_8h" local="no">PxePlayerOldUserQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_old_user_query_1ab600ae874f1762b3ba3de1d91f057836" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerOldUserQuery::userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_old_user_query_1ae8c668b61248ad659fdc018e1656b370" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerOldUserQuery::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user password </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_old_user_query_1ac42b4b905ce3a623ce6e3f46cebdcf78" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerOldUserQuery::authService</definition>
+        <argsstring></argsstring>
+        <name>authService</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the authentication service id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the user query data into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="249">
+        <label>PxePlayerOldUserQuery</label>
+        <link refid="interface_pxe_player_old_user_query"/>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="251">
+        <label>PxePlayerOldUserQuery</label>
+        <link refid="interface_pxe_player_old_user_query"/>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="252">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerOldUserQuery.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_old_user_query_1ac42b4b905ce3a623ce6e3f46cebdcf78" prot="public" virt="non-virtual"><scope>PxePlayerOldUserQuery</scope><name>authService</name></member>
+      <member refid="interface_pxe_player_old_user_query_1ae8c668b61248ad659fdc018e1656b370" prot="public" virt="non-virtual"><scope>PxePlayerOldUserQuery</scope><name>password</name></member>
+      <member refid="interface_pxe_player_old_user_query_1ab600ae874f1762b3ba3de1d91f057836" prot="public" virt="non-virtual"><scope>PxePlayerOldUserQuery</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

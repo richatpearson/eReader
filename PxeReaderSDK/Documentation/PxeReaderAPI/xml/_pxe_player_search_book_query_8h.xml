@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_search_book_query_8h" kind="file">
+    <compoundname>PxePlayerSearchBookQuery.h</compoundname>
+    <includes refid="_pxe_player_search_books_query_8h" local="yes">PxePlayerSearchBooksQuery.h</includes>
+    <includedby refid="_pxe_player_interface_8m" local="yes">PxePlayerInterface.m</includedby>
+    <includedby refid="_pxe_player_search_u_r_ls_query_8h" local="yes">PxePlayerSearchURLsQuery.h</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_search_n_c_x_query_8h" local="yes">PxePlayerSearchNCXQuery.h</includedby>
+    <includedby refid="_pxe_player_search_book_query_8m" local="yes">PxePlayerSearchBookQuery.m</includedby>
+    <incdepgraph>
+      <node id="712">
+        <label>PxePlayerBaseQuery.h</label>
+        <link refid="_pxe_player_base_query_8h"/>
+      </node>
+      <node id="711">
+        <label>PxePlayerSearchBooksQuery.h</label>
+        <link refid="_pxe_player_search_books_query_8h"/>
+        <childnode refid="712" relation="include">
+        </childnode>
+      </node>
+      <node id="710">
+        <label>PxePlayerSearchBookQuery.h</label>
+        <link refid="PxePlayerSearchBookQuery.h"/>
+        <childnode refid="711" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="717">
+        <label>PxePlayerQueryParser.m</label>
+        <link refid="_pxe_player_query_parser_8m"/>
+      </node>
+      <node id="714">
+        <label>PxePlayerInterface.m</label>
+        <link refid="_pxe_player_interface_8m"/>
+      </node>
+      <node id="719">
+        <label>PxePlayerSearchNCXQuery.h</label>
+        <link refid="_pxe_player_search_n_c_x_query_8h"/>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="720" relation="include">
+        </childnode>
+      </node>
+      <node id="720">
+        <label>PxePlayerSearchNCXQuery.m</label>
+        <link refid="_pxe_player_search_n_c_x_query_8m"/>
+      </node>
+      <node id="715">
+        <label>PxePlayerSearchURLsQuery.h</label>
+        <link refid="_pxe_player_search_u_r_ls_query_8h"/>
+        <childnode refid="714" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+      </node>
+      <node id="718">
+        <label>PxePlayerSearchURLsQuery.m</label>
+        <link refid="_pxe_player_search_u_r_ls_query_8m"/>
+      </node>
+      <node id="716">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+      <node id="713">
+        <label>PxePlayerSearchBookQuery.h</label>
+        <link refid="PxePlayerSearchBookQuery.h"/>
+        <childnode refid="714" relation="include">
+        </childnode>
+        <childnode refid="715" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="719" relation="include">
+        </childnode>
+        <childnode refid="721" relation="include">
+        </childnode>
+      </node>
+      <node id="721">
+        <label>PxePlayerSearchBookQuery.m</label>
+        <link refid="_pxe_player_search_book_query_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_search_book_query" prot="public">PxePlayerSearchBookQuery</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerSearchBookQuery.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>05/09/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_search_books_query_8h" kindref="compound">PxePlayerSearchBooksQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="interface_pxe_player_search_book_query" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_search_book_query" kindref="compound">PxePlayerSearchBookQuery</ref><sp/>:<sp/><ref refid="interface_pxe_player_search_books_query" kindref="compound">PxePlayerSearchBooksQuery</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="interface_pxe_player_search_book_query_1adb97282496feeeb0ee92b973513bab35" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="interface_pxe_player_search_book_query_1adb97282496feeeb0ee92b973513bab35" kindref="member">indexId</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="interface_pxe_player_search_book_query_1af431710f9f3abeb1dd40a615125f8844" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="interface_pxe_player_search_book_query_1af431710f9f3abeb1dd40a615125f8844" kindref="member">bookId</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="interface_pxe_player_search_book_query_1a060e888d46e8aeb261068cabc92f16bd" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="interface_pxe_player_search_book_query_1a060e888d46e8aeb261068cabc92f16bd" kindref="member">contentId</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="interface_pxe_player_search_book_query_1ade43017f3723042bd108214528a50569" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>NSInteger<sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_search_book_query_1ade43017f3723042bd108214528a50569" kindref="member">pageNumber</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBookQuery.h"/>
+  </compounddef>
+</doxygen>

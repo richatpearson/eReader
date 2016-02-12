@@ -1,0 +1,83 @@
+.TH "<PxePlayerBaseParser>" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+<PxePlayerBaseParser> \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerBaseParser\&.h>\fP
+.PP
+Inherits <NSObject>\&.
+.PP
+Inherited by \fBPxePlayerNCXParser\fP, \fBPxePlayerTocParser\fP, and \fBPxePlayerURLArrayParser\fP\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(NSDictionary *) - \fBparseData:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBparseDataFromURL:withHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBparseDataFromURLArray:withHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBparseDataFromNCXURL:withHandler:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A Protocol which send's the instructions while parsing to the class which implemented it  <NSObject>, extented from \fBNSObject\fP 
+.PP
+Definition at line 22 of file PxePlayerBaseParser\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (NSDictionary*) parseData: (NSData *)data\fC [optional]\fP"
+This method would be called to parse data from the file and returns the parsed result as a dictionary format 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSData,data\fP need to be parsed 
+.RE
+.PP
+
+.SS "- (void) parseDataFromNCXURL: (NSString *)url(\fBParsingHandler\fP)parsingHandler\fC [optional]\fP"
+This method would be called to parse NCX data from the URL and returns the parsed result into the block handler 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,url\fP is a server location in which data to be downloaded and parsed 
+.br
+\fIParsingHandler,parsingHandler\fP is a block would receive the parsed result 
+.RE
+.PP
+
+.SS "- (void) parseDataFromURL: (NSString *)url(\fBParsingHandler\fP)parsingHandler\fC [optional]\fP"
+This method would be called to parse data from the specific URL and returns the parsed result into the block handler 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,url\fP is a server location in which data to be downloaded and parsed 
+.br
+\fIParsingHandler,parsingHandler\fP is a block would receive the parsed result 
+.RE
+.PP
+
+.SS "- (void) parseDataFromURLArray: (NSArray *)navigationArray(\fBParsingHandler\fP)parsingHandler\fC [optional]\fP"
+This method would be called to parse data from the array of URL's and returns the parsed result into the block handler 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,navigationArray\fP is a array with list of URL's need to be parsed 
+.br
+\fIParsingHandler,parsingHandler\fP is a block would receive the parsed result 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

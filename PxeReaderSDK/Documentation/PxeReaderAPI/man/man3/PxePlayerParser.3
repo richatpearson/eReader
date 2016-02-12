@@ -1,0 +1,137 @@
+.TH "PxePlayerParser" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerParser \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerParser\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(\fBPxePlayerUser\fP *) + \fBparseUser:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerUser\fP *) + \fBparseSMSUser:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerToc\fP *) + \fBparseTOC:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerBookShelf\fP *) + \fBparseBookShelf:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerChapters\fP *) + \fBparseChapter:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerBookmarks\fP *) + \fBparseBookmark:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerCheckBookmark\fP *) + \fBisPageBookmarked:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerBookmark\fP *) + \fBparseAddBookmark:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerBookmark\fP *) + \fBparseDeleteBookmark:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerBookmark\fP *) + \fBparseEditBookmark:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerNotes\fP *) + \fBparseUserAnnotations:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerAnnotations\fP *) + \fBparseAnnotations:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerDeleteAnnotation\fP *) + \fBparseDeleteAnnotation:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerNotes\fP *) + \fBparseAllAnnotations:\fP"
+.br
+.ti -1c
+.RI "(\fBPxePlayerSearchPages\fP *) + \fBparseBookSearch:\fP"
+.br
+.ti -1c
+.RI "(NSArray *) + \fBparseMedia:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 24 of file PxePlayerParser\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "+ (\fBPxePlayerCheckBookmark\fP *) isPageBookmarked: (NSDictionary*)values"
+
+.PP
+Definition at line 245 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerBookmark\fP *) parseAddBookmark: (NSDictionary*)values"
+
+.PP
+Definition at line 259 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerNotes\fP *) parseAllAnnotations: (NSDictionary*)values"
+
+.PP
+Definition at line 338 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerAnnotations\fP *) parseAnnotations: (NSDictionary*)values"
+
+.PP
+Definition at line 301 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerBookmarks\fP *) parseBookmark: (NSDictionary*)values"
+
+.PP
+Definition at line 226 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerSearchPages\fP *) parseBookSearch: (NSDictionary*)values"
+
+.PP
+Definition at line 360 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerBookShelf\fP *) parseBookShelf: (NSDictionary*)bookshelf"
+
+.PP
+Definition at line 171 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerChapters\fP *) parseChapter: (NSArray *)values"
+
+.PP
+Definition at line 208 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerDeleteAnnotation\fP *) parseDeleteAnnotation: (NSDictionary*)values"
+
+.PP
+Definition at line 347 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerBookmark\fP *) parseDeleteBookmark: (NSDictionary*)values"
+
+.PP
+Definition at line 271 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerBookmark\fP *) parseEditBookmark: (NSDictionary*)values"
+
+.PP
+Definition at line 282 of file PxePlayerParser\&.m\&.
+.SS "+ (NSArray *) parseMedia: (NSDictionary*)values"
+
+.PP
+Definition at line 379 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerUser\fP *) parseSMSUser: (NSDictionary*)user"
+
+.PP
+Definition at line 145 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerToc\fP *) parseTOC: (NSDictionary *)contents"
+
+.PP
+Definition at line 160 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerUser\fP *) parseUser: (NSDictionary*)user"
+
+.PP
+Definition at line 128 of file PxePlayerParser\&.m\&.
+.SS "+ (\fBPxePlayerNotes\fP *) parseUserAnnotations: (NSDictionary*)values"
+
+.PP
+Definition at line 292 of file PxePlayerParser\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

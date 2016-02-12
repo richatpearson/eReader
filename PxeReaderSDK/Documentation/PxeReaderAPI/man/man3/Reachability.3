@@ -1,0 +1,112 @@
+.TH "Reachability" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Reachability \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <Reachability\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(BOOL) - \fBstartNotifier\fP"
+.br
+.ti -1c
+.RI "(void) - \fBstopNotifier\fP"
+.br
+.ti -1c
+.RI "(\fBNetworkStatus\fP) - \fBcurrentReachabilityStatus\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBconnectionRequired\fP"
+.br
+.in -1c
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(\fBReachability\fP *) + \fBreachabilityWithHostName:\fP"
+.br
+.ti -1c
+.RI "(\fBReachability\fP *) + \fBreachabilityWithAddress:\fP"
+.br
+.ti -1c
+.RI "(\fBReachability\fP *) + \fBreachabilityForInternetConnection\fP"
+.br
+.ti -1c
+.RI "(\fBReachability\fP *) + \fBreachabilityForLocalWiFi\fP"
+.br
+.ti -1c
+.RI "(BOOL) + \fBisReachable\fP"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "BOOL \fBlocalWiFiRef\fP"
+.br
+.ti -1c
+.RI "SCNetworkReachabilityRef \fBreachabilityRef\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 61 of file Reachability\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (BOOL) connectionRequired "
+
+.PP
+Definition at line 243 of file Reachability\&.m\&.
+.SS "- (\fBNetworkStatus\fP) currentReachabilityStatus "
+
+.PP
+Definition at line 254 of file Reachability\&.m\&.
+.SS "+ (BOOL) isReachable "
+
+.PP
+Definition at line 273 of file Reachability\&.m\&.
+.SS "+ (\fBReachability\fP *) reachabilityForInternetConnection "
+
+.PP
+Definition at line 163 of file Reachability\&.m\&.
+.SS "+ (\fBReachability\fP *) reachabilityForLocalWiFi "
+
+.PP
+Definition at line 172 of file Reachability\&.m\&.
+.SS "+ (\fBReachability\fP *) reachabilityWithAddress: (const struct sockaddr_in*)hostAddress"
+
+.PP
+Definition at line 147 of file Reachability\&.m\&.
+.SS "+ (\fBReachability\fP *) reachabilityWithHostName: (NSString*)hostName"
+
+.PP
+Definition at line 131 of file Reachability\&.m\&.
+.SS "- (BOOL) startNotifier "
+
+.PP
+Definition at line 100 of file Reachability\&.m\&.
+.SS "- (void) stopNotifier "
+
+.PP
+Definition at line 114 of file Reachability\&.m\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "- (BOOL) localWiFiRef\fC [protected]\fP"
+
+.PP
+Definition at line 63 of file Reachability\&.h\&.
+.SS "- (SCNetworkReachabilityRef) reachabilityRef\fC [protected]\fP"
+
+.PP
+Definition at line 64 of file Reachability\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

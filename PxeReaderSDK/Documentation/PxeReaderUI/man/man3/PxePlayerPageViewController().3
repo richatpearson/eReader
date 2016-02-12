@@ -1,0 +1,124 @@
+.TH "PxePlayerPageViewController()" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageViewController() \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits <UIPageViewControllerDataSource>, <UIPageViewControllerDelegate>, and \fB<PxePlayerPageManagerDelegate>\fP\&.
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "BOOL \fBisPageAnimating\fP"
+.br
+.ti -1c
+.RI "BOOL \fBshouldAllowPageSwipe\fP"
+.br
+.ti -1c
+.RI "NSString * \fBstartPage\fP"
+.br
+.ti -1c
+.RI "NSMutableDictionary * \fBpagesContainer\fP"
+.br
+.ti -1c
+.RI "UIPageViewController * \fBpageViewController\fP"
+.br
+.ti -1c
+.RI "NSUInteger \fBtransitionStyle\fP"
+.br
+.ti -1c
+.RI "NSUInteger \fBscalePage\fP"
+.br
+.ti -1c
+.RI "\fBPxePlayerPageManager\fP * \fBpageManager\fP"
+.br
+.ti -1c
+.RI "\fBPxePlayerLoadingView\fP * \fBloadingView\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Class extension to display a book pages navigation \&. 
+.PP
+Definition at line 40 of file PxePlayerPageViewController\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (BOOL) isPageAnimating\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+Returns true if page is in transistion 
+.PP
+Definition at line 45 of file PxePlayerPageViewController\&.m\&.
+.SS "- (\fBPxePlayerLoadingView\fP*) loadingView\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+Overlay screen of showing loading status 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerLoadingView\fP 
+.RE
+.PP
+
+.PP
+Definition at line 90 of file PxePlayerPageViewController\&.m\&.
+.SS "- (\fBPxePlayerPageManager\fP*) pageManager\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+Class to handle downloading NCX content and helper for page navigation & download 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerPageManager\fP 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file PxePlayerPageViewController\&.m\&.
+.SS "- (NSMutableDictionary*) pagesContainer\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+Stores the page content view controller instances\&. 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerPageContentViewController\fP 
+.RE
+.PP
+
+.PP
+Definition at line 61 of file PxePlayerPageViewController\&.m\&.
+.SS "- (UIPageViewController*) pageViewController\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+Container Instance of UIPageViewController which holds the pageContent and page navigation options 
+.PP
+\fBSee Also:\fP
+.RS 4
+UIPageViewController 
+.RE
+.PP
+
+.PP
+Definition at line 67 of file PxePlayerPageViewController\&.m\&.
+.SS "- (NSUInteger) scalePage\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+Option to customise the page WebView scale content to fit 
+.PP
+\fBSee Also:\fP
+.RS 4
+UIWebView , scalePageContentToFit 
+.RE
+.PP
+
+.PP
+Definition at line 78 of file PxePlayerPageViewController\&.m\&.
+.SS "- (BOOL) shouldAllowPageSwipe\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+Enable/Disable page swipe to navigation option\&. 
+.PP
+Definition at line 50 of file PxePlayerPageViewController\&.m\&.
+.SS "- (NSString*) startPage\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+Starts book reading from the particular page 
+.PP
+Definition at line 55 of file PxePlayerPageViewController\&.m\&.
+.SS "- (NSUInteger) transitionStyle\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+Option to set the transition style of the UIPageViewContoller 
+.PP
+Definition at line 72 of file PxePlayerPageViewController\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

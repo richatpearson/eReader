@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_annotations" kind="class" prot="public">
+    <compoundname>PxePlayerAnnotations</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_annotations_8h" local="no">PxePlayerAnnotations.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_annotations_1a038286be287dfb0f38f292e3b5ee99aa" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotations::contextId</definition>
+        <argsstring></argsstring>
+        <name>contextId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the context id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotations_1abb8ba4dd2ddc7e5a966cc21c716e5314" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotations::identityId</definition>
+        <argsstring></argsstring>
+        <name>identityId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the identity id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" line="24" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotations_1a84faed2ddf241cbf964d77750c508aab" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotations::contentId</definition>
+        <argsstring></argsstring>
+        <name>contentId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotations_1a5ae9bd632e977e680f9093f2964d1cc9" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerAnnotations::annotations</definition>
+        <argsstring></argsstring>
+        <name>annotations</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSMutableArray variable to hold the list of annotation models </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" line="34" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the annotation data into the list of models </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>PxePlayerAnnotations</label>
+        <link refid="interface_pxe_player_annotations"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>PxePlayerAnnotations</label>
+        <link refid="interface_pxe_player_annotations"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotations.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_annotations_1a5ae9bd632e977e680f9093f2964d1cc9" prot="public" virt="non-virtual"><scope>PxePlayerAnnotations</scope><name>annotations</name></member>
+      <member refid="interface_pxe_player_annotations_1a84faed2ddf241cbf964d77750c508aab" prot="public" virt="non-virtual"><scope>PxePlayerAnnotations</scope><name>contentId</name></member>
+      <member refid="interface_pxe_player_annotations_1a038286be287dfb0f38f292e3b5ee99aa" prot="public" virt="non-virtual"><scope>PxePlayerAnnotations</scope><name>contextId</name></member>
+      <member refid="interface_pxe_player_annotations_1abb8ba4dd2ddc7e5a966cc21c716e5314" prot="public" virt="non-virtual"><scope>PxePlayerAnnotations</scope><name>identityId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

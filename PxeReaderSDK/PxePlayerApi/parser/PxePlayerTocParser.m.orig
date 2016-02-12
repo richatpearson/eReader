@@ -1,0 +1,194 @@
+//
+//  PxePlayerTocParser.m
+//  PxeReader
+//
+//  Created by Saro Bear on 26/02/14.
+//  Copyright (c) 2014 Happiest Minds. All rights reserved.
+//
+
+#import "PxePlayerTocParser.h"
+#import "PxeContext.h"
+#import "PxePlayerInterface.h"
+#import "PxePlayerToc.h"
+#import "PxePlayerDataManager.h"
+#import "PxePlayerError.h"
+#import "PXEPlayerMacro.h"
+#import "PxeCustomBasketDetail.h"
+#import "PxePlayer.h"
+#import "PxePageDetail.h"
+
+@implementation PxePlayerTocParser
+
+#pragma mark - Public methods
+
+/**
+ This method would be called recursively to convert the tree of generic data into the list of models
+ @param NSArray, childrens is a array of data from the tree of generic data
+ @param NSString, parentId is a root id of the branch.
+ */
+-(void)ripPagesIntoList:(NSArray*)childrens parentId:(NSString*)parentId
+{
+    
+}
+
+-(void)ripCustomBasketPagesIntoList:(NSArray*)childrens parentId:(NSString*)parentId
+{
+    
+}
+
+-(void)parseMasterPlaylist:(NSArray*)urlArray withHandler:(ParsingHandler)parsingHandler
+{
+    PxePlayerDataManager *dataManager = [PxePlayerDataManager sharedInstance];
+
+    NSArray *bookResults = [dataManager fetchEntities:@[@"context_id",@"context_title"]
+                                             forModel:NSStringFromClass([PxeContext class])
+                                        withPredicate:[NSPredicate predicateWithFormat:@"context_id == %@", dataManager.contextId]
+                                           resultType:NSManagedObjectResultType withSortKey:nil
+                                         andAscending:YES
+                                           fetchLimit:1
+                                           andGroupBy:nil];
+
+    if(![bookResults count])
+    {
+        self.currentBook = nil;
+    }
+    else
+    {
+        self.currentBook = bookResults[0]; //just grab that first book and set it
+    }
+    
+    [PxePlayerInterface getMasterPlaylistToc:urlArray withCompletionHandler:^(PxePlayerToc *toc, NSError *error)
+    {
+        //only insert this if its not there otherwise just get it.
+        if(!self.currentBook)
+        {
+            self.currentBook = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([PxeContext class])
+                                                             inManagedObjectContext:[dataManager getObjectContext]];
+            
+            self.currentBook.context_id = dataManager.contextId;
+            self.currentBook.context_title = @"MasterPlaylist";
+
+            if(![dataManager save])
+            {
+                parsingHandler(nil, [PxePlayerError errorForCode:PxePlayerBookLoadError]);
+            }
+     
+            [self ripPagesIntoList:[toc tocEntries] parentId:@"root"];
+        }
+        
+        parsingHandler([NSNumber numberWithBool:YES], nil);
+    }];
+}
+
+/**
+ This method would be called to parse NCX data from the URL and returns the parsed result into the block handler
+ @param NSString, url is a server location in which data to be downloaded and parsed
+ @param ParsingHandler, parsingHandler is a block would receive the parsed result
+ */
+-(void)parseDataFromNCXURL:(NSString*)url withHandler:(ParsingHandler)parsingHandler
+{
+    PxePlayerDataManager *dataManager = [PxePlayerDataManager sharedInstance];
+    //check book already found in the DB
+//    self.currentBook = [dataManager fetchEntity:@"context_id"
+//                                       forModel:NSStringFromClass([PxeContext class])
+//                                      withValue:dataManager.contextId];
+//    if(self.currentBook)
+//    {
+//        parsingHandler([NSNumber numberWithBool:YES], nil);
+//        return;
+//    }
+    
+//    [PxePlayer sharedInstance];
+    
+    //intiate the Get TOC web-service call
+    [PxePlayerInterface getTOCFromURL:url withCompletionHandler:^(PxePlayerToc *toc, NSError *error)
+    {
+         if(error)
+         {
+             parsingHandler(nil, error);
+         }
+         else
+         {
+             NSArray *books = [dataManager fetchEntitiesForModel:NSStringFromClass([PxeContext class]) withSortKey:@"context_title" ascending:YES withPredicate:[NSPredicate predicateWithFormat:@"context_id == %@", dataManager.contextId] fetchLimit:0 resultType:NSManagedObjectResultType];
+             
+             self.currentBook = [books lastObject];
+             
+             if(!self.currentBook) //book found
+             {
+                 
+                 [[PxePlayerDataManager sharedInstance] createCurrentContextWithID:dataManager.contextId metadata:@{@"title":@"book title"} currentUser:[[PxePlayer sharedInstance] currentUser] withHandler:^(PxeContext *context, NSError *error) {
+                     self.currentBook = context;
+                 }];
+                
+                 self.pageNumber = 0;
+                 
+<<<<<<< HEAD
+=======
+                 
+                 if(![dataManager save])
+                 {
+                     parsingHandler(nil, [PxePlayerError errorForCode:PxePlayerBookLoadError]);
+                     return;
+                 }
+>>>>>>> 64c77a46df1d192c5ddd64b0798254a2f204c9b9
+             }
+             
+             //now lets make sure we add the pages if they aren't already.
+             PxePageDetail *details = [dataManager fetchEntity:@[@"pageURL"] forModel:NSStringFromClass([PxePageDetail class]) withPredicate:[NSPredicate predicateWithFormat:@"context.context_id == %@", dataManager.contextId] withSortKey:@"pageURL" andAscending:NO];
+         
+
+             if(!details){ //only insert if needed.
+                 [self ripPagesIntoList:[toc tocEntries] parentId:@"root"];
+                 if([toc customBaskets])
+                 {
+                     [self ripCustomBasketPagesIntoList:[[toc customBaskets]lastObject] parentId:@"root"];
+                 }
+                 parsingHandler([NSNumber numberWithBool:YES], nil);
+             }else{
+                 parsingHandler([NSNumber numberWithBool:YES], nil);
+             }
+             
+             
+         }
+     }];
+}
+
+- (void) parseCustomBasketDataFromXHTMLUrl:(NSString*)url withHandler:(ParsingHandler)parsingHandler
+{
+    [PxePlayerInterface getCustomBasketDataFromURL:url withCompletionHandler:^(PxePlayerToc *toc, NSError *error)
+    {
+         if(!error)
+         {
+//             DLog(@"!PARSED!: %@", toc.customBaskets);
+             if([toc customBaskets])
+             {
+                 self.pageNumber = 0;
+                 
+                 PxePlayerDataManager *dataManager = [PxePlayerDataManager sharedInstance];
+                 self.currentBook = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([PxeContext class])
+                                                                  inManagedObjectContext:[dataManager getObjectContext]];
+                 
+                 self.currentBook.context_id = dataManager.contextId;
+                 self.currentBook.context_title = @"title";
+                 
+//                 DLog(@"\nRIP IT!!! RIP IT!!! RIP IT!!! RIP IT!!! RIP IT!!! RIP IT!!! RIP IT!!! RIP IT!!! RIP IT!!! ");
+                 DLog(@"%@", [[toc customBaskets] lastObject]);
+                 [self ripCustomBasketPagesIntoList:[[toc customBaskets] lastObject] parentId:@"root"];
+                 parsingHandler([NSNumber numberWithBool:YES], nil);
+             } else {
+                 parsingHandler(nil, [PxePlayerError errorForCode:PxePlayerBookLoadError]);
+             }
+         } else {
+             parsingHandler(nil, [PxePlayerError errorForCode:PxePlayerBookLoadError]);
+         }
+     }];
+}
+
+- (void) parseTOCDataFromTOCUrl:(NSString*)url
+                      contextId:(NSString*)contextId
+                    withHandler:(ParsingHandler)parsingHandler
+{
+    
+}
+
+@end

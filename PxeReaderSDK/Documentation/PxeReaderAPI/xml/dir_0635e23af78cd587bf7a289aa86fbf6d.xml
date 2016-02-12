@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_0635e23af78cd587bf7a289aa86fbf6d" kind="dir">
+    <compoundname>Reachability</compoundname>
+    <innerfile refid="_reachability_8h">Reachability.h</innerfile>
+    <innerfile refid="_reachability_8m">Reachability.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/"/>
+  </compounddef>
+</doxygen>

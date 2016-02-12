@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_x_h_t_m_l_c_d_parser_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerXHTMLCDParser()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_x_h_t_m_l_c_d_parser_07_08_1a5e9f533018e5f99629b39831cf74e747" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerXHTMLCDParser()::pageNumber</definition>
+        <argsstring></argsstring>
+        <name>pageNumber</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.m" line="30" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.m" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_x_h_t_m_l_c_d_parser_07_08_1a03f24db4dfa03e10eeabe0f2c75efb6e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>PxePlayerBookDetails *</type>
+        <definition>PxePlayerBookDetails* PxePlayerXHTMLCDParser()::currentBook</definition>
+        <argsstring></argsstring>
+        <name>currentBook</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.m" line="31" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.m" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.m" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.m" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_x_h_t_m_l_c_d_parser_07_08_1a03f24db4dfa03e10eeabe0f2c75efb6e" prot="public" virt="non-virtual"><scope>PxePlayerXHTMLCDParser()</scope><name>currentBook</name></member>
+      <member refid="category_pxe_player_x_h_t_m_l_c_d_parser_07_08_1a5e9f533018e5f99629b39831cf74e747" prot="public" virt="non-virtual"><scope>PxePlayerXHTMLCDParser()</scope><name>pageNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

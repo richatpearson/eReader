@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_n_c_x_parser_8m" kind="file">
+    <compoundname>PxePlayerNCXParser.m</compoundname>
+    <includes refid="_pxe_player_n_c_x_parser_8h" local="yes">PxePlayerNCXParser.h</includes>
+    <incdepgraph>
+      <node id="38">
+        <label>PxePlayerNCXParser.h</label>
+        <link refid="_pxe_player_n_c_x_parser_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>parser/PxePlayerNCXParser.m</label>
+        <link refid="PxePlayerNCXParser.m"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="40">
+        <label>PxePlayerBaseParser.h</label>
+        <link refid="_pxe_player_base_parser_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_pxe_player_n_c_x_parser_07_08" prot="public">PxePlayerNCXParser()</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_pxe_player_n_c_x_parser_8m_1abf96c65ee662dc021db2d0389d7e5cc2" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const kXMLReaderTextNodeKey</definition>
+        <argsstring></argsstring>
+        <name>kXMLReaderTextNodeKey</name>
+        <initializer>= @&quot;title&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" line="11" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_pxe_player_n_c_x_parser_8m_1ad3e4b16e0431278d5db262506b463af2" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const kXMLReaderAttributePrefix</definition>
+        <argsstring></argsstring>
+        <name>kXMLReaderAttributePrefix</name>
+        <initializer>= @&quot;@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" line="12" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerNCXParser.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>SVV<sp/>on<sp/>10/28/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Satyam.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_n_c_x_parser_8h" kindref="compound">PxePlayerNCXParser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_pxe_player_n_c_x_parser_8m_1abf96c65ee662dc021db2d0389d7e5cc2" refkind="member"><highlight class="normal">NSString<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_pxe_player_n_c_x_parser_8m_1abf96c65ee662dc021db2d0389d7e5cc2" kindref="member">kXMLReaderTextNodeKey</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;title&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="_pxe_player_n_c_x_parser_8m_1ad3e4b16e0431278d5db262506b463af2" refkind="member"><highlight class="normal">NSString<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_pxe_player_n_c_x_parser_8m_1ad3e4b16e0431278d5db262506b463af2" kindref="member">kXMLReaderAttributePrefix</ref><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;</highlight><highlight class="stringliteral">@&quot;;</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="14" refid="category_pxe_player_n_c_x_parser_07_08" refkind="compound"><highlight class="stringliteral">@interface<sp/>PxePlayerNCXParser<sp/>()<sp/>&lt;NSXMLParserDelegate,<sp/>NSURLConnectionDelegate&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="16" refid="category_pxe_player_n_c_x_parser_07_08_1a47cb6f705d2dce890df8e8f731ee8587" refkind="member"><highlight class="stringliteral">@property<sp/>(nonatomic,<sp/>strong)<sp/>NSMutableArray<sp/>*dictionaryStack;</highlight></codeline>
+<codeline lineno="17" refid="category_pxe_player_n_c_x_parser_07_08_1ad2b39744edeb133445e8ad99068d8bd7" refkind="member"><highlight class="stringliteral">@property<sp/>(nonatomic,<sp/>strong)<sp/>NSMutableString<sp/>*textInProgress;</highlight></codeline>
+<codeline lineno="18" refid="category_pxe_player_n_c_x_parser_07_08_1ae221014bdbff608ceaa2aac656803f16" refkind="member"><highlight class="stringliteral">@property<sp/>(nonatomic,<sp/>strong)<sp/>NSError<sp/>*errorPointer;</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral">@end</highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral">@implementation<sp/>PxePlayerNCXParser</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral">-(NSDictionary*)parseData:(NSData*)data</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral">{</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>//<sp/>Clear<sp/>out<sp/>any<sp/>old<sp/>data</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>self.dictionaryStack<sp/>=<sp/>[[NSMutableArray<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>self.textInProgress<sp/>=<sp/>[[NSMutableString<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>//<sp/>Initialize<sp/>the<sp/>stack<sp/>with<sp/>a<sp/>fresh<sp/>dictionary</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>[self.dictionaryStack<sp/>addObject:[NSMutableDictionary<sp/>dictionary]];</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>NSXMLParser*<sp/>parser<sp/>=<sp/>[[NSXMLParser<sp/>alloc]<sp/>initWithData:data];</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>[parser<sp/>setShouldProcessNamespaces:XMLReaderOptionsProcessNamespaces];</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>[parser<sp/>setShouldReportNamespacePrefixes:XMLReaderOptionsReportNamespacePrefixes];</highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>[parser<sp/>setShouldResolveExternalEntities:XMLReaderOptionsResolveExternalEntities];</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>parser.delegate<sp/>=<sp/>self;</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>BOOL<sp/>success<sp/>=<sp/>[parser<sp/>parse];</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>if<sp/>(success)</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>*resultDict<sp/>=<sp/>[self.dictionaryStack<sp/>objectAtIndex:0];</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>resultDict;</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>return<sp/>nil;</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral">}</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral">#pragma<sp/>mark<sp/>-<sp/><sp/>NSXMLParserDelegate<sp/>methods</highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="57"><highlight class="stringliteral">-<sp/>(void)parser:(NSXMLParser<sp/>*)parser<sp/>didStartElement:(NSString<sp/>*)elementName<sp/>namespaceURI:(NSString<sp/>*)namespaceURI<sp/>qualifiedName:(NSString<sp/>*)qName<sp/>attributes:(NSDictionary<sp/>*)attributeDict</highlight></codeline>
+<codeline lineno="58"><highlight class="stringliteral">{</highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>if([elementName<sp/>isEqualToString:@&quot;</highlight><highlight class="normal">html&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;body&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;head&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;nav&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;meta&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;link&quot;])<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Get<sp/>the<sp/>dictionary<sp/>for<sp/>the<sp/>current<sp/>level<sp/>in<sp/>the<sp/>stack</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*parentDict<sp/>=<sp/>[self.dictionaryStack<sp/>lastObject];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Create<sp/>the<sp/>child<sp/>dictionary<sp/>for<sp/>the<sp/>new<sp/>element,<sp/>and<sp/>initilaize<sp/>it<sp/>with<sp/>the<sp/>attributes</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*childDict<sp/>=<sp/>[NSMutableDictionary<sp/>dictionary];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>[childDict<sp/>addEntriesFromDictionary:attributeDict];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>If<sp/>there&apos;s<sp/>already<sp/>an<sp/>item<sp/>for<sp/>this<sp/>key,<sp/>it<sp/>means<sp/>we<sp/>need<sp/>to<sp/>create<sp/>an<sp/>array</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>id<sp/>existingValue<sp/>=<sp/>[parentDict<sp/>objectForKey:elementName];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(existingValue)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*array<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>([existingValue<sp/>isKindOfClass:[NSMutableArray<sp/>class]])<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>The<sp/>array<sp/>exists,<sp/>so<sp/>use<sp/>it</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>array<sp/>=<sp/>(NSMutableArray<sp/>*)<sp/>existingValue;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Create<sp/>an<sp/>array<sp/>if<sp/>it<sp/>doesn&apos;t<sp/>exist</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>array<sp/>=<sp/>[NSMutableArray<sp/>array];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[array<sp/>addObject:existingValue];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Replace<sp/>the<sp/>child<sp/>dictionary<sp/>with<sp/>an<sp/>array<sp/>of<sp/>children<sp/>dictionaries</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[parentDict<sp/>setObject:array<sp/>forKey:elementName];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Add<sp/>the<sp/>new<sp/>child<sp/>dictionary<sp/>to<sp/>the<sp/>array</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[array<sp/>addObject:childDict];</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>No<sp/>existing<sp/>value,<sp/>so<sp/>update<sp/>the<sp/>dictionary</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[parentDict<sp/>setObject:childDict<sp/>forKey:elementName];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Update<sp/>the<sp/>stack</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>[self.dictionaryStack<sp/>addObject:childDict];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">-<sp/>(void)parser:(NSXMLParser<sp/>*)parser<sp/>didEndElement:(NSString<sp/>*)elementName<sp/>namespaceURI:(NSString<sp/>*)namespaceURI<sp/>qualifiedName:(NSString<sp/>*)qName</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>if([elementName<sp/>isEqualToString:@&quot;html&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;body&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;head&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;nav&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;meta&quot;]<sp/>||<sp/>[elementName<sp/>isEqualToString:@&quot;link&quot;])<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Update<sp/>the<sp/>parent<sp/>dict<sp/>with<sp/>text<sp/>info</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*dictInProgress<sp/>=<sp/>[self.dictionaryStack<sp/>lastObject];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Set<sp/>the<sp/>text<sp/>property</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>([self.textInProgress<sp/>length]<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>trim<sp/>after<sp/>concatenating</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*trimmedString<sp/>=<sp/>[self.textInProgress<sp/>stringByTrimmingCharactersInSet:[NSCharacterSet<sp/>whitespaceAndNewlineCharacterSet]];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[dictInProgress<sp/>setObject:[trimmedString<sp/>mutableCopy]<sp/>forKey:kXMLReaderTextNodeKey];</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Reset<sp/>the<sp/>text</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.textInProgress<sp/>=<sp/>[[NSMutableString<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Pop<sp/>the<sp/>current<sp/>dict</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>[self.dictionaryStack<sp/>removeLastObject];</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">-<sp/>(void)parser:(NSXMLParser<sp/>*)parser<sp/>foundCharacters:(NSString<sp/>*)string<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>[self.textInProgress<sp/>appendString:string];</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">-<sp/>(void)parser:(NSXMLParser<sp/>*)parser<sp/>parseErrorOccurred:(NSError<sp/>*)parseError<sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>self.errorPointer<sp/>=<sp/>parseError;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m"/>
+  </compounddef>
+</doxygen>

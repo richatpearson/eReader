@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_07_bookmarks_08" kind="category" prot="public">
+    <compoundname>PxePlayer(Bookmarks)</compoundname>
+    <includes refid="_pxe_player_8h" local="no">PxePlayer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_pxe_player_07_bookmarks_08_1adf67269a9769654658af61f2f897a8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Bookmarks)::getBookmarksWithCompletionHandler:</definition>
+        <argsstring>(PxePlayerBookmarks *, NSError *handler)</argsstring>
+        <name>getBookmarksWithCompletionHandler:</name>
+        <param>
+          <type>PxePlayerBookmarks *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getBookmarksWithCompletionHandler:</para><para>Retrieve bookmarked pages reference.</para><para>This method just retrieve bookmarked pages reference in the book</para><para><simplesect kind="return"><para>Returns the array of reference of bookmarked pages. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="261" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_bookmarks_08_1ad4c6c1fcc23ebfdc02eecaa3d1de4c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Bookmarks)::addBookmarkWithTitle:andURL:withCompletionHandler:</definition>
+        <argsstring>(NSString *bookmarkTitle,[andURL] NSString *url,[withCompletionHandler] PxePlayerBookmark *, NSError *handler)</argsstring>
+        <name>addBookmarkWithTitle:andURL:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>bookmarkTitle</declname>
+        </param>
+        <param>
+          <attributes>[andURL]</attributes>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerBookmark *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addBookmarkWithTitle:andPageId:withCompletionHandler</para><para>Add page as bookmarked.</para><para>This method mark the page as bookmarked.</para><para><simplesect kind="return"><para>Returns whether page has bookmarked or not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="272" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_bookmarks_08_1ad3d6230226f923cdca730348588d6f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Bookmarks)::checkBookmarkWithURL:withCompletionHandler:</definition>
+        <argsstring>(NSString *contentID,[withCompletionHandler] PxePlayerCheckBookmark *, NSError *handler)</argsstring>
+        <name>checkBookmarkWithURL:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>contentID</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerCheckBookmark *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checkBookmarkWithId:WithCompletionHandler:</para><para>Check correponding page has bookmarked or not.</para><para>This method checks the page has bookmarked or not.</para><para><simplesect kind="return"><para>Returns the page has bookmarked or not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="284" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_bookmarks_08_1a78ee75ca33ea7b6a2da7a5df32bffe7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Bookmarks)::editBookmarkWithTitle:andURL:withCompletionHandler:</definition>
+        <argsstring>(NSString *bookmarkTitle,[andURL] NSString *contentID,[withCompletionHandler] PxePlayerBookmark *, NSError *handler)</argsstring>
+        <name>editBookmarkWithTitle:andURL:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>bookmarkTitle</declname>
+        </param>
+        <param>
+          <attributes>[andURL]</attributes>
+          <type>NSString *</type>
+          <declname>contentID</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerBookmark *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>editBookmarkWithTitle:andPageId:withCompletionHandler</para><para>Edit the properties of the bookmarked page.</para><para>This method allow the user to edit the properties of bookmarked page.</para><para><simplesect kind="return"><para>Return whether bookmark has updated with new details or not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="295" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="category_pxe_player_07_bookmarks_08_1ac0571c27d0176f77e2ab5032dad9d2d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Bookmarks)::deleteBookmarkWithURL:withCompletionHandler:</definition>
+        <argsstring>(NSString *url,[withCompletionHandler] PxePlayerBookmark *, NSError *handler)</argsstring>
+        <name>deleteBookmarkWithURL:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>PxePlayerBookmark *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>deleteBookmarkWithPageId:WithCompletionHandler:</para><para>Remove the bookmark from the page.</para><para>This method just remove the bookmark on the page.</para><para><simplesect kind="return"><para>Bookmark on page will be removed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="307" bodyend="316"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="238" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" bodystart="238" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_07_bookmarks_08_1ad4c6c1fcc23ebfdc02eecaa3d1de4c9f" prot="public" virt="virtual"><scope>PxePlayer(Bookmarks)</scope><name>addBookmarkWithTitle:andURL:withCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_bookmarks_08_1ad3d6230226f923cdca730348588d6f82" prot="public" virt="virtual"><scope>PxePlayer(Bookmarks)</scope><name>checkBookmarkWithURL:withCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_bookmarks_08_1ac0571c27d0176f77e2ab5032dad9d2d1" prot="public" virt="virtual"><scope>PxePlayer(Bookmarks)</scope><name>deleteBookmarkWithURL:withCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_bookmarks_08_1a78ee75ca33ea7b6a2da7a5df32bffe7d" prot="public" virt="virtual"><scope>PxePlayer(Bookmarks)</scope><name>editBookmarkWithTitle:andURL:withCompletionHandler:</name></member>
+      <member refid="category_pxe_player_07_bookmarks_08_1adf67269a9769654658af61f2f897a8b8" prot="public" virt="virtual"><scope>PxePlayer(Bookmarks)</scope><name>getBookmarksWithCompletionHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

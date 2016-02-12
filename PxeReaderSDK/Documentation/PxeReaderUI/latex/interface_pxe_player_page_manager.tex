@@ -1,0 +1,423 @@
+\hypertarget{interface_pxe_player_page_manager}{\section{Pxe\-Player\-Page\-Manager Class Reference}
+\label{interface_pxe_player_page_manager}\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-Manager.\-h$>$}
+
+Inheritance diagram for Pxe\-Player\-Page\-Manager\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_pxe_player_page_manager}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_page_manager_a8f9edd477523edd9403157d3ec4d9272}{init\-With\-N\-C\-X\-Url\-:with\-Custom\-Playlist\-:and\-Delegate\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_page_manager_a1acb70790e9716c43ec76ead84660df5}{init\-With\-Master\-Playlist\-:with\-Custom\-Playlist\-:and\-Delegate\-:}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_a2bcb750b8adc89ba486a938a2cd41912}{next\-Page}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_a537e1ae0451bb4bd2505567dd131c0cf}{prev\-Page}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_a498ec415cdee48cf98d3987b27d1e255}{get\-Current\-Page}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_a424c106ea5215cdc09717245ebea3550}{goto\-Page\-By\-Page\-Id\-:}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_aa936790b8353f99bd80ab0a103a617cc}{goto\-Page\-By\-Page\-U\-R\-L\-:}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_a8df6da237f836f15071bb4f89d6341ee}{goto\-Page\-By\-Page\-Number\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_manager_a3bc250a6d660a4bc896d3a4246acb71a}{page\-Did\-Load}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_manager_a29541675ce1b0d7ad4eebe09911ad110}{update\-Page\-Index}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_manager_a280a0550516439315df7c060e55cb381}{reset\-Current\-Page\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_manager_a8601082d8343001cc1a83ba95c01dc2b}{refresh\-Current\-Page}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_manager_a84ea3e77704e458a85e6fb141eab5802}{refresh\-Page\-:}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_manager_a5a1c671b75d0ce7b77750679abf4b740}{is\-First\-Page}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_manager_ad6efc3fb86987d93e9dbc66de3e2e0c2}{is\-Last\-Page}
+\item 
+(N\-S\-Integer) -\/ \hyperlink{interface_pxe_player_page_manager_ae10baa45f460312dc9220334f6658d10}{get\-Current\-Page\-Number}
+\item 
+(N\-S\-U\-Integer) -\/ \hyperlink{interface_pxe_player_page_manager_a052fc55b8da41bde1a68cdd70be2fac9}{get\-Total\-Pages\-Count}
+\item 
+(N\-S\-Integer) -\/ \hyperlink{interface_pxe_player_page_manager_ae71c769ffff71a00e03d28ad618232f7}{get\-Current\-Page\-Index}
+\item 
+(N\-S\-Integer) -\/ \hyperlink{interface_pxe_player_page_manager_a5de236ad53cb1a1f0317b37b574ca80c}{get\-Virtual\-Current\-Page\-Index}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_ac95267a16f83a65107f5994a1cfb36ef}{get\-Current\-Page\-Id}
+\item 
+(N\-S\-Number $\ast$) -\/ \hyperlink{interface_pxe_player_page_manager_a557a12a6602edf9850a6d8732509bbfe}{pop\-History}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+id$<$ \hyperlink{protocol_pxe_player_page_manager_delegate-p}{Pxe\-Player\-Page\-Manager\-Delegate} $>$ \hyperlink{interface_pxe_player_page_manager_a7951815ab7a221d5150dc74a1fb10606}{delegate}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A simple class which manages pages download queue and sends the required information to the target class to rendering a page and maintaining the queue
+
+\hyperlink{interface_pxe_player_page_manager}{Pxe\-Player\-Page\-Manager} class implementation where all methods should be defined 
+
+Definition at line 54 of file Pxe\-Player\-Page\-Manager.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_pxe_player_page_manager_a498ec415cdee48cf98d3987b27d1e255}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!get\-Current\-Page@{get\-Current\-Page}}
+\index{get\-Current\-Page@{get\-Current\-Page}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{get\-Current\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Current\-Page 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a498ec415cdee48cf98d3987b27d1e255}
+Get the currently rendered page \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the current page's U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 606 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_ac95267a16f83a65107f5994a1cfb36ef}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!get\-Current\-Page\-Id@{get\-Current\-Page\-Id}}
+\index{get\-Current\-Page\-Id@{get\-Current\-Page\-Id}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{get\-Current\-Page\-Id}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Current\-Page\-Id 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_ac95267a16f83a65107f5994a1cfb36ef}
+This method returns the current page's page id 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,returns} & the current page id \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 356 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_ae71c769ffff71a00e03d28ad618232f7}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!get\-Current\-Page\-Index@{get\-Current\-Page\-Index}}
+\index{get\-Current\-Page\-Index@{get\-Current\-Page\-Index}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{get\-Current\-Page\-Index}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) get\-Current\-Page\-Index 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_ae71c769ffff71a00e03d28ad618232f7}
+This method returns the current page index \begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer, returns the current page index 
+\end{DoxyReturn}
+
+
+Definition at line 498 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_ae10baa45f460312dc9220334f6658d10}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!get\-Current\-Page\-Number@{get\-Current\-Page\-Number}}
+\index{get\-Current\-Page\-Number@{get\-Current\-Page\-Number}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{get\-Current\-Page\-Number}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) get\-Current\-Page\-Number 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_ae10baa45f460312dc9220334f6658d10}
+This method returns the current page number \begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer, returns the current page number 
+\end{DoxyReturn}
+
+
+Definition at line 502 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a052fc55b8da41bde1a68cdd70be2fac9}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!get\-Total\-Pages\-Count@{get\-Total\-Pages\-Count}}
+\index{get\-Total\-Pages\-Count@{get\-Total\-Pages\-Count}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{get\-Total\-Pages\-Count}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-U\-Integer) get\-Total\-Pages\-Count 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a052fc55b8da41bde1a68cdd70be2fac9}
+This method returns the total pages count in the book \begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer, returns the total page count in the book 
+\end{DoxyReturn}
+
+
+Definition at line 522 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a5de236ad53cb1a1f0317b37b574ca80c}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!get\-Virtual\-Current\-Page\-Index@{get\-Virtual\-Current\-Page\-Index}}
+\index{get\-Virtual\-Current\-Page\-Index@{get\-Virtual\-Current\-Page\-Index}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{get\-Virtual\-Current\-Page\-Index}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) get\-Virtual\-Current\-Page\-Index 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a5de236ad53cb1a1f0317b37b574ca80c}
+This method returns the current transition page index \begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer, returns the current transitiosn page index 
+\end{DoxyReturn}
+
+
+Definition at line 526 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a424c106ea5215cdc09717245ebea3550}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!goto\-Page\-By\-Page\-Id\-:@{goto\-Page\-By\-Page\-Id\-:}}
+\index{goto\-Page\-By\-Page\-Id\-:@{goto\-Page\-By\-Page\-Id\-:}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{goto\-Page\-By\-Page\-Id\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) goto\-Page\-By\-Page\-Id\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page\-Id}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a424c106ea5215cdc09717245ebea3550}
+Navigate to the page by using page id 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Id} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-String, newly navigated page's U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 432 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a8df6da237f836f15071bb4f89d6341ee}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!goto\-Page\-By\-Page\-Number\-:@{goto\-Page\-By\-Page\-Number\-:}}
+\index{goto\-Page\-By\-Page\-Number\-:@{goto\-Page\-By\-Page\-Number\-:}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{goto\-Page\-By\-Page\-Number\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) goto\-Page\-By\-Page\-Number\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Number$\ast$)}]{page\-Number}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a8df6da237f836f15071bb4f89d6341ee}
+Navigate to the particular page by using page number 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Number} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-String, newly navigated page's U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 397 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_aa936790b8353f99bd80ab0a103a617cc}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!goto\-Page\-By\-Page\-U\-R\-L\-:@{goto\-Page\-By\-Page\-U\-R\-L\-:}}
+\index{goto\-Page\-By\-Page\-U\-R\-L\-:@{goto\-Page\-By\-Page\-U\-R\-L\-:}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{goto\-Page\-By\-Page\-U\-R\-L\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) goto\-Page\-By\-Page\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page\-U\-R\-L}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_aa936790b8353f99bd80ab0a103a617cc}
+Navigate to the particular page by using page U\-R\-L 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-U\-R\-L} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-String, newly navigated page's U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 462 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a1acb70790e9716c43ec76ead84660df5}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!init\-With\-Master\-Playlist\-:with\-Custom\-Playlist\-:and\-Delegate\-:@{init\-With\-Master\-Playlist\-:with\-Custom\-Playlist\-:and\-Delegate\-:}}
+\index{init\-With\-Master\-Playlist\-:with\-Custom\-Playlist\-:and\-Delegate\-:@{init\-With\-Master\-Playlist\-:with\-Custom\-Playlist\-:and\-Delegate\-:}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{init\-With\-Master\-Playlist\-:with\-Custom\-Playlist\-:and\-Delegate\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-Master\-Playlist\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{masterurls}
+\item[{withCustomPlaylist:(N\-S\-Array$\ast$)}]{urls}
+\item[{andDelegate:(id)}]{delegate}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a1acb70790e9716c43ec76ead84660df5}
+Instantiate the class with pre-\/required properties to render a U\-I 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,masterurls} & as a list of url's in which user can navigate pages \\
+\hline
+{\em N\-S\-Array,urls,cutom} & playlist url's which user can speicifically navigate to the filtered list of pages from the master playlist \\
+\hline
+{\em id,delegate,target} & class can implement it to receive notification \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_page_manager_a8f9edd477523edd9403157d3ec4d9272}{-\/ init\-With\-N\-C\-X\-Url\-:with\-Custom\-Playlist\-:and\-Delegate\-:} 
+
+\hyperlink{protocol_pxe_player_page_manager_delegate-p}{Pxe\-Player\-Page\-Manager\-Delegate} 
+\end{DoxySeeAlso}
+
+
+Definition at line 305 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a8f9edd477523edd9403157d3ec4d9272}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!init\-With\-N\-C\-X\-Url\-:with\-Custom\-Playlist\-:and\-Delegate\-:@{init\-With\-N\-C\-X\-Url\-:with\-Custom\-Playlist\-:and\-Delegate\-:}}
+\index{init\-With\-N\-C\-X\-Url\-:with\-Custom\-Playlist\-:and\-Delegate\-:@{init\-With\-N\-C\-X\-Url\-:with\-Custom\-Playlist\-:and\-Delegate\-:}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{init\-With\-N\-C\-X\-Url\-:with\-Custom\-Playlist\-:and\-Delegate\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-N\-C\-X\-Url\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{url}
+\item[{withCustomPlaylist:(N\-S\-Array$\ast$)}]{urls}
+\item[{andDelegate:(id)}]{delegate}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a8f9edd477523edd9403157d3ec4d9272}
+Instantiate the class with pre-\/required properties to render a U\-I 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,url} & as a N\-C\-X U\-R\-L used to download toc X\-M\-L and content. \\
+\hline
+{\em N\-S\-Array,urls,cutom} & playlist url's which user can speicifically navigate to the filtered list of pages from the book \\
+\hline
+{\em id,delegate,target} & class can implement it to receive notification \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_page_manager_a1acb70790e9716c43ec76ead84660df5}{-\/ init\-With\-Master\-Playlist\-:with\-Custom\-Playlist\-:and\-Delegate\-:} 
+
+\hyperlink{protocol_pxe_player_page_manager_delegate-p}{Pxe\-Player\-Page\-Manager\-Delegate} 
+\end{DoxySeeAlso}
+
+
+Definition at line 285 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a5a1c671b75d0ce7b77750679abf4b740}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!is\-First\-Page@{is\-First\-Page}}
+\index{is\-First\-Page@{is\-First\-Page}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{is\-First\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) is\-First\-Page 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a5a1c671b75d0ce7b77750679abf4b740}
+This method returns if the current page has first page of the book \begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns true if the page is first page of the book 
+\end{DoxyReturn}
+
+
+Definition at line 640 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_ad6efc3fb86987d93e9dbc66de3e2e0c2}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!is\-Last\-Page@{is\-Last\-Page}}
+\index{is\-Last\-Page@{is\-Last\-Page}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{is\-Last\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) is\-Last\-Page 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_ad6efc3fb86987d93e9dbc66de3e2e0c2}
+This method returns if the current page has last page of the book \begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns true if the page is last page of the book 
+\end{DoxyReturn}
+
+
+Definition at line 648 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a2bcb750b8adc89ba486a938a2cd41912}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!next\-Page@{next\-Page}}
+\index{next\-Page@{next\-Page}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{next\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) next\-Page 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a2bcb750b8adc89ba486a938a2cd41912}
+Navigate to the next page and returns it's U\-R\-L \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the next page's U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 540 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a3bc250a6d660a4bc896d3a4246acb71a}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!page\-Did\-Load@{page\-Did\-Load}}
+\index{page\-Did\-Load@{page\-Did\-Load}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{page\-Did\-Load}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) page\-Did\-Load 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a3bc250a6d660a4bc896d3a4246acb71a}
+This method will be called when current page has been loaded 
+
+Definition at line 534 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a557a12a6602edf9850a6d8732509bbfe}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!pop\-History@{pop\-History}}
+\index{pop\-History@{pop\-History}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{pop\-History}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Number $\ast$) pop\-History 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a557a12a6602edf9850a6d8732509bbfe}
+This method pop out the page stored in the history stack (L\-I\-F\-O) \begin{DoxyReturn}{Returns}
+N\-S\-Number, remove the last stored page number for history reference and returns the removed page number 
+\end{DoxyReturn}
+
+
+Definition at line 186 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a537e1ae0451bb4bd2505567dd131c0cf}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!prev\-Page@{prev\-Page}}
+\index{prev\-Page@{prev\-Page}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{prev\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) prev\-Page 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a537e1ae0451bb4bd2505567dd131c0cf}
+Navigate to the previous page and returns it's U\-R\-L \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the previous page's U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 573 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a8601082d8343001cc1a83ba95c01dc2b}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!refresh\-Current\-Page@{refresh\-Current\-Page}}
+\index{refresh\-Current\-Page@{refresh\-Current\-Page}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{refresh\-Current\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) refresh\-Current\-Page 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a8601082d8343001cc1a83ba95c01dc2b}
+Refresh the current page by freshly downloading the page content and render it and reset the current page properties 
+
+Definition at line 369 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a84ea3e77704e458a85e6fb141eab5802}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!refresh\-Page\-:@{refresh\-Page\-:}}
+\index{refresh\-Page\-:@{refresh\-Page\-:}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{refresh\-Page\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) refresh\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page\-Id}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a84ea3e77704e458a85e6fb141eab5802}
+Refresh the particular page by freshly downloading the page content to reset the page properties 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Id} & is a reference to refresh the particular page \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 383 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a280a0550516439315df7c060e55cb381}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!reset\-Current\-Page\-:@{reset\-Current\-Page\-:}}
+\index{reset\-Current\-Page\-:@{reset\-Current\-Page\-:}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{reset\-Current\-Page\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) reset\-Current\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a280a0550516439315df7c060e55cb381}
+This method should be called to reset the current page index 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page} & as a page U\-R\-L is a reference to set the current page \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 630 of file Pxe\-Player\-Page\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_page_manager_a29541675ce1b0d7ad4eebe09911ad110}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!update\-Page\-Index@{update\-Page\-Index}}
+\index{update\-Page\-Index@{update\-Page\-Index}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{update\-Page\-Index}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) update\-Page\-Index 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_manager_a29541675ce1b0d7ad4eebe09911ad110}
+This method should be called after rendering the particular page and update's current page index 
+
+Definition at line 530 of file Pxe\-Player\-Page\-Manager.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_pxe_player_page_manager_a7951815ab7a221d5150dc74a1fb10606}{\index{Pxe\-Player\-Page\-Manager@{Pxe\-Player\-Page\-Manager}!delegate@{delegate}}
+\index{delegate@{delegate}!PxePlayerPageManager@{Pxe\-Player\-Page\-Manager}}
+\subsubsection[{delegate}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id$<${\bf Pxe\-Player\-Page\-Manager\-Delegate}$>$) delegate\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [weak]}}}\label{interface_pxe_player_page_manager_a7951815ab7a221d5150dc74a1fb10606}
+
+
+Definition at line 56 of file Pxe\-Player\-Page\-Manager.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_manager_8h}{Pxe\-Player\-Page\-Manager.\-h}\item 
+\hyperlink{_pxe_player_page_manager_8m}{Pxe\-Player\-Page\-Manager.\-m}\end{DoxyCompactItemize}

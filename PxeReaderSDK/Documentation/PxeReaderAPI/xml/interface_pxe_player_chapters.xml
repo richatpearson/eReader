@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_chapters" kind="class" prot="public">
+    <compoundname>PxePlayerChapters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSCoding&gt;</basecompoundref>
+    <includes refid="_pxe_player_chapters_8h" local="no">PxePlayerChapters.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_chapters_1ab2fcdf556f402aac5fca9abd56a46fe4" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerChapters::chapters</definition>
+        <argsstring></argsstring>
+        <name>chapters</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSMutableArray variable to hold the list of chapter models </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapters.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapters.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the chapters data into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>&lt;NSCoding&gt;</label>
+      </node>
+      <node id="104">
+        <label>PxePlayerChapters</label>
+        <link refid="interface_pxe_player_chapters"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="109">
+        <label>&lt;NSCoding&gt;</label>
+      </node>
+      <node id="107">
+        <label>PxePlayerChapters</label>
+        <link refid="interface_pxe_player_chapters"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapters.h" line="13" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapters.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_chapters_1ab2fcdf556f402aac5fca9abd56a46fe4" prot="public" virt="non-virtual"><scope>PxePlayerChapters</scope><name>chapters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

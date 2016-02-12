@@ -1,0 +1,874 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_interface" kind="class" prot="public">
+    <compoundname>PxePlayerInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_interface_8h" local="no">PxePlayerInterface.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_pxe_player_interface_1af117cc19f46d2a85c30d7d66a2b349ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::setNextextServerEndPoint:</definition>
+        <argsstring>(NSString *baseURL)</argsstring>
+        <name>setNextextServerEndPoint:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>baseURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1af9dff569fecdbfadc491b0b7bfce77e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerInterface::getServerBaseURL</definition>
+        <argsstring>()</argsstring>
+        <name>getServerBaseURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a273d6f01ad4e1c52e7f3ebeb30f6eab2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::authenticate:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerUserQuery *query,[withCompletionHandler] PxePlayerUser *, NSError *handler)</argsstring>
+        <name>authenticate:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_user_query" kindref="compound">PxePlayerUserQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_user" kindref="compound">PxePlayerUser</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="73" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a9a3fa4bfa8133105f5c8080e28cab0e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::authenticateOld:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerOldUserQuery *query,[withCompletionHandler] PxePlayerUser *, NSError *handler)</argsstring>
+        <name>authenticateOld:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_old_user_query" kindref="compound">PxePlayerOldUserQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_user" kindref="compound">PxePlayerUser</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="96" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a5cac116a1d73d9c2106e3c8675c47a68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::authenticateWithSMSServer:andPassword:withCompletionHandler:</definition>
+        <argsstring>(NSString *userName,[andPassword] NSString *password,[withCompletionHandler] PxePlayerUser *, NSError *handler)</argsstring>
+        <name>authenticateWithSMSServer:andPassword:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <attributes>[andPassword]</attributes>
+          <type>NSString *</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_user" kindref="compound">PxePlayerUser</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="120" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a129aab37f2c42ceb7d5d8bde7ef3c831" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::authenticateWithRUMBAServer:andPassword:withCompletionHandler:</definition>
+        <argsstring>(NSString *userName,[andPassword] NSString *password,[withCompletionHandler] PxePlayerUser *, NSError *handler)</argsstring>
+        <name>authenticateWithRUMBAServer:andPassword:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <attributes>[andPassword]</attributes>
+          <type>NSString *</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_user" kindref="compound">PxePlayerUser</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="133" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1aea9855cabf74d3db994ca860bae1f31f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getTOC:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerTocQuery *query,[withCompletionHandler] PxePlayerToc *, NSError *handler)</argsstring>
+        <name>getTOC:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_toc_query" kindref="compound">PxePlayerTocQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_toc" kindref="compound">PxePlayerToc</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="146" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a00291d858b21af3e3cc9ad6c464918ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getBookShelf:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerBookQuery *query,[withCompletionHandler] PxePlayerBookShelf *, NSError *handler)</argsstring>
+        <name>getBookShelf:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_book_query" kindref="compound">PxePlayerBookQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_book_shelf" kindref="compound">PxePlayerBookShelf</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="162" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1aac1ac3051dbd2740e68694447b321e0e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getChapters:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerChaptersQuery *query,[withCompletionHandler] PxePlayerChapters *, NSError *handler)</argsstring>
+        <name>getChapters:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_chapters_query" kindref="compound">PxePlayerChaptersQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_chapters" kindref="compound">PxePlayerChapters</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="178" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1ae3db598718ee36454dfb57b9495f01f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getBookmarks:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerNavigationsQuery *query,[withCompletionHandler] PxePlayerBookmarks *, NSError *handler)</argsstring>
+        <name>getBookmarks:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_bookmarks" kindref="compound">PxePlayerBookmarks</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="194" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a5360104ecba1956efba55a943af91cd5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::addBookmark:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerBookmarkQuery *query,[withCompletionHandler] PxePlayerBookmark *, NSError *handler)</argsstring>
+        <name>addBookmark:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_bookmark_query" kindref="compound">PxePlayerBookmarkQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="210" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a960cb324749b46cb8fcbc05ada3be489" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::deleteBookmark:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerBookmarkQuery *query,[withCompletionHandler] PxePlayerBookmark *, NSError *handler)</argsstring>
+        <name>deleteBookmark:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_bookmark_query" kindref="compound">PxePlayerBookmarkQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="262" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a2a2b238e030044ee81df0cf6e4e276fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::editBookmark:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerBookmarkQuery *query,[withCompletionHandler] PxePlayerBookmark *, NSError *handler)</argsstring>
+        <name>editBookmark:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_bookmark_query" kindref="compound">PxePlayerBookmarkQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="245" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1ace8a3b481f12dca010a47a46fe69a36d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getAnnotationsForContext:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerNavigationsQuery *query,[withCompletionHandler] PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAnnotationsForContext:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_notes" kindref="compound">PxePlayerNotes</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="278" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a903d9604ba7a9d301e0b8033a9565ad2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getAllAnnotationsForContext:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerNavigationsQuery *query,[withCompletionHandler] PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAllAnnotationsForContext:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_notes" kindref="compound">PxePlayerNotes</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="294" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a27bde498b5f150c07e0f789aa99e1b1b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getAnnotationsForContent:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerContentAnnotationsQuery *query,[withCompletionHandler] PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAnnotationsForContent:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_content_annotations_query" kindref="compound">PxePlayerContentAnnotationsQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_notes" kindref="compound">PxePlayerNotes</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="310" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1aebc0248006abba10131e3553ff40d4ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getAllAnnotationsForContent:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerContentAnnotationsQuery *query,[withCompletionHandler] PxePlayerNotes *, NSError *handler)</argsstring>
+        <name>getAllAnnotationsForContent:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_content_annotations_query" kindref="compound">PxePlayerContentAnnotationsQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_notes" kindref="compound">PxePlayerNotes</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="325" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1ac47bfb15b21608cae29e2a4838ec64a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::addAnnotation:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerAddAnnotationQuery *query,[withCompletionHandler] PxePlayerAnnotations *, NSError *handler)</argsstring>
+        <name>addAnnotation:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_add_annotation_query" kindref="compound">PxePlayerAddAnnotationQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_annotations" kindref="compound">PxePlayerAnnotations</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="340" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1adc53fe734a85fd97af5958d0cbc16ded" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::updateAnnotation:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerAddAnnotationQuery *query,[withCompletionHandler] PxePlayerAnnotations *, NSError *handler)</argsstring>
+        <name>updateAnnotation:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_add_annotation_query" kindref="compound">PxePlayerAddAnnotationQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_annotations" kindref="compound">PxePlayerAnnotations</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="355" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a348e2206c1409bee27af2d2873ef8dc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::deleteAnnotation:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerNoteDeleteQuery *query,[withCompletionHandler] PxePlayerDeleteAnnotation *, NSError *handler)</argsstring>
+        <name>deleteAnnotation:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_note_delete_query" kindref="compound">PxePlayerNoteDeleteQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_delete_annotation" kindref="compound">PxePlayerDeleteAnnotation</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="370" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1aaef86247418b4d58a01e1c83f57a5c3f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::searchContentInBook:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerSearchBookQuery *query,[withCompletionHandler] PxePlayerSearchPages *, NSError *handler)</argsstring>
+        <name>searchContentInBook:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_search_book_query" kindref="compound">PxePlayerSearchBookQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_search_pages" kindref="compound">PxePlayerSearchPages</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="385" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a920aae68ff75b6117c17603d559c8244" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::submitNCXUrlForIndexing:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerSearchNCXQuery *query,[withCompletionHandler] NSString *, NSError *handler)</argsstring>
+        <name>submitNCXUrlForIndexing:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_search_n_c_x_query" kindref="compound">PxePlayerSearchNCXQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>NSString *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="401" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a4a6b8dfe8ba55b324c996e5bf86baeed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::submitUrlsForIndexing:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerSearchURLsQuery *query,[withCompletionHandler] NSString *, NSError *handler)</argsstring>
+        <name>submitUrlsForIndexing:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_search_u_r_ls_query" kindref="compound">PxePlayerSearchURLsQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>NSString *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="418" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a3f0cffaa7c958a5786897e7c29e06c9d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getMedia:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerMediaQuery *query,[withCompletionHandler] NSArray *, NSError *handler)</argsstring>
+        <name>getMedia:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_media_query" kindref="compound">PxePlayerMediaQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>NSArray *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="433" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a25393c1c2d76de42d468fd94f29e7b77" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getCustomNavigation:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerTocQuery *query,[withCompletionHandler] PxePlayerToc *, NSError *handler)</argsstring>
+        <name>getCustomNavigation:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_toc_query" kindref="compound">PxePlayerTocQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_toc" kindref="compound">PxePlayerToc</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="448" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a784fec8cfc6291a17fa28fb2a1dea988" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getNCXToc:withCompletionHandler:</definition>
+        <argsstring>(NSString *apiURL,[withCompletionHandler] PxePlayerToc *, NSError *handler)</argsstring>
+        <name>getNCXToc:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>apiURL</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_toc" kindref="compound">PxePlayerToc</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="464" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a3efd727b89edd4068e0aa83b1b5e4181" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getNCXPage:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerPagesQuery *query,[withCompletionHandler] PxePlayerPage *, NSError *handler)</argsstring>
+        <name>getNCXPage:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_pages_query" kindref="compound">PxePlayerPagesQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_page" kindref="compound">PxePlayerPage</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="506" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a980a1e30f73ca2cffef6df2b2a6c43ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::checkBookmark:withCompletionHandler:</definition>
+        <argsstring>(PxePlayerBookmarkQuery *query,[withCompletionHandler] PxePlayerCheckBookmark *, NSError *handler)</argsstring>
+        <name>checkBookmark:withCompletionHandler:</name>
+        <param>
+          <type><ref refid="interface_pxe_player_bookmark_query" kindref="compound">PxePlayerBookmarkQuery</ref> *</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type><ref refid="interface_pxe_player_check_bookmark" kindref="compound">PxePlayerCheckBookmark</ref> *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="226" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a90100ac2cbde90c480024c25846818ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::getGlossary:withCompletionHandler:</definition>
+        <argsstring>(NSString *apiURL,[withCompletionHandler] id, NSError *handler)</argsstring>
+        <name>getGlossary:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>apiURL</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>id</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="526" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1ab723b6e2e4ab8de8c4dd48e6051c3edf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::setSearchServerEndPoint:</definition>
+        <argsstring>(NSString *cmURL)</argsstring>
+        <name>setSearchServerEndPoint:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>cmURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1aa49356f24d254e2f23a1af78e4e19091" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerInterface::getServerCMURL</definition>
+        <argsstring>()</argsstring>
+        <name>getServerCMURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a46e7a62cdfc9cfe2dbc0dab094ff5081" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerInterface::setPxeServerEndPoint:</definition>
+        <argsstring>(NSString *pxeURL)</argsstring>
+        <name>setPxeServerEndPoint:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pxeURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_interface_1a49b6000fe16ee12a372482ce31b77f69" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerInterface::getPxeServerURL</definition>
+        <argsstring>()</argsstring>
+        <name>getPxeServerURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="69" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="156">
+        <label>PxePlayerInterface</label>
+        <link refid="interface_pxe_player_interface"/>
+        <childnode refid="157" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="158">
+        <label>PxePlayerInterface</label>
+        <link refid="interface_pxe_player_interface"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" line="55" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.h" bodystart="54" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_interface_1ac47bfb15b21608cae29e2a4838ec64a2" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>addAnnotation:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a5360104ecba1956efba55a943af91cd5" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>addBookmark:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a273d6f01ad4e1c52e7f3ebeb30f6eab2" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>authenticate:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a9a3fa4bfa8133105f5c8080e28cab0e4" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>authenticateOld:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a129aab37f2c42ceb7d5d8bde7ef3c831" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>authenticateWithRUMBAServer:andPassword:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a5cac116a1d73d9c2106e3c8675c47a68" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>authenticateWithSMSServer:andPassword:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a980a1e30f73ca2cffef6df2b2a6c43ec" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>checkBookmark:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a348e2206c1409bee27af2d2873ef8dc7" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>deleteAnnotation:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a960cb324749b46cb8fcbc05ada3be489" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>deleteBookmark:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a2a2b238e030044ee81df0cf6e4e276fe" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>editBookmark:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1aebc0248006abba10131e3553ff40d4ab" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getAllAnnotationsForContent:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a903d9604ba7a9d301e0b8033a9565ad2" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getAllAnnotationsForContext:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a27bde498b5f150c07e0f789aa99e1b1b" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getAnnotationsForContent:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1ace8a3b481f12dca010a47a46fe69a36d" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getAnnotationsForContext:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1ae3db598718ee36454dfb57b9495f01f8" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getBookmarks:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a00291d858b21af3e3cc9ad6c464918ce" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getBookShelf:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1aac1ac3051dbd2740e68694447b321e0e" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getChapters:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a25393c1c2d76de42d468fd94f29e7b77" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getCustomNavigation:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a90100ac2cbde90c480024c25846818ee" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getGlossary:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a3f0cffaa7c958a5786897e7c29e06c9d" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getMedia:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a3efd727b89edd4068e0aa83b1b5e4181" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getNCXPage:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a784fec8cfc6291a17fa28fb2a1dea988" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getNCXToc:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a49b6000fe16ee12a372482ce31b77f69" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getPxeServerURL</name></member>
+      <member refid="interface_pxe_player_interface_1af9dff569fecdbfadc491b0b7bfce77e4" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getServerBaseURL</name></member>
+      <member refid="interface_pxe_player_interface_1aa49356f24d254e2f23a1af78e4e19091" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getServerCMURL</name></member>
+      <member refid="interface_pxe_player_interface_1aea9855cabf74d3db994ca860bae1f31f" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>getTOC:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1aaef86247418b4d58a01e1c83f57a5c3f" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>searchContentInBook:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1af117cc19f46d2a85c30d7d66a2b349ec" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>setNextextServerEndPoint:</name></member>
+      <member refid="interface_pxe_player_interface_1a46e7a62cdfc9cfe2dbc0dab094ff5081" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>setPxeServerEndPoint:</name></member>
+      <member refid="interface_pxe_player_interface_1ab723b6e2e4ab8de8c4dd48e6051c3edf" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>setSearchServerEndPoint:</name></member>
+      <member refid="interface_pxe_player_interface_1a920aae68ff75b6117c17603d559c8244" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>submitNCXUrlForIndexing:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1a4a6b8dfe8ba55b324c996e5bf86baeed" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>submitUrlsForIndexing:withCompletionHandler:</name></member>
+      <member refid="interface_pxe_player_interface_1adc53fe734a85fd97af5958d0cbc16ded" prot="public" virt="virtual"><scope>PxePlayerInterface</scope><name>updateAnnotation:withCompletionHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

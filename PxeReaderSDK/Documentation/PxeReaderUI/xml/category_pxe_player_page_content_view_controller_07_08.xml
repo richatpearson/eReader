@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_page_content_view_controller_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerPageContentViewController()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1af3d11a7f11a11796661c27580d6ce029" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageContentViewController()::viewDidAppeared</definition>
+        <argsstring></argsstring>
+        <name>viewDidAppeared</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bool value which set the status of whether view has been rendered or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="35" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1afd96b3c3ba599231417556b69275bdbc" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageContentViewController()::isPageLoaded</definition>
+        <argsstring></argsstring>
+        <name>isPageLoaded</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bool value defines the status of whether page has been loaded or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="40" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1a2ad90ffea6617ce2f6ca5d342290ce56" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>CGRect</type>
+        <definition>CGRect PxePlayerPageContentViewController()::contentFrame</definition>
+        <argsstring></argsstring>
+        <name>contentFrame</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CGRect variable to for setting the frame for the content view </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="45" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1a12806241fb1086aa491618dd59071798" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type><ref refid="interface_pxe_player_loading_view" kindref="compound">PxePlayerLoadingView</ref> *</type>
+        <definition>PxePlayerLoadingView* PxePlayerPageContentViewController()::loadingView</definition>
+        <argsstring></argsstring>
+        <name>loadingView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="interface_pxe_player_loading_view" kindref="compound">PxePlayerLoadingView</ref> instance for showing loading view on the super view </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="50" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1a482fc28ef887b97f6a6aefdee082900c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPageContentViewController()::page</definition>
+        <argsstring></argsstring>
+        <name>page</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSString variable for page url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="55" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1a6018e38b2c25be9266b21662eb93f0a1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPageContentViewController()::pageUUID</definition>
+        <argsstring></argsstring>
+        <name>pageUUID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSString variable for page UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="60" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1aabac4af63563001986de19c537ba14a7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type><ref refid="interface_pxe_player_pages_web_view" kindref="compound">PxePlayerPagesWebView</ref> *</type>
+        <definition>PxePlayerPagesWebView* PxePlayerPageContentViewController()::pageContent</definition>
+        <argsstring></argsstring>
+        <name>pageContent</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UIWebview instance for loading the page html content </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="65" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1af669d904b91e14ee5a23586242056f8f" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerPageContentViewController()::highlights</definition>
+        <argsstring></argsstring>
+        <name>highlights</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSArray variable for having the array of highlights label </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="70" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1aed72d78725a3cab4c50c195b60681fa0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageContentViewController()::annotationsSharable</definition>
+        <argsstring></argsstring>
+        <name>annotationsSharable</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>BOOL variable to check the annotation is sharable or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="75" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_content_view_controller_07_08_1a2dd826b7fd5d227afac08b130812ebb6" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSTimer *</type>
+        <definition>NSTimer* PxePlayerPageContentViewController()::loadingViewTimer</definition>
+        <argsstring></argsstring>
+        <name>loadingViewTimer</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSTimer variable to terminate the loading view at time interval </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="80" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="67">
+        <label>PxePlayerPageContentViewController()</label>
+        <link refid="category_pxe_player_page_content_view_controller_07_08"/>
+        <childnode refid="68" relation="usage">
+          <edgelabel>loadingView</edgelabel>
+        </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>pageContent</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>UIWebView</label>
+      </node>
+      <node id="68">
+        <label>PxePlayerLoadingView</label>
+        <link refid="interface_pxe_player_loading_view"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>PxePlayerPagesWebView</label>
+        <link refid="interface_pxe_player_pages_web_view"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" line="30" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageContentViewController.m" bodystart="30" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1aed72d78725a3cab4c50c195b60681fa0" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>annotationsSharable</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1a2ad90ffea6617ce2f6ca5d342290ce56" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>contentFrame</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1af669d904b91e14ee5a23586242056f8f" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>highlights</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1afd96b3c3ba599231417556b69275bdbc" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>isPageLoaded</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1a12806241fb1086aa491618dd59071798" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>loadingView</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1a2dd826b7fd5d227afac08b130812ebb6" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>loadingViewTimer</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1a482fc28ef887b97f6a6aefdee082900c" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>page</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1aabac4af63563001986de19c537ba14a7" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>pageContent</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1a6018e38b2c25be9266b21662eb93f0a1" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>pageUUID</name></member>
+      <member refid="category_pxe_player_page_content_view_controller_07_08_1af3d11a7f11a11796661c27580d6ce029" prot="public" virt="non-virtual"><scope>PxePlayerPageContentViewController()</scope><name>viewDidAppeared</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

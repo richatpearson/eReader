@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_note_delete_query" kind="class" prot="public">
+    <compoundname>PxePlayerNoteDeleteQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_notes_query" prot="public" virt="non-virtual">PxePlayerNotesQuery</basecompoundref>
+    <includes refid="_pxe_player_note_delete_query_8h" local="no">PxePlayerNoteDeleteQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_note_delete_query_1a8664e285d989554c799c8f60491d4916" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerNoteDeleteQuery::annotationDttm</definition>
+        <argsstring></argsstring>
+        <name>annotationDttm</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the annotation definition </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNoteDeleteQuery.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNoteDeleteQuery.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the note delete query </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="225">
+        <label>PxePlayerNoteDeleteQuery</label>
+        <link refid="interface_pxe_player_note_delete_query"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>PxePlayerNotesQuery</label>
+        <link refid="interface_pxe_player_notes_query"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>NSObject</label>
+      </node>
+      <node id="227">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="228" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="230">
+        <label>PxePlayerNoteDeleteQuery</label>
+        <link refid="interface_pxe_player_note_delete_query"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>PxePlayerNotesQuery</label>
+        <link refid="interface_pxe_player_notes_query"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>NSObject</label>
+      </node>
+      <node id="232">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNoteDeleteQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNoteDeleteQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_note_delete_query_1a8664e285d989554c799c8f60491d4916" prot="public" virt="non-virtual"><scope>PxePlayerNoteDeleteQuery</scope><name>annotationDttm</name></member>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerNoteDeleteQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerNoteDeleteQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_notes_query_1a66597b0335428b0dc9c3c1fef4ad3fee" prot="public" virt="non-virtual"><scope>PxePlayerNoteDeleteQuery</scope><name>contentId</name></member>
+      <member refid="interface_pxe_player_notes_query_1a4e8cb70602c3cf22f44a258f925763f0" prot="public" virt="non-virtual"><scope>PxePlayerNoteDeleteQuery</scope><name>pageUUID</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerNoteDeleteQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_chapters_query" kind="class" prot="public">
+    <compoundname>PxePlayerChaptersQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_navigations_query" prot="public" virt="non-virtual">PxePlayerNavigationsQuery</basecompoundref>
+    <includes refid="_pxe_player_chapters_query_8h" local="no">PxePlayerChaptersQuery.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the chapter query </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="112">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>PxePlayerChaptersQuery</label>
+        <link refid="interface_pxe_player_chapters_query"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>NSObject</label>
+      </node>
+      <node id="111">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="116">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>PxePlayerChaptersQuery</label>
+        <link refid="interface_pxe_player_chapters_query"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>NSObject</label>
+      </node>
+      <node id="115">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChaptersQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChaptersQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerChaptersQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerChaptersQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerChaptersQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_alert_view_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerAlertView()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_alert_view_07_08_1a2f6dbf6218d685095b0d041309b21723" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* PxePlayerAlertView()::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.m" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.m" line="12" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_alert_view_07_08_1a2f6dbf6218d685095b0d041309b21723" prot="public" virt="non-virtual"><scope>PxePlayerAlertView()</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

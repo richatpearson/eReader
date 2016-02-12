@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_x_h_t_m_l_c_d_parser" kind="class" prot="public">
+    <compoundname>PxePlayerXHTMLCDParser</compoundname>
+    <basecompoundref refid="interface_pxe_player_toc_parser" prot="public" virt="non-virtual">PxePlayerTocParser</basecompoundref>
+    <includes refid="_pxe_player_x_h_t_m_l_c_d_parser_8h" local="no">PxePlayerXHTMLCDParser.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class derived from the <ref refid="interface_pxe_player_toc_parser" kindref="compound">PxePlayerTocParser</ref> for converting the array or dictionary of data content parsed from the XHTML parser into the core data model format and returns the result as a models </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="398">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="399" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>PxePlayerXHTMLCDParser</label>
+        <link refid="interface_pxe_player_x_h_t_m_l_c_d_parser"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>PxePlayerTocParser</label>
+        <link refid="interface_pxe_player_toc_parser"/>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="397">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="403">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="404" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>PxePlayerXHTMLCDParser</label>
+        <link refid="interface_pxe_player_x_h_t_m_l_c_d_parser"/>
+        <childnode refid="401" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>PxePlayerTocParser</label>
+        <link refid="interface_pxe_player_toc_parser"/>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="402">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXHTMLCDParser.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_toc_parser_1af92fc7c7e30af7e59a5d660d29ad7a02" prot="public" virt="non-virtual"><scope>PxePlayerXHTMLCDParser</scope><name>currentBook</name></member>
+      <member refid="interface_pxe_player_toc_parser_1a4b7effc62fd499caf2df1fbd7a82b264" prot="public" virt="non-virtual"><scope>PxePlayerXHTMLCDParser</scope><name>pageNumber</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1a2fa950852f2e1825b5dc923e9d66829d" prot="public" virt="virtual"><scope>PxePlayerXHTMLCDParser</scope><name>parseData:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1af53b80aa420a6a41a4cb1beeef57abe5" prot="public" virt="virtual"><scope>PxePlayerXHTMLCDParser</scope><name>parseDataFromNCXURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1ab7d1135887db45a14aebe304bfbcddeb" prot="public" virt="virtual"><scope>PxePlayerXHTMLCDParser</scope><name>parseDataFromURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1acea3b0e43bf7c45bcd6978cf641c5097" prot="public" virt="virtual"><scope>PxePlayerXHTMLCDParser</scope><name>parseDataFromURLArray:withHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

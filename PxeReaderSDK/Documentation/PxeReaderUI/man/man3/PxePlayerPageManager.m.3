@@ -1,0 +1,137 @@
+.TH "PxePlayerPageManager.m" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageManager.m \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#import 'PxePlayerDataManager\&.h'\fP
+.br
+\fC#import 'PxePlayerBookDetails\&.h'\fP
+.br
+\fC#import 'PxePlayerPageDetails\&.h'\fP
+.br
+\fC#import 'PxePlayerListPage\&.h'\fP
+.br
+\fC#import 'PxePlayerPageManager\&.h'\fP
+.br
+\fC#import 'PxePlayerPageOperations\&.h'\fP
+.br
+\fC#import 'PxePlayerInterface\&.h'\fP
+.br
+\fC#import 'PxePlayerSearchURLsQuery\&.h'\fP
+.br
+\fC#import 'PxePlayerURLArrayParser\&.h'\fP
+.br
+\fC#import 'PxePlayerUIConstants\&.h'\fP
+.br
+\fC#import 'NSString+Extension\&.h'\fP
+.br
+\fC#import 'PxePlayer\&.h'\fP
+.br
+\fC#import 'PxePlayerToc\&.h'\fP
+.br
+\fC#import 'HMCache\&.h'\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBINITIAL_DOWNLOAD_COUNT\fP   5"
+.br
+.ti -1c
+.RI "#define \fBPAGE_DOWNLOAD_LENGTH\fP   1"
+.br
+.ti -1c
+.RI "#define \fBMAX_HISTORY_COUNT\fP   10"
+.br
+.ti -1c
+.RI "#define \fBNCX_NAVMAP\fP   @'navMap'"
+.br
+.ti -1c
+.RI "#define \fBNCX_NAVPOINT\fP   @'navPoint'"
+.br
+.ti -1c
+.RI "#define \fBNCX_ID\fP   @'id'"
+.br
+.ti -1c
+.RI "#define \fBNCX_NAV_LABEL\fP   @'navLabel'"
+.br
+.ti -1c
+.RI "#define \fBNCX_NAV_TEXT\fP   @'text'"
+.br
+.ti -1c
+.RI "#define \fBNCX_NAV_TITLE\fP   @'title'"
+.br
+.ti -1c
+.RI "#define \fBNCX_PLAYORDER\fP   @'playOrder'"
+.br
+.ti -1c
+.RI "#define \fBNCX_TEXT\fP   @'text'"
+.br
+.ti -1c
+.RI "#define \fBNCX_CONTENT\fP   @'content'"
+.br
+.ti -1c
+.RI "#define \fBNCX_SRC\fP   @'src'"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define INITIAL_DOWNLOAD_COUNT   5"
+
+.PP
+Definition at line 10 of file PxePlayerPageManager\&.m\&.
+.SS "#define MAX_HISTORY_COUNT   10"
+
+.PP
+Definition at line 12 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_CONTENT   @'content'"
+
+.PP
+Definition at line 22 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_ID   @'id'"
+
+.PP
+Definition at line 16 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_NAV_LABEL   @'navLabel'"
+
+.PP
+Definition at line 17 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_NAV_TEXT   @'text'"
+
+.PP
+Definition at line 18 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_NAV_TITLE   @'title'"
+
+.PP
+Definition at line 19 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_NAVMAP   @'navMap'"
+
+.PP
+Definition at line 14 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_NAVPOINT   @'navPoint'"
+
+.PP
+Definition at line 15 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_PLAYORDER   @'playOrder'"
+
+.PP
+Definition at line 20 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_SRC   @'src'"
+
+.PP
+Definition at line 23 of file PxePlayerPageManager\&.m\&.
+.SS "#define NCX_TEXT   @'text'"
+
+.PP
+Definition at line 21 of file PxePlayerPageManager\&.m\&.
+.SS "#define PAGE_DOWNLOAD_LENGTH   1"
+
+.PP
+Definition at line 11 of file PxePlayerPageManager\&.m\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

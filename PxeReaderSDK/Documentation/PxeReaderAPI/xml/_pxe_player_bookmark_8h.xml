@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_bookmark_8h" kind="file">
+    <compoundname>PxePlayerBookmark.h</compoundname>
+    <includedby refid="_pxe_player_add_bookmark_8h" local="yes">PxePlayerAddBookmark.h</includedby>
+    <includedby refid="_pxe_player_bookmark_8m" local="yes">PxePlayerBookmark.m</includedby>
+    <includedby refid="_pxe_player_edit_bookmark_8h" local="yes">PxePlayerEditBookmark.h</includedby>
+    <includedby refid="_pxe_player_interface_8m" local="yes">PxePlayerInterface.m</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <invincdepgraph>
+      <node id="217">
+        <label>PxePlayerBookmark.h</label>
+        <link refid="PxePlayerBookmark.h"/>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>PxePlayerBookmark.m</label>
+        <link refid="_pxe_player_bookmark_8m"/>
+      </node>
+      <node id="225">
+        <label>PxePlayerEditBookmark.h</label>
+        <link refid="_pxe_player_edit_bookmark_8h"/>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>PxePlayerEditBookmark.m</label>
+        <link refid="_pxe_player_edit_bookmark_8m"/>
+      </node>
+      <node id="227">
+        <label>PxePlayerInterface.m</label>
+        <link refid="_pxe_player_interface_8m"/>
+      </node>
+      <node id="220">
+        <label>PxePlayerDeleteBookmark.h</label>
+        <link refid="_pxe_player_delete_bookmark_8h"/>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>PxePlayerDeleteBookmark.m</label>
+        <link refid="_pxe_player_delete_bookmark_8m"/>
+      </node>
+      <node id="223">
+        <label>PxePlayerParser.m</label>
+        <link refid="_pxe_player_parser_8m"/>
+      </node>
+      <node id="222">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+      <node id="218">
+        <label>PxePlayerAddBookmark.h</label>
+        <link refid="_pxe_player_add_bookmark_8h"/>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>PxePlayerAddBookmark.m</label>
+        <link refid="_pxe_player_add_bookmark_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_bookmark" prot="public">PxePlayerBookmark</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerBookmark.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>16/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="interface_pxe_player_bookmark" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="interface_pxe_player_bookmark_1ac56c6dc4c71c9ef3010afe5b81a81cb3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_bookmark_1ac56c6dc4c71c9ef3010afe5b81a81cb3" kindref="member">bookmarkTitle</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="interface_pxe_player_bookmark_1ab8b1e16b624fa00bbd92e6611222405c" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_bookmark_1ab8b1e16b624fa00bbd92e6611222405c" kindref="member">uri</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="interface_pxe_player_bookmark_1ae4b45f207dd31a597e765f7d53fd13e7" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_bookmark_1ae4b45f207dd31a597e765f7d53fd13e7" kindref="member">contentID</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="interface_pxe_player_bookmark_1a4c5726238745b908389f27e7c04e1330" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSArray<sp/><sp/><sp/>*<ref refid="interface_pxe_player_bookmark_1a4c5726238745b908389f27e7c04e1330" kindref="member">labels</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h"/>
+  </compounddef>
+</doxygen>

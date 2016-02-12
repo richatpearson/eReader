@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_add_annotation_query" kind="class" prot="public">
+    <compoundname>PxePlayerAddAnnotationQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_navigations_query" prot="public" virt="non-virtual">PxePlayerNavigationsQuery</basecompoundref>
+    <includes refid="_pxe_player_add_annotation_query_8h" local="no">PxePlayerAddAnnotationQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_add_annotation_query_1ac20c893521cbf285367245b250832e11" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAddAnnotationQuery::contentId</definition>
+        <argsstring></argsstring>
+        <name>contentId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddAnnotationQuery.h" line="21" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddAnnotationQuery.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_add_annotation_query_1a93fc94c5081b1c0e5042c3a5cf13aa25" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerAddAnnotationQuery::annotations</definition>
+        <argsstring></argsstring>
+        <name>annotations</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSMutableArray variable to hold the list of annotations </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddAnnotationQuery.h" line="26" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddAnnotationQuery.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class derived from the <ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref> to parse the query into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>PxePlayerAddAnnotationQuery</label>
+        <link refid="interface_pxe_player_add_annotation_query"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>NSObject</label>
+      </node>
+      <node id="1">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>PxePlayerAddAnnotationQuery</label>
+        <link refid="interface_pxe_player_add_annotation_query"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>NSObject</label>
+      </node>
+      <node id="5">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddAnnotationQuery.h" line="17" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddAnnotationQuery.h" bodystart="16" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_add_annotation_query_1a93fc94c5081b1c0e5042c3a5cf13aa25" prot="public" virt="non-virtual"><scope>PxePlayerAddAnnotationQuery</scope><name>annotations</name></member>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerAddAnnotationQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerAddAnnotationQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_add_annotation_query_1ac20c893521cbf285367245b250832e11" prot="public" virt="non-virtual"><scope>PxePlayerAddAnnotationQuery</scope><name>contentId</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerAddAnnotationQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

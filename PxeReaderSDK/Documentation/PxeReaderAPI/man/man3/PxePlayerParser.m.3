@@ -1,0 +1,485 @@
+.TH "PxePlayerParser.m" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerParser.m \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#import 'PxePlayerParser\&.h'\fP
+.br
+\fC#import 'PxePlayerUser\&.h'\fP
+.br
+\fC#import 'PxePlayerToc\&.h'\fP
+.br
+\fC#import 'PxePlayerBookShelf\&.h'\fP
+.br
+\fC#import 'PxePlayerBook\&.h'\fP
+.br
+\fC#import 'PxePlayerChapters\&.h'\fP
+.br
+\fC#import 'PxePlayerChapter\&.h'\fP
+.br
+\fC#import 'PxePlayerBookmarks\&.h'\fP
+.br
+\fC#import 'PxePlayerCheckBookmark\&.h'\fP
+.br
+\fC#import 'PxePlayerAddBookmark\&.h'\fP
+.br
+\fC#import 'PxePlayerDeleteBookmark\&.h'\fP
+.br
+\fC#import 'PxePlayerEditBookmark\&.h'\fP
+.br
+\fC#import 'PxePlayerNotes\&.h'\fP
+.br
+\fC#import 'PxePlayerAnnotations\&.h'\fP
+.br
+\fC#import 'PxePlayerDeleteAnnotation\&.h'\fP
+.br
+\fC#import 'PxePlayerSearchPages\&.h'\fP
+.br
+\fC#import 'PxePlayerAnnotation\&.h'\fP
+.br
+\fC#import 'PxePlayerSearchPage\&.h'\fP
+.br
+\fC#import 'PxePlayerMedia\&.h'\fP
+.br
+\fC#import 'PxePlayerMediaCrumb\&.h'\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBUUID\fP   @'userUUID'"
+.br
+.ti -1c
+.RI "#define \fBUSERNAME\fP   @'userLogin'"
+.br
+.ti -1c
+.RI "#define \fBFIRSTNAME\fP   @'firstName'"
+.br
+.ti -1c
+.RI "#define \fBLASTNAME\fP   @'lastName'"
+.br
+.ti -1c
+.RI "#define \fBEMAIL\fP   @'emailAddress'"
+.br
+.ti -1c
+.RI "#define \fBAUTHTOKEN\fP   @'authToken'"
+.br
+.ti -1c
+.RI "#define \fBSESSION_ID\fP   @'sessionId'"
+.br
+.ti -1c
+.RI "#define \fBEXPIRES_AFTER\fP   @'expiresAt'"
+.br
+.ti -1c
+.RI "#define \fBSMS_UUID\fP   @'userUUID'"
+.br
+.ti -1c
+.RI "#define \fBSMS_USERNAME\fP   @'username'"
+.br
+.ti -1c
+.RI "#define \fBSMS_FIRSTNAME\fP   @'firstName'"
+.br
+.ti -1c
+.RI "#define \fBSMS_LASTNAME\fP   @'lastName'"
+.br
+.ti -1c
+.RI "#define \fBSMS_EMAIL\fP   @'emailAddress'"
+.br
+.ti -1c
+.RI "#define \fBSMS_AUTHTOKEN\fP   @'authToken'"
+.br
+.ti -1c
+.RI "#define \fBSMS_EXPIRES_AFTER\fP   @'expiresAt'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_SHELF_ENTRIES\fP   @'entries'"
+.br
+.ti -1c
+.RI "#define \fBBOOKTITLE\fP   @'title'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_ISBN\fP   @'isbn'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_EDITION\fP   @'edition'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_COVER_IMAGE_URL\fP   @'coverImageUrl'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_THUMB_URL\fP   @'thumbnailImageUrl'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_LAST_ACCESS\fP   @'lastAccessTs'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_ACTIVE\fP   @'active'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_EXPIRATION_DATE\fP   @'expirationDate'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_IS_EXPIRED\fP   @'expired'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_IS_WARNING_PERIOD\fP   @'inWarningPeriod'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_COPY_RIGHTS\fP   @'rights'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_SUBJECT\fP   @'subject'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_PUBLISHER\fP   @'publisher'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_AUTHOR\fP   @'creator'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_DATE\fP   @'date'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_LANGUAGE\fP   @'language'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_DESC\fP   @'description'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_TOC_URL\fP   @'toc'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_UUID\fP   @'bookId'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_FAVORITE\fP   @'favorite'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_WITH_ANNOTATIONS\fP   @'withAnnotations'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CHAPTER_UUID\fP   @'chapterUUID'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CHAPTER_TITLE\fP   @'title'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CHAPTER_FRONTMATTER\fP   @'frontMatter'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CHAPTER_BACKMATTER\fP   @'backMatter'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CHAPTER_PAGE_UUIDS\fP   @'pageUuids'"
+.br
+.ti -1c
+.RI "#define \fBBOOKMARK_DATA\fP   @'data'"
+.br
+.ti -1c
+.RI "#define \fBBOOKMARKS\fP   @'bookmarks'"
+.br
+.ti -1c
+.RI "#define \fBBOOKMARK_TITLE\fP   @'title'"
+.br
+.ti -1c
+.RI "#define \fBBOOKMARK_URI\fP   @'uri'"
+.br
+.ti -1c
+.RI "#define \fBBOOKMARK_IDENTITYID\fP   @'identityId'"
+.br
+.ti -1c
+.RI "#define \fBBOOKMARK_CONTEXTID\fP   @'contextId'"
+.br
+.ti -1c
+.RI "#define \fBUSER_ANNOTATIONS_TAG\fP   @'myContentsAnnotations'"
+.br
+.ti -1c
+.RI "#define \fBSHARED_ANNOATIONS_TAG\fP   @'sharedContentsAnnotations'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_PARENT_TAG\fP   @'hits'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_PAGE_URL\fP   @'url'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_PAGE_TITLE\fP   @'title'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_PAGE_DESC\fP   @'contentPreview'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_TOTAL_PAGES\fP   @'totalHits'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_WORD_HITS\fP   @'wordHits'"
+.br
+.ti -1c
+.RI "#define \fBMEDIA_ID\fP   @'id'"
+.br
+.ti -1c
+.RI "#define \fBMEDIA_MIME_TYPE\fP   @'type'"
+.br
+.ti -1c
+.RI "#define \fBMEDIA_CONTENT_FILE\fP   @'url'"
+.br
+.ti -1c
+.RI "#define \fBMEDIA_BREAD_CRUMB\fP   @'breadcrumb'"
+.br
+.ti -1c
+.RI "#define \fBMEDIA_PAGE_URL\fP   @'pageUrl'"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define AUTHTOKEN   @'authToken'"
+
+.PP
+Definition at line 40 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_ACTIVE   @'active'"
+
+.PP
+Definition at line 65 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_AUTHOR   @'creator'"
+
+.PP
+Definition at line 72 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_CHAPTER_BACKMATTER   @'backMatter'"
+
+.PP
+Definition at line 87 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_CHAPTER_FRONTMATTER   @'frontMatter'"
+
+.PP
+Definition at line 86 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_CHAPTER_PAGE_UUIDS   @'pageUuids'"
+
+.PP
+Definition at line 88 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_CHAPTER_TITLE   @'title'"
+
+.PP
+Definition at line 85 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_CHAPTER_UUID   @'chapterUUID'"
+
+.PP
+Definition at line 84 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_COPY_RIGHTS   @'rights'"
+
+.PP
+Definition at line 69 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_COVER_IMAGE_URL   @'coverImageUrl'"
+
+.PP
+Definition at line 62 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_DATE   @'date'"
+
+.PP
+Definition at line 73 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_DESC   @'description'"
+
+.PP
+Definition at line 75 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_EDITION   @'edition'"
+
+.PP
+Definition at line 61 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_EXPIRATION_DATE   @'expirationDate'"
+
+.PP
+Definition at line 66 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_FAVORITE   @'favorite'"
+
+.PP
+Definition at line 78 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_IS_EXPIRED   @'expired'"
+
+.PP
+Definition at line 67 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_IS_WARNING_PERIOD   @'inWarningPeriod'"
+
+.PP
+Definition at line 68 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_ISBN   @'isbn'"
+
+.PP
+Definition at line 60 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_LANGUAGE   @'language'"
+
+.PP
+Definition at line 74 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_LAST_ACCESS   @'lastAccessTs'"
+
+.PP
+Definition at line 64 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_PUBLISHER   @'publisher'"
+
+.PP
+Definition at line 71 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_SHELF_ENTRIES   @'entries'"
+
+.PP
+Definition at line 58 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_SUBJECT   @'subject'"
+
+.PP
+Definition at line 70 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_THUMB_URL   @'thumbnailImageUrl'"
+
+.PP
+Definition at line 63 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_TOC_URL   @'toc'"
+
+.PP
+Definition at line 76 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_UUID   @'bookId'"
+
+.PP
+Definition at line 77 of file PxePlayerParser\&.m\&.
+.SS "#define BOOK_WITH_ANNOTATIONS   @'withAnnotations'"
+
+.PP
+Definition at line 79 of file PxePlayerParser\&.m\&.
+.SS "#define BOOKMARK_CONTEXTID   @'contextId'"
+
+.PP
+Definition at line 98 of file PxePlayerParser\&.m\&.
+.SS "#define BOOKMARK_DATA   @'data'"
+
+.PP
+Definition at line 93 of file PxePlayerParser\&.m\&.
+.SS "#define BOOKMARK_IDENTITYID   @'identityId'"
+
+.PP
+Definition at line 97 of file PxePlayerParser\&.m\&.
+.SS "#define BOOKMARK_TITLE   @'title'"
+
+.PP
+Definition at line 95 of file PxePlayerParser\&.m\&.
+.SS "#define BOOKMARK_URI   @'uri'"
+
+.PP
+Definition at line 96 of file PxePlayerParser\&.m\&.
+.SS "#define BOOKMARKS   @'bookmarks'"
+
+.PP
+Definition at line 94 of file PxePlayerParser\&.m\&.
+.SS "#define BOOKTITLE   @'title'"
+
+.PP
+Definition at line 59 of file PxePlayerParser\&.m\&.
+.SS "#define EMAIL   @'emailAddress'"
+
+.PP
+Definition at line 39 of file PxePlayerParser\&.m\&.
+.SS "#define EXPIRES_AFTER   @'expiresAt'"
+
+.PP
+Definition at line 42 of file PxePlayerParser\&.m\&.
+.SS "#define FIRSTNAME   @'firstName'"
+
+.PP
+Definition at line 37 of file PxePlayerParser\&.m\&.
+.SS "#define LASTNAME   @'lastName'"
+
+.PP
+Definition at line 38 of file PxePlayerParser\&.m\&.
+.SS "#define MEDIA_BREAD_CRUMB   @'breadcrumb'"
+
+.PP
+Definition at line 122 of file PxePlayerParser\&.m\&.
+.SS "#define MEDIA_CONTENT_FILE   @'url'"
+
+.PP
+Definition at line 121 of file PxePlayerParser\&.m\&.
+.SS "#define MEDIA_ID   @'id'"
+
+.PP
+Definition at line 119 of file PxePlayerParser\&.m\&.
+.SS "#define MEDIA_MIME_TYPE   @'type'"
+
+.PP
+Definition at line 120 of file PxePlayerParser\&.m\&.
+.SS "#define MEDIA_PAGE_URL   @'pageUrl'"
+
+.PP
+Definition at line 123 of file PxePlayerParser\&.m\&.
+.SS "#define SEARCH_PAGE_DESC   @'contentPreview'"
+
+.PP
+Definition at line 112 of file PxePlayerParser\&.m\&.
+.SS "#define SEARCH_PAGE_TITLE   @'title'"
+
+.PP
+Definition at line 111 of file PxePlayerParser\&.m\&.
+.SS "#define SEARCH_PAGE_URL   @'url'"
+
+.PP
+Definition at line 110 of file PxePlayerParser\&.m\&.
+.SS "#define SEARCH_PARENT_TAG   @'hits'"
+
+.PP
+Definition at line 109 of file PxePlayerParser\&.m\&.
+.SS "#define SEARCH_TOTAL_PAGES   @'totalHits'"
+
+.PP
+Definition at line 113 of file PxePlayerParser\&.m\&.
+.SS "#define SEARCH_WORD_HITS   @'wordHits'"
+
+.PP
+Definition at line 114 of file PxePlayerParser\&.m\&.
+.SS "#define SESSION_ID   @'sessionId'"
+
+.PP
+Definition at line 41 of file PxePlayerParser\&.m\&.
+.SS "#define SHARED_ANNOATIONS_TAG   @'sharedContentsAnnotations'"
+
+.PP
+Definition at line 104 of file PxePlayerParser\&.m\&.
+.SS "#define SMS_AUTHTOKEN   @'authToken'"
+
+.PP
+Definition at line 52 of file PxePlayerParser\&.m\&.
+.SS "#define SMS_EMAIL   @'emailAddress'"
+
+.PP
+Definition at line 51 of file PxePlayerParser\&.m\&.
+.SS "#define SMS_EXPIRES_AFTER   @'expiresAt'"
+
+.PP
+Definition at line 53 of file PxePlayerParser\&.m\&.
+.SS "#define SMS_FIRSTNAME   @'firstName'"
+
+.PP
+Definition at line 49 of file PxePlayerParser\&.m\&.
+.SS "#define SMS_LASTNAME   @'lastName'"
+
+.PP
+Definition at line 50 of file PxePlayerParser\&.m\&.
+.SS "#define SMS_USERNAME   @'username'"
+
+.PP
+Definition at line 48 of file PxePlayerParser\&.m\&.
+.SS "#define SMS_UUID   @'userUUID'"
+
+.PP
+Definition at line 47 of file PxePlayerParser\&.m\&.
+.SS "#define USER_ANNOTATIONS_TAG   @'myContentsAnnotations'"
+
+.PP
+Definition at line 103 of file PxePlayerParser\&.m\&.
+.SS "#define USERNAME   @'userLogin'"
+
+.PP
+Definition at line 36 of file PxePlayerParser\&.m\&.
+.SS "#define UUID   @'userUUID'"
+
+.PP
+Definition at line 35 of file PxePlayerParser\&.m\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

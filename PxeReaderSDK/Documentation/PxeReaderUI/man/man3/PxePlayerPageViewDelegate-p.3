@@ -1,0 +1,43 @@
+.TH "<PxePlayerPageViewDelegate>" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+<PxePlayerPageViewDelegate> \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageViewController\&.h>\fP
+.PP
+Inherits <NSObject>\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBupdatePageViewUI:orLastPage:andPageNumber:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A Protocol to which send's the page view's few properties present status  <NSObject>, extented from \fBNSObject\fP 
+.PP
+Definition at line 18 of file PxePlayerPageViewController\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) updatePageViewUI: (BOOL)hasPrevious(BOOL)hasNext(NSNumber *)pageNumber\fC [optional]\fP"
+Sends the page view's UI updates 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIhasPrevious,page\fP has reached first page or not 
+.br
+\fIhasNext,page\fP has reached last page or not 
+.br
+\fIpageNumber,current\fP page number 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

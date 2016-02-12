@@ -1,0 +1,155 @@
+.TH "PxePlayerPageOperations" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageOperations \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageOperations\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBaddOperation:withAuthToken:andUserId:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBaddOperations:withPriorityIndex:andAuthToken:andUserId:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBcancelAllOperations\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsuspendAllOperations\fP"
+.br
+.ti -1c
+.RI "(void) - \fBresumeAllOperations\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBsetOperationPriority:priority:\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBisOperationFound:\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBcancelOperation:\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "id
+.br
+< \fBPxePlayerOperationQueueDelegate\fP > \fBdelegate\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A simple class to manage the operations in the queue 
+.PP
+Definition at line 33 of file PxePlayerPageOperations\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) addOperation: (NSString*)page(NSString*)authToken(NSString*)userId"
+This method would be called to add page download operation into the operation queue 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,page\fP that needs to be downloaded 
+.br
+\fINSString,authToken\fP is required to attach with query stirng when initiate download data 
+.br
+\fINSString,userId\fP is required to attach with query stirng when initiate download data 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file PxePlayerPageOperations\&.m\&.
+.SS "- (void) addOperations: (NSArray*)operations(NSInteger)priorityIndex(NSString*)authToken(NSString*)userId"
+This method would be to list of page download operation into the operation queue 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,operations\fP is a list of page details that need to be downloaded from the server 
+.br
+\fINSInteger,priorityIndex\fP is a index to set the priority level for the operation 
+.br
+\fINSString,authToken\fP is required to attach with query stirng when initiate download data 
+.br
+\fINSString,userId\fP is required to attach with query stirng when initiate download data 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file PxePlayerPageOperations\&.m\&.
+.SS "- (void) cancelAllOperations "
+This method would be called to cancel all page download operation in the operation queue 
+.PP
+Definition at line 185 of file PxePlayerPageOperations\&.m\&.
+.SS "- (BOOL) cancelOperation: (NSString*)key"
+This method would be called to cancel the particular operation in the queue 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP to identity the operation in the queue 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, return yes if operation successfully cancelled else return no as a error 
+.RE
+.PP
+
+.PP
+Definition at line 145 of file PxePlayerPageOperations\&.m\&.
+.SS "- (BOOL) isOperationFound: (NSString*)key"
+This method would be called to check whether particular operation found in the queue 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP to identify the operation in the queue 
+.RE
+.PP
+
+.PP
+Definition at line 136 of file PxePlayerPageOperations\&.m\&.
+.SS "- (void) resumeAllOperations "
+This method would be called to resume all suspended page download operation in the operation queue 
+.PP
+Definition at line 194 of file PxePlayerPageOperations\&.m\&.
+.SS "- (BOOL) setOperationPriority: (NSString*)key(NSInteger)priority"
+This method would be called to set the each operation priority level in the operation queue 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP used to identify the operation in the queue 
+.br
+\fINSInteger,priority\fP is level of the priority in the queue 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, return yes if operation priority successfully set else return no as a error 
+.RE
+.PP
+
+.PP
+Definition at line 126 of file PxePlayerPageOperations\&.m\&.
+.SS "- (void) suspendAllOperations "
+This method would be called to suspend all page download operation in the operation queue 
+.PP
+Definition at line 190 of file PxePlayerPageOperations\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (id<\fBPxePlayerOperationQueueDelegate\fP>) delegate\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [weak]\fP"
+A \fBPxePlayerOperationQueueDelegate\fP protocol instance to send information to class which implements it 
+.PP
+Definition at line 38 of file PxePlayerPageOperations\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

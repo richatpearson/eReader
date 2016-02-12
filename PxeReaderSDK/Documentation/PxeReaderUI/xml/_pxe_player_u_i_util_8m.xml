@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_u_i_util_8m" kind="file">
+    <compoundname>PxePlayerUIUtil.m</compoundname>
+    <includes refid="_pxe_player_u_i_util_8h" local="yes">PxePlayerUIUtil.h</includes>
+    <includes refid="_pxe_player_u_i_constants_8h" local="yes">PxePlayerUIConstants.h</includes>
+    <incdepgraph>
+      <node id="280">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="279">
+        <label>PxePlayerUIUtil.h</label>
+        <link refid="_pxe_player_u_i_util_8h"/>
+        <childnode refid="280" relation="include">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>PxePlayerUIUtil.m</label>
+        <link refid="PxePlayerUIUtil.m"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>PxePlayerUIConstants.h</label>
+        <link refid="_pxe_player_u_i_constants_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_pxe_player_u_i_util_8m_1a5fb29d5e3888f0f8b682015cf83d1232" prot="public" static="no">
+        <name>kDefaultFont</name>
+        <initializer>[UIFont systemFontOfSize:12]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" line="13" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_util_8m_1af5ed9b00be278364deb681ab3744c8e8" prot="public" static="no">
+        <name>kDefaultBgColor</name>
+        <initializer>[UIColor clearColor]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" line="14" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_util_8m_1a6cec25d74ab1b41fe3f9752348020516" prot="public" static="no">
+        <name>kDefaultTextColor</name>
+        <initializer>[UIColor blackColor]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" line="15" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTUtil.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>on<sp/>28/06/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_u_i_util_8h" kindref="compound">PxePlayerUIUtil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_u_i_constants_8h" kindref="compound">PxePlayerUIConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_pxe_player_u_i_util_8m_1a5fb29d5e3888f0f8b682015cf83d1232" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>kDefaultFont<sp/>[UIFont<sp/>systemFontOfSize:12]</highlight></codeline>
+<codeline lineno="14" refid="_pxe_player_u_i_util_8m_1af5ed9b00be278364deb681ab3744c8e8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>kDefaultBgColor<sp/>[UIColor<sp/>clearColor]</highlight></codeline>
+<codeline lineno="15" refid="_pxe_player_u_i_util_8m_1a6cec25d74ab1b41fe3f9752348020516" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>kDefaultTextColor<sp/>[UIColor<sp/>blackColor]</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_u_i_util" kindref="compound">PxePlayerUIUtil</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="interface_pxe_player_u_i_util_1af97dd508a062ea331f21cee822c18ac1" refkind="member"><highlight class="normal">+(UILabel*)createLabelWithTitle:(NSString*)title<sp/>frame:(CGRect)frame<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">createLabelWithTitle</ref>:title<sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">frame</ref>:frame<sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">alignment</ref>:NSTextAlignmentLeft</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">withFont</ref>:kDefaultFont<sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">backGroundColor</ref>:kDefaultBgColor</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">textColor</ref>:kDefaultTextColor];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="interface_pxe_player_u_i_util_1aeb918f401925afac57dc304b3293fb9a" refkind="member"><highlight class="normal">+(UILabel*)createLabelWithTitle:(NSString*)title<sp/>frame:(CGRect)frame<sp/>alignment:(NSTextAlignment)alignment<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">createLabelWithTitle</ref>:title<sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">frame</ref>:frame<sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">alignment</ref>:alignment</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">withFont</ref>:[UIFont<sp/>systemFontOfSize:12]<sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">backGroundColor</ref>:[UIColor<sp/>clearColor]</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kindref="member">textColor</ref>:[UIColor<sp/>blackColor]];<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" refkind="member"><highlight class="normal">+(UILabel*)createLabelWithTitle:(NSString*)title<sp/>frame:(CGRect)frame<sp/>alignment:(NSTextAlignment)alignment</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withFont:(UIFont*)font<sp/>backGroundColor:(UIColor*)bgColor<sp/>textColor:(UIColor*)textColor<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>UILabel*<sp/>label<sp/>=<sp/>[[UILabel<sp/>alloc]<sp/>initWithFrame:frame];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>label.backgroundColor<sp/>=<sp/>bgColor;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>label.textColor<sp/>=<sp/>textColor;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>label.textAlignment<sp/>=<sp/>alignment;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>label.text<sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>label.font<sp/>=<sp/>font;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>label;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="interface_pxe_player_u_i_util_1ad917830f6ccb35dd5c109f1697a0fc2b" refkind="member"><highlight class="normal">+(UIBarButtonItem*)createBarButtonItemFixedSpaceWithTarget:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)target<sp/>action:(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">)action<sp/>width:(CGFloat)width{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>UIBarButtonItem<sp/>*barItem<sp/>=<sp/>[[UIBarButtonItem<sp/>alloc]<sp/>initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace<sp/>target:target<sp/>action:action];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>barItem.width<sp/>=<sp/>width;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>barItem;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="interface_pxe_player_u_i_util_1a6ba382d8495af6d997eb7da8a57bfee0" refkind="member"><highlight class="normal">+(UIButton*)createButtonWithBackgroundImage:(NSString*)imageName<sp/>andText:(NSString*)text<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage*<sp/>image<sp/>=<sp/>[UIImage<sp/>imageNamed:BUNDLE_FILE(imageName)];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>width<sp/>=<sp/>image.size.width;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>height<sp/>=<sp/>image.size.height;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton*<sp/>btn<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" kindref="member">createButtonWithFrame</ref>:CGRectMake(0.0f,<sp/>0.0f,<sp/>width,<sp/>height)<sp/><ref refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" kindref="member">title</ref>:text<sp/><ref refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" kindref="member">type</ref>:UIButtonTypeCustom];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>[btn<sp/>setBackgroundImage:image<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>btn;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="interface_pxe_player_u_i_util_1a54829e9c57be3d689bcb8da8f52ba9d3" refkind="member"><highlight class="normal">+(UIButton*)createButtonWithImage:(UIImage*)image</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>width<sp/>=<sp/>image.size.width;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>height<sp/>=<sp/>image.size.height;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton<sp/>*button<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1afedfe9c0eff74632f51318cfea86840c" kindref="member">createButtonWithFrame</ref>:CGRectMake(0.0f,<sp/>0.0f,<sp/>width,<sp/>height)<sp/><ref refid="interface_pxe_player_u_i_util_1afedfe9c0eff74632f51318cfea86840c" kindref="member">type</ref>:UIButtonTypeCustom];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>[button<sp/>setImage:image<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>button;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="interface_pxe_player_u_i_util_1afedfe9c0eff74632f51318cfea86840c" refkind="member"><highlight class="normal">+(UIButton*)createButtonWithFrame:(CGRect)frame<sp/>type:(UIButtonType)type</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" kindref="member">createButtonWithFrame</ref>:frame<sp/><ref refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" kindref="member">title</ref>:@&quot;&quot;<sp/><ref refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" kindref="member">type</ref>:type];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" refkind="member"><highlight class="normal">+(UIButton*)createButtonWithFrame:(CGRect)frame<sp/>title:(NSString*)title<sp/>type:(UIButtonType)type</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton<sp/>*button<sp/>=<sp/>[UIButton<sp/>buttonWithType:type];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>[button<sp/>setFrame:frame];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>[button<sp/>setTitle:title<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>button;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="interface_pxe_player_u_i_util_1a729f6ec35dbdca08068b30fe32d5dc6e" refkind="member"><highlight class="normal">+(UITextField*)createTextFieldWithFrame:(CGRect)frame<sp/>text:(NSString*)text<sp/>placeHolder:(NSString*)placeHolder<sp/>borderStyle:(UITextBorderStyle)borderStyle</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" kindref="member">createTextFieldWithFrame</ref>:frame<sp/><ref refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" kindref="member">text</ref>:text<sp/><ref refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" kindref="member">placeHolder</ref>:placeHolder<sp/><ref refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" kindref="member">borderStyle</ref>:borderStyle<sp/><ref refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" kindref="member">secure</ref>:NO];</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" refkind="member"><highlight class="normal">+(UITextField*)createTextFieldWithFrame:(CGRect)frame<sp/>text:(NSString*)text<sp/>placeHolder:(NSString*)placeHolder<sp/>borderStyle:(UITextBorderStyle)borderStyle<sp/>secure:(BOOL)isSecure</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kindref="member">createTextFieldWithFrame</ref>:frame<sp/><ref refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kindref="member">text</ref>:text<sp/><ref refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kindref="member">placeHolder</ref>:placeHolder<sp/><ref refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kindref="member">borderStyle</ref>:borderStyle<sp/><ref refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kindref="member">autoCorrection</ref>:UITextAutocorrectionTypeNo<sp/><ref refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kindref="member">autoCapitalization</ref>:UITextAutocapitalizationTypeNone<sp/><ref refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kindref="member">secure</ref>:isSecure];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" refkind="member"><highlight class="normal">+(UITextField*)createTextFieldWithFrame:(CGRect)frame<sp/>text:(NSString*)text<sp/>placeHolder:(NSString*)placeHolder<sp/>borderStyle:(UITextBorderStyle)borderStyle<sp/>autoCorrection:(NSInteger)autoCorrection<sp/>autoCapitalization:(NSInteger)autoCapitalization<sp/>secure:(BOOL)isSecure</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextField<sp/>*textField<sp/>=<sp/>[[UITextField<sp/>alloc]<sp/>initWithFrame:frame];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>textField.text<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>textField.placeholder<sp/>=<sp/>placeHolder;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>textField.borderStyle<sp/>=<sp/>borderStyle;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>textField.autocorrectionType<sp/>=<sp/>autoCorrection;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>textField.autocapitalizationType<sp/>=<sp/>autoCapitalization;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>textField.secureTextEntry<sp/>=<sp/>isSecure;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textField;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="interface_pxe_player_u_i_util_1a64f43190f41d0231b4c02793599997f6" refkind="member"><highlight class="normal">+(UIImageView*)createImageViewWithFileName:(NSString*)fileName</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*image<sp/>=<sp/>[UIImage<sp/>imageNamed:BUNDLE_FILE(fileName)];</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[UIImageView<sp/>alloc]<sp/>initWithImage:image];<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="interface_pxe_player_u_i_util_1a54a2cf2dea981e5a5f6b7a8a5553e66a" refkind="member"><highlight class="normal">+(UIImageView*)createImageViewWithFileName:(NSString*)fileName<sp/>frame:(CGRect)frame<sp/>contentMode:(UIViewContentMode)contentMode</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*image<sp/>=<sp/>[UIImage<sp/>imageNamed:BUNDLE_FILE(fileName)];</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" kindref="member">createImageViewWithImage</ref>:image<sp/><ref refid="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" kindref="member">frame</ref>:frame<sp/><ref refid="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" kindref="member">backgroundColor</ref>:[UIColor<sp/>clearColor]<sp/><ref refid="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" kindref="member">contentMode</ref>:contentMode];</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" refkind="member"><highlight class="normal">+(UIImageView*)createImageViewWithImage:(UIImage*)image<sp/>frame:(CGRect)frame<sp/>backgroundColor:(UIColor*)p_color<sp/>contentMode:(UIViewContentMode)contentMode</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImageView<sp/>*imageView<sp/>=<sp/>[[UIImageView<sp/>alloc]<sp/>initWithImage:image];</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>[imageView<sp/>setFrame:frame];</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>[imageView<sp/>setBackgroundColor:p_color];</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>[imageView<sp/>setContentMode:contentMode];</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>imageView;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="interface_pxe_player_u_i_util_1aa137ea48d4c71652c77b66712c35e227" refkind="member"><highlight class="normal">+(UIImage*)getLine:(CGSize)size<sp/>withColor:(CGColorRef)color</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*lineImage<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsBeginImageContext(size);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextRef<sp/>context<sp/>=<sp/>UIGraphicsGetCurrentContext();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSetStrokeColorWithColor(context,<sp/>color);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSetLineWidth(context,<sp/>size.height<sp/>*<sp/>0.5f);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextMoveToPoint(context,<sp/>0.0f,<sp/>size.height<sp/>*<sp/>0.25f);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextAddLineToPoint(context,<sp/>size.width,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextStrokePath(context);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>lineImage<sp/>=<sp/>UIGraphicsGetImageFromCurrentImageContext();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lineImage;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,344 @@
+.TH "PxePlayer.h" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayer.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "category \fBPxePlayer(Bookmarks)\fP"
+.br
+.ti -1c
+.RI "category \fBPxePlayer(Search)\fP"
+.br
+.ti -1c
+.RI "category \fBPxePlayer(Annotations)\fP"
+.br
+.ti -1c
+.RI "category \fBPxePlayer(Media)\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBpurgeCachedData\fP ()"
+.br
+.ti -1c
+.RI "NSString * \fBgetContextID\fP ()"
+.br
+.ti -1c
+.RI "NSString * \fBgetIdentityID\fP ()"
+.br
+.ti -1c
+.RI "NSString * \fBgetNCXURL\fP ()"
+.br
+.ti -1c
+.RI "NSString * \fBgetLearningContext\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetSearchIndexId:\fP (NSString *searchIndexId)"
+.br
+.ti -1c
+.RI "int \fBgetPageFontSize\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPageFontSize:\fP (int fontSize)"
+.br
+.ti -1c
+.RI "NSString * \fBgetPageTheme\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPageTheme:\fP (NSString *theme)"
+.br
+.ti -1c
+.RI "void \fBupdateDataInterface:finished:\fP (\fBPxePlayerDataInterface\fP *interface,[finished] isSuccess success)"
+.br
+.ti -1c
+.RI "\fBPxePlayerPageViewController\fP * \fBrenderWithOptions:\fP (NSDictionary *options)"
+.br
+.ti -1c
+.RI "\fBPxePlayerPageViewController\fP * \fBrenderPage:withOptions:\fP (NSString *URLOrContentID,[withOptions] NSDictionary *options)"
+.br
+.ti -1c
+.RI "\fBPxePlayerPageViewController\fP * \fBrenderCustomPlaylist:withOptions:\fP (NSArray *urls,[withOptions] NSDictionary *options)"
+.br
+.ti -1c
+.RI "\fBPxePlayerPageViewController\fP * \fBrenderCustomPlaylist:andJumpToPage:withOptions:\fP (NSArray *urls,[andJumpToPage] NSString *URLOrContentID,[withOptions] NSDictionary *options)"
+.br
+.ti -1c
+.RI "void \fBgetGlossaryWithCompletionHandler:\fP (NSArray *, NSError *handler)"
+.br
+.ti -1c
+.RI "NSUInteger \fBgetTotalPageEntry\fP ()"
+.br
+.ti -1c
+.RI "NSDictionary * \fBgetPageDetails:withValue:\fP (NSString *property,[withValue] NSString *value)"
+.br
+.ti -1c
+.RI "NSArray * \fBgetTocTree:\fP (NSString *rootId)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "NSString* getContextID ()\fC [virtual]\fP"
+Get the current book contextID 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the current book context id 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "void getGlossaryWithCompletionHandler: (NSArray *, NSError *handler)\fC [virtual]\fP"
+Get the glossary content of the current book 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,returns\fP the glossary terms 
+.br
+\fINSError,returns\fP error if glossary download failed 
+.RE
+.PP
+
+.SS "NSString* getIdentityID ()\fC [virtual]\fP"
+Get the current book IdentityID 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString , returns the current book identity id 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "NSString* getLearningContext ()\fC [virtual]\fP"
+Get the current book learning context 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString , returns the current book learning context 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "NSString* getNCXURL ()\fC [virtual]\fP"
+Get the current book NCXURL 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString , returns the current book NCX URL 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "NSDictionary* getPageDetails:withValue: (NSString *property, [withValue] NSString *value)\fC [virtual]\fP"
+Get the particular book's page details as a dictionary 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is reference of particular property of the page to compare the data in Coredata 
+.br
+\fINSString,value\fP is a reference of value for the property 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSDictionary , returns the pages details properties and values as a NSDictionary 
+.RE
+.PP
+
+.SS "int getPageFontSize ()\fC [virtual]\fP"
+Get the current book page font size 
+.PP
+\fBReturns:\fP
+.RS 4
+int , returns the current page font size 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "NSString* getPageTheme ()\fC [virtual]\fP"
+Get the current book page theme 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the current book page theme 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "NSArray* getTocTree: (NSString *rootId)\fC [virtual]\fP"
+Get the current book table of contents specific branch of tree 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,rootId\fP is a reference to retreive a particular branch from the given root id 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSArray , returns the particular branch of table of contents title from the tree 
+.RE
+.PP
+
+.SS "NSUInteger getTotalPageEntry ()\fC [virtual]\fP"
+Get the current book total number of pages 
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger, returns total number of pages in the book 
+.RE
+.PP
+
+.SS "void purgeCachedData ()\fC [virtual]\fP"
+purgeCachedData:
+.PP
+Remove all cached data from the filesystem\&.
+.PP
+This method just remove the all cached data from the filesystem\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Cached data will be cleared\&. 
+.RE
+.PP
+
+.SS "\fBPxePlayerPageViewController\fP* renderCustomPlaylist:andJumpToPage:withOptions: (NSArray *urls, [andJumpToPage] NSString *URLOrContentID, [withOptions] NSDictionary *options)\fC [virtual]\fP"
+renderPagesWithURLs:andJumpToPage:withOptions:
+.PP
+Render the Page of HTML content\&.
+.PP
+Render HTML content downloaded from the URL's collected from the array of URL and starts with predefined page\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Page of HTML content would be rendered into the UIWebview\&. 
+.RE
+.PP
+
+.SS "\fBPxePlayerPageViewController\fP* renderCustomPlaylist:withOptions: (NSArray *urls, [withOptions] NSDictionary *options)\fC [virtual]\fP"
+renderPagesWithURLs:withOptions:
+.PP
+Render the Page of HTML content\&.
+.PP
+Render HTML content downloaded from the URL's collected from the array of URL\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Page of HTML content would be rendered into the UIWebview\&. 
+.RE
+.PP
+
+.SS "\fBPxePlayerPageViewController\fP* renderPage:withOptions: (NSString *URLOrContentID, [withOptions] NSDictionary *options)\fC [virtual]\fP"
+renderWithPage:withOptions:
+.PP
+Render the Page of HTML content\&.
+.PP
+Render HTML content downloaded from the independent URL\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Page of HTML content would be rendered into the UIWebview\&. 
+.RE
+.PP
+
+.SS "\fBPxePlayerPageViewController\fP* renderWithOptions: (NSDictionary *options)\fC [virtual]\fP"
+renderPagesWithOptions:
+.PP
+Render the Page of HTML content\&.
+.PP
+Render HTML content downloaded from the URL's collected from the NCX content\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Page of HTML content would be rendered into the UIWebview\&. 
+.RE
+.PP
+
+.SS "void setPageFontSize: (intfontSize)\fC [virtual]\fP"
+Set the current book page font size 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIint,fontSize\fP as a integer values assigned to be a font size of the book 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "void setPageTheme: (NSString *theme)\fC [virtual]\fP"
+Set the current book page theme 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,theme\fP is a reference to set the page current theme 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "void setSearchIndexId: (NSString *searchIndexId)\fC [virtual]\fP"
+Set the current book search index id 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,searchIndexId\fP is a reference to set as a current book search index id 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerDataInterface\fP 
+.RE
+.PP
+
+.SS "void updateDataInterface:finished: (\fBPxePlayerDataInterface\fP *interface, [finished] isSuccesssuccess)\fC [virtual]\fP"
+updateDataInterface:
+.PP
+Set all primary data required to do all API services\&.
+.PP
+Service API's would use these data to communicate with the server\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Data's would be in primary memory for external access\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

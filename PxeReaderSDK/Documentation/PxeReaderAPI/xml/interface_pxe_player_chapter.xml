@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_chapter" kind="class" prot="public">
+    <compoundname>PxePlayerChapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_chapter_8h" local="no">PxePlayerChapter.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_chapter_1a188d94563ab2dba44cda27ee4a83adba" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerChapter::chapterUUID</definition>
+        <argsstring></argsstring>
+        <name>chapterUUID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the chapter UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_chapter_1a43ac97bc7f0f1875aca6f964b5e6c9a2" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerChapter::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the title of the chapter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_chapter_1ada01cfc06b789fdec327cd7e97ad7d60" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerChapter::frontMatter</definition>
+        <argsstring></argsstring>
+        <name>frontMatter</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the front matter of the chapter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_chapter_1aa544fdd4d275d2c0730fa62e732cee47" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerChapter::backMatter</definition>
+        <argsstring></argsstring>
+        <name>backMatter</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the back matter of the chapter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_chapter_1a2671676800d397a2a4311ddee7f69b88" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerChapter::pageUUIDS</definition>
+        <argsstring></argsstring>
+        <name>pageUUIDS</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page UUID&apos;s of the chapter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the book chapter data into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="100">
+        <label>PxePlayerChapter</label>
+        <link refid="interface_pxe_player_chapter"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="102">
+        <label>PxePlayerChapter</label>
+        <link refid="interface_pxe_player_chapter"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChapter.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_chapter_1aa544fdd4d275d2c0730fa62e732cee47" prot="public" virt="non-virtual"><scope>PxePlayerChapter</scope><name>backMatter</name></member>
+      <member refid="interface_pxe_player_chapter_1a188d94563ab2dba44cda27ee4a83adba" prot="public" virt="non-virtual"><scope>PxePlayerChapter</scope><name>chapterUUID</name></member>
+      <member refid="interface_pxe_player_chapter_1ada01cfc06b789fdec327cd7e97ad7d60" prot="public" virt="non-virtual"><scope>PxePlayerChapter</scope><name>frontMatter</name></member>
+      <member refid="interface_pxe_player_chapter_1a2671676800d397a2a4311ddee7f69b88" prot="public" virt="non-virtual"><scope>PxePlayerChapter</scope><name>pageUUIDS</name></member>
+      <member refid="interface_pxe_player_chapter_1a43ac97bc7f0f1875aca6f964b5e6c9a2" prot="public" virt="non-virtual"><scope>PxePlayerChapter</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

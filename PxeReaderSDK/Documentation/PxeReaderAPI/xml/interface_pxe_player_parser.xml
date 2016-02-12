@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_parser" kind="class" prot="public">
+    <compoundname>PxePlayerParser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_parser_8h" local="no">PxePlayerParser.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_pxe_player_parser_1a04700412ca66562b50918b8f131d66d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_user" kindref="compound">PxePlayerUser</ref> *</type>
+        <definition>PxePlayerUser * PxePlayerParser::parseUser:</definition>
+        <argsstring>(NSDictionary *user)</argsstring>
+        <name>parseUser:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="128" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1ae2d862548ef0cba8acea7f1703908bb7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_user" kindref="compound">PxePlayerUser</ref> *</type>
+        <definition>PxePlayerUser * PxePlayerParser::parseSMSUser:</definition>
+        <argsstring>(NSDictionary *user)</argsstring>
+        <name>parseSMSUser:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="145" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a8b76b5a89da8ec6adac91d4806c56b0e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_toc" kindref="compound">PxePlayerToc</ref> *</type>
+        <definition>PxePlayerToc * PxePlayerParser::parseTOC:</definition>
+        <argsstring>(NSDictionary *contents)</argsstring>
+        <name>parseTOC:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="160" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a1987022067a508c6101376e0d7e71283" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_book_shelf" kindref="compound">PxePlayerBookShelf</ref> *</type>
+        <definition>PxePlayerBookShelf * PxePlayerParser::parseBookShelf:</definition>
+        <argsstring>(NSDictionary *bookshelf)</argsstring>
+        <name>parseBookShelf:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>bookshelf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="171" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a384a201cc19f42d68661269791a38389" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_chapters" kindref="compound">PxePlayerChapters</ref> *</type>
+        <definition>PxePlayerChapters * PxePlayerParser::parseChapter:</definition>
+        <argsstring>(NSArray *values)</argsstring>
+        <name>parseChapter:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="208" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a6fe369a588a15e46b23d58add69812f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_bookmarks" kindref="compound">PxePlayerBookmarks</ref> *</type>
+        <definition>PxePlayerBookmarks * PxePlayerParser::parseBookmark:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseBookmark:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="226" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a36487d345e7be05028597aefd2dcf3c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_check_bookmark" kindref="compound">PxePlayerCheckBookmark</ref> *</type>
+        <definition>PxePlayerCheckBookmark * PxePlayerParser::isPageBookmarked:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>isPageBookmarked:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="245" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1ad0a7596e410347020b20d874cea3ca22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref> *</type>
+        <definition>PxePlayerBookmark * PxePlayerParser::parseAddBookmark:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseAddBookmark:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="259" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a7db58c7822375ff104b2c93b27e3d21e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref> *</type>
+        <definition>PxePlayerBookmark * PxePlayerParser::parseDeleteBookmark:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseDeleteBookmark:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="271" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1ae0ecd8bdf21c9dba39c052e44507e520" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref> *</type>
+        <definition>PxePlayerBookmark * PxePlayerParser::parseEditBookmark:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseEditBookmark:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="282" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a61422ee637cb3a1ac1df021c13f9bfd4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_notes" kindref="compound">PxePlayerNotes</ref> *</type>
+        <definition>PxePlayerNotes * PxePlayerParser::parseUserAnnotations:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseUserAnnotations:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="292" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a4b3cf7b8bda8db3802ef9de6f71bd2b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_annotations" kindref="compound">PxePlayerAnnotations</ref> *</type>
+        <definition>PxePlayerAnnotations * PxePlayerParser::parseAnnotations:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseAnnotations:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="301" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a9045c386c61bcf11736c382bbb7743f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_delete_annotation" kindref="compound">PxePlayerDeleteAnnotation</ref> *</type>
+        <definition>PxePlayerDeleteAnnotation * PxePlayerParser::parseDeleteAnnotation:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseDeleteAnnotation:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="347" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a5d47a66214d9353c9388559184a1fdaf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_notes" kindref="compound">PxePlayerNotes</ref> *</type>
+        <definition>PxePlayerNotes * PxePlayerParser::parseAllAnnotations:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseAllAnnotations:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="338" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a75d4838e6d59faa80af39c8a421d81ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_search_pages" kindref="compound">PxePlayerSearchPages</ref> *</type>
+        <definition>PxePlayerSearchPages * PxePlayerParser::parseBookSearch:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseBookSearch:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="360" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_parser_1a70fd9a62340032dcc73ceba26caa1105" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * PxePlayerParser::parseMedia:</definition>
+        <argsstring>(NSDictionary *values)</argsstring>
+        <name>parseMedia:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.m" bodystart="379" bodyend="419"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="294">
+        <label>PxePlayerParser</label>
+        <link refid="interface_pxe_player_parser"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="296">
+        <label>PxePlayerParser</label>
+        <link refid="interface_pxe_player_parser"/>
+        <childnode refid="297" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" line="25" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerParser.h" bodystart="24" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_parser_1a36487d345e7be05028597aefd2dcf3c8" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>isPageBookmarked:</name></member>
+      <member refid="interface_pxe_player_parser_1ad0a7596e410347020b20d874cea3ca22" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseAddBookmark:</name></member>
+      <member refid="interface_pxe_player_parser_1a5d47a66214d9353c9388559184a1fdaf" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseAllAnnotations:</name></member>
+      <member refid="interface_pxe_player_parser_1a4b3cf7b8bda8db3802ef9de6f71bd2b1" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseAnnotations:</name></member>
+      <member refid="interface_pxe_player_parser_1a6fe369a588a15e46b23d58add69812f0" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseBookmark:</name></member>
+      <member refid="interface_pxe_player_parser_1a75d4838e6d59faa80af39c8a421d81ec" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseBookSearch:</name></member>
+      <member refid="interface_pxe_player_parser_1a1987022067a508c6101376e0d7e71283" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseBookShelf:</name></member>
+      <member refid="interface_pxe_player_parser_1a384a201cc19f42d68661269791a38389" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseChapter:</name></member>
+      <member refid="interface_pxe_player_parser_1a9045c386c61bcf11736c382bbb7743f9" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseDeleteAnnotation:</name></member>
+      <member refid="interface_pxe_player_parser_1a7db58c7822375ff104b2c93b27e3d21e" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseDeleteBookmark:</name></member>
+      <member refid="interface_pxe_player_parser_1ae0ecd8bdf21c9dba39c052e44507e520" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseEditBookmark:</name></member>
+      <member refid="interface_pxe_player_parser_1a70fd9a62340032dcc73ceba26caa1105" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseMedia:</name></member>
+      <member refid="interface_pxe_player_parser_1ae2d862548ef0cba8acea7f1703908bb7" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseSMSUser:</name></member>
+      <member refid="interface_pxe_player_parser_1a8b76b5a89da8ec6adac91d4806c56b0e" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseTOC:</name></member>
+      <member refid="interface_pxe_player_parser_1a04700412ca66562b50918b8f131d66d1" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseUser:</name></member>
+      <member refid="interface_pxe_player_parser_1a61422ee637cb3a1ac1df021c13f9bfd4" prot="public" virt="virtual"><scope>PxePlayerParser</scope><name>parseUserAnnotations:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

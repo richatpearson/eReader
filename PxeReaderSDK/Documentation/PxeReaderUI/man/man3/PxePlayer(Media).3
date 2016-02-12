@@ -1,0 +1,44 @@
+.TH "PxePlayer(Media)" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayer(Media) \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayer\&.h>\fP
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBgetMedia:withCompletionHandler:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBPxePlayer\fP category class for media\&. 
+.PP
+Definition at line 497 of file PxePlayer\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) getMedia: (NSString *)type(NSArray *)(NSError *)handler"
+Get the current book media contents 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,type\fP as a reference to get the type of media contents 
+.br
+\fIcompletionHandler:(void\fP (^)(NSArray*, NSError*))handler which returns the array of media contents after media has been downloaded; 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+PxePlayerInterface 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_loading_view" kind="class" prot="public">
+    <compoundname>PxePlayerLoadingView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="_pxe_player_loading_view_8h" local="no">PxePlayerLoadingView.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_pxe_player_loading_view_1af369e5258443bcf7c4420fab7012e2bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerLoadingView::loadingViewInView:</definition>
+        <argsstring>(UIView *aSuperview)</argsstring>
+        <name>loadingViewInView:</name>
+        <param>
+          <type>UIView *</type>
+          <declname>aSuperview</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method creates and adds a loading view for covering the provided aSuperview. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>UIView</parametername>
+<parametername>aSuperview</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the superview that will be covered by the loading view </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id, returns the constructed view, already added as a subview of the aSuperview </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLoadingView.h" line="27" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLoadingView.m" bodystart="62" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_loading_view_1a6b4358f253d0ceec53276830a2c064ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerLoadingView::removeView</definition>
+        <argsstring>()</argsstring>
+        <name>removeView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to remove the loading view from the super view </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLoadingView.h" line="27" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLoadingView.m" bodystart="113" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>PxePlayerLoadingView</label>
+        <link refid="interface_pxe_player_loading_view"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>UIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>PxePlayerLoadingView</label>
+        <link refid="interface_pxe_player_loading_view"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLoadingView.h" line="12" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLoadingView.h" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_loading_view_1af369e5258443bcf7c4420fab7012e2bc" prot="public" virt="virtual"><scope>PxePlayerLoadingView</scope><name>loadingViewInView:</name></member>
+      <member refid="interface_pxe_player_loading_view_1a6b4358f253d0ceec53276830a2c064ba" prot="public" virt="virtual"><scope>PxePlayerLoadingView</scope><name>removeView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

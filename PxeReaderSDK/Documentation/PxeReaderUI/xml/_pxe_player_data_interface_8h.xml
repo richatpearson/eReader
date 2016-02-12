@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_data_interface_8h" kind="file">
+    <compoundname>PxePlayerDataInterface.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_pxe_player_8m" local="yes">PxePlayer.m</includedby>
+    <includedby refid="_pxe_player_data_interface_8m" local="yes">PxePlayerDataInterface.m</includedby>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <incdepgraph>
+      <node id="80">
+        <label>PxePlayerDataInterface.h</label>
+        <link refid="PxePlayerDataInterface.h"/>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="83">
+        <label>PxePlayer.m</label>
+        <link refid="_pxe_player_8m"/>
+      </node>
+      <node id="85">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="_pxe_player_u_i_kit_8h"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>PxePlayerDataInterface.h</label>
+        <link refid="PxePlayerDataInterface.h"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>PxePlayerDataInterface.m</label>
+        <link refid="_pxe_player_data_interface_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_data_interface" prot="public">PxePlayerDataInterface</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerDataInterface.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>06/11/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="interface_pxe_player_data_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_data_interface" kindref="compound">PxePlayerDataInterface</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="interface_pxe_player_data_interface_1a772cc60134527bb2faa87f197de4e3cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a772cc60134527bb2faa87f197de4e3cc" kindref="member">userName</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="interface_pxe_player_data_interface_1adeded8526816f9d96dd088511d4046d3" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1adeded8526816f9d96dd088511d4046d3" kindref="member">contextId</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="interface_pxe_player_data_interface_1a9b508aa7db14e8852cf251308312db25" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a9b508aa7db14e8852cf251308312db25" kindref="member">userId</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="interface_pxe_player_data_interface_1ade76fc35011aade53e15ffa5414fc153" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1ade76fc35011aade53e15ffa5414fc153" kindref="member">ncxURL</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="interface_pxe_player_data_interface_1a0c22a98d7e29a36bcf024bb58c58aad8" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a0c22a98d7e29a36bcf024bb58c58aad8" kindref="member">baseURL</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="interface_pxe_player_data_interface_1a98548be4b0f323ff768a5bf22f3f11c1" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a98548be4b0f323ff768a5bf22f3f11c1" kindref="member">authToken</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="interface_pxe_player_data_interface_1a6e1589797ac4e892d34cbfcac8de6b89" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a6e1589797ac4e892d34cbfcac8de6b89" kindref="member">searchIndexId</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="interface_pxe_player_data_interface_1a3a406ada658778aecd037ebe9bde9cb9" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a3a406ada658778aecd037ebe9bde9cb9" kindref="member">afterCrossRefBehaviour</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="interface_pxe_player_data_interface_1ac749acf5d0492c35a160be17973cab81" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1ac749acf5d0492c35a160be17973cab81" kindref="member">bookPageTheme</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="interface_pxe_player_data_interface_1a01914ef4755b7862ba543a0659613152" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>NSInteger<sp/><sp/><ref refid="interface_pxe_player_data_interface_1a01914ef4755b7862ba543a0659613152" kindref="member">bookPageFontSize</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="interface_pxe_player_data_interface_1a5d758a740c14531a20e76f60ad3d7893" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a5d758a740c14531a20e76f60ad3d7893" kindref="member">learningContext</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="interface_pxe_player_data_interface_1a782e29876259f6a3f6571794356503e0" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSArray<sp/><sp/><sp/>*<ref refid="interface_pxe_player_data_interface_1a782e29876259f6a3f6571794356503e0" kindref="member">masterPlaylist</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h"/>
+  </compounddef>
+</doxygen>

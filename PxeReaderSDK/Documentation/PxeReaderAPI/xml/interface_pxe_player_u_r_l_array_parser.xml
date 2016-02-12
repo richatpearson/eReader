@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_u_r_l_array_parser" kind="class" prot="public">
+    <compoundname>PxePlayerURLArrayParser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="protocol_pxe_player_base_parser-p" prot="public" virt="non-virtual">&lt;PxePlayerBaseParser&gt;</basecompoundref>
+    <includes refid="_pxe_player_u_r_l_array_parser_8h" local="no">PxePlayerURLArrayParser.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class derived from the <ref refid="protocol_pxe_player_base_parser-p" kindref="compound">PxePlayerBaseParser</ref> to parse content from the server and returns the result as a array or dictionary format </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="379">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>PxePlayerURLArrayParser</label>
+        <link refid="interface_pxe_player_u_r_l_array_parser"/>
+        <childnode refid="378" relation="public-inheritance">
+        </childnode>
+        <childnode refid="379" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="380">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="378">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="383">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>PxePlayerURLArrayParser</label>
+        <link refid="interface_pxe_player_u_r_l_array_parser"/>
+        <childnode refid="382" relation="public-inheritance">
+        </childnode>
+        <childnode refid="383" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="382">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerURLArrayParser.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerURLArrayParser.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_base_parser-p_1a2fa950852f2e1825b5dc923e9d66829d" prot="public" virt="virtual"><scope>PxePlayerURLArrayParser</scope><name>parseData:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1af53b80aa420a6a41a4cb1beeef57abe5" prot="public" virt="virtual"><scope>PxePlayerURLArrayParser</scope><name>parseDataFromNCXURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1ab7d1135887db45a14aebe304bfbcddeb" prot="public" virt="virtual"><scope>PxePlayerURLArrayParser</scope><name>parseDataFromURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1acea3b0e43bf7c45bcd6978cf641c5097" prot="public" virt="virtual"><scope>PxePlayerURLArrayParser</scope><name>parseDataFromURLArray:withHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

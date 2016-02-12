@@ -1,0 +1,187 @@
+\hypertarget{category_pxe_player_07_annotations_08}{\section{Pxe\-Player(Annotations) Category Reference}
+\label{category_pxe_player_07_annotations_08}\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player.\-h$>$}
+
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_annotations_08_af77b76a936a039550119cb381f6fadaa}{get\-Annotations\-With\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_annotations_08_adc782f450891626f9a8a643e86ea4b63}{get\-All\-Annotations\-With\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_annotations_08_a0b8a6759a8033cd36d53ee9f2c942dbd}{get\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_annotations_08_ab9277ba9cb562ee39249fcd4aec564e3}{get\-All\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_annotations_08_ab9fa27896dac76e5fbd93c33f11c6593}{add\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_annotations_08_a64c8f18a69509f87d7b68edd5c180ba6}{update\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}
+\item 
+(void) -\/ \hyperlink{category_pxe_player_07_annotations_08_a68b66342678e553a27733485471d00de}{delete\-Annotation\-For\-Content\-I\-D\-:\-With\-Completion\-Handler\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 369 of file Pxe\-Player.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{category_pxe_player_07_annotations_08_ab9fa27896dac76e5fbd93c33f11c6593}{\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}!add\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:@{add\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}}
+\index{add\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:@{add\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}!PxePlayer(Annotations)@{Pxe\-Player(\-Annotations)}}
+\subsubsection[{add\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) add\-Annotations\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{annotations}
+\item[{forContentID:(N\-S\-String$\ast$)}]{content\-I\-D}
+\item[{withCompletionHandler:(Pxe\-Player\-Annotations$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_annotations_08_ab9fa27896dac76e5fbd93c33f11c6593}
+add\-Annotations\-:with\-Completion\-Handler\-:
+
+Add annotation on the page.
+
+This method add the new annotation on the page.
+
+\begin{DoxyReturn}{Returns}
+The annotations will be added into the page. 
+\end{DoxyReturn}
+
+
+Definition at line 413 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_annotations_08_a68b66342678e553a27733485471d00de}{\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}!delete\-Annotation\-For\-Content\-I\-D\-:\-With\-Completion\-Handler\-:@{delete\-Annotation\-For\-Content\-I\-D\-:\-With\-Completion\-Handler\-:}}
+\index{delete\-Annotation\-For\-Content\-I\-D\-:\-With\-Completion\-Handler\-:@{delete\-Annotation\-For\-Content\-I\-D\-:\-With\-Completion\-Handler\-:}!PxePlayer(Annotations)@{Pxe\-Player(\-Annotations)}}
+\subsubsection[{delete\-Annotation\-For\-Content\-I\-D\-:\-With\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) delete\-Annotation\-For\-Content\-I\-D\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{content\-I\-D}
+\item[{WithCompletionHandler:(Pxe\-Player\-Delete\-Annotation$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_annotations_08_a68b66342678e553a27733485471d00de}
+delete\-Annotation\-With\-Completion\-Handler\-:
+
+Delete annotations on the page.
+
+This method remove the annotations on the page.
+
+\begin{DoxyReturn}{Returns}
+The annotation on the page will be removed. 
+\end{DoxyReturn}
+
+
+Definition at line 438 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_annotations_08_ab9277ba9cb562ee39249fcd4aec564e3}{\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}!get\-All\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:@{get\-All\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}}
+\index{get\-All\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:@{get\-All\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}!PxePlayer(Annotations)@{Pxe\-Player(\-Annotations)}}
+\subsubsection[{get\-All\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) get\-All\-Annotations\-For\-Content\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{content\-I\-D}
+\item[{withCompletionHandler:(Pxe\-Player\-Notes$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_annotations_08_ab9277ba9cb562ee39249fcd4aec564e3}
+get\-All\-Annotations\-For\-Content\-With\-Completion\-Handler\-:
+
+Remove all cached data from the filesystem.
+
+This method just remove the all cached data from the filesystem.
+
+\begin{DoxyReturn}{Returns}
+Cached data will be cleared. 
+\end{DoxyReturn}
+
+
+Definition at line 401 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_annotations_08_adc782f450891626f9a8a643e86ea4b63}{\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}!get\-All\-Annotations\-With\-Completion\-Handler\-:@{get\-All\-Annotations\-With\-Completion\-Handler\-:}}
+\index{get\-All\-Annotations\-With\-Completion\-Handler\-:@{get\-All\-Annotations\-With\-Completion\-Handler\-:}!PxePlayer(Annotations)@{Pxe\-Player(\-Annotations)}}
+\subsubsection[{get\-All\-Annotations\-With\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) get\-All\-Annotations\-With\-Completion\-Handler\-: 
+\begin{DoxyParamCaption}
+\item[{(Pxe\-Player\-Notes$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_annotations_08_adc782f450891626f9a8a643e86ea4b63}
+get\-All\-Annotations\-With\-Completion\-Handler\-:
+
+Remove all cached data from the filesystem.
+
+This method just remove the all cached data from the filesystem.
+
+\begin{DoxyReturn}{Returns}
+Cached data will be cleared. 
+\end{DoxyReturn}
+
+
+Definition at line 379 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_annotations_08_a0b8a6759a8033cd36d53ee9f2c942dbd}{\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}!get\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:@{get\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}}
+\index{get\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:@{get\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}!PxePlayer(Annotations)@{Pxe\-Player(\-Annotations)}}
+\subsubsection[{get\-Annotations\-For\-Content\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) get\-Annotations\-For\-Content\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{content\-I\-D}
+\item[{withCompletionHandler:(Pxe\-Player\-Notes$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_annotations_08_a0b8a6759a8033cd36d53ee9f2c942dbd}
+get\-Annotations\-For\-Content\-With\-Completion\-Handler\-:
+
+Remove all cached data from the filesystem.
+
+This method just remove the all cached data from the filesystem.
+
+\begin{DoxyReturn}{Returns}
+Cached data will be cleared. 
+\end{DoxyReturn}
+
+
+Definition at line 390 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_annotations_08_af77b76a936a039550119cb381f6fadaa}{\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}!get\-Annotations\-With\-Completion\-Handler\-:@{get\-Annotations\-With\-Completion\-Handler\-:}}
+\index{get\-Annotations\-With\-Completion\-Handler\-:@{get\-Annotations\-With\-Completion\-Handler\-:}!PxePlayer(Annotations)@{Pxe\-Player(\-Annotations)}}
+\subsubsection[{get\-Annotations\-With\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) get\-Annotations\-With\-Completion\-Handler\-: 
+\begin{DoxyParamCaption}
+\item[{(Pxe\-Player\-Notes$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_annotations_08_af77b76a936a039550119cb381f6fadaa}
+get\-Annotations\-With\-Completion\-Handler\-:
+
+Get annotations in the page.
+
+This method returns the all annotations in the page.
+
+\begin{DoxyReturn}{Returns}
+Returns the array of annotations reference in the page. 
+\end{DoxyReturn}
+
+
+Definition at line 369 of file Pxe\-Player.\-m.
+
+\hypertarget{category_pxe_player_07_annotations_08_a64c8f18a69509f87d7b68edd5c180ba6}{\index{Pxe\-Player(\-Annotations)@{Pxe\-Player(\-Annotations)}!update\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:@{update\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}}
+\index{update\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:@{update\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}!PxePlayer(Annotations)@{Pxe\-Player(\-Annotations)}}
+\subsubsection[{update\-Annotations\-:for\-Content\-I\-D\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) update\-Annotations\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{annotations}
+\item[{forContentID:(N\-S\-String$\ast$)}]{content\-I\-D}
+\item[{withCompletionHandler:(Pxe\-Player\-Annotations$\ast$, N\-S\-Error$\ast$)}]{handler}
+\end{DoxyParamCaption}
+}}\label{category_pxe_player_07_annotations_08_a64c8f18a69509f87d7b68edd5c180ba6}
+update\-Annotations\-:with\-Completion\-Handler\-:
+
+Update annotations on the page
+
+This method updates the edited details of the existing annotations.
+
+\begin{DoxyReturn}{Returns}
+The annotations on the page will be updated with edited properties. 
+\end{DoxyReturn}
+
+
+Definition at line 426 of file Pxe\-Player.\-m.
+
+
+
+The documentation for this category was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_8h}{Pxe\-Player.\-h}\item 
+\hyperlink{_pxe_player_8m}{Pxe\-Player.\-m}\end{DoxyCompactItemize}

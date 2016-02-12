@@ -1,0 +1,105 @@
+\hypertarget{protocol_page_content_delegate-p}{\section{$<$Page\-Content\-Delegate$>$ Protocol Reference}
+\label{protocol_page_content_delegate-p}\index{$<$\-Page\-Content\-Delegate$>$@{$<$\-Page\-Content\-Delegate$>$}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-Content\-View\-Controller.\-h$>$}
+
+Inheritance diagram for $<$Page\-Content\-Delegate$>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{protocol_page_content_delegate-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(N\-S\-U\-Integer) -\/ \hyperlink{protocol_page_content_delegate-p_a8ec70410318e1c9491a3b8ff90fb3e5b}{scale\-Page\-To\-Fit}
+\item 
+(void) -\/ \hyperlink{protocol_page_content_delegate-p_a84551682c91a6d18ddad35d016d47a90}{load\-Browser\-With\-U\-R\-L\-:}
+\item 
+(void) -\/ \hyperlink{protocol_page_content_delegate-p_a7fa10de862bfb7fd786eeead48ce7f55}{page\-Content\-Did\-Load\-:}
+\item 
+(void) -\/ \hyperlink{protocol_page_content_delegate-p_ad32506ebb19d686baabc0991f0b28833}{page\-Content\-Loading\-:}
+\item 
+(void) -\/ \hyperlink{protocol_page_content_delegate-p_a50f6ce09e4eceba345c4bed40422d38e}{page\-Load\-Failed\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Protocol to which send's the page content view's few properties present status  $<$\-N\-S\-Object$>$, extented from \hyperlink{class_n_s_object-p}{N\-S\-Object} 
+
+Definition at line 21 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{protocol_page_content_delegate-p_a84551682c91a6d18ddad35d016d47a90}{\index{Page\-Content\-Delegate-\/p@{Page\-Content\-Delegate-\/p}!load\-Browser\-With\-U\-R\-L\-:@{load\-Browser\-With\-U\-R\-L\-:}}
+\index{load\-Browser\-With\-U\-R\-L\-:@{load\-Browser\-With\-U\-R\-L\-:}!PageContentDelegate-p@{Page\-Content\-Delegate-\/p}}
+\subsubsection[{load\-Browser\-With\-U\-R\-L\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) load\-Browser\-With\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{relative\-U\-R\-L}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_page_content_delegate-p_a84551682c91a6d18ddad35d016d47a90}
+Load the external U\-R\-L on external browser 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,relative\-U\-R\-L} & as a U\-R\-L for external link will be loaded in the external browser \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+U\-I\-Web\-View 
+\end{DoxySeeAlso}
+\hypertarget{protocol_page_content_delegate-p_a7fa10de862bfb7fd786eeead48ce7f55}{\index{Page\-Content\-Delegate-\/p@{Page\-Content\-Delegate-\/p}!page\-Content\-Did\-Load\-:@{page\-Content\-Did\-Load\-:}}
+\index{page\-Content\-Did\-Load\-:@{page\-Content\-Did\-Load\-:}!PageContentDelegate-p@{Page\-Content\-Delegate-\/p}}
+\subsubsection[{page\-Content\-Did\-Load\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) page\-Content\-Did\-Load\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{loaded\-Page}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_page_content_delegate-p_a7fa10de862bfb7fd786eeead48ce7f55}
+This method called when current page has been loaded 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,loaded\-Page,returns} & the page currently rendered on the book \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_page_content_delegate-p_ad32506ebb19d686baabc0991f0b28833}{\index{Page\-Content\-Delegate-\/p@{Page\-Content\-Delegate-\/p}!page\-Content\-Loading\-:@{page\-Content\-Loading\-:}}
+\index{page\-Content\-Loading\-:@{page\-Content\-Loading\-:}!PageContentDelegate-p@{Page\-Content\-Delegate-\/p}}
+\subsubsection[{page\-Content\-Loading\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) page\-Content\-Loading\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{loading\-Page}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_page_content_delegate-p_ad32506ebb19d686baabc0991f0b28833}
+This method getting called when page content is loading 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,loading\-Page,returns} & the currently loading page \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_page_content_delegate-p_a50f6ce09e4eceba345c4bed40422d38e}{\index{Page\-Content\-Delegate-\/p@{Page\-Content\-Delegate-\/p}!page\-Load\-Failed\-:@{page\-Load\-Failed\-:}}
+\index{page\-Load\-Failed\-:@{page\-Load\-Failed\-:}!PageContentDelegate-p@{Page\-Content\-Delegate-\/p}}
+\subsubsection[{page\-Load\-Failed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) page\-Load\-Failed\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{page\-U\-R\-L}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_page_content_delegate-p_a50f6ce09e4eceba345c4bed40422d38e}
+This method getting called when page loading has been failed 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-U\-R\-L,returns} & the loading page U\-R\-L when the page loading has been failed \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_page_content_delegate-p_a8ec70410318e1c9491a3b8ff90fb3e5b}{\index{Page\-Content\-Delegate-\/p@{Page\-Content\-Delegate-\/p}!scale\-Page\-To\-Fit@{scale\-Page\-To\-Fit}}
+\index{scale\-Page\-To\-Fit@{scale\-Page\-To\-Fit}!PageContentDelegate-p@{Page\-Content\-Delegate-\/p}}
+\subsubsection[{scale\-Page\-To\-Fit}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-U\-Integer) scale\-Page\-To\-Fit 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{protocol_page_content_delegate-p_a8ec70410318e1c9491a3b8ff90fb3e5b}
+Set the auto scale option to the U\-I\-Web\-View , page can auto-\/scale or resize based on the view frame \begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer , returns the current auto scale status either enabled or disabled 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+U\-I\-Web\-View 
+\end{DoxySeeAlso}
+
+
+The documentation for this protocol was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_content_view_controller_8h}{Pxe\-Player\-Page\-Content\-View\-Controller.\-h}\end{DoxyCompactItemize}

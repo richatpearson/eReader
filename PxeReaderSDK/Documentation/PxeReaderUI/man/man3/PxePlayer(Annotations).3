@@ -1,0 +1,149 @@
+.TH "PxePlayer(Annotations)" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayer(Annotations) \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayer\&.h>\fP
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBgetAnnotationsWithCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgetAllAnnotationsWithCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgetAnnotationsForContent:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgetAllAnnotationsForContent:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBaddAnnotations:forContentID:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBupdateAnnotations:forContentID:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBdeleteAnnotationForContentID:WithCompletionHandler:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 369 of file PxePlayer\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) addAnnotations: (NSArray*)annotations(NSString*)contentID(PxePlayerAnnotations*, NSError*)handler"
+addAnnotations:withCompletionHandler:
+.PP
+Add annotation on the page\&.
+.PP
+This method add the new annotation on the page\&.
+.PP
+\fBReturns:\fP
+.RS 4
+The annotations will be added into the page\&. 
+.RE
+.PP
+
+.PP
+Definition at line 413 of file PxePlayer\&.m\&.
+.SS "- (void) deleteAnnotationForContentID: (NSString*)contentID(PxePlayerDeleteAnnotation*, NSError*)handler"
+deleteAnnotationWithCompletionHandler:
+.PP
+Delete annotations on the page\&.
+.PP
+This method remove the annotations on the page\&.
+.PP
+\fBReturns:\fP
+.RS 4
+The annotation on the page will be removed\&. 
+.RE
+.PP
+
+.PP
+Definition at line 438 of file PxePlayer\&.m\&.
+.SS "- (void) getAllAnnotationsForContent: (NSString*)contentID(PxePlayerNotes*, NSError*)handler"
+getAllAnnotationsForContentWithCompletionHandler:
+.PP
+Remove all cached data from the filesystem\&.
+.PP
+This method just remove the all cached data from the filesystem\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Cached data will be cleared\&. 
+.RE
+.PP
+
+.PP
+Definition at line 401 of file PxePlayer\&.m\&.
+.SS "- (void) getAllAnnotationsWithCompletionHandler: (PxePlayerNotes*, NSError*)handler"
+getAllAnnotationsWithCompletionHandler:
+.PP
+Remove all cached data from the filesystem\&.
+.PP
+This method just remove the all cached data from the filesystem\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Cached data will be cleared\&. 
+.RE
+.PP
+
+.PP
+Definition at line 379 of file PxePlayer\&.m\&.
+.SS "- (void) getAnnotationsForContent: (NSString*)contentID(PxePlayerNotes*, NSError*)handler"
+getAnnotationsForContentWithCompletionHandler:
+.PP
+Remove all cached data from the filesystem\&.
+.PP
+This method just remove the all cached data from the filesystem\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Cached data will be cleared\&. 
+.RE
+.PP
+
+.PP
+Definition at line 390 of file PxePlayer\&.m\&.
+.SS "- (void) getAnnotationsWithCompletionHandler: (PxePlayerNotes*, NSError*)handler"
+getAnnotationsWithCompletionHandler:
+.PP
+Get annotations in the page\&.
+.PP
+This method returns the all annotations in the page\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Returns the array of annotations reference in the page\&. 
+.RE
+.PP
+
+.PP
+Definition at line 369 of file PxePlayer\&.m\&.
+.SS "- (void) updateAnnotations: (NSArray*)annotations(NSString*)contentID(PxePlayerAnnotations*, NSError*)handler"
+updateAnnotations:withCompletionHandler:
+.PP
+Update annotations on the page
+.PP
+This method updates the edited details of the existing annotations\&.
+.PP
+\fBReturns:\fP
+.RS 4
+The annotations on the page will be updated with edited properties\&. 
+.RE
+.PP
+
+.PP
+Definition at line 426 of file PxePlayer\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

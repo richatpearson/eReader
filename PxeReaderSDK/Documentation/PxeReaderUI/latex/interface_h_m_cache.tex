@@ -1,0 +1,241 @@
+\hypertarget{interface_h_m_cache}{\section{H\-M\-Cache Class Reference}
+\label{interface_h_m_cache}\index{H\-M\-Cache@{H\-M\-Cache}}
+}
+
+
+{\ttfamily \#import $<$H\-M\-Cache.\-h$>$}
+
+Inheritance diagram for H\-M\-Cache\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_h_m_cache}
+\end{center}
+\end{figure}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) + \hyperlink{interface_h_m_cache_a6bdf784a54d7769ecd74ede7e3144b97}{reset\-Cache}
+\item 
+(void) + \hyperlink{interface_h_m_cache_a8608ca43aaceb46957be9651133b0ca2}{set\-Object\-:for\-Key\-:}
+\item 
+(id) + \hyperlink{interface_h_m_cache_a129a4f9b8f97fe5d6d91c4b40ce2cf12}{object\-For\-Key\-:}
+\item 
+(void) + \hyperlink{interface_h_m_cache_a94647093b59901a003c740cb60d0b503}{remove\-Object\-:}
+\item 
+(void) + \hyperlink{interface_h_m_cache_ae93bd9319423f1567d93d621563207a5}{clear\-Old\-Files}
+\item 
+(N\-S\-String $\ast$) + \hyperlink{interface_h_m_cache_afbf507c62ac548dc5d622ccf9c5677f5}{create\-Cache\-Sub\-Directory\-:}
+\item 
+(N\-S\-String $\ast$) + \hyperlink{interface_h_m_cache_a645cab7afdf3ba10c051e4bb2176d2a2}{create\-Directory\-:}
+\item 
+(B\-O\-O\-L) + \hyperlink{interface_h_m_cache_a77f18b032b046ab8b6aed93444c777a1}{remove\-Directory\-:}
+\item 
+(void) + \hyperlink{interface_h_m_cache_aebd9c067580569f1b703e17a96ace2db}{set\-Object\-:for\-Key\-:with\-New\-Path\-:}
+\item 
+(N\-S\-Data $\ast$) + \hyperlink{interface_h_m_cache_ad8b8bc321146bed180346c14ec284a57}{object\-For\-Key\-:with\-Path\-:}
+\item 
+(B\-O\-O\-L) + \hyperlink{interface_h_m_cache_aa796cf777c3fb02a18385b4ee47637a5}{remove\-Cache\-Sub\-Directory\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 9 of file H\-M\-Cache.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_h_m_cache_ae93bd9319423f1567d93d621563207a5}{\index{H\-M\-Cache@{H\-M\-Cache}!clear\-Old\-Files@{clear\-Old\-Files}}
+\index{clear\-Old\-Files@{clear\-Old\-Files}!HMCache@{H\-M\-Cache}}
+\subsubsection[{clear\-Old\-Files}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) clear\-Old\-Files 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_ae93bd9319423f1567d93d621563207a5}
+This method would be called to delete expired cached data 
+
+Definition at line 161 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_afbf507c62ac548dc5d622ccf9c5677f5}{\index{H\-M\-Cache@{H\-M\-Cache}!create\-Cache\-Sub\-Directory\-:@{create\-Cache\-Sub\-Directory\-:}}
+\index{create\-Cache\-Sub\-Directory\-:@{create\-Cache\-Sub\-Directory\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{create\-Cache\-Sub\-Directory\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-String $\ast$) create\-Cache\-Sub\-Directory\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{dir\-Name}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_afbf507c62ac548dc5d622ccf9c5677f5}
+This method would be called to to create sub directory in to the H\-M cache directory 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,dir\-Name} & which need to be assigned as a directory name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-String, returns the created sub directory path 
+\end{DoxyReturn}
+
+
+Definition at line 28 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_a645cab7afdf3ba10c051e4bb2176d2a2}{\index{H\-M\-Cache@{H\-M\-Cache}!create\-Directory\-:@{create\-Directory\-:}}
+\index{create\-Directory\-:@{create\-Directory\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{create\-Directory\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-String $\ast$) create\-Directory\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{dir\-Name}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_a645cab7afdf3ba10c051e4bb2176d2a2}
+This method would be called to to create sub directory in to the H\-M cache directory 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,dir\-Name} & which need to be assigned as a directory name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-String, returns the created directory path 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_a129a4f9b8f97fe5d6d91c4b40ce2cf12}{\index{H\-M\-Cache@{H\-M\-Cache}!object\-For\-Key\-:@{object\-For\-Key\-:}}
+\index{object\-For\-Key\-:@{object\-For\-Key\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{object\-For\-Key\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-Data $\ast$) object\-For\-Key\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_a129a4f9b8f97fe5d6d91c4b40ce2cf12}
+This method would be called to retrieve the cached data from the local file system 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & which required to to identify the cached data \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 119 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_ad8b8bc321146bed180346c14ec284a57}{\index{H\-M\-Cache@{H\-M\-Cache}!object\-For\-Key\-:with\-Path\-:@{object\-For\-Key\-:with\-Path\-:}}
+\index{object\-For\-Key\-:with\-Path\-:@{object\-For\-Key\-:with\-Path\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{object\-For\-Key\-:with\-Path\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-Data $\ast$) {\bf object\-For\-Key\-:} 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{key}
+\item[{withPath:(N\-S\-String$\ast$)}]{path}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_ad8b8bc321146bed180346c14ec284a57}
+This method would be called to retrieve the cached data from the specified file path in the local file system 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & which required to to identify the cached data \\
+\hline
+{\em N\-S\-String,path} & which required to to identify the cached path \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 105 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_aa796cf777c3fb02a18385b4ee47637a5}{\index{H\-M\-Cache@{H\-M\-Cache}!remove\-Cache\-Sub\-Directory\-:@{remove\-Cache\-Sub\-Directory\-:}}
+\index{remove\-Cache\-Sub\-Directory\-:@{remove\-Cache\-Sub\-Directory\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{remove\-Cache\-Sub\-Directory\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (B\-O\-O\-L) remove\-Cache\-Sub\-Directory\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{dir\-Name}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_aa796cf777c3fb02a18385b4ee47637a5}
+Remove the cached sub directory and it's contents 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,dir\-Name} & which need to be identify the locationo of the directory \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 76 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_a77f18b032b046ab8b6aed93444c777a1}{\index{H\-M\-Cache@{H\-M\-Cache}!remove\-Directory\-:@{remove\-Directory\-:}}
+\index{remove\-Directory\-:@{remove\-Directory\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{remove\-Directory\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (B\-O\-O\-L) remove\-Directory\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{dir\-Name}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_a77f18b032b046ab8b6aed93444c777a1}
+Removes the directory from the cache directory 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,dir\-Name} & is a name of the directory which required to identify the directory location \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 57 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_a94647093b59901a003c740cb60d0b503}{\index{H\-M\-Cache@{H\-M\-Cache}!remove\-Object\-:@{remove\-Object\-:}}
+\index{remove\-Object\-:@{remove\-Object\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{remove\-Object\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) remove\-Object\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_a94647093b59901a003c740cb60d0b503}
+Remove the particular cached data from the file system using key 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & which need to be identify the cached data to be deleted \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 152 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_a6bdf784a54d7769ecd74ede7e3144b97}{\index{H\-M\-Cache@{H\-M\-Cache}!reset\-Cache@{reset\-Cache}}
+\index{reset\-Cache@{reset\-Cache}!HMCache@{H\-M\-Cache}}
+\subsubsection[{reset\-Cache}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) reset\-Cache 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_a6bdf784a54d7769ecd74ede7e3144b97}
+This method would be called to remove all the cached files from local file system and resets the all User defaults \begin{DoxySeeAlso}{See Also}
+N\-S\-User\-Defaults 
+\end{DoxySeeAlso}
+
+
+Definition at line 15 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_a8608ca43aaceb46957be9651133b0ca2}{\index{H\-M\-Cache@{H\-M\-Cache}!set\-Object\-:for\-Key\-:@{set\-Object\-:for\-Key\-:}}
+\index{set\-Object\-:for\-Key\-:@{set\-Object\-:for\-Key\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{set\-Object\-:for\-Key\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) set\-Object\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Data$\ast$)}]{data}
+\item[{forKey:(N\-S\-String$\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_a8608ca43aaceb46957be9651133b0ca2}
+This method would be called to store data on the local cache with key for identity of the cached file 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Data,data} & which need to be stored \\
+\hline
+{\em N\-S\-String,key} & which required to identify the cached data in the local file system \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 133 of file H\-M\-Cache.\-m.
+
+\hypertarget{interface_h_m_cache_aebd9c067580569f1b703e17a96ace2db}{\index{H\-M\-Cache@{H\-M\-Cache}!set\-Object\-:for\-Key\-:with\-New\-Path\-:@{set\-Object\-:for\-Key\-:with\-New\-Path\-:}}
+\index{set\-Object\-:for\-Key\-:with\-New\-Path\-:@{set\-Object\-:for\-Key\-:with\-New\-Path\-:}!HMCache@{H\-M\-Cache}}
+\subsubsection[{set\-Object\-:for\-Key\-:with\-New\-Path\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) set\-Object\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Data $\ast$)}]{data}
+\item[{forKey:(N\-S\-String $\ast$)}]{key}
+\item[{withNewPath:(N\-S\-String$\ast$)}]{path\-Name}
+\end{DoxyParamCaption}
+}}\label{interface_h_m_cache_aebd9c067580569f1b703e17a96ace2db}
+This method would be called to store data on the specified file path with key for identity of the cached file 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Data,data} & which need to be stored \\
+\hline
+{\em N\-S\-String,key} & which required to identify the cached data in the local file system \\
+\hline
+{\em N\-S\-String,path\-Name} & which required to store the file in specifi location \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file H\-M\-Cache.\-m.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_h_m_cache_8h}{H\-M\-Cache.\-h}\item 
+\hyperlink{_h_m_cache_8m}{H\-M\-Cache.\-m}\end{DoxyCompactItemize}

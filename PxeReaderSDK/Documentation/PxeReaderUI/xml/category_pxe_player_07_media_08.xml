@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_07_media_08" kind="category" prot="public">
+    <compoundname>PxePlayer(Media)</compoundname>
+    <includes refid="_pxe_player_8h" local="no">PxePlayer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_pxe_player_07_media_08_1a6dbce3db863cdd13fc40f0b64624a843" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayer(Media)::getMedia:withCompletionHandler:</definition>
+        <argsstring>(NSString *type,[withCompletionHandler] NSArray *, NSError *handler)</argsstring>
+        <name>getMedia:withCompletionHandler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <attributes>[withCompletionHandler]</attributes>
+          <type>NSArray *</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>NSError *</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the current book media contents <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as a reference to get the type of media contents </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>completionHandler:(void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(^)(NSArray*, NSError*))handler which returns the array of media contents after media has been downloaded; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>PxePlayerInterface </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="234" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_pxe_player" kindref="compound">PxePlayer</ref> category class for media. </para>    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" line="497" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.h" bodystart="497" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_07_media_08_1a6dbce3db863cdd13fc40f0b64624a843" prot="public" virt="virtual"><scope>PxePlayer(Media)</scope><name>getMedia:withCompletionHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

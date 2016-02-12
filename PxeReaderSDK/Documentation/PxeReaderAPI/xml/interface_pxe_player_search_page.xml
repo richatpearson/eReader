@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_search_page" kind="class" prot="public">
+    <compoundname>PxePlayerSearchPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_search_page_8h" local="no">PxePlayerSearchPage.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_search_page_1a6a30adba13a3bc04aba74e5c72a68d45" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerSearchPage::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the title of the page </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_page_1af61fb16410b027d925410724f7654f9a" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerSearchPage::pageUrl</definition>
+        <argsstring></argsstring>
+        <name>pageUrl</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_page_1abcd4dc97b1e87dd2cda9dded238302a9" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerSearchPage::textSnippet</definition>
+        <argsstring></argsstring>
+        <name>textSnippet</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the text snippet </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_page_1a221899b9f7e9652b334ffc8d4450d31d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerSearchPage::wordHits</definition>
+        <argsstring></argsstring>
+        <name>wordHits</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the word hits </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the search page data </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="335">
+        <label>PxePlayerSearchPage</label>
+        <link refid="interface_pxe_player_search_page"/>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="337">
+        <label>PxePlayerSearchPage</label>
+        <link refid="interface_pxe_player_search_page"/>
+        <childnode refid="338" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPage.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_search_page_1af61fb16410b027d925410724f7654f9a" prot="public" virt="non-virtual"><scope>PxePlayerSearchPage</scope><name>pageUrl</name></member>
+      <member refid="interface_pxe_player_search_page_1abcd4dc97b1e87dd2cda9dded238302a9" prot="public" virt="non-virtual"><scope>PxePlayerSearchPage</scope><name>textSnippet</name></member>
+      <member refid="interface_pxe_player_search_page_1a6a30adba13a3bc04aba74e5c72a68d45" prot="public" virt="non-virtual"><scope>PxePlayerSearchPage</scope><name>title</name></member>
+      <member refid="interface_pxe_player_search_page_1a221899b9f7e9652b334ffc8d4450d31d" prot="public" virt="non-virtual"><scope>PxePlayerSearchPage</scope><name>wordHits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+//
+//  PxePlayerKit.h
+//  PxePlayerApi
+//
+//  Created by Saro Bear on 04/10/13.
+//  Copyright (c) 2013 Pearson. All rights reserved.
+//
+
+
+#import "PxePlayerAddAnnotationQuery.h"
+#import "PxePlayerAddBookmark.h"
+#import "PxePlayerAddNoteQuery.h"
+#import "PxePlayerAnnotation.h"
+#import "PxePlayerAnnotations.h"
+#import "PxePlayerBaseQuery.h"
+#import "PxePlayerBook.h"
+#import "PxePlayerBookmark.h"
+#import "PxePlayerBookmarkQuery.h"
+#import "PxePlayerBookmarks.h"
+#import "PxePlayerBookQuery.h"
+#import "PxePlayerBookShelf.h"
+#import "PxePlayerChapter.h"
+#import "PxePlayerChapters.h"
+#import "PxePlayerChaptersQuery.h"
+#import "PxePlayerCheckBookmark.h"
+#import "PxePlayerContentAnnotationsQuery.h"
+#import "PxePlayerDeleteAnnotation.h"
+#import "PxePlayerDeleteBookmark.h"
+#import "PxePlayerDeleteBookmarkQuery.h"
+#import "PxePlayerEditBookmark.h"
+#import "PxePlayerInterface.h"
+#import "PxePlayerMedia.h"
+#import "PxePlayerMediaQuery.h"
+#import "PxePlayerMediaType.h"
+#import "PxePlayerNavigationsQuery.h"
+#import "PxePlayerNote.h"
+#import "PxePlayerNoteDeleteQuery.h"
+#import "PxePlayerNotes.h"
+#import "PxePlayerNotesQuery.h"
+#import "PxePlayerPageOperation.h"
+#import "PxePlayerPageOperations.h"
+#import "PxePlayerPagesQuery.h"
+#import "PxePlayerParser.h"
+#import "PxePlayerQueryParser.h"
+#import "PxePlayerRestConnector.h"
+#import "PxePlayerSearchBookQuery.h"
+#import "PxePlayerSearchBooksQuery.h"
+#import "PxePlayerSearchNCXQuery.h"
+#import "PxePlayerSearchPage.h"
+#import "PxePlayerSearchPages.h"
+#import "PxePlayerSearchURLsQuery.h"
+#import "PxePlayerToc.h"
+#import "PxePlayerTocQuery.h"
+#import "PxePlayerURLConstants.h"
+#import "PxePlayerUser.h"
+#import "PxePlayerMediaCrumb.h"
+#import "Reachability.h"
+

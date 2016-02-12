@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_delete_annotation" kind="class" prot="public">
+    <compoundname>PxePlayerDeleteAnnotation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_delete_annotation_8h" local="no">PxePlayerDeleteAnnotation.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_delete_annotation_1af7e0af27ae414509ba43e44ddf7667a2" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDeleteAnnotation::contextId</definition>
+        <argsstring></argsstring>
+        <name>contextId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the context id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_delete_annotation_1a97bf44541b15e60e18679e5fd9485183" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDeleteAnnotation::identityId</definition>
+        <argsstring></argsstring>
+        <name>identityId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the identity id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" line="24" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_delete_annotation_1a370a323136369e89ce703c8811a87a3c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDeleteAnnotation::contentId</definition>
+        <argsstring></argsstring>
+        <name>contentId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_delete_annotation_1a929f2f2c876d9d89cda682c8a4e3f3da" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDeleteAnnotation::annotationDttm</definition>
+        <argsstring></argsstring>
+        <name>annotationDttm</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the annotation description </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" line="34" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the delete annotation </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>PxePlayerDeleteAnnotation</label>
+        <link refid="interface_pxe_player_delete_annotation"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="132">
+        <label>PxePlayerDeleteAnnotation</label>
+        <link refid="interface_pxe_player_delete_annotation"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteAnnotation.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_delete_annotation_1a929f2f2c876d9d89cda682c8a4e3f3da" prot="public" virt="non-virtual"><scope>PxePlayerDeleteAnnotation</scope><name>annotationDttm</name></member>
+      <member refid="interface_pxe_player_delete_annotation_1a370a323136369e89ce703c8811a87a3c" prot="public" virt="non-virtual"><scope>PxePlayerDeleteAnnotation</scope><name>contentId</name></member>
+      <member refid="interface_pxe_player_delete_annotation_1af7e0af27ae414509ba43e44ddf7667a2" prot="public" virt="non-virtual"><scope>PxePlayerDeleteAnnotation</scope><name>contextId</name></member>
+      <member refid="interface_pxe_player_delete_annotation_1a97bf44541b15e60e18679e5fd9485183" prot="public" virt="non-virtual"><scope>PxePlayerDeleteAnnotation</scope><name>identityId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

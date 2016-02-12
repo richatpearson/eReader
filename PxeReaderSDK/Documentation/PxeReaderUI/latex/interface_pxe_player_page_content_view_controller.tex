@@ -1,0 +1,312 @@
+\hypertarget{interface_pxe_player_page_content_view_controller}{\section{Pxe\-Player\-Page\-Content\-View\-Controller Class Reference}
+\label{interface_pxe_player_page_content_view_controller}\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-Content\-View\-Controller.\-h$>$}
+
+Inheritance diagram for Pxe\-Player\-Page\-Content\-View\-Controller\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_pxe_player_page_content_view_controller}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_ac1ee65bf42d314bdfb0e8f6e933ea826}{init\-With\-Page\-:with\-Frame\-:and\-Delegate\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_ac48e24862e5965de2e8bb122207a54e7}{load\-Page}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a6e0cc4d9f70477ebac454c4ca421ed46}{is\-Page\-Did\-Load}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a14807e6d4cdaea7a2cc4ba87b7a59e3b}{set\-Page\-Id\-:}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_ae168e36dd9a9b4d6f613ca0e613a6989}{get\-Page\-Absolute\-U\-R\-L}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a12057b213465a87807f385f538184364}{get\-Page\-Relative\-U\-R\-L}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_aa0c98549d530b0e72cacb71e517d14cc}{get\-Page\-U\-U\-I\-D}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a2ee7ab5ab5d4159e5fd53ca2538e5d6a}{highlight\-Search\-Words\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a5b826204805d08a5ab828230895a4115}{update\-Font}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a1d1a289d82656dec419bdece231cfdfc}{update\-Theme}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a83dc743081b3625226cae810fbe027a5}{goto\-U\-R\-L\-Tag\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_content_view_controller_a1cd7abe0cc5c6ed1fe9251a8e6e32d43}{set\-Annotation\-Label\-:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+id$<$ \hyperlink{protocol_page_content_delegate-p}{Page\-Content\-Delegate} $>$ \hyperlink{interface_pxe_player_page_content_view_controller_abc82821b4b3302687cee6029b156f0fd}{delegate}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 62 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_pxe_player_page_content_view_controller_ae168e36dd9a9b4d6f613ca0e613a6989}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!get\-Page\-Absolute\-U\-R\-L@{get\-Page\-Absolute\-U\-R\-L}}
+\index{get\-Page\-Absolute\-U\-R\-L@{get\-Page\-Absolute\-U\-R\-L}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{get\-Page\-Absolute\-U\-R\-L}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Page\-Absolute\-U\-R\-L 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_ae168e36dd9a9b4d6f613ca0e613a6989}
+Get the page's absolute U\-R\-L \begin{DoxyReturn}{Returns}
+N\-S\-String , returns the current page absolute url
+\end{DoxyReturn}
+This method getting called to retrieve the page absolute U\-R\-L \begin{DoxySeeAlso}{See Also}
+\mbox{[}\hyperlink{class_pxe_player}{Pxe\-Player} \hyperlink{_pxe_player_8h_ab4a894a00a98a191f331a3e193769965}{get\-N\-C\-X\-U\-R\-L}\mbox{]} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+N\-S\-String, returns the page's absolute U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 272 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a12057b213465a87807f385f538184364}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!get\-Page\-Relative\-U\-R\-L@{get\-Page\-Relative\-U\-R\-L}}
+\index{get\-Page\-Relative\-U\-R\-L@{get\-Page\-Relative\-U\-R\-L}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{get\-Page\-Relative\-U\-R\-L}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Page\-Relative\-U\-R\-L 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a12057b213465a87807f385f538184364}
+Get the page's relative U\-R\-L \begin{DoxyReturn}{Returns}
+N\-S\-String , returns the current page relative url
+\end{DoxyReturn}
+This method getting called to retrieve the page relative U\-R\-L \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the page's relative U\-R\-L 
+\end{DoxyReturn}
+
+
+Definition at line 290 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_aa0c98549d530b0e72cacb71e517d14cc}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!get\-Page\-U\-U\-I\-D@{get\-Page\-U\-U\-I\-D}}
+\index{get\-Page\-U\-U\-I\-D@{get\-Page\-U\-U\-I\-D}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{get\-Page\-U\-U\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Page\-U\-U\-I\-D 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_aa0c98549d530b0e72cacb71e517d14cc}
+Get the page's U\-U\-I\-D \begin{DoxyReturn}{Returns}
+N\-S\-String , returns the current page U\-U\-I\-D
+\end{DoxyReturn}
+This method getting called to retrieve the page U\-U\-I\-D \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the page's id 
+\end{DoxyReturn}
+
+
+Definition at line 298 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a83dc743081b3625226cae810fbe027a5}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!goto\-U\-R\-L\-Tag\-:@{goto\-U\-R\-L\-Tag\-:}}
+\index{goto\-U\-R\-L\-Tag\-:@{goto\-U\-R\-L\-Tag\-:}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{goto\-U\-R\-L\-Tag\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) goto\-U\-R\-L\-Tag\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{url\-Tag}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a83dc743081b3625226cae810fbe027a5}
+This method should be called to navigate to the particular title with in a page 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,url\-Tag,the} & page url which going to be rendered into the internal webview\\
+\hline
+\end{DoxyParams}
+This method getting called whenever page needs to navigate to the specifi titles in the page 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,url\-Tag} & is a id to navgate to the title with in the page \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+U\-I\-Web\-View 
+\end{DoxySeeAlso}
+
+
+Definition at line 249 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a2ee7ab5ab5d4159e5fd53ca2538e5d6a}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!highlight\-Search\-Words\-:@{highlight\-Search\-Words\-:}}
+\index{highlight\-Search\-Words\-:@{highlight\-Search\-Words\-:}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{highlight\-Search\-Words\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) highlight\-Search\-Words\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{highlight\-Labels}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a2ee7ab5ab5d4159e5fd53ca2538e5d6a}
+Highlight the search words in the rendered page 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,highlight\-Labels,the} & array of labels that should be highlighted\\
+\hline
+\end{DoxyParams}
+This method getting called to highlight the searched words in the page \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the page's id 
+\end{DoxyReturn}
+
+
+Definition at line 593 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_ac1ee65bf42d314bdfb0e8f6e933ea826}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!init\-With\-Page\-:with\-Frame\-:and\-Delegate\-:@{init\-With\-Page\-:with\-Frame\-:and\-Delegate\-:}}
+\index{init\-With\-Page\-:with\-Frame\-:and\-Delegate\-:@{init\-With\-Page\-:with\-Frame\-:and\-Delegate\-:}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{init\-With\-Page\-:with\-Frame\-:and\-Delegate\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page}
+\item[{withFrame:(C\-G\-Rect)}]{frame}
+\item[{andDelegate:(id)}]{delegate}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_ac1ee65bf42d314bdfb0e8f6e933ea826}
+This method Intialise the page content view controller U\-I and all required settings and prepares for rendering into the screen 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page,the} & page url which going to be rendered into the internal webview \\
+\hline
+{\em C\-G\-Rect,frame,the} & frame of the view which going to be rendered on top of the window \\
+\hline
+{\em id,delegate,delegate} & class can get notification from the self class for certain events \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{protocol_page_content_delegate-p}{Page\-Content\-Delegate} 
+\end{DoxySeeAlso}
+
+
+Definition at line 317 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a6e0cc4d9f70477ebac454c4ca421ed46}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!is\-Page\-Did\-Load@{is\-Page\-Did\-Load}}
+\index{is\-Page\-Did\-Load@{is\-Page\-Did\-Load}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{is\-Page\-Did\-Load}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) is\-Page\-Did\-Load 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a6e0cc4d9f70477ebac454c4ca421ed46}
+This method return status of either page has been loaded or not \begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns page loaded or not
+\end{DoxyReturn}
+This method getting called to retrieve whether page has loaded or not \begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns the whether page has loaded or not 
+\end{DoxyReturn}
+
+
+Definition at line 306 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_ac48e24862e5965de2e8bb122207a54e7}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!load\-Page@{load\-Page}}
+\index{load\-Page@{load\-Page}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{load\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) load\-Page 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_ac48e24862e5965de2e8bb122207a54e7}
+This method used for freshly (re)load the page on the web view \begin{DoxySeeAlso}{See Also}
+U\-I\-Web\-View
+\end{DoxySeeAlso}
+This method getting called whenever load or refresh the page and restored the page information to the local cache \begin{DoxySeeAlso}{See Also}
+U\-I\-Web\-View 
+
+\hyperlink{interface_pxe_player_loading_view}{Pxe\-Player\-Loading\-View} 
+
+\hyperlink{interface_h_m_cache}{H\-M\-Cache} 
+\end{DoxySeeAlso}
+
+
+Definition at line 216 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a1cd7abe0cc5c6ed1fe9251a8e6e32d43}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!set\-Annotation\-Label\-:@{set\-Annotation\-Label\-:}}
+\index{set\-Annotation\-Label\-:@{set\-Annotation\-Label\-:}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{set\-Annotation\-Label\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) set\-Annotation\-Label\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{label}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a1cd7abe0cc5c6ed1fe9251a8e6e32d43}
+This method should be called to set the annotation label 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,label,annotate} & the label on the page\\
+\hline
+\end{DoxyParams}
+This method getting called to set the annotated label in the page 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,label} & is an annotatated string that need to be highlighted \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\mbox{[}U\-I\-Web\-View string\-By\-Evaluating\-Java\-Script\-From\-String\mbox{]}; 
+\end{DoxySeeAlso}
+
+
+Definition at line 620 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a14807e6d4cdaea7a2cc4ba87b7a59e3b}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!set\-Page\-Id\-:@{set\-Page\-Id\-:}}
+\index{set\-Page\-Id\-:@{set\-Page\-Id\-:}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{set\-Page\-Id\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) set\-Page\-Id\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page\-Id}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a14807e6d4cdaea7a2cc4ba87b7a59e3b}
+Set the current page id 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Id,current} & page id will be assigned\\
+\hline
+\end{DoxyParams}
+This method getting called to set the page id of the loaded page 
+\begin{DoxyParams}{Parameters}
+{\em page\-Id,page\-Id} & need to be set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 263 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a5b826204805d08a5ab828230895a4115}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!update\-Font@{update\-Font}}
+\index{update\-Font@{update\-Font}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{update\-Font}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) update\-Font 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a5b826204805d08a5ab828230895a4115}
+This method should be called to update the font properties into the page
+
+This method getting called to update the font size of the page content \begin{DoxySeeAlso}{See Also}
+\mbox{[}U\-I\-Web\-View string\-By\-Evaluating\-Java\-Script\-From\-String\mbox{]}; 
+
+\mbox{[}\hyperlink{class_pxe_player}{Pxe\-Player} \hyperlink{_pxe_player_8h_a2a59e2144714c28f08c22e61345e51c7}{get\-Page\-Font\-Size}\mbox{]} 
+\end{DoxySeeAlso}
+
+
+Definition at line 602 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_content_view_controller_a1d1a289d82656dec419bdece231cfdfc}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!update\-Theme@{update\-Theme}}
+\index{update\-Theme@{update\-Theme}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{update\-Theme}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) update\-Theme 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_content_view_controller_a1d1a289d82656dec419bdece231cfdfc}
+This method should be called to update the theme properties into the page
+
+This method getting called to update the theme of the page content \begin{DoxySeeAlso}{See Also}
+\mbox{[}U\-I\-Web\-View string\-By\-Evaluating\-Java\-Script\-From\-String\mbox{]}; 
+
+\mbox{[}\hyperlink{class_pxe_player}{Pxe\-Player} \hyperlink{_pxe_player_8h_a324144dbc3af9481da99515ebbdd7e89}{get\-Page\-Theme}\mbox{]} 
+\end{DoxySeeAlso}
+
+
+Definition at line 611 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_pxe_player_page_content_view_controller_abc82821b4b3302687cee6029b156f0fd}{\index{Pxe\-Player\-Page\-Content\-View\-Controller@{Pxe\-Player\-Page\-Content\-View\-Controller}!delegate@{delegate}}
+\index{delegate@{delegate}!PxePlayerPageContentViewController@{Pxe\-Player\-Page\-Content\-View\-Controller}}
+\subsubsection[{delegate}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id$<${\bf Page\-Content\-Delegate}$>$) delegate\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [weak]}}}\label{interface_pxe_player_page_content_view_controller_abc82821b4b3302687cee6029b156f0fd}
+
+
+Definition at line 64 of file Pxe\-Player\-Page\-Content\-View\-Controller.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_content_view_controller_8h}{Pxe\-Player\-Page\-Content\-View\-Controller.\-h}\item 
+\hyperlink{_pxe_player_page_content_view_controller_8m}{Pxe\-Player\-Page\-Content\-View\-Controller.\-m}\end{DoxyCompactItemize}

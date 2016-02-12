@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_chapters_query_8m" kind="file">
+    <compoundname>PxePlayerChaptersQuery.m</compoundname>
+    <includes refid="_pxe_player_chapters_query_8h" local="yes">PxePlayerChaptersQuery.h</includes>
+    <incdepgraph>
+      <node id="300">
+        <label>PxePlayerBaseQuery.h</label>
+        <link refid="_pxe_player_base_query_8h"/>
+      </node>
+      <node id="299">
+        <label>PxePlayerNavigationsQuery.h</label>
+        <link refid="_pxe_player_navigations_query_8h"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>PxePlayerChaptersQuery.h</label>
+        <link refid="_pxe_player_chapters_query_8h"/>
+        <childnode refid="299" relation="include">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>PxePlayerChaptersQuery.m</label>
+        <link refid="PxePlayerChaptersQuery.m"/>
+        <childnode refid="298" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTChaptersQuery.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>04/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_chapters_query_8h" kindref="compound">PxePlayerChaptersQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_chapters_query" kindref="compound">PxePlayerChaptersQuery</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerChaptersQuery.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+var interface_pxe_player_book =
+[
+    [ "author", "interface_pxe_player_book.html#a1ddad2064600a6239eb5dc4e007d2e7c", null ],
+    [ "bookUUID", "interface_pxe_player_book.html#aebb4a95ecf0dd74f70abe6c234171d4b", null ],
+    [ "copyrightInfo", "interface_pxe_player_book.html#aca64d2186c8e621147758cdc0f53245b", null ],
+    [ "coverUrl", "interface_pxe_player_book.html#ac76f59149fa39a3e4eb15cfcf289c2dd", null ],
+    [ "creator", "interface_pxe_player_book.html#ab9a69b163da02700afe3466551e03c8a", null ],
+    [ "date", "interface_pxe_player_book.html#ad8a2e06c55f191348773ee7b7e2ca3d9", null ],
+    [ "description", "interface_pxe_player_book.html#aa673b642a388b3ebde37ccaf03cc7ad4", null ],
+    [ "edition", "interface_pxe_player_book.html#a218bf45943504045b908b7c438b994f0", null ],
+    [ "expirationDate", "interface_pxe_player_book.html#a6ac644b4bfb5a693764b81454c10ee0a", null ],
+    [ "isActive", "interface_pxe_player_book.html#a925ea189e97b526295cecdc85f13279b", null ],
+    [ "isbn", "interface_pxe_player_book.html#ad6112557a3413f32dae81ca61db34840", null ],
+    [ "isExpired", "interface_pxe_player_book.html#af6b425654a214e8d5cdc4bd3be2a4203", null ],
+    [ "isFavorite", "interface_pxe_player_book.html#a9e8503084ff1fe4c3f501be74cce61a5", null ],
+    [ "isWarningPeriod", "interface_pxe_player_book.html#a540dc3b69e8d585b9fdb4c344609d9c7", null ],
+    [ "language", "interface_pxe_player_book.html#a2fd2a2d7a8761a35377955b5ef9683eb", null ],
+    [ "lastAccessTs", "interface_pxe_player_book.html#ae185e74c9aac16d5d592aeba1111defb", null ],
+    [ "pageURLS", "interface_pxe_player_book.html#a36d7ed8749aa6ab03a805aed527811aa", null ],
+    [ "publisher", "interface_pxe_player_book.html#a10d22f7a9625bb431db977410093dc7b", null ],
+    [ "subject", "interface_pxe_player_book.html#a96ae409bbcb6826fb23457e188b658fd", null ],
+    [ "thumbUrl", "interface_pxe_player_book.html#a1396e4a5a219032f3482ab1556797790", null ],
+    [ "title", "interface_pxe_player_book.html#a7b90d0569e28b2c8a548ce58fdd78089", null ],
+    [ "withAnnotations", "interface_pxe_player_book.html#a1c5d347398ddb5ab9b4b5b0a322f1d40", null ]
+];

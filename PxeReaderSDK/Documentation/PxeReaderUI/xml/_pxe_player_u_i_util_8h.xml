@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_u_i_util_8h" kind="file">
+    <compoundname>PxePlayerUIUtil.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <includedby refid="_pxe_player_u_i_util_8m" local="yes">PxePlayerUIUtil.m</includedby>
+    <incdepgraph>
+      <node id="274">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="273">
+        <label>PxePlayerUIUtil.h</label>
+        <link refid="PxePlayerUIUtil.h"/>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="275">
+        <label>PxePlayerUIUtil.h</label>
+        <link refid="PxePlayerUIUtil.h"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>PxePlayerUIUtil.m</label>
+        <link refid="_pxe_player_u_i_util_8m"/>
+      </node>
+      <node id="276">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="_pxe_player_u_i_kit_8h"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_u_i_util" prot="public">PxePlayerUIUtil</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTUtil.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>on<sp/>28/06/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Class</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="interface_pxe_player_u_i_util" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_u_i_util" kindref="compound">PxePlayerUIUtil</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/***************************************</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>//<sp/>data<sp/>UI<sp/>helpers</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">+(UILabel*)createLabelWithTitle:(NSString*)title<sp/>frame:(CGRect)frame;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">+(UILabel*)createLabelWithTitle:(NSString*)title<sp/>frame:(CGRect)frame<sp/>alignment:(NSTextAlignment)alignment;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">+(UILabel*)createLabelWithTitle:(NSString*)title<sp/>frame:(CGRect)frame<sp/>alignment:(NSTextAlignment)alignment</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withFont:(UIFont*)font<sp/>backGroundColor:(UIColor*)bgColor<sp/>textColor:(UIColor*)textColor;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">+(UIBarButtonItem*)createBarButtonItemFixedSpaceWithTarget:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)target<sp/>action:(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">)action<sp/>width:(CGFloat)width;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">+(UIButton*)createButtonWithBackgroundImage:(NSString*)imageName<sp/>andText:(NSString*)text;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">+(UIButton*)createButtonWithImage:(UIImage*)image;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">+(UIButton*)createButtonWithFrame:(CGRect)frame<sp/>type:(UIButtonType)type;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">+(UIButton*)createButtonWithFrame:(CGRect)frame<sp/>title:(NSString*)title<sp/>type:(UIButtonType)type;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">+(UITextField*)createTextFieldWithFrame:(CGRect)frame<sp/>text:(NSString*)text<sp/>placeHolder:(NSString*)placeHolder<sp/>borderStyle:(UITextBorderStyle)borderStyle;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">+(UITextField*)createTextFieldWithFrame:(CGRect)frame<sp/>text:(NSString*)text<sp/>placeHolder:(NSString*)placeHolder<sp/>borderStyle:(UITextBorderStyle)borderStyle<sp/>secure:(BOOL)isSecure;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">+(UITextField*)createTextFieldWithFrame:(CGRect)frame<sp/>text:(NSString*)text<sp/>placeHolder:(NSString*)placeHolder<sp/>borderStyle:(UITextBorderStyle)borderStyle<sp/>autoCorrection:(NSInteger)autoCorrection<sp/>autoCapitalization:(NSInteger)autoCapitalization<sp/>secure:(BOOL)isSecure;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">+(UIImageView*)createImageViewWithFileName:(NSString*)fileName;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">+(UIImageView*)createImageViewWithFileName:(NSString*)fileName<sp/>frame:(CGRect)frame<sp/>contentMode:(UIViewContentMode)contentMode;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">+(UIImageView*)createImageViewWithImage:(UIImage*)image<sp/>frame:(CGRect)frame<sp/>backgroundColor:(UIColor*)p_color<sp/>contentMode:(UIViewContentMode)contentMode;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">/***************************************</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>graphics<sp/>rendering<sp/>helpers</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>***************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">+(UIImage*)getLine:(CGSize)size<sp/>withColor:(CGColorRef)color;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="protocol_pxe_player_book_delegate-p" kind="protocol" prot="public">
+    <compoundname>PxePlayerBookDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="_pxe_player_book_delegate_8h" local="no">PxePlayerBookDelegate.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1a771400d6215f4dfdec837caf8aac2dcd" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookDelegate-p::getAuthToken</definition>
+        <argsstring>()</argsstring>
+        <name>getAuthToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to get the user auth token <simplesect kind="return"><para>NSString, returns the auth token as a string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1ab3fa8102745d211184d278219650e0b1" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookDelegate-p::getUserId</definition>
+        <argsstring>()</argsstring>
+        <name>getUserId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to get the user id <simplesect kind="return"><para>NSString, returns the user id as a string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1a6d001a4776ec1f88a60fd217d1669742" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookDelegate-p::getBookId</definition>
+        <argsstring>()</argsstring>
+        <name>getBookId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to get the user book id <simplesect kind="return"><para>NSString, returns the book id as a string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1a28464d6c265ff75c4841e7284547b1cf" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookDelegate-p::getCourseId</definition>
+        <argsstring>()</argsstring>
+        <name>getCourseId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to get the user course id <simplesect kind="return"><para>NSString, returns the course id as a string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1aac1a9c5f8447d689ca3480ae63970691" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookDelegate-p::getTocURL</definition>
+        <argsstring>()</argsstring>
+        <name>getTocURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to get the toc url <simplesect kind="return"><para>NSString, returns the toc url as a string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1a0ac191ff606c13517b72328ce22cc140" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerBookDelegate-p::isPageAvailable:</definition>
+        <argsstring>(NSString *relativeURL)</argsstring>
+        <name>isPageAvailable:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>relativeURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to check whether page with correspoding relative URL found in the core data <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>relativeURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a relative url of the page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>BOOL, returns the true if page found for the given relative url else returns false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1a5d3cee036beea1a63be6d5db307bd9fb" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerBookDelegate-p::loadPageWithRelativeURL:</definition>
+        <argsstring>(NSString *relativeURL)</argsstring>
+        <name>loadPageWithRelativeURL:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>relativeURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to load the page with it&apos;s relative URL <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>relativeURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a relative url of the page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>BOOL, returns the true if page has been loaded successfully else returns false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_book_delegate-p_1af75d39de105332fc8422ea0f0d7de94d" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerBookDelegate-p::loadPageWithRelativeURL:andHighlightLabels:</definition>
+        <argsstring>(NSString *relativeURL,[andHighlightLabels] NSArray *highlights)</argsstring>
+        <name>loadPageWithRelativeURL:andHighlightLabels:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>relativeURL</declname>
+        </param>
+        <param>
+          <attributes>[andHighlightLabels]</attributes>
+          <type>NSArray *</type>
+          <declname>highlights</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to load the page with it&apos;s relative URL with highlighting the book <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>relativeURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a relative url of the page </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>highlights</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>BOOL, returns the true if page has been loaded successfully else returns false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="123" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A informal protocol to which send&apos;s the book view controller to update or perform actions  &lt;NSObject&gt;, extented from <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="67">
+        <label>&lt;PxePlayerBookDelegate&gt;</label>
+        <link refid="protocol_pxe_player_book_delegate-p"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="69">
+        <label>&lt;PxePlayerBookDelegate&gt;</label>
+        <link refid="protocol_pxe_player_book_delegate-p"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookDelegate.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_book_delegate-p_1a771400d6215f4dfdec837caf8aac2dcd" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>getAuthToken</name></member>
+      <member refid="protocol_pxe_player_book_delegate-p_1a6d001a4776ec1f88a60fd217d1669742" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>getBookId</name></member>
+      <member refid="protocol_pxe_player_book_delegate-p_1a28464d6c265ff75c4841e7284547b1cf" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>getCourseId</name></member>
+      <member refid="protocol_pxe_player_book_delegate-p_1aac1a9c5f8447d689ca3480ae63970691" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>getTocURL</name></member>
+      <member refid="protocol_pxe_player_book_delegate-p_1ab3fa8102745d211184d278219650e0b1" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>getUserId</name></member>
+      <member refid="protocol_pxe_player_book_delegate-p_1a0ac191ff606c13517b72328ce22cc140" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>isPageAvailable:</name></member>
+      <member refid="protocol_pxe_player_book_delegate-p_1a5d3cee036beea1a63be6d5db307bd9fb" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>loadPageWithRelativeURL:</name></member>
+      <member refid="protocol_pxe_player_book_delegate-p_1af75d39de105332fc8422ea0f0d7de94d" prot="public" virt="virtual"><scope>PxePlayerBookDelegate-p</scope><name>loadPageWithRelativeURL:andHighlightLabels:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

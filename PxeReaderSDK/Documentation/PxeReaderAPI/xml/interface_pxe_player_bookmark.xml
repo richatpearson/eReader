@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_bookmark" kind="class" prot="public">
+    <compoundname>PxePlayerBookmark</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <derivedcompoundref refid="interface_pxe_player_add_bookmark" prot="public" virt="non-virtual">PxePlayerAddBookmark</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_edit_bookmark" prot="public" virt="non-virtual">PxePlayerEditBookmark</derivedcompoundref>
+    <includes refid="_pxe_player_bookmark_8h" local="no">PxePlayerBookmark.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_bookmark_1ac56c6dc4c71c9ef3010afe5b81a81cb3" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookmark::bookmarkTitle</definition>
+        <argsstring></argsstring>
+        <name>bookmarkTitle</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the bookmark title </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" line="17" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_bookmark_1ab8b1e16b624fa00bbd92e6611222405c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookmark::uri</definition>
+        <argsstring></argsstring>
+        <name>uri</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the uri </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" line="22" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_bookmark_1ae4b45f207dd31a597e765f7d53fd13e7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookmark::contentID</definition>
+        <argsstring></argsstring>
+        <name>contentID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" line="27" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_bookmark_1a4c5726238745b908389f27e7c04e1330" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerBookmark::labels</definition>
+        <argsstring></argsstring>
+        <name>labels</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the list of labels </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" line="32" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the bookmark data downloaded from the server into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="74">
+        <label>PxePlayerDeleteBookmark</label>
+        <link refid="interface_pxe_player_delete_bookmark"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>PxePlayerEditBookmark</label>
+        <link refid="interface_pxe_player_edit_bookmark"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>PxePlayerBookmark</label>
+        <link refid="interface_pxe_player_bookmark"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>PxePlayerAddBookmark</label>
+        <link refid="interface_pxe_player_add_bookmark"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="76">
+        <label>PxePlayerBookmark</label>
+        <link refid="interface_pxe_player_bookmark"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" line="13" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmark.h" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_bookmark_1ac56c6dc4c71c9ef3010afe5b81a81cb3" prot="public" virt="non-virtual"><scope>PxePlayerBookmark</scope><name>bookmarkTitle</name></member>
+      <member refid="interface_pxe_player_bookmark_1ae4b45f207dd31a597e765f7d53fd13e7" prot="public" virt="non-virtual"><scope>PxePlayerBookmark</scope><name>contentID</name></member>
+      <member refid="interface_pxe_player_bookmark_1a4c5726238745b908389f27e7c04e1330" prot="public" virt="non-virtual"><scope>PxePlayerBookmark</scope><name>labels</name></member>
+      <member refid="interface_pxe_player_bookmark_1ab8b1e16b624fa00bbd92e6611222405c" prot="public" virt="non-virtual"><scope>PxePlayerBookmark</scope><name>uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

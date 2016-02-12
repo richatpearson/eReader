@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_u_i_util" kind="class" prot="public">
+    <compoundname>PxePlayerUIUtil</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_u_i_util_8h" local="no">PxePlayerUIUtil.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1af97dd508a062ea331f21cee822c18ac1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UILabel *</type>
+        <definition>UILabel * PxePlayerUIUtil::createLabelWithTitle:frame:</definition>
+        <argsstring>(NSString *title,[frame] CGRect frame)</argsstring>
+        <name>createLabelWithTitle:frame:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[frame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1aeb918f401925afac57dc304b3293fb9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UILabel *</type>
+        <definition>UILabel * PxePlayerUIUtil::createLabelWithTitle:frame:alignment:</definition>
+        <argsstring>(NSString *title,[frame] CGRect frame,[alignment] NSTextAlignment alignment)</argsstring>
+        <name>createLabelWithTitle:frame:alignment:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[frame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[alignment]</attributes>
+          <type>NSTextAlignment</type>
+          <declname>alignment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UILabel *</type>
+        <definition>UILabel * PxePlayerUIUtil::createLabelWithTitle:frame:alignment:withFont:backGroundColor:textColor:</definition>
+        <argsstring>(NSString *title,[frame] CGRect frame,[alignment] NSTextAlignment alignment,[withFont] UIFont *font,[backGroundColor] UIColor *bgColor,[textColor] UIColor *textColor)</argsstring>
+        <name>createLabelWithTitle:frame:alignment:withFont:backGroundColor:textColor:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[frame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[alignment]</attributes>
+          <type>NSTextAlignment</type>
+          <declname>alignment</declname>
+        </param>
+        <param>
+          <attributes>[withFont]</attributes>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <param>
+          <attributes>[backGroundColor]</attributes>
+          <type>UIColor *</type>
+          <declname>bgColor</declname>
+        </param>
+        <param>
+          <attributes>[textColor]</attributes>
+          <type>UIColor *</type>
+          <declname>textColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="33" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1ad917830f6ccb35dd5c109f1697a0fc2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBarButtonItem *</type>
+        <definition>UIBarButtonItem * PxePlayerUIUtil::createBarButtonItemFixedSpaceWithTarget:action:width:</definition>
+        <argsstring>(id target,[action] SEL action,[width] CGFloat width)</argsstring>
+        <name>createBarButtonItemFixedSpaceWithTarget:action:width:</name>
+        <param>
+          <type>id</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <attributes>[action]</attributes>
+          <type>SEL</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <attributes>[width]</attributes>
+          <type>CGFloat</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a6ba382d8495af6d997eb7da8a57bfee0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIButton *</type>
+        <definition>UIButton * PxePlayerUIUtil::createButtonWithBackgroundImage:andText:</definition>
+        <argsstring>(NSString *imageName,[andText] NSString *text)</argsstring>
+        <name>createButtonWithBackgroundImage:andText:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>imageName</declname>
+        </param>
+        <param>
+          <attributes>[andText]</attributes>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="52" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a54829e9c57be3d689bcb8da8f52ba9d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIButton *</type>
+        <definition>UIButton * PxePlayerUIUtil::createButtonWithImage:</definition>
+        <argsstring>(UIImage *image)</argsstring>
+        <name>createButtonWithImage:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="63" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1afedfe9c0eff74632f51318cfea86840c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIButton *</type>
+        <definition>UIButton * PxePlayerUIUtil::createButtonWithFrame:type:</definition>
+        <argsstring>(CGRect frame,[type] UIButtonType type)</argsstring>
+        <name>createButtonWithFrame:type:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[type]</attributes>
+          <type>UIButtonType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIButton *</type>
+        <definition>UIButton * PxePlayerUIUtil::createButtonWithFrame:title:type:</definition>
+        <argsstring>(CGRect frame,[title] NSString *title,[type] UIButtonType type)</argsstring>
+        <name>createButtonWithFrame:title:type:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[title]</attributes>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[type]</attributes>
+          <type>UIButtonType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a729f6ec35dbdca08068b30fe32d5dc6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UITextField *</type>
+        <definition>UITextField * PxePlayerUIUtil::createTextFieldWithFrame:text:placeHolder:borderStyle:</definition>
+        <argsstring>(CGRect frame,[text] NSString *text,[placeHolder] NSString *placeHolder,[borderStyle] UITextBorderStyle borderStyle)</argsstring>
+        <name>createTextFieldWithFrame:text:placeHolder:borderStyle:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[text]</attributes>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[placeHolder]</attributes>
+          <type>NSString *</type>
+          <declname>placeHolder</declname>
+        </param>
+        <param>
+          <attributes>[borderStyle]</attributes>
+          <type>UITextBorderStyle</type>
+          <declname>borderStyle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UITextField *</type>
+        <definition>UITextField * PxePlayerUIUtil::createTextFieldWithFrame:text:placeHolder:borderStyle:secure:</definition>
+        <argsstring>(CGRect frame,[text] NSString *text,[placeHolder] NSString *placeHolder,[borderStyle] UITextBorderStyle borderStyle,[secure] BOOL isSecure)</argsstring>
+        <name>createTextFieldWithFrame:text:placeHolder:borderStyle:secure:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[text]</attributes>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[placeHolder]</attributes>
+          <type>NSString *</type>
+          <declname>placeHolder</declname>
+        </param>
+        <param>
+          <attributes>[borderStyle]</attributes>
+          <type>UITextBorderStyle</type>
+          <declname>borderStyle</declname>
+        </param>
+        <param>
+          <attributes>[secure]</attributes>
+          <type>BOOL</type>
+          <declname>isSecure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UITextField *</type>
+        <definition>UITextField * PxePlayerUIUtil::createTextFieldWithFrame:text:placeHolder:borderStyle:autoCorrection:autoCapitalization:secure:</definition>
+        <argsstring>(CGRect frame,[text] NSString *text,[placeHolder] NSString *placeHolder,[borderStyle] UITextBorderStyle borderStyle,[autoCorrection] NSInteger autoCorrection,[autoCapitalization] NSInteger autoCapitalization,[secure] BOOL isSecure)</argsstring>
+        <name>createTextFieldWithFrame:text:placeHolder:borderStyle:autoCorrection:autoCapitalization:secure:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[text]</attributes>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[placeHolder]</attributes>
+          <type>NSString *</type>
+          <declname>placeHolder</declname>
+        </param>
+        <param>
+          <attributes>[borderStyle]</attributes>
+          <type>UITextBorderStyle</type>
+          <declname>borderStyle</declname>
+        </param>
+        <param>
+          <attributes>[autoCorrection]</attributes>
+          <type>NSInteger</type>
+          <declname>autoCorrection</declname>
+        </param>
+        <param>
+          <attributes>[autoCapitalization]</attributes>
+          <type>NSInteger</type>
+          <declname>autoCapitalization</declname>
+        </param>
+        <param>
+          <attributes>[secure]</attributes>
+          <type>BOOL</type>
+          <declname>isSecure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="99" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a64f43190f41d0231b4c02793599997f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImageView *</type>
+        <definition>UIImageView * PxePlayerUIUtil::createImageViewWithFileName:</definition>
+        <argsstring>(NSString *fileName)</argsstring>
+        <name>createImageViewWithFileName:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a54a2cf2dea981e5a5f6b7a8a5553e66a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImageView *</type>
+        <definition>UIImageView * PxePlayerUIUtil::createImageViewWithFileName:frame:contentMode:</definition>
+        <argsstring>(NSString *fileName,[frame] CGRect frame,[contentMode] UIViewContentMode contentMode)</argsstring>
+        <name>createImageViewWithFileName:frame:contentMode:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <attributes>[frame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[contentMode]</attributes>
+          <type>UIViewContentMode</type>
+          <declname>contentMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImageView *</type>
+        <definition>UIImageView * PxePlayerUIUtil::createImageViewWithImage:frame:backgroundColor:contentMode:</definition>
+        <argsstring>(UIImage *image,[frame] CGRect frame,[backgroundColor] UIColor *p_color,[contentMode] UIViewContentMode contentMode)</argsstring>
+        <name>createImageViewWithImage:frame:backgroundColor:contentMode:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[frame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[backgroundColor]</attributes>
+          <type>UIColor *</type>
+          <declname>p_color</declname>
+        </param>
+        <param>
+          <attributes>[contentMode]</attributes>
+          <type>UIViewContentMode</type>
+          <declname>contentMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="125" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_u_i_util_1aa137ea48d4c71652c77b66712c35e227" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * PxePlayerUIUtil::getLine:withColor:</definition>
+        <argsstring>(CGSize size,[withColor] CGColorRef color)</argsstring>
+        <name>getLine:withColor:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <attributes>[withColor]</attributes>
+          <type>CGColorRef</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.m" bodystart="135" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="116">
+        <label>PxePlayerUIUtil</label>
+        <link refid="interface_pxe_player_u_i_util"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="118">
+        <label>PxePlayerUIUtil</label>
+        <link refid="interface_pxe_player_u_i_util"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIUtil.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_u_i_util_1ad917830f6ccb35dd5c109f1697a0fc2b" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createBarButtonItemFixedSpaceWithTarget:action:width:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a6ba382d8495af6d997eb7da8a57bfee0" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createButtonWithBackgroundImage:andText:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createButtonWithFrame:title:type:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1afedfe9c0eff74632f51318cfea86840c" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createButtonWithFrame:type:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a54829e9c57be3d689bcb8da8f52ba9d3" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createButtonWithImage:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a64f43190f41d0231b4c02793599997f6" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createImageViewWithFileName:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a54a2cf2dea981e5a5f6b7a8a5553e66a" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createImageViewWithFileName:frame:contentMode:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createImageViewWithImage:frame:backgroundColor:contentMode:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1af97dd508a062ea331f21cee822c18ac1" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createLabelWithTitle:frame:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1aeb918f401925afac57dc304b3293fb9a" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createLabelWithTitle:frame:alignment:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createLabelWithTitle:frame:alignment:withFont:backGroundColor:textColor:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a729f6ec35dbdca08068b30fe32d5dc6e" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createTextFieldWithFrame:text:placeHolder:borderStyle:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createTextFieldWithFrame:text:placeHolder:borderStyle:autoCorrection:autoCapitalization:secure:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>createTextFieldWithFrame:text:placeHolder:borderStyle:secure:</name></member>
+      <member refid="interface_pxe_player_u_i_util_1aa137ea48d4c71652c77b66712c35e227" prot="public" virt="virtual"><scope>PxePlayerUIUtil</scope><name>getLine:withColor:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

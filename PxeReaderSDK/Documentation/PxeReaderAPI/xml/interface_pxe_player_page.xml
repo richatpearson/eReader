@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_page" kind="class" prot="public">
+    <compoundname>PxePlayerPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_page_8h" local="no">PxePlayerPage.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_page_1a307e00301005f6a1c6efdd92e8b017d7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPage::pageId</definition>
+        <argsstring></argsstring>
+        <name>pageId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_page_1a26a65d0db51a76c61b495a34e74bb51a" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPage::pageNumber</definition>
+        <argsstring></argsstring>
+        <name>pageNumber</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page number </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_page_1aa6d9e50eeb6d3d80141ee442ab5efa1b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPage::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the title </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_page_1acfcb40c67266260146efccbbfdcccab5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPage::contentFile</definition>
+        <argsstring></argsstring>
+        <name>contentFile</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_page_1abc45c16daa18448f6b62f8659b2b40a8" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPage::bookmarkId</definition>
+        <argsstring></argsstring>
+        <name>bookmarkId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the bookmark id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the page data </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="262">
+        <label>PxePlayerPage</label>
+        <link refid="interface_pxe_player_page"/>
+        <childnode refid="263" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="263">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="264">
+        <label>PxePlayerPage</label>
+        <link refid="interface_pxe_player_page"/>
+        <childnode refid="265" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPage.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_page_1abc45c16daa18448f6b62f8659b2b40a8" prot="public" virt="non-virtual"><scope>PxePlayerPage</scope><name>bookmarkId</name></member>
+      <member refid="interface_pxe_player_page_1acfcb40c67266260146efccbbfdcccab5" prot="public" virt="non-virtual"><scope>PxePlayerPage</scope><name>contentFile</name></member>
+      <member refid="interface_pxe_player_page_1a307e00301005f6a1c6efdd92e8b017d7" prot="public" virt="non-virtual"><scope>PxePlayerPage</scope><name>pageId</name></member>
+      <member refid="interface_pxe_player_page_1a26a65d0db51a76c61b495a34e74bb51a" prot="public" virt="non-virtual"><scope>PxePlayerPage</scope><name>pageNumber</name></member>
+      <member refid="interface_pxe_player_page_1aa6d9e50eeb6d3d80141ee442ab5efa1b" prot="public" virt="non-virtual"><scope>PxePlayerPage</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_search_n_c_x_query_8h" kind="file">
+    <compoundname>PxePlayerSearchNCXQuery.h</compoundname>
+    <includes refid="_pxe_player_search_book_query_8h" local="yes">PxePlayerSearchBookQuery.h</includes>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_query_parser_8m" local="yes">PxePlayerQueryParser.m</includedby>
+    <includedby refid="_pxe_player_search_n_c_x_query_8m" local="yes">PxePlayerSearchNCXQuery.m</includedby>
+    <incdepgraph>
+      <node id="747">
+        <label>PxePlayerBaseQuery.h</label>
+        <link refid="_pxe_player_base_query_8h"/>
+      </node>
+      <node id="746">
+        <label>PxePlayerSearchBooksQuery.h</label>
+        <link refid="_pxe_player_search_books_query_8h"/>
+        <childnode refid="747" relation="include">
+        </childnode>
+      </node>
+      <node id="744">
+        <label>PxePlayerSearchNCXQuery.h</label>
+        <link refid="PxePlayerSearchNCXQuery.h"/>
+        <childnode refid="745" relation="include">
+        </childnode>
+      </node>
+      <node id="745">
+        <label>PxePlayerSearchBookQuery.h</label>
+        <link refid="_pxe_player_search_book_query_8h"/>
+        <childnode refid="746" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="750">
+        <label>PxePlayerQueryParser.m</label>
+        <link refid="_pxe_player_query_parser_8m"/>
+      </node>
+      <node id="748">
+        <label>PxePlayerSearchNCXQuery.h</label>
+        <link refid="PxePlayerSearchNCXQuery.h"/>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="750" relation="include">
+        </childnode>
+        <childnode refid="751" relation="include">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>PxePlayerSearchNCXQuery.m</label>
+        <link refid="_pxe_player_search_n_c_x_query_8m"/>
+      </node>
+      <node id="749">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_search_n_c_x_query" prot="public">PxePlayerSearchNCXQuery</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerSearchNCXQuery.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>05/11/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_search_book_query_8h" kindref="compound">PxePlayerSearchBookQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="interface_pxe_player_search_n_c_x_query" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_search_n_c_x_query" kindref="compound">PxePlayerSearchNCXQuery</ref><sp/>:<sp/><ref refid="interface_pxe_player_search_book_query" kindref="compound">PxePlayerSearchBookQuery</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="interface_pxe_player_search_n_c_x_query_1a23aabff1e2b366881022a16ad7d1e23d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_search_n_c_x_query_1a23aabff1e2b366881022a16ad7d1e23d" kindref="member">indexContent</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="interface_pxe_player_search_n_c_x_query_1aac947cec05fc498654dc4e6547920d02" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSArray<sp/><sp/><sp/>*<ref refid="interface_pxe_player_search_n_c_x_query_1aac947cec05fc498654dc4e6547920d02" kindref="member">urls</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchNCXQuery.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,570 @@
+\hypertarget{interface_pxe_player_data_manager}{\section{Pxe\-Player\-Data\-Manager Class Reference}
+\label{interface_pxe_player_data_manager}\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Data\-Manager.\-h$>$}
+
+Inheritance diagram for Pxe\-Player\-Data\-Manager\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_pxe_player_data_manager}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_data_manager_a0ad90b7df39403c27a446c39c4e4eb82}{reset\-Data\-Manager}
+\item 
+(N\-S\-Managed\-Object\-Context $\ast$) -\/ \hyperlink{interface_pxe_player_data_manager_a385a3455e034595d6e803affd5086beb}{get\-Object\-Context}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_data_manager_a6bace115219e1f02d80778c1c86e2288}{save}
+\item 
+(N\-S\-Array $\ast$) -\/ \hyperlink{interface_pxe_player_data_manager_ac1364c4e2092c8e8bac70f2d0414afd6}{fetch\-Entities\-For\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:}
+\item 
+(N\-S\-Array $\ast$) -\/ \hyperlink{interface_pxe_player_data_manager_a0c8e256d49098492ce4321c3279d18cf}{fetch\-Entities\-:for\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:group\-By\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a9580aae143e1e877a11cdf0ba1182657}{fetch\-Entities\-:for\-Model\-:with\-Predicate\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:fetch\-Limit\-:and\-Group\-By\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a942085f5dca3135ef85620cf3548fbf7}{fetch\-Entity\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a6496f883d62c062fcbb2c54f420edc17}{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a330908b8093f34c3562a2b1a0d3ff230}{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:with\-Sort\-Key\-:and\-Ascending\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a1598d37ec5515df318bb6395fb55373d}{fetch\-Entity\-:for\-Model\-:with\-Value\-:with\-Sort\-Key\-:and\-Ascending\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a91a735b462c60d518709560e1e23ed6e}{fetch\-Entity\-:for\-Model\-:with\-Predicate\-:with\-Sort\-Key\-:and\-Ascending\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a9cfaceea7070edda30cd674ae89ac479}{fetch\-Entity\-:for\-Model\-:with\-Value\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a287665eadcaa56862dbff0c8f4b80306}{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_data_manager_a57e9fba86112c53f947c3966df1db23f}{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:}
+\item 
+(N\-S\-Array $\ast$) -\/ \hyperlink{interface_pxe_player_data_manager_a1489b7de9d4bca3c97b774da1b82aaf2}{fetch\-Toc\-Tree\-:}
+\item 
+(N\-S\-U\-Integer) -\/ \hyperlink{interface_pxe_player_data_manager_a777a3d39dc97a339ffd84be5c7cc2a4e}{fetch\-Max\-Value\-:property\-:}
+\item 
+(N\-S\-U\-Integer) -\/ \hyperlink{interface_pxe_player_data_manager_a47c6c2ec52346caf5a0d7fc8711703dc}{fetch\-Count\-:property\-:}
+\end{DoxyCompactItemize}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_pxe_player_data_manager}{Pxe\-Player\-Data\-Manager} $\ast$) + \hyperlink{interface_pxe_player_data_manager_a61a323a6162afc1a8734d8a1f7cc89c6}{shared\-Instance}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_pxe_player_data_manager_a09ec53de035d5a7a96604fa92eaab758}{context\-Id}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Simple data manager class which handles core data operations of add, edit, delete and update data on the core data persistent storage. 
+
+Definition at line 15 of file Pxe\-Player\-Data\-Manager.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_pxe_player_data_manager_a47c6c2ec52346caf5a0d7fc8711703dc}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Count\-:property\-:@{fetch\-Count\-:property\-:}}
+\index{fetch\-Count\-:property\-:@{fetch\-Count\-:property\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Count\-:property\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-U\-Integer) fetch\-Count\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{model}
+\item[{property:(N\-S\-String$\ast$)}]{property}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a47c6c2ec52346caf5a0d7fc8711703dc}
+This method would be called to fetch the total count of the records from data store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer , returns the total count of the given property from records 
+\end{DoxyReturn}
+
+
+Definition at line 339 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a9580aae143e1e877a11cdf0ba1182657}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entities\-:for\-Model\-:with\-Predicate\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:fetch\-Limit\-:and\-Group\-By\-:@{fetch\-Entities\-:for\-Model\-:with\-Predicate\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:fetch\-Limit\-:and\-Group\-By\-:}}
+\index{fetch\-Entities\-:for\-Model\-:with\-Predicate\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:fetch\-Limit\-:and\-Group\-By\-:@{fetch\-Entities\-:for\-Model\-:with\-Predicate\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:fetch\-Limit\-:and\-Group\-By\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entities\-:for\-Model\-:with\-Predicate\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:fetch\-Limit\-:and\-Group\-By\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entities\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{properties}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withPredicate:(N\-S\-Predicate$\ast$)}]{predicate}
+\item[{resultType:(N\-S\-U\-Integer)}]{result\-Type}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{andAscending:(B\-O\-O\-L)}]{is\-Ascending}
+\item[{fetchLimit:(N\-S\-U\-Integer)}]{limit}
+\item[{andGroupBy:(N\-S\-Array$\ast$)}]{groups}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a9580aae143e1e877a11cdf0ba1182657}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,array} & of properties should be fetched from the records \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-Predicate,predicate} & is an instance of N\-S\-Predicate with conditions to filters the records while fetching . \\
+\hline
+{\em N\-S\-U\-Integer,result\-Type} & is an enumerated value which decides the format of the records whether dictionary or model \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+{\em N\-S\-U\-Integer,limit} & is an unsigned integer used for limitting the number of records should be fetched \\
+\hline
+{\em N\-S\-Array,array} & of properties used for grouping the records \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Array , returns the array of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 260 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a0c8e256d49098492ce4321c3279d18cf}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entities\-:for\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:group\-By\-:@{fetch\-Entities\-:for\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:group\-By\-:}}
+\index{fetch\-Entities\-:for\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:group\-By\-:@{fetch\-Entities\-:for\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:group\-By\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entities\-:for\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:group\-By\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Array $\ast$) fetch\-Entities\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{ascending:(B\-O\-O\-L)}]{is\-Ascending}
+\item[{withPredicate:(N\-S\-Predicate$\ast$)}]{predicate}
+\item[{fetchLimit:(N\-S\-U\-Integer)}]{limit}
+\item[{resultType:(N\-S\-U\-Integer)}]{result\-Type}
+\item[{groupBy:(N\-S\-Array$\ast$)}]{groups}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a0c8e256d49098492ce4321c3279d18cf}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,array} & of properties should be fetched from the records \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+{\em N\-S\-Predicate,predicate} & is an instance of N\-S\-Predicate with conditions to filters the records while fetching . \\
+\hline
+{\em N\-S\-U\-Integer,limit} & is an unsigned integer used for limitting the number of records should be fetched \\
+\hline
+{\em N\-S\-U\-Integer,result\-Type} & is an enumerated value which decides the format of the records whether dictionary or model \\
+\hline
+{\em N\-S\-Array,array} & of properties used for grouping the records \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Array , returns the array of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 205 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_ac1364c4e2092c8e8bac70f2d0414afd6}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entities\-For\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:@{fetch\-Entities\-For\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:}}
+\index{fetch\-Entities\-For\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:@{fetch\-Entities\-For\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entities\-For\-Model\-:with\-Sort\-Key\-:ascending\-:with\-Predicate\-:fetch\-Limit\-:result\-Type\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Array $\ast$) fetch\-Entities\-For\-Model\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{model}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{ascending:(B\-O\-O\-L)}]{is\-Ascending}
+\item[{withPredicate:(N\-S\-Predicate$\ast$)}]{predicate}
+\item[{fetchLimit:(N\-S\-U\-Integer)}]{limit}
+\item[{resultType:(N\-S\-U\-Integer)}]{result\-Type}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_ac1364c4e2092c8e8bac70f2d0414afd6}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+{\em N\-S\-Predicate,predicate} & is an instance of N\-S\-Predicate with conditions to filters the records while fetching . \\
+\hline
+{\em N\-S\-U\-Integer,limit} & is an unsigned integer used for limitting the number of records should be fetched \\
+\hline
+{\em N\-S\-U\-Integer,result\-Type} & is an enumerated value which decides the format of the records whether dictionary or model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Array , returns the array of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 187 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a91a735b462c60d518709560e1e23ed6e}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-:for\-Model\-:with\-Predicate\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Predicate\-:with\-Sort\-Key\-:and\-Ascending\-:}}
+\index{fetch\-Entity\-:for\-Model\-:with\-Predicate\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Predicate\-:with\-Sort\-Key\-:and\-Ascending\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-:for\-Model\-:with\-Predicate\-:with\-Sort\-Key\-:and\-Ascending\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{properties}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withPredicate:(N\-S\-Predicate$\ast$)}]{predicate}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{andAscending:(B\-O\-O\-L)}]{is\-Ascending}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a91a735b462c60d518709560e1e23ed6e}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,array} & of properties should be fetched from the records \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-Predicate,predicate} & is an instance of N\-S\-Predicate with conditions to filters the records while fetching . \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Array , returns the array of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 265 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a9cfaceea7070edda30cd674ae89ac479}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-:for\-Model\-:with\-Value\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:}}
+\index{fetch\-Entity\-:for\-Model\-:with\-Value\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-:for\-Model\-:with\-Value\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withValue:(N\-S\-String$\ast$)}]{value}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a9cfaceea7070edda30cd674ae89ac479}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,value} & is a value of property field in the specific record \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id , returns the array or dictionary of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 297 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a6496f883d62c062fcbb2c54f420edc17}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}}
+\index{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withValue:(N\-S\-String$\ast$)}]{value}
+\item[{andKey:(N\-S\-String$\ast$)}]{key}
+\item[{resultType:(N\-S\-U\-Integer)}]{result\-Type}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{andAscending:(B\-O\-O\-L)}]{is\-Ascending}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a6496f883d62c062fcbb2c54f420edc17}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,value} & is a value of property field in the specific record \\
+\hline
+{\em N\-S\-String,key} & is a name of property field in the specific record \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+{\em N\-S\-U\-Integer,result\-Type} & is an enumerated value which decides the format of the records whether dictionary or model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id , returns the array or dictionary of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 238 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a330908b8093f34c3562a2b1a0d3ff230}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:with\-Sort\-Key\-:and\-Ascending\-:}}
+\index{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:with\-Sort\-Key\-:and\-Ascending\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-:for\-Model\-:with\-Value\-:and\-Key\-:with\-Sort\-Key\-:and\-Ascending\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withValue:(N\-S\-String$\ast$)}]{value}
+\item[{andKey:(N\-S\-String$\ast$)}]{key}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{andAscending:(B\-O\-O\-L)}]{is\-Ascending}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a330908b8093f34c3562a2b1a0d3ff230}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,value} & is a value of property field in the specific record \\
+\hline
+{\em N\-S\-String,key} & is a name of property field in the specific record \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id , returns the array or dictionary of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 287 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a942085f5dca3135ef85620cf3548fbf7}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}}
+\index{fetch\-Entity\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withValue:(N\-S\-String$\ast$)}]{value}
+\item[{resultType:(N\-S\-U\-Integer)}]{result\-Type}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{andAscending:(B\-O\-O\-L)}]{is\-Ascending}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a942085f5dca3135ef85620cf3548fbf7}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,value} & is a value of property field in the specific record \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+{\em N\-S\-U\-Integer,result\-Type} & is an enumerated value which decides the format of the records whether dictionary or model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id , returns the array or dictionary of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 276 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a1598d37ec5515df318bb6395fb55373d}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-:for\-Model\-:with\-Value\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:with\-Sort\-Key\-:and\-Ascending\-:}}
+\index{fetch\-Entity\-:for\-Model\-:with\-Value\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-:for\-Model\-:with\-Value\-:with\-Sort\-Key\-:and\-Ascending\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-:for\-Model\-:with\-Value\-:with\-Sort\-Key\-:and\-Ascending\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withValue:(N\-S\-String$\ast$)}]{value}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{andAscending:(B\-O\-O\-L)}]{is\-Ascending}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a1598d37ec5515df318bb6395fb55373d}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,value} & is a value of property field in the specific record \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id , returns the array or dictionary of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 292 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a57e9fba86112c53f947c3966df1db23f}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:@{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:}}
+\index{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:@{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-For\-Current\-Book\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withValue:(N\-S\-String$\ast$)}]{value}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a57e9fba86112c53f947c3966df1db23f}
+This methd would be called for fetch current book records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,value} & is a value of property field in the specific record \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id , returns the array or dictionary of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 301 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a287665eadcaa56862dbff0c8f4b80306}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}}
+\index{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:@{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Entity\-For\-Current\-Book\-:for\-Model\-:with\-Value\-:result\-Type\-:with\-Sort\-Key\-:and\-Ascending\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) fetch\-Entity\-For\-Current\-Book\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{property}
+\item[{forModel:(N\-S\-String$\ast$)}]{model}
+\item[{withValue:(N\-S\-String$\ast$)}]{value}
+\item[{resultType:(N\-S\-U\-Integer)}]{result\-Type}
+\item[{withSortKey:(N\-S\-String$\ast$)}]{sort\-Key}
+\item[{andAscending:(B\-O\-O\-L)}]{is\-Ascending}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a287665eadcaa56862dbff0c8f4b80306}
+This methd would be called for fetch records from the core data persistent store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,value} & is a value of property field in the specific record \\
+\hline
+{\em N\-S\-String,sort\-Key} & for fetching records sorted by the given key \\
+\hline
+{\em B\-O\-O\-L,is\-Ascending} & is a boolean value for sort records by ascend if true else sort by descend. \\
+\hline
+{\em N\-S\-U\-Integer,result\-Type} & is an enumerated value which decides the format of the records whether dictionary or model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+id , returns the array or dictionary of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 249 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a777a3d39dc97a339ffd84be5c7cc2a4e}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Max\-Value\-:property\-:@{fetch\-Max\-Value\-:property\-:}}
+\index{fetch\-Max\-Value\-:property\-:@{fetch\-Max\-Value\-:property\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Max\-Value\-:property\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-U\-Integer) fetch\-Max\-Value\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{model}
+\item[{property:(N\-S\-String$\ast$)}]{property}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a777a3d39dc97a339ffd84be5c7cc2a4e}
+This method would be called to fetch the record which have the maximum value on specific property 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,model} & is a class name of type of record should be fetched \\
+\hline
+{\em N\-S\-String,property} & is a field in the specific record \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer , returns the maximum value of the given property from records 
+\end{DoxyReturn}
+
+
+Definition at line 305 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a1489b7de9d4bca3c97b774da1b82aaf2}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!fetch\-Toc\-Tree\-:@{fetch\-Toc\-Tree\-:}}
+\index{fetch\-Toc\-Tree\-:@{fetch\-Toc\-Tree\-:}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{fetch\-Toc\-Tree\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Array $\ast$) fetch\-Toc\-Tree\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{root\-Id}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a1489b7de9d4bca3c97b774da1b82aaf2}
+This methd would be called for fetch table of contents of current book records from the data store 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,root\-Id} & is a string used for fetching branch of records belongs to the root id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Array , returns the array of records fetched from data store 
+\end{DoxyReturn}
+
+
+Definition at line 372 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a385a3455e034595d6e803affd5086beb}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!get\-Object\-Context@{get\-Object\-Context}}
+\index{get\-Object\-Context@{get\-Object\-Context}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{get\-Object\-Context}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Managed\-Object\-Context $\ast$) get\-Object\-Context 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a385a3455e034595d6e803affd5086beb}
+This method would be called to get the current object context of the core data persistent store \begin{DoxyReturn}{Returns}
+N\-S\-Managed\-Object\-Context, returns the current object context 
+\end{DoxyReturn}
+
+
+Definition at line 166 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a0ad90b7df39403c27a446c39c4e4eb82}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!reset\-Data\-Manager@{reset\-Data\-Manager}}
+\index{reset\-Data\-Manager@{reset\-Data\-Manager}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{reset\-Data\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) reset\-Data\-Manager 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a0ad90b7df39403c27a446c39c4e4eb82}
+This method would be called to reset the singleton instance, gloabal variables and data stored in the persistent store 
+
+Definition at line 63 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a6bace115219e1f02d80778c1c86e2288}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!save@{save}}
+\index{save@{save}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{save}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) save 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a6bace115219e1f02d80778c1c86e2288}
+This method would be called to save or update the recoreds in the core data \begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns the boolean value for whether record saves successfully or not 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\mbox{[}N\-S\-Managed\-Object\-Contex \hyperlink{interface_pxe_player_data_manager_a6bace115219e1f02d80778c1c86e2288}{-\/ save}\-:\mbox{]} 
+\end{DoxySeeAlso}
+
+
+Definition at line 152 of file Pxe\-Player\-Data\-Manager.\-m.
+
+\hypertarget{interface_pxe_player_data_manager_a61a323a6162afc1a8734d8a1f7cc89c6}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!shared\-Instance@{shared\-Instance}}
+\index{shared\-Instance@{shared\-Instance}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{shared\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf Pxe\-Player\-Data\-Manager} $\ast$) shared\-Instance 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_data_manager_a61a323a6162afc1a8734d8a1f7cc89c6}
+A singleton instance of the data manager \begin{DoxyReturn}{Returns}
+\hyperlink{interface_pxe_player_data_manager}{Pxe\-Player\-Data\-Manager}, returns the static singleton instance of the \hyperlink{interface_pxe_player_data_manager}{Pxe\-Player\-Data\-Manager} 
+\end{DoxyReturn}
+
+
+Definition at line 53 of file Pxe\-Player\-Data\-Manager.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_pxe_player_data_manager_a09ec53de035d5a7a96604fa92eaab758}{\index{Pxe\-Player\-Data\-Manager@{Pxe\-Player\-Data\-Manager}!context\-Id@{context\-Id}}
+\index{context\-Id@{context\-Id}!PxePlayerDataManager@{Pxe\-Player\-Data\-Manager}}
+\subsubsection[{context\-Id}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) context\-Id\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_pxe_player_data_manager_a09ec53de035d5a7a96604fa92eaab758}
+A N\-S\-String variable to hold context id of the book 
+
+Definition at line 20 of file Pxe\-Player\-Data\-Manager.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_data_manager_8h}{Pxe\-Player\-Data\-Manager.\-h}\item 
+\hyperlink{_pxe_player_data_manager_8m}{Pxe\-Player\-Data\-Manager.\-m}\end{DoxyCompactItemize}

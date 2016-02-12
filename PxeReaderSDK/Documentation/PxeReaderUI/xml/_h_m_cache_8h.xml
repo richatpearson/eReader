@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_h_m_cache_8h" kind="file">
+    <compoundname>HMCache.h</compoundname>
+    <includedby refid="_h_m_cache_8m" local="yes">HMCache.m</includedby>
+    <includedby refid="_pxe_player_8m" local="yes">PxePlayer.m</includedby>
+    <includedby refid="_pxe_player_data_manager_8m" local="yes">PxePlayerDataManager.m</includedby>
+    <includedby refid="_pxe_player_light_box_view_controller_8m" local="yes">PxePlayerLightBoxViewController.m</includedby>
+    <includedby refid="_pxe_player_page_content_view_controller_8m" local="yes">PxePlayerPageContentViewController.m</includedby>
+    <includedby refid="_pxe_player_page_manager_8m" local="yes">PxePlayerPageManager.m</includedby>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>PxePlayer.m</label>
+        <link refid="_pxe_player_8m"/>
+      </node>
+      <node id="5">
+        <label>PxePlayerLightBoxViewController.m</label>
+        <link refid="_pxe_player_light_box_view_controller_8m"/>
+      </node>
+      <node id="8">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="_pxe_player_u_i_kit_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>HMCache.h</label>
+        <link refid="HMCache.h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>HMCache.m</label>
+        <link refid="_h_m_cache_8m"/>
+      </node>
+      <node id="6">
+        <label>PxePlayerPageContentViewController.m</label>
+        <link refid="_pxe_player_page_content_view_controller_8m"/>
+      </node>
+      <node id="4">
+        <label>PxePlayerDataManager.m</label>
+        <link refid="_pxe_player_data_manager_8m"/>
+      </node>
+      <node id="7">
+        <label>PxePlayerPageManager.m</label>
+        <link refid="_pxe_player_page_manager_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_h_m_cache" prot="public">HMCache</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>HMCache.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>on<sp/>14/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="interface_h_m_cache" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_h_m_cache" kindref="compound">HMCache</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">+(void)<ref refid="interface_h_m_cache_1a6bdf784a54d7769ecd74ede7e3144b97" kindref="member">resetCache</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">+(void)setObject:(NSData*)data<sp/>forKey:(NSString*)key;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">+(id)objectForKey:(NSString*)key;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">+(void)removeObject:(NSString*)key;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">+(void)<ref refid="interface_h_m_cache_1ae93bd9319423f1567d93d621563207a5" kindref="member">clearOldFiles</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">+(NSString*)<sp/>createCacheSubDirectory:(NSString*)dirName;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">+(NSString*)<sp/>createDirectory:(NSString*)dirName;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">+(BOOL)<sp/>removeDirectory:(NSString*)dirName;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">+(void)setObject:(NSData<sp/>*)data<sp/>forKey:(NSString<sp/>*)key<sp/>withNewPath:(NSString*)pathName;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">+<sp/>(NSData*)<sp/>objectForKey:(NSString*)key<sp/>withPath:(NSString*)path;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">+(BOOL)<sp/>removeCacheSubDirectory:(NSString*)dirName;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h"/>
+  </compounddef>
+</doxygen>

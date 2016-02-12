@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>PxeReader Library</title>
+    <detaileddescription>
+<sect1 id="index_1intro_sec">
+<title>UI Library methods to integrate with other apps:</title>
+<para>This is the introduction.</para></sect1>
+<sect1 id="index_1start_sec">
+<title>Bootstrap</title>
+<sect2 id="index_1step1">
+<title>* Assumptions</title>
+<para><itemizedlist>
+<listitem><para>A project in XCode is already created and available</para></listitem><listitem><para>If the app has to be tested on device or to distribute, end user must have necessary experience to handle certificate and profile creation/usage. It just covers how to integrate the library into a current iOS application</para></listitem></itemizedlist>
+</para></sect2>
+<sect2 id="index_1step2">
+<title>* Required environment</title>
+<para><itemizedlist>
+<listitem><para>Mac OSX 10.8.4 and later</para></listitem><listitem><para>XCode 5.0 (Recommended to use latest Base SDK. Currently its iOS 7.0)</para></listitem></itemizedlist>
+</para></sect2>
+<sect2 id="index_1step3">
+<title>* SVN Path for PxePlayerSDK</title>
+<para><ulink url="http://subversion.pearsoncmg.com/data/reader-sdk/trunk/pxereaderios">http://subversion.pearsoncmg.com/data/reader-sdk/trunk/pxereaderios</ulink></para></sect2>
+<sect2 id="index_1folder_structure">
+<title>* Folder Structure</title>
+<para><itemizedlist>
+<listitem><para>PxeReaderSDK:<orderedlist>
+<listitem><para>PxePlayerApi: Contains all the code related to placing requests, parsing, response, error handling with network etc</para></listitem><listitem><para>PxePlayerApiTests: Contains code for unit test cases (yet to implement)</para></listitem><listitem><para>PxePlayerApiUI: Contains all the code for rendering user interface views like bookshelf, book, bookmarking, adding notes and highlights, pages navigation, etc.</para></listitem><listitem><para>PxePlayerApi.xcodeproj : XCode project file</para></listitem></orderedlist>
+</para></listitem><listitem><para>PxePlayerApp:</para></listitem></itemizedlist>
+<orderedlist>
+<listitem><para>Sample App that is used for demo of &quot;PxeReaderSDK&quot;</para></listitem></orderedlist>
+</para></sect2>
+<sect2 id="index_1step4">
+<title>* Compiling the library:</title>
+<para>Open the PxePlayerApi.xcodeproj file in XCode. (Just double click it in Finder and it will open in XCode by default)<itemizedlist>
+<listitem><para>Creating the library for use with Simulator:</para></listitem></itemizedlist>
+<orderedlist>
+<listitem><para>Select the build environment in XCode as shown in below image.</para></listitem><listitem><para>Build the code (Command+b keys or from menu Product-&gt;Build)</para></listitem><listitem><para>After successfully building, it will create a BUILD folder in &quot;Derived Data&quot; folder (The path of the folder is based on the settings in the XCode and so cannot give exact folder path.) with name &quot;Debug-iphonesimulator&quot;.</para></listitem></orderedlist>
+<itemizedlist>
+<listitem><para>Creating the library for use with Device:</para></listitem></itemizedlist>
+<orderedlist>
+<listitem><para>Select the build environment in XCode as shown in below image.</para></listitem><listitem><para>Build the code (Command+b keys or from menu Product-&gt;Build)</para></listitem><listitem><para>After successfully building, it will create a BUILD folder in &quot;Derived Data&quot; folder (The path of the folder is based on the settings in the XCode and so cannot give exact folder path.) with name &quot;Debug-iphoneos&quot;.</para></listitem></orderedlist>
+<itemizedlist>
+<listitem><para>Contents of Build Folder: (Irrespective of building for Simulator or Device, the build folder consists of the following contents:</para></listitem></itemizedlist>
+<orderedlist>
+<listitem><para>Include : A folder that consists of all the header files</para></listitem><listitem><para>libPxePlayerApi.a: Library related to REST API calls</para></listitem><listitem><para>libPxePlayerApiUI.a: Library related to user interface</para></listitem><listitem><para>PxePlayerApiResourceBundle.bundle: Assets related to user interface library.</para></listitem></orderedlist>
+</para></sect2>
+<sect2 id="index_1step5">
+<title>* Integration of library (Adding library files &amp; Compiling)</title>
+<para><orderedlist>
+<listitem><para>Copy the set of Simulator or Device related files.</para></listitem><listitem><para>Add them to XCode project.</para></listitem><listitem><para>Change the &quot;Other Linker Flags&quot; in Build Settings of project to &quot;-all_load&quot;</para></listitem></orderedlist>
+</para></sect2>
+</sect1>
+<sect1 id="index_1intro_sec">
+<title>UI Library methods to integrate with other apps:</title>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

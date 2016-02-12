@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="protocol_pxe_player_page_view_delegate-p" kind="protocol" prot="public">
+    <compoundname>PxePlayerPageViewDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="_pxe_player_page_view_controller_8h" local="no">PxePlayerPageViewController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_pxe_player_page_view_delegate-p_1aeaaaa9ea06735b83f38baf406f7772e4" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageViewDelegate-p::updatePageViewUI:orLastPage:andPageNumber:</definition>
+        <argsstring>(BOOL hasPrevious,[orLastPage] BOOL hasNext,[andPageNumber] NSNumber *pageNumber)</argsstring>
+        <name>updatePageViewUI:orLastPage:andPageNumber:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>hasPrevious</declname>
+        </param>
+        <param>
+          <attributes>[orLastPage]</attributes>
+          <type>BOOL</type>
+          <declname>hasNext</declname>
+        </param>
+        <param>
+          <attributes>[andPageNumber]</attributes>
+          <type>NSNumber *</type>
+          <declname>pageNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sends the page view&apos;s UI updates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hasPrevious</parametername>
+<parametername>page</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>has reached first page or not </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hasNext</parametername>
+<parametername>page</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>has reached last page or not </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pageNumber</parametername>
+<parametername>current</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>page number </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.h" line="88" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Protocol to which send&apos;s the page view&apos;s few properties present status  &lt;NSObject&gt;, extented from <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="112">
+        <label>&lt;PxePlayerPageViewDelegate&gt;</label>
+        <link refid="protocol_pxe_player_page_view_delegate-p"/>
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="114">
+        <label>&lt;PxePlayerPageViewDelegate&gt;</label>
+        <link refid="protocol_pxe_player_page_view_delegate-p"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.h" bodystart="18" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_page_view_delegate-p_1aeaaaa9ea06735b83f38baf406f7772e4" prot="public" virt="virtual"><scope>PxePlayerPageViewDelegate-p</scope><name>updatePageViewUI:orLastPage:andPageNumber:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

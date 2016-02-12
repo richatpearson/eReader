@@ -1,0 +1,60 @@
+\hypertarget{index_intro_sec}{}\section{U\-I Library methods to integrate with other apps\-:}\label{index_intro_sec}
+This is the introduction.\hypertarget{index_start_sec}{}\section{Bootstrap}\label{index_start_sec}
+\hypertarget{index_step1}{}\subsection{$\ast$ Assumptions}\label{index_step1}
+
+\begin{DoxyItemize}
+\item A project in X\-Code is already created and available
+\item If the app has to be tested on device or to distribute, end user must have necessary experience to handle certificate and profile creation/usage. It just covers how to integrate the library into a current i\-O\-S application
+\end{DoxyItemize}\hypertarget{index_step2}{}\subsection{$\ast$ Required environment}\label{index_step2}
+
+\begin{DoxyItemize}
+\item Mac O\-S\-X 10.\-8.\-4 and later
+\item X\-Code 5.\-0 (Recommended to use latest Base S\-D\-K. Currently its i\-O\-S 7.\-0)
+\end{DoxyItemize}\hypertarget{index_step3}{}\subsection{$\ast$ S\-V\-N Path for Pxe\-Player\-S\-D\-K}\label{index_step3}
+\href{http://subversion.pearsoncmg.com/data/reader-sdk/trunk/pxereaderios}{\tt http\-://subversion.\-pearsoncmg.\-com/data/reader-\/sdk/trunk/pxereaderios}\hypertarget{index_folder_structure}{}\subsection{$\ast$ Folder Structure}\label{index_folder_structure}
+
+\begin{DoxyItemize}
+\item Pxe\-Reader\-S\-D\-K\-:
+\begin{DoxyEnumerate}
+\item Pxe\-Player\-Api\-: Contains all the code related to placing requests, parsing, response, error handling with network etc
+\item Pxe\-Player\-Api\-Tests\-: Contains code for unit test cases (yet to implement)
+\item Pxe\-Player\-Api\-U\-I\-: Contains all the code for rendering user interface views like bookshelf, book, bookmarking, adding notes and highlights, pages navigation, etc.
+\item Pxe\-Player\-Api.\-xcodeproj \-: X\-Code project file
+\end{DoxyEnumerate}
+\item Pxe\-Player\-App\-:
+\end{DoxyItemize}
+\begin{DoxyEnumerate}
+\item Sample App that is used for demo of \char`\"{}\-Pxe\-Reader\-S\-D\-K\char`\"{}
+\end{DoxyEnumerate}\hypertarget{index_step4}{}\subsection{$\ast$ Compiling the library\-:}\label{index_step4}
+Open the Pxe\-Player\-Api.\-xcodeproj file in X\-Code. (Just double click it in Finder and it will open in X\-Code by default)
+\begin{DoxyItemize}
+\item Creating the library for use with Simulator\-:
+\end{DoxyItemize}
+\begin{DoxyEnumerate}
+\item Select the build environment in X\-Code as shown in below image.
+\item Build the code (Command+b keys or from menu Product-\/$>$Build)
+\item After successfully building, it will create a B\-U\-I\-L\-D folder in \char`\"{}\-Derived Data\char`\"{} folder (The path of the folder is based on the settings in the X\-Code and so cannot give exact folder path.) with name \char`\"{}\-Debug-\/iphonesimulator\char`\"{}.
+\end{DoxyEnumerate}
+\begin{DoxyItemize}
+\item Creating the library for use with Device\-:
+\end{DoxyItemize}
+\begin{DoxyEnumerate}
+\item Select the build environment in X\-Code as shown in below image.
+\item Build the code (Command+b keys or from menu Product-\/$>$Build)
+\item After successfully building, it will create a B\-U\-I\-L\-D folder in \char`\"{}\-Derived Data\char`\"{} folder (The path of the folder is based on the settings in the X\-Code and so cannot give exact folder path.) with name \char`\"{}\-Debug-\/iphoneos\char`\"{}.
+\end{DoxyEnumerate}
+\begin{DoxyItemize}
+\item Contents of Build Folder\-: (Irrespective of building for Simulator or Device, the build folder consists of the following contents\-:
+\end{DoxyItemize}
+\begin{DoxyEnumerate}
+\item Include \-: A folder that consists of all the header files
+\item lib\-Pxe\-Player\-Api.\-a\-: Library related to R\-E\-S\-T A\-P\-I calls
+\item lib\-Pxe\-Player\-Api\-U\-I.\-a\-: Library related to user interface
+\item Pxe\-Player\-Api\-Resource\-Bundle.\-bundle\-: Assets related to user interface library.
+\end{DoxyEnumerate}\hypertarget{index_step5}{}\subsection{$\ast$ Integration of library (\-Adding library files \& Compiling)}\label{index_step5}
+
+\begin{DoxyEnumerate}
+\item Copy the set of Simulator or Device related files.
+\item Add them to X\-Code project.
+\item Change the \char`\"{}\-Other Linker Flags\char`\"{} in Build Settings of project to \char`\"{}-\/all\-\_\-load\char`\"{}
+\end{DoxyEnumerate}\hypertarget{index_intro_sec}{}\section{U\-I Library methods to integrate with other apps\-:}\label{index_intro_sec}

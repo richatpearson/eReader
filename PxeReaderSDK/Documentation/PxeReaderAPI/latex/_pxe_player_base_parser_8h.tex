@@ -1,0 +1,31 @@
+\hypertarget{_pxe_player_base_parser_8h}{\section{parser/\-Pxe\-Player\-Base\-Parser.h File Reference}
+\label{_pxe_player_base_parser_8h}\index{parser/\-Pxe\-Player\-Base\-Parser.\-h@{parser/\-Pxe\-Player\-Base\-Parser.\-h}}
+}
+{\ttfamily \#import $<$Foundation/\-Foundation.\-h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+protocol \hyperlink{protocol_pxe_player_base_parser-p}{$<$\-Pxe\-Player\-Base\-Parser$>$}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($^\wedge$ \hyperlink{_pxe_player_base_parser_8h_a6d72a5cd7f1dd9483335329bca6b98f7}{Parsing\-Handler} )(id received\-Navigator, N\-S\-Error $\ast$error)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{_pxe_player_base_parser_8h_a6d72a5cd7f1dd9483335329bca6b98f7}{\index{Pxe\-Player\-Base\-Parser.\-h@{Pxe\-Player\-Base\-Parser.\-h}!Parsing\-Handler@{Parsing\-Handler}}
+\index{Parsing\-Handler@{Parsing\-Handler}!PxePlayerBaseParser.h@{Pxe\-Player\-Base\-Parser.\-h}}
+\subsubsection[{Parsing\-Handler}]{\setlength{\rightskip}{0pt plus 5cm}typedef void($^\wedge$ Parsing\-Handler)(id received\-Navigator, N\-S\-Error $\ast$error)}}\label{_pxe_player_base_parser_8h_a6d72a5cd7f1dd9483335329bca6b98f7}
+A block which returns the result after parsing the xhtml, ncx , html or xml content 
+\begin{DoxyParams}{Parameters}
+{\em id,received\-Navigator} & is an either array or dictionary of results retreived after data has parsed \\
+\hline
+{\em N\-S\-Error,error} & returns if any error occured while parsing the content \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file Pxe\-Player\-Base\-Parser.\-h.
+

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_bookmarks" kind="class" prot="public">
+    <compoundname>PxePlayerBookmarks</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_bookmarks_8h" local="no">PxePlayerBookmarks.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_bookmarks_1a7cae98aa1c704bcf06ebeb3849b58172" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookmarks::contextId</definition>
+        <argsstring></argsstring>
+        <name>contextId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the context id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_bookmarks_1a44a7ebbd3c3d8848820951f2256f6fff" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerBookmarks::identityId</definition>
+        <argsstring></argsstring>
+        <name>identityId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the identity id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_bookmarks_1addada49f6619deb1557130ed6fdf0fc1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerBookmarks::bookmarks</definition>
+        <argsstring></argsstring>
+        <name>bookmarks</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSMutableArray variable to hold the list of bookmarks model </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the bookmarks into the list of models </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>PxePlayerBookmarks</label>
+        <link refid="interface_pxe_player_bookmarks"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="88">
+        <label>PxePlayerBookmarks</label>
+        <link refid="interface_pxe_player_bookmarks"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookmarks.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_bookmarks_1addada49f6619deb1557130ed6fdf0fc1" prot="public" virt="non-virtual"><scope>PxePlayerBookmarks</scope><name>bookmarks</name></member>
+      <member refid="interface_pxe_player_bookmarks_1a7cae98aa1c704bcf06ebeb3849b58172" prot="public" virt="non-virtual"><scope>PxePlayerBookmarks</scope><name>contextId</name></member>
+      <member refid="interface_pxe_player_bookmarks_1a44a7ebbd3c3d8848820951f2256f6fff" prot="public" virt="non-virtual"><scope>PxePlayerBookmarks</scope><name>identityId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

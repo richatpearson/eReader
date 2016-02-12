@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_n_s_string_09_extension_8h" kind="file">
+    <compoundname>NSString+Extension.h</compoundname>
+    <includedby refid="_n_s_string_09_extension_8m" local="yes">NSString+Extension.m</includedby>
+    <includedby refid="_pxe_player_light_box_view_controller_8m" local="yes">PxePlayerLightBoxViewController.m</includedby>
+    <includedby refid="_pxe_player_page_content_view_controller_8m" local="yes">PxePlayerPageContentViewController.m</includedby>
+    <includedby refid="_pxe_player_page_manager_8m" local="yes">PxePlayerPageManager.m</includedby>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <invincdepgraph>
+      <node id="15">
+        <label>PxePlayerLightBoxViewController.m</label>
+        <link refid="_pxe_player_light_box_view_controller_8m"/>
+      </node>
+      <node id="18">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="_pxe_player_u_i_kit_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>PxePlayerPageContentViewController.m</label>
+        <link refid="_pxe_player_page_content_view_controller_8m"/>
+      </node>
+      <node id="13">
+        <label>NSString+Extension.h</label>
+        <link refid="NSString+Extension.h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>NSString+Extension.m</label>
+        <link refid="_n_s_string_09_extension_8m"/>
+      </node>
+      <node id="17">
+        <label>PxePlayerPageManager.m</label>
+        <link refid="_pxe_player_page_manager_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_string_07_extension_08" prot="public">NSString(Extension)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSString+Extension.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>on<sp/>14/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="category_n_s_string_07_extension_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_extension_08" kindref="compound">NSString (Extension)</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-(NSString<sp/>*)<sp/><ref refid="category_n_s_string_07_extension_08_1adf829178160030048cbdf0a60cada542" kindref="member">md5</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-(NSComparisonResult)compareNumberStrings:(NSString<sp/>*)str;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/NSString+Extension.h"/>
+  </compounddef>
+</doxygen>

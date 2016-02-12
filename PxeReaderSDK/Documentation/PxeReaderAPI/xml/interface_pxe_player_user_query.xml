@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_user_query" kind="class" prot="public">
+    <compoundname>PxePlayerUserQuery</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_user_query_8h" local="no">PxePlayerUserQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_user_query_1aeb08b5a0387096996db8cdd1195480ea" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUserQuery::userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_query_1a604f4e6bdef2df7f04dee81ad1e969d3" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUserQuery::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user password </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_query_1a17fa74296f432b038ab0836dd88522dd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUserQuery::appKey</definition>
+        <argsstring></argsstring>
+        <name>appKey</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the application key allocated to user </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_query_1ad2148702ba3de2059955adfa2aca351f" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUserQuery::authService</definition>
+        <argsstring></argsstring>
+        <name>authService</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the authentication service id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the user query data into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="391">
+        <label>PxePlayerUserQuery</label>
+        <link refid="interface_pxe_player_user_query"/>
+        <childnode refid="392" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="393">
+        <label>PxePlayerUserQuery</label>
+        <link refid="interface_pxe_player_user_query"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="394">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUserQuery.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_user_query_1a17fa74296f432b038ab0836dd88522dd" prot="public" virt="non-virtual"><scope>PxePlayerUserQuery</scope><name>appKey</name></member>
+      <member refid="interface_pxe_player_user_query_1ad2148702ba3de2059955adfa2aca351f" prot="public" virt="non-virtual"><scope>PxePlayerUserQuery</scope><name>authService</name></member>
+      <member refid="interface_pxe_player_user_query_1a604f4e6bdef2df7f04dee81ad1e969d3" prot="public" virt="non-virtual"><scope>PxePlayerUserQuery</scope><name>password</name></member>
+      <member refid="interface_pxe_player_user_query_1aeb08b5a0387096996db8cdd1195480ea" prot="public" virt="non-virtual"><scope>PxePlayerUserQuery</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

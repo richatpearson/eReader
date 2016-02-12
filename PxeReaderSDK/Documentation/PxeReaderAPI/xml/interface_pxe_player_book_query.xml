@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_book_query" kind="class" prot="public">
+    <compoundname>PxePlayerBookQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_base_query" prot="public" virt="non-virtual">PxePlayerBaseQuery</basecompoundref>
+    <includes refid="_pxe_player_book_query_8h" local="no">PxePlayerBookQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_book_query_1a33a2649661a99e558c4c24fab797578b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* PxePlayerBookQuery::scenarioID</definition>
+        <argsstring></argsstring>
+        <name>scenarioID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSNumber variable to hold the scenario id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookQuery.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookQuery.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the book query into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="91">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>PxePlayerBookQuery</label>
+        <link refid="interface_pxe_player_book_query"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="94">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>PxePlayerBookQuery</label>
+        <link refid="interface_pxe_player_book_query"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookQuery.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookQuery.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerBookQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_book_query_1a33a2649661a99e558c4c24fab797578b" prot="public" virt="non-virtual"><scope>PxePlayerBookQuery</scope><name>scenarioID</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerBookQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

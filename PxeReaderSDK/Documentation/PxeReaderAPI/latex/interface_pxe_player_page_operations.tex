@@ -1,0 +1,201 @@
+\hypertarget{interface_pxe_player_page_operations}{\section{Pxe\-Player\-Page\-Operations Class Reference}
+\label{interface_pxe_player_page_operations}\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-Operations.\-h$>$}
+
+Inheritance diagram for Pxe\-Player\-Page\-Operations\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_pxe_player_page_operations}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_operations_aad149c96714e9b45fc27a9cf7f4e685d}{add\-Operation\-:with\-Auth\-Token\-:and\-User\-Id\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_operations_ac9235b0d49bcadab7cdb92e006706043}{add\-Operations\-:with\-Priority\-Index\-:and\-Auth\-Token\-:and\-User\-Id\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_operations_abbbea4de9ce2d040313f310be02b0bb6}{cancel\-All\-Operations}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_operations_ac7449d561b1bdb4c89003679abfaf88a}{suspend\-All\-Operations}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_operations_a159fb3ede9c90760684aec304e8e8124}{resume\-All\-Operations}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_operations_a86e99a43d95db1b30b23e7c816f7cdf8}{set\-Operation\-Priority\-:priority\-:}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_operations_a0718a649b13638e766d121557d5aac88}{is\-Operation\-Found\-:}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_operations_a95fa29d8fe3e1955d4114d187a27f164}{cancel\-Operation\-:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+id\\*
+$<$ \hyperlink{protocol_pxe_player_operation_queue_delegate-p}{Pxe\-Player\-Operation\-Queue\-Delegate} $>$ \hyperlink{interface_pxe_player_page_operations_a7f4807bfd10dd5df697157d960312e01}{delegate}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A simple class to manage the operations in the queue 
+
+Definition at line 33 of file Pxe\-Player\-Page\-Operations.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_pxe_player_page_operations_aad149c96714e9b45fc27a9cf7f4e685d}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!add\-Operation\-:with\-Auth\-Token\-:and\-User\-Id\-:@{add\-Operation\-:with\-Auth\-Token\-:and\-User\-Id\-:}}
+\index{add\-Operation\-:with\-Auth\-Token\-:and\-User\-Id\-:@{add\-Operation\-:with\-Auth\-Token\-:and\-User\-Id\-:}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{add\-Operation\-:with\-Auth\-Token\-:and\-User\-Id\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) add\-Operation\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page}
+\item[{withAuthToken:(N\-S\-String$\ast$)}]{auth\-Token}
+\item[{andUserId:(N\-S\-String$\ast$)}]{user\-Id}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_aad149c96714e9b45fc27a9cf7f4e685d}
+This method would be called to add page download operation into the operation queue 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page} & that needs to be downloaded \\
+\hline
+{\em N\-S\-String,auth\-Token} & is required to attach with query stirng when initiate download data \\
+\hline
+{\em N\-S\-String,user\-Id} & is required to attach with query stirng when initiate download data \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 105 of file Pxe\-Player\-Page\-Operations.\-m.
+
+\hypertarget{interface_pxe_player_page_operations_ac9235b0d49bcadab7cdb92e006706043}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!add\-Operations\-:with\-Priority\-Index\-:and\-Auth\-Token\-:and\-User\-Id\-:@{add\-Operations\-:with\-Priority\-Index\-:and\-Auth\-Token\-:and\-User\-Id\-:}}
+\index{add\-Operations\-:with\-Priority\-Index\-:and\-Auth\-Token\-:and\-User\-Id\-:@{add\-Operations\-:with\-Priority\-Index\-:and\-Auth\-Token\-:and\-User\-Id\-:}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{add\-Operations\-:with\-Priority\-Index\-:and\-Auth\-Token\-:and\-User\-Id\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) add\-Operations\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{operations}
+\item[{withPriorityIndex:(N\-S\-Integer)}]{priority\-Index}
+\item[{andAuthToken:(N\-S\-String$\ast$)}]{auth\-Token}
+\item[{andUserId:(N\-S\-String$\ast$)}]{user\-Id}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_ac9235b0d49bcadab7cdb92e006706043}
+This method would be to list of page download operation into the operation queue 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,operations} & is a list of page details that need to be downloaded from the server \\
+\hline
+{\em N\-S\-Integer,priority\-Index} & is a index to set the priority level for the operation \\
+\hline
+{\em N\-S\-String,auth\-Token} & is required to attach with query stirng when initiate download data \\
+\hline
+{\em N\-S\-String,user\-Id} & is required to attach with query stirng when initiate download data \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 66 of file Pxe\-Player\-Page\-Operations.\-m.
+
+\hypertarget{interface_pxe_player_page_operations_abbbea4de9ce2d040313f310be02b0bb6}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!cancel\-All\-Operations@{cancel\-All\-Operations}}
+\index{cancel\-All\-Operations@{cancel\-All\-Operations}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{cancel\-All\-Operations}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) cancel\-All\-Operations 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_abbbea4de9ce2d040313f310be02b0bb6}
+This method would be called to cancel all page download operation in the operation queue 
+
+Definition at line 185 of file Pxe\-Player\-Page\-Operations.\-m.
+
+\hypertarget{interface_pxe_player_page_operations_a95fa29d8fe3e1955d4114d187a27f164}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!cancel\-Operation\-:@{cancel\-Operation\-:}}
+\index{cancel\-Operation\-:@{cancel\-Operation\-:}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{cancel\-Operation\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) cancel\-Operation\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_a95fa29d8fe3e1955d4114d187a27f164}
+This method would be called to cancel the particular operation in the queue 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & to identity the operation in the queue \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+B\-O\-O\-L, return yes if operation successfully cancelled else return no as a error 
+\end{DoxyReturn}
+
+
+Definition at line 145 of file Pxe\-Player\-Page\-Operations.\-m.
+
+\hypertarget{interface_pxe_player_page_operations_a0718a649b13638e766d121557d5aac88}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!is\-Operation\-Found\-:@{is\-Operation\-Found\-:}}
+\index{is\-Operation\-Found\-:@{is\-Operation\-Found\-:}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{is\-Operation\-Found\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) is\-Operation\-Found\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_a0718a649b13638e766d121557d5aac88}
+This method would be called to check whether particular operation found in the queue 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & to identify the operation in the queue \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 136 of file Pxe\-Player\-Page\-Operations.\-m.
+
+\hypertarget{interface_pxe_player_page_operations_a159fb3ede9c90760684aec304e8e8124}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!resume\-All\-Operations@{resume\-All\-Operations}}
+\index{resume\-All\-Operations@{resume\-All\-Operations}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{resume\-All\-Operations}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) resume\-All\-Operations 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_a159fb3ede9c90760684aec304e8e8124}
+This method would be called to resume all suspended page download operation in the operation queue 
+
+Definition at line 194 of file Pxe\-Player\-Page\-Operations.\-m.
+
+\hypertarget{interface_pxe_player_page_operations_a86e99a43d95db1b30b23e7c816f7cdf8}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!set\-Operation\-Priority\-:priority\-:@{set\-Operation\-Priority\-:priority\-:}}
+\index{set\-Operation\-Priority\-:priority\-:@{set\-Operation\-Priority\-:priority\-:}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{set\-Operation\-Priority\-:priority\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) set\-Operation\-Priority\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{key}
+\item[{priority:(N\-S\-Integer)}]{priority}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_a86e99a43d95db1b30b23e7c816f7cdf8}
+This method would be called to set the each operation priority level in the operation queue 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,key} & used to identify the operation in the queue \\
+\hline
+{\em N\-S\-Integer,priority} & is level of the priority in the queue \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+B\-O\-O\-L, return yes if operation priority successfully set else return no as a error 
+\end{DoxyReturn}
+
+
+Definition at line 126 of file Pxe\-Player\-Page\-Operations.\-m.
+
+\hypertarget{interface_pxe_player_page_operations_ac7449d561b1bdb4c89003679abfaf88a}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!suspend\-All\-Operations@{suspend\-All\-Operations}}
+\index{suspend\-All\-Operations@{suspend\-All\-Operations}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{suspend\-All\-Operations}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) suspend\-All\-Operations 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operations_ac7449d561b1bdb4c89003679abfaf88a}
+This method would be called to suspend all page download operation in the operation queue 
+
+Definition at line 190 of file Pxe\-Player\-Page\-Operations.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_pxe_player_page_operations_a7f4807bfd10dd5df697157d960312e01}{\index{Pxe\-Player\-Page\-Operations@{Pxe\-Player\-Page\-Operations}!delegate@{delegate}}
+\index{delegate@{delegate}!PxePlayerPageOperations@{Pxe\-Player\-Page\-Operations}}
+\subsubsection[{delegate}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id$<${\bf Pxe\-Player\-Operation\-Queue\-Delegate}$>$) delegate\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [weak]}}}\label{interface_pxe_player_page_operations_a7f4807bfd10dd5df697157d960312e01}
+A \hyperlink{protocol_pxe_player_operation_queue_delegate-p}{Pxe\-Player\-Operation\-Queue\-Delegate} protocol instance to send information to class which implements it 
+
+Definition at line 38 of file Pxe\-Player\-Page\-Operations.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_operations_8h}{Pxe\-Player\-Page\-Operations.\-h}\item 
+\hyperlink{_pxe_player_page_operations_8m}{Pxe\-Player\-Page\-Operations.\-m}\end{DoxyCompactItemize}

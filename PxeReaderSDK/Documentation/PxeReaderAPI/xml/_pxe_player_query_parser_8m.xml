@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_query_parser_8m" kind="file">
+    <compoundname>PxePlayerQueryParser.m</compoundname>
+    <includes refid="_pxe_player_query_parser_8h" local="yes">PxePlayerQueryParser.h</includes>
+    <includes refid="_pxe_player_chapters_query_8h" local="yes">PxePlayerChaptersQuery.h</includes>
+    <includes refid="_pxe_player_pages_query_8h" local="yes">PxePlayerPagesQuery.h</includes>
+    <includes refid="_pxe_player_book_query_8h" local="yes">PxePlayerBookQuery.h</includes>
+    <includes refid="_pxe_player_bookmark_query_8h" local="yes">PxePlayerBookmarkQuery.h</includes>
+    <includes refid="_pxe_player_old_user_query_8h" local="yes">PxePlayerOldUserQuery.h</includes>
+    <includes refid="_pxe_player_user_query_8h" local="yes">PxePlayerUserQuery.h</includes>
+    <includes refid="_pxe_player_toc_query_8h" local="yes">PxePlayerTocQuery.h</includes>
+    <includes refid="_pxe_player_add_annotation_query_8h" local="yes">PxePlayerAddAnnotationQuery.h</includes>
+    <includes refid="_pxe_player_annotation_8h" local="yes">PxePlayerAnnotation.h</includes>
+    <includes refid="_pxe_player_search_n_c_x_query_8h" local="yes">PxePlayerSearchNCXQuery.h</includes>
+    <includes refid="_pxe_player_search_u_r_ls_query_8h" local="yes">PxePlayerSearchURLsQuery.h</includes>
+    <incdepgraph>
+      <node id="679">
+        <label>PxePlayerBaseQuery.h</label>
+        <link refid="_pxe_player_base_query_8h"/>
+      </node>
+      <node id="688">
+        <label>PxePlayerAnnotation.h</label>
+        <link refid="_pxe_player_annotation_8h"/>
+        <childnode refid="687" relation="include">
+        </childnode>
+      </node>
+      <node id="676">
+        <label>PxePlayerQueryParser.h</label>
+        <link refid="_pxe_player_query_parser_8h"/>
+      </node>
+      <node id="675">
+        <label>PxePlayerQueryParser.m</label>
+        <link refid="PxePlayerQueryParser.m"/>
+        <childnode refid="676" relation="include">
+        </childnode>
+        <childnode refid="677" relation="include">
+        </childnode>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="681" relation="include">
+        </childnode>
+        <childnode refid="682" relation="include">
+        </childnode>
+        <childnode refid="683" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="692" relation="include">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>PxePlayerSearchBooksQuery.h</label>
+        <link refid="_pxe_player_search_books_query_8h"/>
+        <childnode refid="679" relation="include">
+        </childnode>
+      </node>
+      <node id="678">
+        <label>PxePlayerNavigationsQuery.h</label>
+        <link refid="_pxe_player_navigations_query_8h"/>
+        <childnode refid="679" relation="include">
+        </childnode>
+      </node>
+      <node id="684">
+        <label>PxePlayerUserQuery.h</label>
+        <link refid="_pxe_player_user_query_8h"/>
+      </node>
+      <node id="681">
+        <label>PxePlayerBookQuery.h</label>
+        <link refid="_pxe_player_book_query_8h"/>
+        <childnode refid="679" relation="include">
+        </childnode>
+      </node>
+      <node id="677">
+        <label>PxePlayerChaptersQuery.h</label>
+        <link refid="_pxe_player_chapters_query_8h"/>
+        <childnode refid="678" relation="include">
+        </childnode>
+      </node>
+      <node id="689">
+        <label>PxePlayerSearchNCXQuery.h</label>
+        <link refid="_pxe_player_search_n_c_x_query_8h"/>
+        <childnode refid="690" relation="include">
+        </childnode>
+      </node>
+      <node id="680">
+        <label>PxePlayerPagesQuery.h</label>
+        <link refid="_pxe_player_pages_query_8h"/>
+        <childnode refid="678" relation="include">
+        </childnode>
+      </node>
+      <node id="682">
+        <label>PxePlayerBookmarkQuery.h</label>
+        <link refid="_pxe_player_bookmark_query_8h"/>
+        <childnode refid="678" relation="include">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>PxePlayerTocQuery.h</label>
+        <link refid="_pxe_player_toc_query_8h"/>
+        <childnode refid="678" relation="include">
+        </childnode>
+      </node>
+      <node id="692">
+        <label>PxePlayerSearchURLsQuery.h</label>
+        <link refid="_pxe_player_search_u_r_ls_query_8h"/>
+        <childnode refid="690" relation="include">
+        </childnode>
+      </node>
+      <node id="683">
+        <label>PxePlayerOldUserQuery.h</label>
+        <link refid="_pxe_player_old_user_query_8h"/>
+      </node>
+      <node id="687">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="686">
+        <label>PxePlayerAddAnnotationQuery.h</label>
+        <link refid="_pxe_player_add_annotation_query_8h"/>
+        <childnode refid="687" relation="include">
+        </childnode>
+        <childnode refid="678" relation="include">
+        </childnode>
+      </node>
+      <node id="690">
+        <label>PxePlayerSearchBookQuery.h</label>
+        <link refid="_pxe_player_search_book_query_8h"/>
+        <childnode refid="691" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTQueryParser.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>02/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_query_parser_8h" kindref="compound">PxePlayerQueryParser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_chapters_query_8h" kindref="compound">PxePlayerChaptersQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_pages_query_8h" kindref="compound">PxePlayerPagesQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_book_query_8h" kindref="compound">PxePlayerBookQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_bookmark_query_8h" kindref="compound">PxePlayerBookmarkQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_old_user_query_8h" kindref="compound">PxePlayerOldUserQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_user_query_8h" kindref="compound">PxePlayerUserQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_toc_query_8h" kindref="compound">PxePlayerTocQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_add_annotation_query_8h" kindref="compound">PxePlayerAddAnnotationQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_annotation_8h" kindref="compound">PxePlayerAnnotation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_search_n_c_x_query_8h" kindref="compound">PxePlayerSearchNCXQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_search_u_r_ls_query_8h" kindref="compound">PxePlayerSearchURLsQuery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_query_parser" kindref="compound">PxePlayerQueryParser</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Public<sp/>methods</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="interface_pxe_player_query_parser_1aa19368a452433d48bd44fcba38e51d3d" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseOldUserQuery:(<ref refid="interface_pxe_player_old_user_query" kindref="compound">PxePlayerOldUserQuery</ref>*)query</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;password&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_old_user_query_1ae8c668b61248ad659fdc018e1656b370" kindref="member">password</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;authService&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_old_user_query_1ac42b4b905ce3a623ce6e3f46cebdcf78" kindref="member">authService</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="interface_pxe_player_query_parser_1ad5159d6e940ef142f684fa4420a528b8" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseUserQuery:(<ref refid="interface_pxe_player_user_query" kindref="compound">PxePlayerUserQuery</ref>*)query</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;userName&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_user_query_1aeb08b5a0387096996db8cdd1195480ea" kindref="member">userName</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;password&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_user_query_1a604f4e6bdef2df7f04dee81ad1e969d3" kindref="member">password</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;appKey&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_user_query_1a17fa74296f432b038ab0836dd88522dd" kindref="member">appKey</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="interface_pxe_player_query_parser_1a186fec770cd3b8f5eafdbb41a3604bc4" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseTOCQuery:(<ref refid="interface_pxe_player_toc_query" kindref="compound">PxePlayerTocQuery</ref>*)query</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="interface_pxe_player_query_parser_1a476399acc086fa674d2c1edf8b5179fd" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseChaptersQuery:(<ref refid="interface_pxe_player_chapters_query" kindref="compound">PxePlayerChaptersQuery</ref>*)query</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="interface_pxe_player_query_parser_1a59a7e2dc28f607676114cd72214fff6f" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parsePagesQuery:(<ref refid="interface_pxe_player_pages_query" kindref="compound">PxePlayerPagesQuery</ref>*)query</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="interface_pxe_player_query_parser_1a6cec34e5f394db53a90345d90b0da048" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseBookShelfQuery:(<ref refid="interface_pxe_player_book_query" kindref="compound">PxePlayerBookQuery</ref>*)query</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="interface_pxe_player_query_parser_1ae463836d9104d76e28c0fa210d9ebfa2" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseNavigationsQuery:(<ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref>*)query</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="interface_pxe_player_query_parser_1a37ddb8c7b49d82faeabfb492c3081b94" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseBookmarkQuery:(<ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref>*)query</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="interface_pxe_player_query_parser_1ae28b3510a973a00402fea839b9615a5f" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseAddBookmarkQuery:(<ref refid="interface_pxe_player_bookmark_query" kindref="compound">PxePlayerBookmarkQuery</ref>*)query</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;uri&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_bookmark_query_1a52ea08981cbaffa901c59c4a2c855b9d" kindref="member">uri</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;title&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_bookmark_query_1a5bd099d87fc02e4872023d4755e431e3" kindref="member">bookmarkTitle</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="interface_pxe_player_query_parser_1a66c1cd746d73801bc8d9f33520875e9f" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseNotesQuery:(<ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref>*)query</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:2];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="interface_pxe_player_query_parser_1aeb89878998be4b718598862eaf646084" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseAddAnnotationQuery:(<ref refid="interface_pxe_player_add_annotation_query" kindref="compound">PxePlayerAddAnnotationQuery</ref>*)query</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;uri&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_add_annotation_query_1ac20c893521cbf285367245b250832e11" kindref="member">contentId</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*annotations<sp/>=<sp/>[[NSMutableArray<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<ref refid="interface_pxe_player_annotation" kindref="compound">PxePlayerAnnotation</ref><sp/>*annotation<sp/>in<sp/>query.<ref refid="interface_pxe_player_add_annotation_query_1a93fc94c5081b1c0e5042c3a5cf13aa25" kindref="member">annotations</ref>)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*data<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data[@&quot;range&quot;]<sp/>=<sp/>annotation.range;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data[@&quot;colour&quot;]<sp/>=<sp/>annotation.color;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[annotations<sp/>addObject:data];</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;annotations&quot;]<sp/>=<sp/>annotations;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="interface_pxe_player_query_parser_1a83c1711974bf7fe10fea6ab9e67ac3f6" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseUpdateAnnotationQuery:(<ref refid="interface_pxe_player_add_annotation_query" kindref="compound">PxePlayerAddAnnotationQuery</ref>*)query</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;contentId&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_add_annotation_query_1ac20c893521cbf285367245b250832e11" kindref="member">contentId</ref>;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*annotations<sp/>=<sp/>[[NSMutableArray<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<ref refid="interface_pxe_player_annotation" kindref="compound">PxePlayerAnnotation</ref><sp/>*annotation<sp/>in<sp/>query.<ref refid="interface_pxe_player_add_annotation_query_1a93fc94c5081b1c0e5042c3a5cf13aa25" kindref="member">annotations</ref>)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*data<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data[@&quot;range&quot;]<sp/>=<sp/>annotation.range;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data[@&quot;colour&quot;]<sp/>=<sp/>annotation.color;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data[@&quot;text&quot;]<sp/>=<sp/>annotation.text;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[annotations<sp/>addObject:data];</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;annotations&quot;]<sp/>=<sp/>annotations;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="interface_pxe_player_query_parser_1ad962560be2926b159a80ff8b9aea951a" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseSearchBookQuery:(<ref refid="interface_pxe_player_search_book_query" kindref="compound">PxePlayerSearchBookQuery</ref>*)query</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="interface_pxe_player_query_parser_1a8985c0790cd5fa5c2957a30b91b1727a" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseInitSearchNCXQuery:(<ref refid="interface_pxe_player_search_n_c_x_query" kindref="compound">PxePlayerSearchNCXQuery</ref>*)query</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;indexContent&quot;]<sp/>=<sp/>[NSNumber<sp/>numberWithBool:query.indexContent];</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;urls&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_search_n_c_x_query_1aac947cec05fc498654dc4e6547920d02" kindref="member">urls</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="interface_pxe_player_query_parser_1afcacbc502617244d492b2b55e0627d50" refkind="member"><highlight class="normal">+(NSDictionary*)<sp/>parseInitSearchURLsQuery:(<ref refid="interface_pxe_player_search_u_r_ls_query" kindref="compound">PxePlayerSearchURLsQuery</ref>*)query</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*queryDic<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;authToken&quot;]<sp/>=<sp/>query.authToken;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//queryDic[@&quot;contentId&quot;]<sp/>=<sp/>query.contentId;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>queryDic[@&quot;urls&quot;]<sp/>=<sp/>query.<ref refid="interface_pxe_player_search_u_r_ls_query_1abb8b87c426ef25427e4ccff33a591e06" kindref="member">contentURLs</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>queryDic;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerQueryParser.m"/>
+  </compounddef>
+</doxygen>

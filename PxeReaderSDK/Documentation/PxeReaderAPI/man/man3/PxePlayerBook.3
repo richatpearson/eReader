@@ -1,0 +1,181 @@
+.TH "PxePlayerBook" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerBook \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerBook\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "NSString * \fBtitle\fP"
+.br
+.ti -1c
+.RI "NSString * \fBisbn\fP"
+.br
+.ti -1c
+.RI "NSString * \fBedition\fP"
+.br
+.ti -1c
+.RI "NSString * \fBcoverUrl\fP"
+.br
+.ti -1c
+.RI "NSString * \fBthumbUrl\fP"
+.br
+.ti -1c
+.RI "NSString * \fBlastAccessTs\fP"
+.br
+.ti -1c
+.RI "NSString * \fBexpirationDate\fP"
+.br
+.ti -1c
+.RI "NSString * \fBcopyrightInfo\fP"
+.br
+.ti -1c
+.RI "NSString * \fBsubject\fP"
+.br
+.ti -1c
+.RI "NSString * \fBpublisher\fP"
+.br
+.ti -1c
+.RI "NSString * \fBcreator\fP"
+.br
+.ti -1c
+.RI "NSString * \fBdate\fP"
+.br
+.ti -1c
+.RI "NSString * \fBlanguage\fP"
+.br
+.ti -1c
+.RI "NSString * \fBdescription\fP"
+.br
+.ti -1c
+.RI "NSString * \fBbookUUID\fP"
+.br
+.ti -1c
+.RI "NSString * \fBauthor\fP"
+.br
+.ti -1c
+.RI "NSArray * \fBpageURLS\fP"
+.br
+.ti -1c
+.RI "BOOL \fBisWarningPeriod\fP"
+.br
+.ti -1c
+.RI "BOOL \fBisExpired\fP"
+.br
+.ti -1c
+.RI "BOOL \fBisFavorite\fP"
+.br
+.ti -1c
+.RI "BOOL \fBisActive\fP"
+.br
+.ti -1c
+.RI "BOOL \fBwithAnnotations\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A simple class to parse the book data downloaded from the server into the model 
+.PP
+Definition at line 13 of file PxePlayerBook\&.h\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (NSString*) author\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book's author name 
+.PP
+Definition at line 93 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) bookUUID\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book UUID 
+.PP
+Definition at line 88 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) copyrightInfo\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book's copyright information 
+.PP
+Definition at line 53 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) coverUrl\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book cover url 
+.PP
+Definition at line 33 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) creator\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book's creator name 
+.PP
+Definition at line 68 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) date\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the date information 
+.PP
+Definition at line 73 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) description\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book's short descriptions 
+.PP
+Definition at line 83 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) edition\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book edition 
+.PP
+Definition at line 28 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) expirationDate\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book subscription expiration date 
+.PP
+Definition at line 48 of file PxePlayerBook\&.h\&.
+.SS "- (BOOL) isActive\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+A BOOL variable to check book has active 
+.PP
+Definition at line 118 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) isbn\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the isbn of the book 
+.PP
+Definition at line 23 of file PxePlayerBook\&.h\&.
+.SS "- (BOOL) isExpired\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+A BOOL variable to check book has expired 
+.PP
+Definition at line 108 of file PxePlayerBook\&.h\&.
+.SS "- (BOOL) isFavorite\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+A BOOL variable to check the book has favourite 
+.PP
+Definition at line 113 of file PxePlayerBook\&.h\&.
+.SS "- (BOOL) isWarningPeriod\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+A BOOL variable to check book subscription warning period 
+.PP
+Definition at line 103 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) language\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the language information 
+.PP
+Definition at line 78 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) lastAccessTs\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString to hold the user last access time stamp of the book 
+.PP
+Definition at line 43 of file PxePlayerBook\&.h\&.
+.SS "- (NSArray*) pageURLS\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSArray variable to hold the list of page URL's 
+.PP
+Definition at line 98 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) publisher\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book's publisher details 
+.PP
+Definition at line 63 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) subject\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book's subject 
+.PP
+Definition at line 58 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) thumbUrl\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the book thumbnail URL 
+.PP
+Definition at line 38 of file PxePlayerBook\&.h\&.
+.SS "- (NSString*) title\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold the title of the book 
+.PP
+Definition at line 18 of file PxePlayerBook\&.h\&.
+.SS "- (BOOL) withAnnotations\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+A BOOL variable to check book has notes 
+.PP
+Definition at line 123 of file PxePlayerBook\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_list_page_8h" kind="file">
+    <compoundname>PxePlayerListPage.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">CoreData/CoreData.h</includes>
+    <includedby refid="_pxe_player_list_page_8m" local="yes">PxePlayerListPage.m</includedby>
+    <includedby refid="_pxe_player_page_manager_8m" local="yes">PxePlayerPageManager.m</includedby>
+    <incdepgraph>
+      <node id="122">
+        <label>PxePlayerListPage.h</label>
+        <link refid="PxePlayerListPage.h"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="123">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="125">
+        <label>PxePlayerListPage.h</label>
+        <link refid="PxePlayerListPage.h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>PxePlayerListPage.m</label>
+        <link refid="_pxe_player_list_page_8m"/>
+      </node>
+      <node id="127">
+        <label>PxePlayerPageManager.m</label>
+        <link refid="_pxe_player_page_manager_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_list_page" prot="public">PxePlayerListPage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerListPage.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>11/12/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreData/CoreData.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="interface_pxe_player_list_page" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_list_page" kindref="compound">PxePlayerListPage</ref><sp/>:<sp/>NSManagedObject</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="interface_pxe_player_list_page_1a71b187ae06b78a81b0039e24b97ec243" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>retain)<sp/>NSNumber<sp/>*<sp/><ref refid="interface_pxe_player_list_page_1a71b187ae06b78a81b0039e24b97ec243" kindref="member">pageIndex</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="interface_pxe_player_list_page_1a1cc9ccb5cb6469d229ec0d504ce70d21" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>retain)<sp/>NSString<sp/>*<sp/><ref refid="interface_pxe_player_list_page_1a1cc9ccb5cb6469d229ec0d504ce70d21" kindref="member">pageURL</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="interface_pxe_player_list_page_1a6ae590b4ac2d96af1bdc01b6ff1c5ce7" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>retain)<sp/>NSString<sp/>*<sp/><ref refid="interface_pxe_player_list_page_1a6ae590b4ac2d96af1bdc01b6ff1c5ce7" kindref="member">urlTag</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.h"/>
+  </compounddef>
+</doxygen>

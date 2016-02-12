@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_delete_bookmark_query" kind="class" prot="public">
+    <compoundname>PxePlayerDeleteBookmarkQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_navigations_query" prot="public" virt="non-virtual">PxePlayerNavigationsQuery</basecompoundref>
+    <includes refid="_pxe_player_delete_bookmark_query_8h" local="no">PxePlayerDeleteBookmarkQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_delete_bookmark_query_1a135e067fd8555137353f7422b95eaabb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDeleteBookmarkQuery::contentID</definition>
+        <argsstring></argsstring>
+        <name>contentID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteBookmarkQuery.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteBookmarkQuery.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the delete bookmark query </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="144">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>PxePlayerDeleteBookmarkQuery</label>
+        <link refid="interface_pxe_player_delete_bookmark_query"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>NSObject</label>
+      </node>
+      <node id="143">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="148">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>PxePlayerDeleteBookmarkQuery</label>
+        <link refid="interface_pxe_player_delete_bookmark_query"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>NSObject</label>
+      </node>
+      <node id="147">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteBookmarkQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerDeleteBookmarkQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerDeleteBookmarkQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerDeleteBookmarkQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_delete_bookmark_query_1a135e067fd8555137353f7422b95eaabb" prot="public" virt="non-virtual"><scope>PxePlayerDeleteBookmarkQuery</scope><name>contentID</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerDeleteBookmarkQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

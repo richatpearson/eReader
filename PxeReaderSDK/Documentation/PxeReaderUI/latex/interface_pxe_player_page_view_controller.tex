@@ -1,0 +1,422 @@
+\hypertarget{interface_pxe_player_page_view_controller}{\section{Pxe\-Player\-Page\-View\-Controller Class Reference}
+\label{interface_pxe_player_page_view_controller}\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-View\-Controller.\-h$>$}
+
+Inheritance diagram for Pxe\-Player\-Page\-View\-Controller\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_pxe_player_page_view_controller}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_page_view_controller_a15e65a86dea35012359faacb38a052f8}{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_page_view_controller_a150d11a91f41f65c2ffd52da4fa2f9a5}{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_page_view_controller_a38fb0bb294f187bb8dc81dbe21dacc0a}{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a40badd98cae44b3d03c20ec165fd773f}{scroll\-Page\-To\-Direction\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a31022922e291d882cc1bcf6d72f267fe}{goto\-Page\-With\-Content\-I\-D\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a0e1cda32a90e77d3383f53329100e22f}{goto\-Page\-With\-Page\-U\-R\-L\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_aa2cb3d55fb9db0d8f1e7b76b071016d0}{goto\-Page\-With\-Page\-U\-R\-L\-:and\-Highlight\-Labels\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_ad0f33745ff3ff26d40bd8f0e62058ace}{goto\-Page\-With\-Page\-Id\-:with\-U\-R\-L\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_ad94e55ba622c0c1f455f3eb025ab3d90}{jump\-To\-Page\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a8b9ce2b2307483d7c2b485afa0621a15}{switch\-View\-Mode\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a8bff4c9f6e912f14863b8fa9f7566910}{pop\-History}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_view_controller_a74be84589bce81321372227d27cea5b9}{has\-Previous}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_pxe_player_page_view_controller_ab7e8d7fae4dcf5f87529e4468e5ad287}{has\-Next}
+\item 
+(N\-S\-Number $\ast$) -\/ \hyperlink{interface_pxe_player_page_view_controller_a98135b6e1b2dd17973b2db1ee47cb186}{get\-Current\-Page\-Number}
+\item 
+(N\-S\-U\-Integer) -\/ \hyperlink{interface_pxe_player_page_view_controller_ae7cfbbed2cb483ece5385144dd4aa6a1}{get\-Total\-Pages\-Count}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_view_controller_ab17a437ea8b74377c0183d0b358402dc}{get\-Current\-Page\-U\-R\-L}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a1d44823b8e79857f80749ebf251d9198}{set\-Book\-Page\-Font\-Size\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a382176f9c765a985289f223da4203a30}{set\-Book\-Page\-Theme\-:}
+\item 
+(void) -\/ \hyperlink{interface_pxe_player_page_view_controller_a455fa7a207f1302e1c3ffb12ebb537dc}{set\-Annotation\-Label\-:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+id$<$ \hyperlink{protocol_pxe_player_page_view_delegate-p}{Pxe\-Player\-Page\-View\-Delegate} $>$ \hyperlink{interface_pxe_player_page_view_controller_a2aa145c2a06f8708869f4a3d7e7aad1d}{delegate}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to display a book pages navigation . 
+
+Definition at line 38 of file Pxe\-Player\-Page\-View\-Controller.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_pxe_player_page_view_controller_a98135b6e1b2dd17973b2db1ee47cb186}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!get\-Current\-Page\-Number@{get\-Current\-Page\-Number}}
+\index{get\-Current\-Page\-Number@{get\-Current\-Page\-Number}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{get\-Current\-Page\-Number}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Number $\ast$) get\-Current\-Page\-Number 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a98135b6e1b2dd17973b2db1ee47cb186}
+Returns the current page's page number 
+
+Definition at line 475 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_ab17a437ea8b74377c0183d0b358402dc}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!get\-Current\-Page\-U\-R\-L@{get\-Current\-Page\-U\-R\-L}}
+\index{get\-Current\-Page\-U\-R\-L@{get\-Current\-Page\-U\-R\-L}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{get\-Current\-Page\-U\-R\-L}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Current\-Page\-U\-R\-L 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_ab17a437ea8b74377c0183d0b358402dc}
+Returns the current page's U\-R\-L 
+
+Definition at line 548 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_ae7cfbbed2cb483ece5385144dd4aa6a1}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!get\-Total\-Pages\-Count@{get\-Total\-Pages\-Count}}
+\index{get\-Total\-Pages\-Count@{get\-Total\-Pages\-Count}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{get\-Total\-Pages\-Count}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-U\-Integer) get\-Total\-Pages\-Count 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_ae7cfbbed2cb483ece5385144dd4aa6a1}
+Returns total pages count in the book 
+
+Definition at line 485 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a31022922e291d882cc1bcf6d72f267fe}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!goto\-Page\-With\-Content\-I\-D\-:@{goto\-Page\-With\-Content\-I\-D\-:}}
+\index{goto\-Page\-With\-Content\-I\-D\-:@{goto\-Page\-With\-Content\-I\-D\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{goto\-Page\-With\-Content\-I\-D\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) goto\-Page\-With\-Content\-I\-D\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page\-Id}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a31022922e291d882cc1bcf6d72f267fe}
+Navigate to the particular page by using page\-Id 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Id} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 494 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_ad0f33745ff3ff26d40bd8f0e62058ace}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!goto\-Page\-With\-Page\-Id\-:with\-U\-R\-L\-:@{goto\-Page\-With\-Page\-Id\-:with\-U\-R\-L\-:}}
+\index{goto\-Page\-With\-Page\-Id\-:with\-U\-R\-L\-:@{goto\-Page\-With\-Page\-Id\-:with\-U\-R\-L\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{goto\-Page\-With\-Page\-Id\-:with\-U\-R\-L\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) goto\-Page\-With\-Page\-Id\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page\-Id}
+\item[{withURL:(N\-S\-String$\ast$)}]{page\-U\-R\-L}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_ad0f33745ff3ff26d40bd8f0e62058ace}
+Navigate to the particular page by using page\-U\-R\-L and navigate further within a page using page\-Id 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Id} & is a reference to jump to the title with in a particular page \\
+\hline
+{\em N\-S\-String,page\-Url} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 510 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a0e1cda32a90e77d3383f53329100e22f}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!goto\-Page\-With\-Page\-U\-R\-L\-:@{goto\-Page\-With\-Page\-U\-R\-L\-:}}
+\index{goto\-Page\-With\-Page\-U\-R\-L\-:@{goto\-Page\-With\-Page\-U\-R\-L\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{goto\-Page\-With\-Page\-U\-R\-L\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) goto\-Page\-With\-Page\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{page\-Url}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a0e1cda32a90e77d3383f53329100e22f}
+Navigate to the particular page by using page\-U\-R\-L 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Url} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 506 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_aa2cb3d55fb9db0d8f1e7b76b071016d0}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!goto\-Page\-With\-Page\-U\-R\-L\-:and\-Highlight\-Labels\-:@{goto\-Page\-With\-Page\-U\-R\-L\-:and\-Highlight\-Labels\-:}}
+\index{goto\-Page\-With\-Page\-U\-R\-L\-:and\-Highlight\-Labels\-:@{goto\-Page\-With\-Page\-U\-R\-L\-:and\-Highlight\-Labels\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{goto\-Page\-With\-Page\-U\-R\-L\-:and\-Highlight\-Labels\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) {\bf goto\-Page\-With\-Page\-U\-R\-L\-:} 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{page\-Url}
+\item[{andHighlightLabels:(N\-S\-Array$\ast$)}]{labels}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_aa2cb3d55fb9db0d8f1e7b76b071016d0}
+Navigate to the particular page by using page\-Url and should show the highlights in the page 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Url} & is a reference to jump to the particular page \\
+\hline
+{\em N\-S\-Array,labels} & is references of higlights area in the page \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 531 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_ab7e8d7fae4dcf5f87529e4468e5ad287}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!has\-Next@{has\-Next}}
+\index{has\-Next@{has\-Next}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{has\-Next}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) has\-Next 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_ab7e8d7fae4dcf5f87529e4468e5ad287}
+Returns true until the page navigation has not reached last page 
+
+Definition at line 471 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a74be84589bce81321372227d27cea5b9}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!has\-Previous@{has\-Previous}}
+\index{has\-Previous@{has\-Previous}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{has\-Previous}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) has\-Previous 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a74be84589bce81321372227d27cea5b9}
+Returns true until the page navigation has not reached first page 
+
+Definition at line 467 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a15e65a86dea35012359faacb38a052f8}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:@{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:}}
+\index{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:@{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{masterdata}
+\item[{andCustomPlaylistURLs:(N\-S\-Array$\ast$)}]{custompages}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a15e65a86dea35012359faacb38a052f8}
+Instantiate the class with preloaded information to customize the page navigation. 
+\begin{DoxyParams}{Parameters}
+{\em id,masterdata} & to be either N\-S\-Array of page U\-R\-L's or N\-S\-String of N\-C\-X file U\-R\-L \\
+\hline
+{\em N\-S\-Array,custompages} & should be array of page\-U\-R\-L's should be collected from primary N\-C\-X data and user allowed to navigate only given page U\-R\-L's. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_page_view_controller_a150d11a91f41f65c2ffd52da4fa2f9a5}{-\/ init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:} 
+
+\hyperlink{interface_pxe_player_page_view_controller_a38fb0bb294f187bb8dc81dbe21dacc0a}{-\/ init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:} 
+\end{DoxySeeAlso}
+
+
+Definition at line 98 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a38fb0bb294f187bb8dc81dbe21dacc0a}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:@{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:}}
+\index{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:@{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{masterdata}
+\item[{andCustomPlaylistURLs:(N\-S\-Array$\ast$)}]{custompages}
+\item[{andGotoPage:(N\-S\-String$\ast$)}]{page}
+\item[{withOptions:(N\-S\-Dictionary$\ast$)}]{options}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a38fb0bb294f187bb8dc81dbe21dacc0a}
+Instantiate the class with preloaded information to customize the page navigation. 
+\begin{DoxyParams}{Parameters}
+{\em id,masterdata} & to be either N\-S\-Array of page U\-R\-L's or N\-S\-String of N\-C\-X file U\-R\-L \\
+\hline
+{\em N\-S\-Array,custompages} & should be array of page\-U\-R\-L's should be collected from primary N\-C\-X data and user allowed to navigate only given page U\-R\-L's. \\
+\hline
+{\em N\-S\-String,page} & should be either any book page\-U\-R\-L or page\-I\-D to start reading from the launch. \\
+\hline
+{\em N\-S\-Dictionary,options} & allows the U\-I customisation \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_page_view_controller_a15e65a86dea35012359faacb38a052f8}{-\/ init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:} 
+
+\hyperlink{interface_pxe_player_page_view_controller_a150d11a91f41f65c2ffd52da4fa2f9a5}{-\/ init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:} 
+\end{DoxySeeAlso}
+
+
+Definition at line 139 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a150d11a91f41f65c2ffd52da4fa2f9a5}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:@{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:}}
+\index{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:@{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:with\-Options\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{masterdata}
+\item[{andCustomPlaylistURLs:(N\-S\-Array$\ast$)}]{custompages}
+\item[{withOptions:(N\-S\-Dictionary$\ast$)}]{options}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a150d11a91f41f65c2ffd52da4fa2f9a5}
+Instantiate the class with preloaded information to customize the page navigation. 
+\begin{DoxyParams}{Parameters}
+{\em id,masterdata} & to be either N\-S\-Array of page U\-R\-L's or N\-S\-String of N\-C\-X file U\-R\-L \\
+\hline
+{\em N\-S\-Array,custompages} & should be array of page\-U\-R\-L's should be collected from primary N\-C\-X data and user allowed to navigate only given page U\-R\-L's. \\
+\hline
+{\em N\-S\-Dictionary,options} & allows the U\-I customisation \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_page_view_controller_a15e65a86dea35012359faacb38a052f8}{-\/ init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:} 
+
+\hyperlink{interface_pxe_player_page_view_controller_a38fb0bb294f187bb8dc81dbe21dacc0a}{-\/ init\-With\-U\-R\-L\-:and\-Custom\-Playlist\-U\-R\-Ls\-:and\-Goto\-Page\-:with\-Options\-:} 
+\end{DoxySeeAlso}
+
+
+Definition at line 117 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_ad94e55ba622c0c1f455f3eb025ab3d90}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!jump\-To\-Page\-:@{jump\-To\-Page\-:}}
+\index{jump\-To\-Page\-:@{jump\-To\-Page\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{jump\-To\-Page\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) jump\-To\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Number$\ast$)}]{page\-Number}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_ad94e55ba622c0c1f455f3eb025ab3d90}
+Navigate to the particular page by using page\-Number 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Number} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 617 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a8bff4c9f6e912f14863b8fa9f7566910}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!pop\-History@{pop\-History}}
+\index{pop\-History@{pop\-History}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{pop\-History}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) pop\-History 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a8bff4c9f6e912f14863b8fa9f7566910}
+Undo the history of page navigation 
+
+Definition at line 544 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a40badd98cae44b3d03c20ec165fd773f}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!scroll\-Page\-To\-Direction\-:@{scroll\-Page\-To\-Direction\-:}}
+\index{scroll\-Page\-To\-Direction\-:@{scroll\-Page\-To\-Direction\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{scroll\-Page\-To\-Direction\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) scroll\-Page\-To\-Direction\-: 
+\begin{DoxyParamCaption}
+\item[{(B\-O\-O\-L)}]{is\-Left}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a40badd98cae44b3d03c20ec165fd773f}
+Navigate page from left to right or vice versa 
+\begin{DoxyParams}{Parameters}
+{\em B\-O\-O\-L,is\-Left} & is true page navigate backword else forward \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 401 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a455fa7a207f1302e1c3ffb12ebb537dc}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!set\-Annotation\-Label\-:@{set\-Annotation\-Label\-:}}
+\index{set\-Annotation\-Label\-:@{set\-Annotation\-Label\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{set\-Annotation\-Label\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) set\-Annotation\-Label\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{label}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a455fa7a207f1302e1c3ffb12ebb537dc}
+Navigate to the particular page by using page\-Id 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page\-Id} & is a reference to jump to the particular page\\
+\hline
+\end{DoxyParams}
+Set the annotation label to rendered on the screen 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,label} & is a reference to jump to the particular page \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_page_content_view_controller}{Pxe\-Player\-Page\-Content\-View\-Controller} 
+\end{DoxySeeAlso}
+
+
+Definition at line 926 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a1d44823b8e79857f80749ebf251d9198}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!set\-Book\-Page\-Font\-Size\-:@{set\-Book\-Page\-Font\-Size\-:}}
+\index{set\-Book\-Page\-Font\-Size\-:@{set\-Book\-Page\-Font\-Size\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{set\-Book\-Page\-Font\-Size\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) set\-Book\-Page\-Font\-Size\-: 
+\begin{DoxyParamCaption}
+\item[{(int)}]{font\-Size}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a1d44823b8e79857f80749ebf251d9198}
+Customise the book page's static font size 
+\begin{DoxyParams}{Parameters}
+{\em int,font\-Size} & to adjust the size of the font\\
+\hline
+\end{DoxyParams}
+Customise the font size of the pages in the book 
+\begin{DoxyParams}{Parameters}
+{\em int,font\-Size} & is a reference to set the size of the font to be applied on the page text's \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 900 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a382176f9c765a985289f223da4203a30}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!set\-Book\-Page\-Theme\-:@{set\-Book\-Page\-Theme\-:}}
+\index{set\-Book\-Page\-Theme\-:@{set\-Book\-Page\-Theme\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{set\-Book\-Page\-Theme\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) set\-Book\-Page\-Theme\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{theme}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a382176f9c765a985289f223da4203a30}
+Customise the book page's static theme 
+\begin{DoxyParams}{Parameters}
+{\em theme,N\-S\-String} & to change the theme of the page\\
+\hline
+\end{DoxyParams}
+Customise the theme of the pages in the book 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,theme} & is a reference to set the theme of the pages in book, example sepia,night-\/mode etc ... \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_page_content_view_controller}{Pxe\-Player\-Page\-Content\-View\-Controller} 
+\end{DoxySeeAlso}
+
+
+Definition at line 913 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+\hypertarget{interface_pxe_player_page_view_controller_a8b9ce2b2307483d7c2b485afa0621a15}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!switch\-View\-Mode\-:@{switch\-View\-Mode\-:}}
+\index{switch\-View\-Mode\-:@{switch\-View\-Mode\-:}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{switch\-View\-Mode\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) switch\-View\-Mode\-: 
+\begin{DoxyParamCaption}
+\item[{(B\-O\-O\-L)}]{to\-Vertical}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_view_controller_a8b9ce2b2307483d7c2b485afa0621a15}
+S\-Witch the view mode from vertical to horizontal and vice versa 
+\begin{DoxyParams}{Parameters}
+{\em B\-O\-O\-L,to\-Vertical} & is true navigation happens vertical else horizontal \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 568 of file Pxe\-Player\-Page\-View\-Controller.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_pxe_player_page_view_controller_a2aa145c2a06f8708869f4a3d7e7aad1d}{\index{Pxe\-Player\-Page\-View\-Controller@{Pxe\-Player\-Page\-View\-Controller}!delegate@{delegate}}
+\index{delegate@{delegate}!PxePlayerPageViewController@{Pxe\-Player\-Page\-View\-Controller}}
+\subsubsection[{delegate}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id$<${\bf Pxe\-Player\-Page\-View\-Delegate}$>$) delegate\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [weak]}}}\label{interface_pxe_player_page_view_controller_a2aa145c2a06f8708869f4a3d7e7aad1d}
+Delegate instance which external class can communicate to the self class. \begin{DoxySeeAlso}{See Also}
+\hyperlink{protocol_pxe_player_page_view_delegate-p}{Pxe\-Player\-Page\-View\-Delegate} 
+\end{DoxySeeAlso}
+
+
+Definition at line 45 of file Pxe\-Player\-Page\-View\-Controller.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_view_controller_8h}{Pxe\-Player\-Page\-View\-Controller.\-h}\item 
+\hyperlink{_pxe_player_page_view_controller_8m}{Pxe\-Player\-Page\-View\-Controller.\-m}\end{DoxyCompactItemize}

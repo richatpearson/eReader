@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_media_query" kind="class" prot="public">
+    <compoundname>PxePlayerMediaQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_navigations_query" prot="public" virt="non-virtual">PxePlayerNavigationsQuery</basecompoundref>
+    <includes refid="_pxe_player_media_query_8h" local="no">PxePlayerMediaQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_media_query_1a50997f5a1b4f9fef65fcc3afce6abceb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMediaQuery::mediaType</definition>
+        <argsstring></argsstring>
+        <name>mediaType</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the media type </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_query_1a443b9f77e31e00aae67fc446a14e78f6" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMediaQuery::indexId</definition>
+        <argsstring></argsstring>
+        <name>indexId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the index id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" line="25" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_query_1a0023a0b268c748226777bbc06bbd9206" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerMediaQuery::startIndex</definition>
+        <argsstring></argsstring>
+        <name>startIndex</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSInteger variable to hold the start index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" line="30" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_query_1a43c4c967b68b9b3fd6dec716b53fa2bb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerMediaQuery::totalResult</definition>
+        <argsstring></argsstring>
+        <name>totalResult</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSInteger variable to hold the total result </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" line="35" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the media query </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="168">
+        <label>PxePlayerMediaQuery</label>
+        <link refid="interface_pxe_player_media_query"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>NSObject</label>
+      </node>
+      <node id="169">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="172">
+        <label>PxePlayerMediaQuery</label>
+        <link refid="interface_pxe_player_media_query"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>NSObject</label>
+      </node>
+      <node id="173">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMediaQuery.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerMediaQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerMediaQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_media_query_1a443b9f77e31e00aae67fc446a14e78f6" prot="public" virt="non-virtual"><scope>PxePlayerMediaQuery</scope><name>indexId</name></member>
+      <member refid="interface_pxe_player_media_query_1a50997f5a1b4f9fef65fcc3afce6abceb" prot="public" virt="non-virtual"><scope>PxePlayerMediaQuery</scope><name>mediaType</name></member>
+      <member refid="interface_pxe_player_media_query_1a0023a0b268c748226777bbc06bbd9206" prot="public" virt="non-virtual"><scope>PxePlayerMediaQuery</scope><name>startIndex</name></member>
+      <member refid="interface_pxe_player_media_query_1a43c4c967b68b9b3fd6dec716b53fa2bb" prot="public" virt="non-virtual"><scope>PxePlayerMediaQuery</scope><name>totalResult</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerMediaQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

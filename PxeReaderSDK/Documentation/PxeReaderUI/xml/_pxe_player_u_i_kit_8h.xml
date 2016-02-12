@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_u_i_kit_8h" kind="file">
+    <compoundname>PxePlayerUIKit.h</compoundname>
+    <includes refid="_h_m_cache_8h" local="yes">HMCache.h</includes>
+    <includes refid="_n_s_string_09_extension_8h" local="yes">NSString+Extension.h</includes>
+    <includes refid="_pxe_player_8h" local="yes">PxePlayer.h</includes>
+    <includes refid="_pxe_player_alert_view_8h" local="yes">PxePlayerAlertView.h</includes>
+    <includes refid="_pxe_player_data_interface_8h" local="yes">PxePlayerDataInterface.h</includes>
+    <includes refid="_pxe_player_loading_view_8h" local="yes">PxePlayerLoadingView.h</includes>
+    <includes refid="_pxe_player_page_content_view_controller_8h" local="yes">PxePlayerPageContentViewController.h</includes>
+    <includes refid="_pxe_player_page_manager_8h" local="yes">PxePlayerPageManager.h</includes>
+    <includes refid="_pxe_player_pages_web_view_8h" local="yes">PxePlayerPagesWebView.h</includes>
+    <includes refid="_pxe_player_page_view_controller_8h" local="yes">PxePlayerPageViewController.h</includes>
+    <includes refid="_pxe_player_u_i_constants_8h" local="yes">PxePlayerUIConstants.h</includes>
+    <includes refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includes>
+    <includes refid="_pxe_player_u_i_util_8h" local="yes">PxePlayerUIUtil.h</includes>
+    <includes local="yes">PxePlayerUserQuery.h</includes>
+    <includes refid="_pxe_player_data_manager_8h" local="yes">PxePlayerDataManager.h</includes>
+    <includes refid="_pxe_player_page_details_8h" local="yes">PxePlayerPageDetails.h</includes>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <incdepgraph>
+      <node id="271">
+        <label>PxePlayerPageDetails.h</label>
+        <link refid="_pxe_player_page_details_8h"/>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>PxePlayer.h</label>
+        <link refid="_pxe_player_8h"/>
+      </node>
+      <node id="260">
+        <label>PxePlayerLoadingView.h</label>
+        <link refid="_pxe_player_loading_view_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="267">
+        <label>PxePlayerUIUtil.h</label>
+        <link refid="_pxe_player_u_i_util_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="270">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="262">
+        <label>PxePlayerBookDelegate.h</label>
+      </node>
+      <node id="266">
+        <label>PxePlayerUIConstants.h</label>
+        <link refid="_pxe_player_u_i_constants_8h"/>
+      </node>
+      <node id="252">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="PxePlayerUIKit.h"/>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>HMCache.h</label>
+        <link refid="_h_m_cache_8h"/>
+      </node>
+      <node id="264">
+        <label>PxePlayerPagesWebView.h</label>
+        <link refid="_pxe_player_pages_web_view_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>PxePlayerAlertView.h</label>
+        <link refid="_pxe_player_alert_view_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>PxePlayerDataInterface.h</label>
+        <link refid="_pxe_player_data_interface_8h"/>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="261">
+        <label>PxePlayerPageContentViewController.h</label>
+        <link refid="_pxe_player_page_content_view_controller_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+      </node>
+      <node id="268">
+        <label>PxePlayerUserQuery.h</label>
+      </node>
+      <node id="254">
+        <label>NSString+Extension.h</label>
+        <link refid="_n_s_string_09_extension_8h"/>
+      </node>
+      <node id="269">
+        <label>PxePlayerDataManager.h</label>
+        <link refid="_pxe_player_data_manager_8h"/>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>PxePlayerPageViewController.h</label>
+        <link refid="_pxe_player_page_view_controller_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="263">
+        <label>PxePlayerPageManager.h</label>
+        <link refid="_pxe_player_page_manager_8h"/>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="272">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="PxePlayerUIKit.h"/>
+        <childnode refid="272" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerUIKit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>04/10/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_h_m_cache_8h" kindref="compound">HMCache.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_string_09_extension_8h" kindref="compound">NSString+Extension.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_8h" kindref="compound">PxePlayer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_alert_view_8h" kindref="compound">PxePlayerAlertView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_data_interface_8h" kindref="compound">PxePlayerDataInterface.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_loading_view_8h" kindref="compound">PxePlayerLoadingView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_page_content_view_controller_8h" kindref="compound">PxePlayerPageContentViewController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_page_manager_8h" kindref="compound">PxePlayerPageManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_pages_web_view_8h" kindref="compound">PxePlayerPagesWebView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_page_view_controller_8h" kindref="compound">PxePlayerPageViewController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_u_i_constants_8h" kindref="compound">PxePlayerUIConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_u_i_kit_8h" kindref="compound">PxePlayerUIKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_u_i_util_8h" kindref="compound">PxePlayerUIUtil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;PxePlayerUserQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;PxePlayerUserQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_u_i_util_8h" kindref="compound">PxePlayerUIUtil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_data_manager_8h" kindref="compound">PxePlayerDataManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_page_details_8h" kindref="compound">PxePlayerPageDetails.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIKit.h"/>
+  </compounddef>
+</doxygen>

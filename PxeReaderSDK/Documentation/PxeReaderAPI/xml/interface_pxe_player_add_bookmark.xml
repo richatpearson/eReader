@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_add_bookmark" kind="class" prot="public">
+    <compoundname>PxePlayerAddBookmark</compoundname>
+    <basecompoundref refid="interface_pxe_player_bookmark" prot="public" virt="non-virtual">PxePlayerBookmark</basecompoundref>
+    <derivedcompoundref refid="interface_pxe_player_delete_bookmark" prot="public" virt="non-virtual">PxePlayerDeleteBookmark</derivedcompoundref>
+    <includes refid="_pxe_player_add_bookmark_8h" local="no">PxePlayerAddBookmark.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_add_bookmark_1a892615c32c37e6c4a5a978fc0898de2f" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAddBookmark::uri</definition>
+        <argsstring></argsstring>
+        <name>uri</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable for hold the uri </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_add_bookmark_1a43618fee5cf82e2461f50948277e5f1a" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAddBookmark::identityID</definition>
+        <argsstring></argsstring>
+        <name>identityID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the identity id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" line="25" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_add_bookmark_1ad6cd116d2ff48911fa8ecc561072e9b5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAddBookmark::contextID</definition>
+        <argsstring></argsstring>
+        <name>contextID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the context id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" line="30" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class derived from the <ref refid="interface_pxe_player_bookmark" kindref="compound">PxePlayerBookmark</ref> to parse the add bookmark query into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>PxePlayerDeleteBookmark</label>
+        <link refid="interface_pxe_player_delete_bookmark"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>PxePlayerBookmark</label>
+        <link refid="interface_pxe_player_bookmark"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>PxePlayerAddBookmark</label>
+        <link refid="interface_pxe_player_add_bookmark"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>PxePlayerBookmark</label>
+        <link refid="interface_pxe_player_bookmark"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>PxePlayerAddBookmark</label>
+        <link refid="interface_pxe_player_add_bookmark"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddBookmark.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_bookmark_1ac56c6dc4c71c9ef3010afe5b81a81cb3" prot="public" virt="non-virtual"><scope>PxePlayerAddBookmark</scope><name>bookmarkTitle</name></member>
+      <member refid="interface_pxe_player_bookmark_1ae4b45f207dd31a597e765f7d53fd13e7" prot="public" virt="non-virtual"><scope>PxePlayerAddBookmark</scope><name>contentID</name></member>
+      <member refid="interface_pxe_player_add_bookmark_1ad6cd116d2ff48911fa8ecc561072e9b5" prot="public" virt="non-virtual"><scope>PxePlayerAddBookmark</scope><name>contextID</name></member>
+      <member refid="interface_pxe_player_add_bookmark_1a43618fee5cf82e2461f50948277e5f1a" prot="public" virt="non-virtual"><scope>PxePlayerAddBookmark</scope><name>identityID</name></member>
+      <member refid="interface_pxe_player_bookmark_1a4c5726238745b908389f27e7c04e1330" prot="public" virt="non-virtual"><scope>PxePlayerAddBookmark</scope><name>labels</name></member>
+      <member refid="interface_pxe_player_add_bookmark_1a892615c32c37e6c4a5a978fc0898de2f" prot="public" virt="non-virtual"><scope>PxePlayerAddBookmark</scope><name>uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

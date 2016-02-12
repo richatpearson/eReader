@@ -1,0 +1,26 @@
+var _pxe_player_8h =
+[
+    [ "PxePlayer(Bookmarks)", "category_pxe_player_07_bookmarks_08.html", "category_pxe_player_07_bookmarks_08" ],
+    [ "PxePlayer(Search)", "category_pxe_player_07_search_08.html", "category_pxe_player_07_search_08" ],
+    [ "PxePlayer(Annotations)", "category_pxe_player_07_annotations_08.html", "category_pxe_player_07_annotations_08" ],
+    [ "PxePlayer(Media)", "category_pxe_player_07_media_08.html", "category_pxe_player_07_media_08" ],
+    [ "getContextID", "_pxe_player_8h.html#a80d21cd47308801f14dba8bc6f88354e", null ],
+    [ "getGlossaryWithCompletionHandler:", "_pxe_player_8h.html#a505b684b0eaa398bfbb1395d0d21664d", null ],
+    [ "getIdentityID", "_pxe_player_8h.html#a1c13397812fd40966059bda2560b70b4", null ],
+    [ "getLearningContext", "_pxe_player_8h.html#a12ec013be2583937dec2f4bd91134320", null ],
+    [ "getNCXURL", "_pxe_player_8h.html#ab4a894a00a98a191f331a3e193769965", null ],
+    [ "getPageDetails:withValue:", "_pxe_player_8h.html#ae560879b7b82c0b923751c9b48567dce", null ],
+    [ "getPageFontSize", "_pxe_player_8h.html#a2a59e2144714c28f08c22e61345e51c7", null ],
+    [ "getPageTheme", "_pxe_player_8h.html#a324144dbc3af9481da99515ebbdd7e89", null ],
+    [ "getTocTree:", "_pxe_player_8h.html#af0456b08497a82ee1b8b7884a2b82c7f", null ],
+    [ "getTotalPageEntry", "_pxe_player_8h.html#a0a092fc30aca93fe8d92d8fdd620d027", null ],
+    [ "purgeCachedData", "_pxe_player_8h.html#af9edbb5c26d471e8ebc56855fe567268", null ],
+    [ "renderCustomPlaylist:andJumpToPage:withOptions:", "_pxe_player_8h.html#ab27dfcd47db5427f4e29090478f997a3", null ],
+    [ "renderCustomPlaylist:withOptions:", "_pxe_player_8h.html#a2666925f87e541887d6da93d76aa0b51", null ],
+    [ "renderPage:withOptions:", "_pxe_player_8h.html#acb8297d61836c11b3322308b1e2ab5df", null ],
+    [ "renderWithOptions:", "_pxe_player_8h.html#a5c9664e564af6a144fbb732e34e44585", null ],
+    [ "setPageFontSize:", "_pxe_player_8h.html#afe2e1ea90e26019c53d1bf386c7b7db1", null ],
+    [ "setPageTheme:", "_pxe_player_8h.html#aa75847778c328284d692facacffcfa12", null ],
+    [ "setSearchIndexId:", "_pxe_player_8h.html#a0a38d278539d2b6d1344ba958b16464f", null ],
+    [ "updateDataInterface:finished:", "_pxe_player_8h.html#a9fe0347c608539fa1c20943b5b954b75", null ]
+];

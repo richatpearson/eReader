@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_annotation" kind="class" prot="public">
+    <compoundname>PxePlayerAnnotation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_annotation_8h" local="no">PxePlayerAnnotation.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_annotation_1ad4de16b477c5185f1e2cc7e3dc381478" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotation::uri</definition>
+        <argsstring></argsstring>
+        <name>uri</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the uri </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotation_1ab9e7b0ca1d2b10388be7ee64fa7f348b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotation::range</definition>
+        <argsstring></argsstring>
+        <name>range</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the range of the annotation text </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="24" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotation_1a9ea3bee20ee473fc614a0e0d6201dc8c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotation::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the color value of the annotation highlight color </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotation_1a385bff815a8ba52e6c228d0cb0003e2f" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotation::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the annotation title text </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="34" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotation_1a3c3cccd23a46f7ed8726e4788ca32517" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotation::noteText</definition>
+        <argsstring></argsstring>
+        <name>noteText</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the annotation description text </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="39" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotation_1a49526a2d5685f06b970713a85f4e18c5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotation::contentId</definition>
+        <argsstring></argsstring>
+        <name>contentId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="44" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_annotation_1afe13281cb5ee83fbaee6367daf2519df" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAnnotation::annotationDttm</definition>
+        <argsstring></argsstring>
+        <name>annotationDttm</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the annotation definition </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="49" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the annotation data into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>PxePlayerAnnotation</label>
+        <link refid="interface_pxe_player_annotation"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>PxePlayerAnnotation</label>
+        <link refid="interface_pxe_player_annotation"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_annotation_1afe13281cb5ee83fbaee6367daf2519df" prot="public" virt="non-virtual"><scope>PxePlayerAnnotation</scope><name>annotationDttm</name></member>
+      <member refid="interface_pxe_player_annotation_1a9ea3bee20ee473fc614a0e0d6201dc8c" prot="public" virt="non-virtual"><scope>PxePlayerAnnotation</scope><name>color</name></member>
+      <member refid="interface_pxe_player_annotation_1a49526a2d5685f06b970713a85f4e18c5" prot="public" virt="non-virtual"><scope>PxePlayerAnnotation</scope><name>contentId</name></member>
+      <member refid="interface_pxe_player_annotation_1a3c3cccd23a46f7ed8726e4788ca32517" prot="public" virt="non-virtual"><scope>PxePlayerAnnotation</scope><name>noteText</name></member>
+      <member refid="interface_pxe_player_annotation_1ab9e7b0ca1d2b10388be7ee64fa7f348b" prot="public" virt="non-virtual"><scope>PxePlayerAnnotation</scope><name>range</name></member>
+      <member refid="interface_pxe_player_annotation_1a385bff815a8ba52e6c228d0cb0003e2f" prot="public" virt="non-virtual"><scope>PxePlayerAnnotation</scope><name>text</name></member>
+      <member refid="interface_pxe_player_annotation_1ad4de16b477c5185f1e2cc7e3dc381478" prot="public" virt="non-virtual"><scope>PxePlayerAnnotation</scope><name>uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

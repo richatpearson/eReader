@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_check_bookmark" kind="class" prot="public">
+    <compoundname>PxePlayerCheckBookmark</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_check_bookmark_8h" local="no">PxePlayerCheckBookmark.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_check_bookmark_1ade2afff8924a07e7d9cc94208f19cc50" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* PxePlayerCheckBookmark::isBookmarked</definition>
+        <argsstring></argsstring>
+        <name>isBookmarked</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSNumber variable to check the page has bookmarked </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerCheckBookmark.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerCheckBookmark.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_check_bookmark_1aca2ac182b0cb487c732f6d71d2f5c5a5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerCheckBookmark::forPageUrl</definition>
+        <argsstring></argsstring>
+        <name>forPageUrl</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerCheckBookmark.h" line="24" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerCheckBookmark.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the check bookmark </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="118">
+        <label>PxePlayerCheckBookmark</label>
+        <link refid="interface_pxe_player_check_bookmark"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="120">
+        <label>PxePlayerCheckBookmark</label>
+        <link refid="interface_pxe_player_check_bookmark"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerCheckBookmark.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerCheckBookmark.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_check_bookmark_1aca2ac182b0cb487c732f6d71d2f5c5a5" prot="public" virt="non-virtual"><scope>PxePlayerCheckBookmark</scope><name>forPageUrl</name></member>
+      <member refid="interface_pxe_player_check_bookmark_1ade2afff8924a07e7d9cc94208f19cc50" prot="public" virt="non-virtual"><scope>PxePlayerCheckBookmark</scope><name>isBookmarked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

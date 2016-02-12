@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_search_u_r_ls_query" kind="class" prot="public">
+    <compoundname>PxePlayerSearchURLsQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_search_book_query" prot="public" virt="non-virtual">PxePlayerSearchBookQuery</basecompoundref>
+    <includes refid="_pxe_player_search_u_r_ls_query_8h" local="no">PxePlayerSearchURLsQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_search_u_r_ls_query_1abb8b87c426ef25427e4ccff33a591e06" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerSearchURLsQuery::contentURLs</definition>
+        <argsstring></argsstring>
+        <name>contentURLs</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the list of content urls </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchURLsQuery.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchURLsQuery.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the search url query </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="343">
+        <label>PxePlayerSearchURLsQuery</label>
+        <link refid="interface_pxe_player_search_u_r_ls_query"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="346">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>PxePlayerSearchBooksQuery</label>
+        <link refid="interface_pxe_player_search_books_query"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>PxePlayerSearchBookQuery</label>
+        <link refid="interface_pxe_player_search_book_query"/>
+        <childnode refid="345" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="348">
+        <label>PxePlayerSearchURLsQuery</label>
+        <link refid="interface_pxe_player_search_u_r_ls_query"/>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="352" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="350">
+        <label>PxePlayerSearchBooksQuery</label>
+        <link refid="interface_pxe_player_search_books_query"/>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>PxePlayerSearchBookQuery</label>
+        <link refid="interface_pxe_player_search_book_query"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchURLsQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchURLsQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_search_book_query_1af431710f9f3abeb1dd40a615125f8844" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>bookId</name></member>
+      <member refid="interface_pxe_player_search_book_query_1a060e888d46e8aeb261068cabc92f16bd" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>contentId</name></member>
+      <member refid="interface_pxe_player_search_u_r_ls_query_1abb8b87c426ef25427e4ccff33a591e06" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>contentURLs</name></member>
+      <member refid="interface_pxe_player_search_book_query_1adb97282496feeeb0ee92b973513bab35" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>indexId</name></member>
+      <member refid="interface_pxe_player_search_books_query_1a46383e9d5bfcf7c45e5dd78b5bf71aea" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>language</name></member>
+      <member refid="interface_pxe_player_search_books_query_1aac159c61fed7fa6bb0c4a1a70a7637ce" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>maxResults</name></member>
+      <member refid="interface_pxe_player_search_book_query_1ade43017f3723042bd108214528a50569" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>pageNumber</name></member>
+      <member refid="interface_pxe_player_search_books_query_1a417d9bda9b205c8d5727e163bcbc0e3b" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>searchTerm</name></member>
+      <member refid="interface_pxe_player_search_books_query_1a860b999ef5a591e01872705e09ed871f" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>startIndex</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerSearchURLsQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

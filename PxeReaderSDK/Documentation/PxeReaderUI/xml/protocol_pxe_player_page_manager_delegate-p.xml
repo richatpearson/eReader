@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="protocol_pxe_player_page_manager_delegate-p" kind="protocol" prot="public">
+    <compoundname>PxePlayerPageManagerDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="category_pxe_player_page_view_controller_07_08" prot="public" virt="non-virtual">PxePlayerPageViewController()</derivedcompoundref>
+    <includes refid="_pxe_player_page_manager_8h" local="no">PxePlayerPageManager.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_pxe_player_page_manager_delegate-p_1ab19330eab5624f423791da6812efc0ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManagerDelegate-p::pagesAdded:</definition>
+        <argsstring>(NSArray *pages)</argsstring>
+        <name>pagesAdded:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>pages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will be called when pages has been added into the download queue <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>pages</parametername>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of pages added into the queue </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_page_manager_delegate-p_1aeb75c84d29e81b0a3ac17767dba10966" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManagerDelegate-p::pageDownloaded:</definition>
+        <argsstring>(NSString *page)</argsstring>
+        <name>pageDownloaded:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will be called when particular page has been downloaded <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>page</parametername>
+<parametername>currently</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>downloaded page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_page_manager_delegate-p_1a005cdc99a2922d6e600f445d467a0862" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManagerDelegate-p::pageDownloadFailed:</definition>
+        <argsstring>(NSError *error)</argsstring>
+        <name>pageDownloadFailed:</name>
+        <param>
+          <type>NSError *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will be called when particular page download has been failed <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSError</parametername>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>information about the download failed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_page_manager_delegate-p_1a965d42f03bfb8c212f52f871eda34ddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManagerDelegate-p::contentsDownloadSuccess</definition>
+        <argsstring>()</argsstring>
+        <name>contentsDownloadSuccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will be called when page content has been downloaded </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_page_manager_delegate-p_1a9d9667b05a3d1cccd431612772ff0ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManagerDelegate-p::contentsDownloadFailed:</definition>
+        <argsstring>(NSError *error)</argsstring>
+        <name>contentsDownloadFailed:</name>
+        <param>
+          <type>NSError *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method wil be called when page content download has been failed <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSError</parametername>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>information about the page content download failed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple protocol which target class can implement to receive the notification status from the <ref refid="interface_pxe_player_page_manager" kindref="compound">PxePlayerPageManager</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="87">
+        <label>PxePlayerPageViewController()</label>
+        <link refid="category_pxe_player_page_view_controller_07_08"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>&lt;PxePlayerPageManagerDelegate&gt;</label>
+        <link refid="protocol_pxe_player_page_manager_delegate-p"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="88">
+        <label>&lt;PxePlayerPageManagerDelegate&gt;</label>
+        <link refid="protocol_pxe_player_page_manager_delegate-p"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" bodystart="16" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1a9d9667b05a3d1cccd431612772ff0ec4" prot="public" virt="virtual"><scope>PxePlayerPageManagerDelegate-p</scope><name>contentsDownloadFailed:</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1a965d42f03bfb8c212f52f871eda34ddd" prot="public" virt="virtual"><scope>PxePlayerPageManagerDelegate-p</scope><name>contentsDownloadSuccess</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1aeb75c84d29e81b0a3ac17767dba10966" prot="public" virt="virtual"><scope>PxePlayerPageManagerDelegate-p</scope><name>pageDownloaded:</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1a005cdc99a2922d6e600f445d467a0862" prot="public" virt="virtual"><scope>PxePlayerPageManagerDelegate-p</scope><name>pageDownloadFailed:</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1ab19330eab5624f423791da6812efc0ab" prot="public" virt="virtual"><scope>PxePlayerPageManagerDelegate-p</scope><name>pagesAdded:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

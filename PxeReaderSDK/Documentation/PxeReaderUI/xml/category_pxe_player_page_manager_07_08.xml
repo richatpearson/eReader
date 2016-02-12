@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_page_manager_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerPageManager()</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;PxePlayerOperationQueueDelegate&gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1a6593a02ae5353431f23a8fd7c74dd256" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageManager()::isPlaylist</definition>
+        <argsstring></argsstring>
+        <name>isPlaylist</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bool value which sets the book has custom playlist or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="51" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1adb201d14e3ca4f38e9ec2065f952c288" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerPageManager()::totalPages</definition>
+        <argsstring></argsstring>
+        <name>totalPages</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSInteger value which set the total number of pages in the book </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1a05c4bdb4a35995cd2323311a4ddd5990" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerPageManager()::currentPage</definition>
+        <argsstring></argsstring>
+        <name>currentPage</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSInteger which hold the current page index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="61" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1accf769375dab7b61ec6e72229026cb9b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerPageManager()::virtualCurrentPage</definition>
+        <argsstring></argsstring>
+        <name>virtualCurrentPage</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSInteger which hold the current transition page index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="66" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1a30a7e06d49dbb6083d1680e33cbe9935" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPageManager()::tocUrl</definition>
+        <argsstring></argsstring>
+        <name>tocUrl</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSString value which holds the toc NCX URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="71" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1a67cd80bd4518f3d9f2a13575878543f6" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerPageManager()::histories</definition>
+        <argsstring></argsstring>
+        <name>histories</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSMutableArray which holds the array of pages that user navigated that user can undo the navigation </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="76" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1ada0666ce9183a61c6523ccd9eaf56382" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerPageManager()::customPlaylist</definition>
+        <argsstring></argsstring>
+        <name>customPlaylist</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSArray , array of URL&apos;s which used to be render custom playlist from the book </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="81" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_manager_07_08_1a736f70880c4e6ba6af0bb9a793096333" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>PxePlayerPageOperations *</type>
+        <definition>PxePlayerPageOperations* PxePlayerPageManager()::pageOperations</definition>
+        <argsstring></argsstring>
+        <name>pageOperations</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PxePlayerPageOperations are download queue which holds the array of page URL&apos;s to download sequentially <simplesect kind="see"><para>PxePlayerPageOperations </para><simplesectsep/><para>PxePlayerPageOperation </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="88" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="interface_pxe_player_page_manager" kindref="compound">PxePlayerPageManager</ref> class extension where private variables and methods to be declared <simplesect kind="see"><para><ref refid="class_pxe_player_operation_queue_delegate-p" kindref="compound">PxePlayerOperationQueueDelegate</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="82">
+        <label>&lt;PxePlayerOperationQueueDelegate&gt;</label>
+      </node>
+      <node id="81">
+        <label>PxePlayerPageManager()</label>
+        <link refid="category_pxe_player_page_manager_07_08"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="84">
+        <label>&lt;PxePlayerOperationQueueDelegate&gt;</label>
+      </node>
+      <node id="83">
+        <label>PxePlayerPageManager()</label>
+        <link refid="category_pxe_player_page_manager_07_08"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" line="46" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="46" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_page_manager_07_08_1a05c4bdb4a35995cd2323311a4ddd5990" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>currentPage</name></member>
+      <member refid="category_pxe_player_page_manager_07_08_1ada0666ce9183a61c6523ccd9eaf56382" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>customPlaylist</name></member>
+      <member refid="category_pxe_player_page_manager_07_08_1a67cd80bd4518f3d9f2a13575878543f6" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>histories</name></member>
+      <member refid="category_pxe_player_page_manager_07_08_1a6593a02ae5353431f23a8fd7c74dd256" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>isPlaylist</name></member>
+      <member refid="category_pxe_player_page_manager_07_08_1a736f70880c4e6ba6af0bb9a793096333" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>pageOperations</name></member>
+      <member refid="category_pxe_player_page_manager_07_08_1a30a7e06d49dbb6083d1680e33cbe9935" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>tocUrl</name></member>
+      <member refid="category_pxe_player_page_manager_07_08_1adb201d14e3ca4f38e9ec2065f952c288" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>totalPages</name></member>
+      <member refid="category_pxe_player_page_manager_07_08_1accf769375dab7b61ec6e72229026cb9b" prot="public" virt="non-virtual"><scope>PxePlayerPageManager()</scope><name>virtualCurrentPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

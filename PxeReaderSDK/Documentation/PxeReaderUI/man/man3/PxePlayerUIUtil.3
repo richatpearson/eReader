@@ -1,0 +1,130 @@
+.TH "PxePlayerUIUtil" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerUIUtil \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerUIUtil\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(UILabel *) + \fBcreateLabelWithTitle:frame:\fP"
+.br
+.ti -1c
+.RI "(UILabel *) + \fBcreateLabelWithTitle:frame:alignment:\fP"
+.br
+.ti -1c
+.RI "(UILabel *) + \fBcreateLabelWithTitle:frame:alignment:withFont:backGroundColor:textColor:\fP"
+.br
+.ti -1c
+.RI "(UIBarButtonItem *) + \fBcreateBarButtonItemFixedSpaceWithTarget:action:width:\fP"
+.br
+.ti -1c
+.RI "(UIButton *) + \fBcreateButtonWithBackgroundImage:andText:\fP"
+.br
+.ti -1c
+.RI "(UIButton *) + \fBcreateButtonWithImage:\fP"
+.br
+.ti -1c
+.RI "(UIButton *) + \fBcreateButtonWithFrame:type:\fP"
+.br
+.ti -1c
+.RI "(UIButton *) + \fBcreateButtonWithFrame:title:type:\fP"
+.br
+.ti -1c
+.RI "(UITextField *) + \fBcreateTextFieldWithFrame:text:placeHolder:borderStyle:\fP"
+.br
+.ti -1c
+.RI "(UITextField *) + \fBcreateTextFieldWithFrame:text:placeHolder:borderStyle:secure:\fP"
+.br
+.ti -1c
+.RI "(UITextField *) + \fBcreateTextFieldWithFrame:text:placeHolder:borderStyle:autoCorrection:autoCapitalization:secure:\fP"
+.br
+.ti -1c
+.RI "(UIImageView *) + \fBcreateImageViewWithFileName:\fP"
+.br
+.ti -1c
+.RI "(UIImageView *) + \fBcreateImageViewWithFileName:frame:contentMode:\fP"
+.br
+.ti -1c
+.RI "(UIImageView *) + \fBcreateImageViewWithImage:frame:backgroundColor:contentMode:\fP"
+.br
+.ti -1c
+.RI "(UIImage *) + \fBgetLine:withColor:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 13 of file PxePlayerUIUtil\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "+ (UIBarButtonItem *) createBarButtonItemFixedSpaceWithTarget: (id)target(SEL)action(CGFloat)width"
+
+.PP
+Definition at line 45 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIButton *) createButtonWithBackgroundImage: (NSString*)imageName(NSString*)text"
+
+.PP
+Definition at line 52 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIButton *) createButtonWithFrame: (CGRect)frame(NSString*)title(UIButtonType)type"
+
+.PP
+Definition at line 79 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIButton *) createButtonWithFrame: (CGRect)frame(UIButtonType)type"
+
+.PP
+Definition at line 74 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIButton *) createButtonWithImage: (UIImage*)image"
+
+.PP
+Definition at line 63 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIImageView *) createImageViewWithFileName: (NSString*)fileName"
+
+.PP
+Definition at line 112 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIImageView *) \fBcreateImageViewWithFileName:\fP (NSString*)fileName(CGRect)frame(UIViewContentMode)contentMode"
+
+.PP
+Definition at line 118 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIImageView *) createImageViewWithImage: (UIImage*)image(CGRect)frame(UIColor*)p_color(UIViewContentMode)contentMode"
+
+.PP
+Definition at line 125 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UILabel *) createLabelWithTitle: (NSString*)title(CGRect)frame"
+
+.PP
+Definition at line 19 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UILabel *) createLabelWithTitle: (NSString*)title(CGRect)frame(NSTextAlignment)alignment"
+
+.PP
+Definition at line 26 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UILabel *) createLabelWithTitle: (NSString*)title(CGRect)frame(NSTextAlignment)alignment(UIFont*)font(UIColor*)bgColor(UIColor*)textColor"
+
+.PP
+Definition at line 33 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UITextField *) createTextFieldWithFrame: (CGRect)frame(NSString*)text(NSString*)placeHolder(UITextBorderStyle)borderStyle"
+
+.PP
+Definition at line 89 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UITextField *) createTextFieldWithFrame: (CGRect)frame(NSString*)text(NSString*)placeHolder(UITextBorderStyle)borderStyle(NSInteger)autoCorrection(NSInteger)autoCapitalization(BOOL)isSecure"
+
+.PP
+Definition at line 99 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UITextField *) createTextFieldWithFrame: (CGRect)frame(NSString*)text(NSString*)placeHolder(UITextBorderStyle)borderStyle(BOOL)isSecure"
+
+.PP
+Definition at line 94 of file PxePlayerUIUtil\&.m\&.
+.SS "+ (UIImage *) getLine: (CGSize)size(CGColorRef)color"
+
+.PP
+Definition at line 135 of file PxePlayerUIUtil\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

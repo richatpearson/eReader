@@ -1,0 +1,87 @@
+.TH "PxePlayerPageContentViewController.m" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageContentViewController.m \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#import 'PxePlayerPageContentViewController\&.h'\fP
+.br
+\fC#import 'PxePlayerPagesWebView\&.h'\fP
+.br
+\fC#import 'PxePlayerLoadingView\&.h'\fP
+.br
+\fC#import 'PxePlayer\&.h'\fP
+.br
+\fC#import 'PxePlayerUIConstants\&.h'\fP
+.br
+\fC#import 'HMCache\&.h'\fP
+.br
+\fC#import 'NSString+Extension\&.h'\fP
+.br
+\fC#import 'PxePlayerPage\&.h'\fP
+.br
+\fC#import 'PxePlayerURLConstants\&.h'\fP
+.br
+\fC#import 'PxePlayerLightBoxViewController\&.h'\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBDISABLED\fP   @'disabled'"
+.br
+.ti -1c
+.RI "#define \fBLINK_DEFAULT\fP   @'<link type=\\'text/css\\' title=\\'default\\' rel=\\'stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/main\&.css\\' />'"
+.br
+.ti -1c
+.RI "#define \fBLINK_SEPIA\fP   @'<link type=\\'text/css\\' title=\\'sepia\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/sepia\&.css\\' />'"
+.br
+.ti -1c
+.RI "#define \fBLINK_NIGHT\fP   @'<link type=\\'text/css\\' title=\\'night\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/night\&.css\\' />'"
+.br
+.ti -1c
+.RI "#define \fBLINK_DEFAULT_DISABLED\fP   @'<link type=\\'text/css\\' title=\\'default\\' rel=\\'stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/main\&.css\\' disabled/>'"
+.br
+.ti -1c
+.RI "#define \fBLINK_SEPIA_DISABLED\fP   @'<link type=\\'text/css\\' title=\\'sepia\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/sepia\&.css\\' disabled/>'"
+.br
+.ti -1c
+.RI "#define \fBLINK_NIGHT_DISABLED\fP   @'<link type=\\'text/css\\' title=\\'night\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/night\&.css\\' disabled/>'"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define DISABLED   @'disabled'"
+
+.PP
+Definition at line 20 of file PxePlayerPageContentViewController\&.m\&.
+.SS "#define LINK_DEFAULT   @'<link type=\\'text/css\\' title=\\'default\\' rel=\\'stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/main\&.css\\' />'"
+
+.PP
+Definition at line 22 of file PxePlayerPageContentViewController\&.m\&.
+.SS "#define LINK_DEFAULT_DISABLED   @'<link type=\\'text/css\\' title=\\'default\\' rel=\\'stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/main\&.css\\' disabled/>'"
+
+.PP
+Definition at line 26 of file PxePlayerPageContentViewController\&.m\&.
+.SS "#define LINK_NIGHT   @'<link type=\\'text/css\\' title=\\'night\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/night\&.css\\' />'"
+
+.PP
+Definition at line 24 of file PxePlayerPageContentViewController\&.m\&.
+.SS "#define LINK_NIGHT_DISABLED   @'<link type=\\'text/css\\' title=\\'night\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/night\&.css\\' disabled/>'"
+
+.PP
+Definition at line 28 of file PxePlayerPageContentViewController\&.m\&.
+.SS "#define LINK_SEPIA   @'<link type=\\'text/css\\' title=\\'sepia\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/sepia\&.css\\' />'"
+
+.PP
+Definition at line 23 of file PxePlayerPageContentViewController\&.m\&.
+.SS "#define LINK_SEPIA_DISABLED   @'<link type=\\'text/css\\' title=\\'sepia\\' rel=\\'alternate stylesheet\\' href=\\'\&.\&./\&.\&./assets/css/theme/sepia\&.css\\' disabled/>'"
+
+.PP
+Definition at line 27 of file PxePlayerPageContentViewController\&.m\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

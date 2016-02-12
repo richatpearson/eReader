@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_alert_view" kind="class" prot="public">
+    <compoundname>PxePlayerAlertView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIAlertView</basecompoundref>
+    <includes refid="_pxe_player_alert_view_8h" local="no">PxePlayerAlertView.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_alert_view_1a791feec3c06df0d7a1df9f92ee7ec83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerAlertView::addCustomValue:withKey:</definition>
+        <argsstring>(NSString *value,[withKey] NSString *key)</argsstring>
+        <name>addCustomValue:withKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to add custom object into the dictionary stack <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a content or object to be stored in to the stack </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a string for identifying the object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.h" line="51" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.m" bodystart="21" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_alert_view_1a56b5ad4f1e2c89604c7b4fb528d202b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerAlertView::removeCustomValue:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>removeCustomValue:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to remove object from the dictionary stack <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a string for identifying the object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.h" line="51" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.m" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_alert_view_1a49e659b5368d59df5ec5e9f22776afa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerAlertView::getCustomValue:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>getCustomValue:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to get object from the dictionary stack <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a string for identifying the object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSString, returns the object from the identofied location </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.h" line="51" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.m" bodystart="39" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A custom UIAlertView sub class for key value handling </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="26">
+        <label>PxePlayerAlertView</label>
+        <link refid="interface_pxe_player_alert_view"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>UIAlertView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>PxePlayerAlertView</label>
+        <link refid="interface_pxe_player_alert_view"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>UIAlertView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerAlertView.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_alert_view_1a791feec3c06df0d7a1df9f92ee7ec83b" prot="public" virt="virtual"><scope>PxePlayerAlertView</scope><name>addCustomValue:withKey:</name></member>
+      <member refid="interface_pxe_player_alert_view_1a49e659b5368d59df5ec5e9f22776afa8" prot="public" virt="virtual"><scope>PxePlayerAlertView</scope><name>getCustomValue:</name></member>
+      <member refid="interface_pxe_player_alert_view_1a56b5ad4f1e2c89604c7b4fb528d202b3" prot="public" virt="virtual"><scope>PxePlayerAlertView</scope><name>removeCustomValue:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

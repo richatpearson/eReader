@@ -1,0 +1,44 @@
+.TH "PxePlayerTocParser" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerTocParser \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerTocParser\&.h>\fP
+.PP
+Inherits NSObject, and \fB<PxePlayerBaseParser>\fP\&.
+.PP
+Inherited by \fBPxePlayerNCXCDParser\fP, and \fBPxePlayerXHTMLCDParser\fP\&.
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "NSInteger \fBpageNumber\fP"
+.br
+.ti -1c
+.RI "PxePlayerBookDetails * \fBcurrentBook\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+A simple class derived from the \fBPxePlayerBaseParser\fP for converting the array or dictionary of data content parsed from the NCX or URL array parser into the core data model format and returns the result as a models 
+.PP
+Definition at line 18 of file PxePlayerTocParser\&.h\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (PxePlayerBookDetails*) currentBook\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A PxePlayerBookDetails model to hold the book information from the generic data format\&. 
+.PP
+Definition at line 28 of file PxePlayerTocParser\&.h\&.
+.SS "- (NSInteger) pageNumber\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+A NSInteger variable to hold the page number of the page 
+.PP
+Definition at line 23 of file PxePlayerTocParser\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

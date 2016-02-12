@@ -1,0 +1,76 @@
+.TH "PxePlayerAlertView" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerAlertView \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerAlertView\&.h>\fP
+.PP
+Inherits UIAlertView\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBaddCustomValue:withKey:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBremoveCustomValue:\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetCustomValue:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A custom UIAlertView sub class for key value handling 
+.PP
+Definition at line 14 of file PxePlayerAlertView\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) addCustomValue: (NSString*)value(NSString*)key"
+This method would be called to add custom object into the dictionary stack 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,value\fP is a content or object to be stored in to the stack 
+.br
+\fINSString,key\fP is a string for identifying the object 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file PxePlayerAlertView\&.m\&.
+.SS "- (NSString *) getCustomValue: (NSString*)key"
+This method would be called to get object from the dictionary stack 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP is a string for identifying the object 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the object from the identofied location 
+.RE
+.PP
+
+.PP
+Definition at line 39 of file PxePlayerAlertView\&.m\&.
+.SS "- (void) removeCustomValue: (NSString*)key"
+This method would be called to remove object from the dictionary stack 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP is a string for identifying the object 
+.RE
+.PP
+
+.PP
+Definition at line 32 of file PxePlayerAlertView\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

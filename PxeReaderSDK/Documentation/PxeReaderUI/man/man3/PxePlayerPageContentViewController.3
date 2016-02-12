@@ -1,0 +1,305 @@
+.TH "PxePlayerPageContentViewController" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageContentViewController \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageContentViewController\&.h>\fP
+.PP
+Inherits UIViewController, and <UIWebViewDelegate>\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(id) - \fBinitWithPage:withFrame:andDelegate:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBloadPage\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBisPageDidLoad\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsetPageId:\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetPageAbsoluteURL\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetPageRelativeURL\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetPageUUID\fP"
+.br
+.ti -1c
+.RI "(void) - \fBhighlightSearchWords:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBupdateFont\fP"
+.br
+.ti -1c
+.RI "(void) - \fBupdateTheme\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgotoURLTag:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsetAnnotationLabel:\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "id< \fBPageContentDelegate\fP > \fBdelegate\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 62 of file PxePlayerPageContentViewController\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (NSString *) getPageAbsoluteURL "
+Get the page's absolute URL 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString , returns the current page absolute url
+.RE
+.PP
+This method getting called to retrieve the page absolute URL 
+.PP
+\fBSee Also:\fP
+.RS 4
+[\fBPxePlayer\fP \fBgetNCXURL\fP] 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the page's absolute URL 
+.RE
+.PP
+
+.PP
+Definition at line 272 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (NSString *) getPageRelativeURL "
+Get the page's relative URL 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString , returns the current page relative url
+.RE
+.PP
+This method getting called to retrieve the page relative URL 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the page's relative URL 
+.RE
+.PP
+
+.PP
+Definition at line 290 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (NSString *) getPageUUID "
+Get the page's UUID 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString , returns the current page UUID
+.RE
+.PP
+This method getting called to retrieve the page UUID 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the page's id 
+.RE
+.PP
+
+.PP
+Definition at line 298 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (void) gotoURLTag: (NSString*)urlTag"
+This method should be called to navigate to the particular title with in a page 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,urlTag,the\fP page url which going to be rendered into the internal webview
+.RE
+.PP
+This method getting called whenever page needs to navigate to the specifi titles in the page 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,urlTag\fP is a id to navgate to the title with in the page 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+UIWebView 
+.RE
+.PP
+
+.PP
+Definition at line 249 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (void) highlightSearchWords: (NSArray*)highlightLabels"
+Highlight the search words in the rendered page 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,highlightLabels,the\fP array of labels that should be highlighted
+.RE
+.PP
+This method getting called to highlight the searched words in the page 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the page's id 
+.RE
+.PP
+
+.PP
+Definition at line 593 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (id) initWithPage: (NSString*)page(CGRect)frame(id)delegate"
+This method Intialise the page content view controller UI and all required settings and prepares for rendering into the screen 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,page,the\fP page url which going to be rendered into the internal webview 
+.br
+\fICGRect,frame,the\fP frame of the view which going to be rendered on top of the window 
+.br
+\fIid,delegate,delegate\fP class can get notification from the self class for certain events 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPageContentDelegate\fP 
+.RE
+.PP
+
+.PP
+Definition at line 317 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (BOOL) isPageDidLoad "
+This method return status of either page has been loaded or not 
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns page loaded or not
+.RE
+.PP
+This method getting called to retrieve whether page has loaded or not 
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns the whether page has loaded or not 
+.RE
+.PP
+
+.PP
+Definition at line 306 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (void) loadPage "
+This method used for freshly (re)load the page on the web view 
+.PP
+\fBSee Also:\fP
+.RS 4
+UIWebView
+.RE
+.PP
+This method getting called whenever load or refresh the page and restored the page information to the local cache 
+.PP
+\fBSee Also:\fP
+.RS 4
+UIWebView 
+.PP
+\fBPxePlayerLoadingView\fP 
+.PP
+\fBHMCache\fP 
+.RE
+.PP
+
+.PP
+Definition at line 216 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (void) setAnnotationLabel: (NSString*)label"
+This method should be called to set the annotation label 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,label,annotate\fP the label on the page
+.RE
+.PP
+This method getting called to set the annotated label in the page 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,label\fP is an annotatated string that need to be highlighted 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+[UIWebView stringByEvaluatingJavaScriptFromString]; 
+.RE
+.PP
+
+.PP
+Definition at line 620 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (void) setPageId: (NSString*)pageId"
+Set the current page id 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageId,current\fP page id will be assigned
+.RE
+.PP
+This method getting called to set the page id of the loaded page 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpageId,pageId\fP need to be set 
+.RE
+.PP
+
+.PP
+Definition at line 263 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (void) updateFont "
+This method should be called to update the font properties into the page
+.PP
+This method getting called to update the font size of the page content 
+.PP
+\fBSee Also:\fP
+.RS 4
+[UIWebView stringByEvaluatingJavaScriptFromString]; 
+.PP
+[\fBPxePlayer\fP \fBgetPageFontSize\fP] 
+.RE
+.PP
+
+.PP
+Definition at line 602 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (void) updateTheme "
+This method should be called to update the theme properties into the page
+.PP
+This method getting called to update the theme of the page content 
+.PP
+\fBSee Also:\fP
+.RS 4
+[UIWebView stringByEvaluatingJavaScriptFromString]; 
+.PP
+[\fBPxePlayer\fP \fBgetPageTheme\fP] 
+.RE
+.PP
+
+.PP
+Definition at line 611 of file PxePlayerPageContentViewController\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (id<\fBPageContentDelegate\fP>) delegate\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [weak]\fP"
+
+.PP
+Definition at line 64 of file PxePlayerPageContentViewController\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

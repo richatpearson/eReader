@@ -1,0 +1,96 @@
+\hypertarget{protocol_pxe_player_page_manager_delegate-p}{\section{$<$Pxe\-Player\-Page\-Manager\-Delegate$>$ Protocol Reference}
+\label{protocol_pxe_player_page_manager_delegate-p}\index{$<$\-Pxe\-Player\-Page\-Manager\-Delegate$>$@{$<$\-Pxe\-Player\-Page\-Manager\-Delegate$>$}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-Manager.\-h$>$}
+
+Inheritance diagram for $<$Pxe\-Player\-Page\-Manager\-Delegate$>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{protocol_pxe_player_page_manager_delegate-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_page_manager_delegate-p_ab19330eab5624f423791da6812efc0ab}{pages\-Added\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_page_manager_delegate-p_aeb75c84d29e81b0a3ac17767dba10966}{page\-Downloaded\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_page_manager_delegate-p_a005cdc99a2922d6e600f445d467a0862}{page\-Download\-Failed\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_page_manager_delegate-p_a965d42f03bfb8c212f52f871eda34ddd}{contents\-Download\-Success}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_page_manager_delegate-p_a9d9667b05a3d1cccd431612772ff0ec4}{contents\-Download\-Failed\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A simple protocol which target class can implement to receive the notification status from the \hyperlink{interface_pxe_player_page_manager}{Pxe\-Player\-Page\-Manager} 
+
+Definition at line 16 of file Pxe\-Player\-Page\-Manager.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{protocol_pxe_player_page_manager_delegate-p_a9d9667b05a3d1cccd431612772ff0ec4}{\index{Pxe\-Player\-Page\-Manager\-Delegate-\/p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}!contents\-Download\-Failed\-:@{contents\-Download\-Failed\-:}}
+\index{contents\-Download\-Failed\-:@{contents\-Download\-Failed\-:}!PxePlayerPageManagerDelegate-p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}}
+\subsubsection[{contents\-Download\-Failed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) contents\-Download\-Failed\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Error $\ast$)}]{error}
+\end{DoxyParamCaption}
+}}\label{protocol_pxe_player_page_manager_delegate-p_a9d9667b05a3d1cccd431612772ff0ec4}
+This method wil be called when page content download has been failed 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Error,error} & information about the page content download failed \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_pxe_player_page_manager_delegate-p_a965d42f03bfb8c212f52f871eda34ddd}{\index{Pxe\-Player\-Page\-Manager\-Delegate-\/p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}!contents\-Download\-Success@{contents\-Download\-Success}}
+\index{contents\-Download\-Success@{contents\-Download\-Success}!PxePlayerPageManagerDelegate-p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}}
+\subsubsection[{contents\-Download\-Success}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) contents\-Download\-Success 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{protocol_pxe_player_page_manager_delegate-p_a965d42f03bfb8c212f52f871eda34ddd}
+This method will be called when page content has been downloaded \hypertarget{protocol_pxe_player_page_manager_delegate-p_aeb75c84d29e81b0a3ac17767dba10966}{\index{Pxe\-Player\-Page\-Manager\-Delegate-\/p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}!page\-Downloaded\-:@{page\-Downloaded\-:}}
+\index{page\-Downloaded\-:@{page\-Downloaded\-:}!PxePlayerPageManagerDelegate-p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}}
+\subsubsection[{page\-Downloaded\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) page\-Downloaded\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{page}
+\end{DoxyParamCaption}
+}}\label{protocol_pxe_player_page_manager_delegate-p_aeb75c84d29e81b0a3ac17767dba10966}
+This method will be called when particular page has been downloaded 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,page,currently} & downloaded page \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_pxe_player_page_manager_delegate-p_a005cdc99a2922d6e600f445d467a0862}{\index{Pxe\-Player\-Page\-Manager\-Delegate-\/p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}!page\-Download\-Failed\-:@{page\-Download\-Failed\-:}}
+\index{page\-Download\-Failed\-:@{page\-Download\-Failed\-:}!PxePlayerPageManagerDelegate-p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}}
+\subsubsection[{page\-Download\-Failed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) page\-Download\-Failed\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Error $\ast$)}]{error}
+\end{DoxyParamCaption}
+}}\label{protocol_pxe_player_page_manager_delegate-p_a005cdc99a2922d6e600f445d467a0862}
+This method will be called when particular page download has been failed 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Error,error} & information about the download failed \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_pxe_player_page_manager_delegate-p_ab19330eab5624f423791da6812efc0ab}{\index{Pxe\-Player\-Page\-Manager\-Delegate-\/p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}!pages\-Added\-:@{pages\-Added\-:}}
+\index{pages\-Added\-:@{pages\-Added\-:}!PxePlayerPageManagerDelegate-p@{Pxe\-Player\-Page\-Manager\-Delegate-\/p}}
+\subsubsection[{pages\-Added\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) pages\-Added\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array $\ast$)}]{pages}
+\end{DoxyParamCaption}
+}}\label{protocol_pxe_player_page_manager_delegate-p_ab19330eab5624f423791da6812efc0ab}
+This method will be called when pages has been added into the download queue 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,pages,array} & of pages added into the queue \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this protocol was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_manager_8h}{Pxe\-Player\-Page\-Manager.\-h}\end{DoxyCompactItemize}

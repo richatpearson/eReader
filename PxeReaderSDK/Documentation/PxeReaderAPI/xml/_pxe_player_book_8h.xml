@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_book_8h" kind="file">
+    <compoundname>PxePlayerBook.h</compoundname>
+    <includedby refid="_pxe_player_book_8m" local="yes">PxePlayerBook.m</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_parser_8m" local="yes">PxePlayerParser.m</includedby>
+    <invincdepgraph>
+      <node id="207">
+        <label>PxePlayerBook.h</label>
+        <link refid="PxePlayerBook.h"/>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>PxePlayerBook.m</label>
+        <link refid="_pxe_player_book_8m"/>
+      </node>
+      <node id="210">
+        <label>PxePlayerParser.m</label>
+        <link refid="_pxe_player_parser_8m"/>
+      </node>
+      <node id="209">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_book" prot="public">PxePlayerBook</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTBook.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Swamy<sp/>Manju<sp/>R<sp/>on<sp/>02/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="interface_pxe_player_book" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_book" kindref="compound">PxePlayerBook</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="interface_pxe_player_book_1a7b90d0569e28b2c8a548ce58fdd78089" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a7b90d0569e28b2c8a548ce58fdd78089" kindref="member">title</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="interface_pxe_player_book_1ad6112557a3413f32dae81ca61db34840" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1ad6112557a3413f32dae81ca61db34840" kindref="member">isbn</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="interface_pxe_player_book_1a218bf45943504045b908b7c438b994f0" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a218bf45943504045b908b7c438b994f0" kindref="member">edition</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="interface_pxe_player_book_1ac76f59149fa39a3e4eb15cfcf289c2dd" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1ac76f59149fa39a3e4eb15cfcf289c2dd" kindref="member">coverUrl</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="interface_pxe_player_book_1a1396e4a5a219032f3482ab1556797790" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a1396e4a5a219032f3482ab1556797790" kindref="member">thumbUrl</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="interface_pxe_player_book_1ae185e74c9aac16d5d592aeba1111defb" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1ae185e74c9aac16d5d592aeba1111defb" kindref="member">lastAccessTs</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="interface_pxe_player_book_1a6ac644b4bfb5a693764b81454c10ee0a" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a6ac644b4bfb5a693764b81454c10ee0a" kindref="member">expirationDate</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="interface_pxe_player_book_1aca64d2186c8e621147758cdc0f53245b" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1aca64d2186c8e621147758cdc0f53245b" kindref="member">copyrightInfo</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="interface_pxe_player_book_1a96ae409bbcb6826fb23457e188b658fd" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a96ae409bbcb6826fb23457e188b658fd" kindref="member">subject</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="interface_pxe_player_book_1a10d22f7a9625bb431db977410093dc7b" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a10d22f7a9625bb431db977410093dc7b" kindref="member">publisher</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="interface_pxe_player_book_1ab9a69b163da02700afe3466551e03c8a" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1ab9a69b163da02700afe3466551e03c8a" kindref="member">creator</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="interface_pxe_player_book_1ad8a2e06c55f191348773ee7b7e2ca3d9" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1ad8a2e06c55f191348773ee7b7e2ca3d9" kindref="member">date</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="interface_pxe_player_book_1a2fd2a2d7a8761a35377955b5ef9683eb" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a2fd2a2d7a8761a35377955b5ef9683eb" kindref="member">language</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="interface_pxe_player_book_1aa673b642a388b3ebde37ccaf03cc7ad4" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1aa673b642a388b3ebde37ccaf03cc7ad4" kindref="member">description</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="interface_pxe_player_book_1aebb4a95ecf0dd74f70abe6c234171d4b" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1aebb4a95ecf0dd74f70abe6c234171d4b" kindref="member">bookUUID</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="interface_pxe_player_book_1a1ddad2064600a6239eb5dc4e007d2e7c" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_book_1a1ddad2064600a6239eb5dc4e007d2e7c" kindref="member">author</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="interface_pxe_player_book_1a36d7ed8749aa6ab03a805aed527811aa" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSArray<sp/><sp/><sp/>*<ref refid="interface_pxe_player_book_1a36d7ed8749aa6ab03a805aed527811aa" kindref="member">pageURLS</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="interface_pxe_player_book_1a540dc3b69e8d585b9fdb4c344609d9c7" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_book_1a540dc3b69e8d585b9fdb4c344609d9c7" kindref="member">isWarningPeriod</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="interface_pxe_player_book_1af6b425654a214e8d5cdc4bd3be2a4203" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_book_1af6b425654a214e8d5cdc4bd3be2a4203" kindref="member">isExpired</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="interface_pxe_player_book_1a9e8503084ff1fe4c3f501be74cce61a5" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_book_1a9e8503084ff1fe4c3f501be74cce61a5" kindref="member">isFavorite</ref>;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="interface_pxe_player_book_1a925ea189e97b526295cecdc85f13279b" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_book_1a925ea189e97b526295cecdc85f13279b" kindref="member">isActive</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="interface_pxe_player_book_1a1c5d347398ddb5ab9b4b5b0a322f1d40" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_book_1a1c5d347398ddb5ab9b4b5b0a322f1d40" kindref="member">withAnnotations</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBook.h"/>
+  </compounddef>
+</doxygen>

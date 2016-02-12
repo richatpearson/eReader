@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_page_view_controller_8h" kind="file">
+    <compoundname>PxePlayerPageViewController.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_pxe_player_8m" local="yes">PxePlayer.m</includedby>
+    <includedby refid="_pxe_player_page_view_controller_8m" local="yes">PxePlayerPageViewController.m</includedby>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <incdepgraph>
+      <node id="219">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="218">
+        <label>PxePlayerPageViewController.h</label>
+        <link refid="PxePlayerPageViewController.h"/>
+        <childnode refid="219" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="221">
+        <label>PxePlayer.m</label>
+        <link refid="_pxe_player_8m"/>
+      </node>
+      <node id="223">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="_pxe_player_u_i_kit_8h"/>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>PxePlayerPageViewController.h</label>
+        <link refid="PxePlayerPageViewController.h"/>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="222">
+        <label>PxePlayerPageViewController.m</label>
+        <link refid="_pxe_player_page_view_controller_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_pxe_player_page_view_delegate-p" prot="public">PxePlayerPageViewDelegate-p</innerclass>
+    <innerclass refid="interface_pxe_player_page_view_controller" prot="public">PxePlayerPageViewController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerPageViewController.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>26/10/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Delegates</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="18" refid="protocol_pxe_player_page_view_delegate-p" refkind="compound"><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_pxe_player_page_view_delegate-p" kindref="compound">PxePlayerPageViewDelegate</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@optional</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-(void)updatePageViewUI:(BOOL)hasPrevious<sp/>orLastPage:(BOOL)hasNext<sp/>andPageNumber:(NSNumber*)pageNumber;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Classes</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="38" refid="interface_pxe_player_page_view_controller" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_page_view_controller" kindref="compound">PxePlayerPageViewController</ref><sp/>:<sp/>UIViewController</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="interface_pxe_player_page_view_controller_1a2aa145c2a06f8708869f4a3d7e7aad1d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>weak)<sp/>id<sp/><sp/>&lt;PxePlayerPageViewDelegate&gt;<sp/><ref refid="interface_pxe_player_page_view_controller_1a2aa145c2a06f8708869f4a3d7e7aad1d" kindref="member">delegate</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">-(id)initWithURL:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)masterdata<sp/>andCustomPlaylistURLs:(NSArray*)custompages;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">-(id)initWithURL:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)masterdata<sp/>andCustomPlaylistURLs:(NSArray*)custompages<sp/>withOptions:(NSDictionary*)options;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">-(id)initWithURL:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)masterdata<sp/>andCustomPlaylistURLs:(NSArray*)custompages<sp/>andGotoPage:(NSString*)page<sp/>withOptions:(NSDictionary*)options;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">-(void)scrollPageToDirection:(BOOL)isLeft;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">-(void)gotoPageWithContentID:(NSString*)pageId;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">-(void)gotoPageWithPageURL:(NSString*)pageUrl;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">-(void)gotoPageWithPageURL:(NSString<sp/>*)pageUrl<sp/>andHighlightLabels:(NSArray*)labels;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">-(void)gotoPageWithPageId:(NSString*)pageId<sp/>withURL:(NSString*)pageURL;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">-(void)jumpToPage:(NSNumber*)pageNumber;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">-(void)switchViewMode:(BOOL)toVertical;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">-(void)<ref refid="interface_pxe_player_page_view_controller_1a8bff4c9f6e912f14863b8fa9f7566910" kindref="member">popHistory</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">-(BOOL)<ref refid="interface_pxe_player_page_view_controller_1a74be84589bce81321372227d27cea5b9" kindref="member">hasPrevious</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">-(BOOL)<ref refid="interface_pxe_player_page_view_controller_1ab7e8d7fae4dcf5f87529e4468e5ad287" kindref="member">hasNext</ref>;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">-(NSNumber*)<ref refid="interface_pxe_player_page_view_controller_1a98135b6e1b2dd17973b2db1ee47cb186" kindref="member">getCurrentPageNumber</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">-(NSUInteger)<ref refid="interface_pxe_player_page_view_controller_1ae7cfbbed2cb483ece5385144dd4aa6a1" kindref="member">getTotalPagesCount</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal">-(NSString*)<ref refid="interface_pxe_player_page_view_controller_1ab17a437ea8b74377c0183d0b358402dc" kindref="member">getCurrentPageURL</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">-(void)setBookPageFontSize:(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)fontSize;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">-(void)setBookPageTheme:(NSString*)theme;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">-(void)setAnnotationLabel:(NSString*)label;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.h"/>
+  </compounddef>
+</doxygen>

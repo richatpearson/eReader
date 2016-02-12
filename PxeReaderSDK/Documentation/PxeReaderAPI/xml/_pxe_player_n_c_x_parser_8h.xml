@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_n_c_x_parser_8h" kind="file">
+    <compoundname>PxePlayerNCXParser.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes refid="_pxe_player_base_parser_8h" local="yes">PxePlayerBaseParser.h</includes>
+    <includedby refid="_pxe_player_n_c_x_parser_8m" local="yes">parser/PxePlayerNCXParser.m</includedby>
+    <includedby refid="_pxe_player_rest_connector_8m" local="yes">PxePlayerRestConnector.m</includedby>
+    <incdepgraph>
+      <node id="31">
+        <label>parser/PxePlayerNCXParser.h</label>
+        <link refid="PxePlayerNCXParser.h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="33">
+        <label>PxePlayerBaseParser.h</label>
+        <link refid="_pxe_player_base_parser_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="36">
+        <label>PxePlayerRestConnector.m</label>
+        <link refid="_pxe_player_rest_connector_8m"/>
+      </node>
+      <node id="34">
+        <label>parser/PxePlayerNCXParser.h</label>
+        <link refid="PxePlayerNCXParser.h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>parser/PxePlayerNCXParser.m</label>
+        <link refid="_pxe_player_n_c_x_parser_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_n_c_x_parser" prot="public">PxePlayerNCXParser</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55b" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55bace44356c391ad4d35df4f00af8a55294" prot="public">
+          <name>XMLReaderOptionsProcessNamespaces</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55ba3c956cf6c2e5c398da1b161655b8a099" prot="public">
+          <name>XMLReaderOptionsReportNamespacePrefixes</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55ba53a2f39fb6149612badd5f5c99fca544" prot="public">
+          <name>XMLReaderOptionsResolveExternalEntities</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An enum for specifies whether the receiver reports the namespace and the qualified name of an element, scopr of namespace declarations and declarations of external entities. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.h" bodystart="15" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_pxe_player_n_c_x_parser_8h_1ab9622366297f0006da0d4914b4403bff" prot="public" static="no">
+        <type>NSUInteger</type>
+        <definition>typedef NSUInteger XMLReaderOptions</definition>
+        <argsstring></argsstring>
+        <name>XMLReaderOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerNCXParser.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>SVV<sp/>on<sp/>10/28/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Satyam.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_base_parser_8h" kindref="compound">PxePlayerBaseParser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55bace44356c391ad4d35df4f00af8a55294" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55bace44356c391ad4d35df4f00af8a55294" kindref="member">XMLReaderOptionsProcessNamespaces</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
+<codeline lineno="17" refid="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55ba3c956cf6c2e5c398da1b161655b8a099" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55ba3c956cf6c2e5c398da1b161655b8a099" kindref="member">XMLReaderOptionsReportNamespacePrefixes</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="18" refid="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55ba53a2f39fb6149612badd5f5c99fca544" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_pxe_player_n_c_x_parser_8h_1a06fc87d81c62e9abb8790b6e5713c55ba53a2f39fb6149612badd5f5c99fca544" kindref="member">XMLReaderOptionsResolveExternalEntities</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20" refid="_pxe_player_n_c_x_parser_8h_1ab9622366297f0006da0d4914b4403bff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>NSUInteger<sp/><ref refid="_pxe_player_n_c_x_parser_8h_1ab9622366297f0006da0d4914b4403bff" kindref="member">XMLReaderOptions</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="interface_pxe_player_n_c_x_parser" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_n_c_x_parser" kindref="compound">PxePlayerNCXParser</ref><sp/>:<sp/>NSObject<sp/>&lt;<ref refid="protocol_pxe_player_base_parser-p" kindref="compound">PxePlayerBaseParser</ref>&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.h"/>
+  </compounddef>
+</doxygen>

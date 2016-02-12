@@ -1,0 +1,352 @@
+.TH "PxePlayerPageManager" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageManager \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageManager\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(id) - \fBinitWithNCXUrl:withCustomPlaylist:andDelegate:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBinitWithMasterPlaylist:withCustomPlaylist:andDelegate:\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBnextPage\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBprevPage\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetCurrentPage\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgotoPageByPageId:\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgotoPageByPageURL:\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgotoPageByPageNumber:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBpageDidLoad\fP"
+.br
+.ti -1c
+.RI "(void) - \fBupdatePageIndex\fP"
+.br
+.ti -1c
+.RI "(void) - \fBresetCurrentPage:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBrefreshCurrentPage\fP"
+.br
+.ti -1c
+.RI "(void) - \fBrefreshPage:\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBisFirstPage\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBisLastPage\fP"
+.br
+.ti -1c
+.RI "(NSInteger) - \fBgetCurrentPageNumber\fP"
+.br
+.ti -1c
+.RI "(NSUInteger) - \fBgetTotalPagesCount\fP"
+.br
+.ti -1c
+.RI "(NSInteger) - \fBgetCurrentPageIndex\fP"
+.br
+.ti -1c
+.RI "(NSInteger) - \fBgetVirtualCurrentPageIndex\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetCurrentPageId\fP"
+.br
+.ti -1c
+.RI "(NSNumber *) - \fBpopHistory\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "id< \fBPxePlayerPageManagerDelegate\fP > \fBdelegate\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A simple class which manages pages download queue and sends the required information to the target class to rendering a page and maintaining the queue
+.PP
+\fBPxePlayerPageManager\fP class implementation where all methods should be defined 
+.PP
+Definition at line 54 of file PxePlayerPageManager\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (NSString *) getCurrentPage "
+Get the currently rendered page 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the current page's URL 
+.RE
+.PP
+
+.PP
+Definition at line 606 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSString *) getCurrentPageId "
+This method returns the current page's page id 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,returns\fP the current page id 
+.RE
+.PP
+
+.PP
+Definition at line 356 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSInteger) getCurrentPageIndex "
+This method returns the current page index 
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger, returns the current page index 
+.RE
+.PP
+
+.PP
+Definition at line 498 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSInteger) getCurrentPageNumber "
+This method returns the current page number 
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger, returns the current page number 
+.RE
+.PP
+
+.PP
+Definition at line 502 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSUInteger) getTotalPagesCount "
+This method returns the total pages count in the book 
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger, returns the total page count in the book 
+.RE
+.PP
+
+.PP
+Definition at line 522 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSInteger) getVirtualCurrentPageIndex "
+This method returns the current transition page index 
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger, returns the current transitiosn page index 
+.RE
+.PP
+
+.PP
+Definition at line 526 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSString *) gotoPageByPageId: (NSString*)pageId"
+Navigate to the page by using page id 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageId\fP is a reference to jump to the particular page 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, newly navigated page's URL 
+.RE
+.PP
+
+.PP
+Definition at line 432 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSString *) gotoPageByPageNumber: (NSNumber*)pageNumber"
+Navigate to the particular page by using page number 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageNumber\fP is a reference to jump to the particular page 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, newly navigated page's URL 
+.RE
+.PP
+
+.PP
+Definition at line 397 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSString *) gotoPageByPageURL: (NSString*)pageURL"
+Navigate to the particular page by using page URL 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageURL\fP is a reference to jump to the particular page 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, newly navigated page's URL 
+.RE
+.PP
+
+.PP
+Definition at line 462 of file PxePlayerPageManager\&.m\&.
+.SS "- (id) initWithMasterPlaylist: (NSArray*)masterurls(NSArray*)urls(id)delegate"
+Instantiate the class with pre-required properties to render a UI 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,masterurls\fP as a list of url's in which user can navigate pages 
+.br
+\fINSArray,urls,cutom\fP playlist url's which user can speicifically navigate to the filtered list of pages from the master playlist 
+.br
+\fIid,delegate,target\fP class can implement it to receive notification 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fB- initWithNCXUrl:withCustomPlaylist:andDelegate:\fP 
+.PP
+\fBPxePlayerPageManagerDelegate\fP 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file PxePlayerPageManager\&.m\&.
+.SS "- (id) initWithNCXUrl: (NSString*)url(NSArray*)urls(id)delegate"
+Instantiate the class with pre-required properties to render a UI 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,url\fP as a NCX URL used to download toc XML and content\&. 
+.br
+\fINSArray,urls,cutom\fP playlist url's which user can speicifically navigate to the filtered list of pages from the book 
+.br
+\fIid,delegate,target\fP class can implement it to receive notification 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fB- initWithMasterPlaylist:withCustomPlaylist:andDelegate:\fP 
+.PP
+\fBPxePlayerPageManagerDelegate\fP 
+.RE
+.PP
+
+.PP
+Definition at line 285 of file PxePlayerPageManager\&.m\&.
+.SS "- (BOOL) isFirstPage "
+This method returns if the current page has first page of the book 
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns true if the page is first page of the book 
+.RE
+.PP
+
+.PP
+Definition at line 640 of file PxePlayerPageManager\&.m\&.
+.SS "- (BOOL) isLastPage "
+This method returns if the current page has last page of the book 
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns true if the page is last page of the book 
+.RE
+.PP
+
+.PP
+Definition at line 648 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSString *) nextPage "
+Navigate to the next page and returns it's URL 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the next page's URL 
+.RE
+.PP
+
+.PP
+Definition at line 540 of file PxePlayerPageManager\&.m\&.
+.SS "- (void) pageDidLoad "
+This method will be called when current page has been loaded 
+.PP
+Definition at line 534 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSNumber *) popHistory "
+This method pop out the page stored in the history stack (LIFO) 
+.PP
+\fBReturns:\fP
+.RS 4
+NSNumber, remove the last stored page number for history reference and returns the removed page number 
+.RE
+.PP
+
+.PP
+Definition at line 186 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSString *) prevPage "
+Navigate to the previous page and returns it's URL 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the previous page's URL 
+.RE
+.PP
+
+.PP
+Definition at line 573 of file PxePlayerPageManager\&.m\&.
+.SS "- (void) refreshCurrentPage "
+Refresh the current page by freshly downloading the page content and render it and reset the current page properties 
+.PP
+Definition at line 369 of file PxePlayerPageManager\&.m\&.
+.SS "- (void) refreshPage: (NSString*)pageId"
+Refresh the particular page by freshly downloading the page content to reset the page properties 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageId\fP is a reference to refresh the particular page 
+.RE
+.PP
+
+.PP
+Definition at line 383 of file PxePlayerPageManager\&.m\&.
+.SS "- (void) resetCurrentPage: (NSString*)page"
+This method should be called to reset the current page index 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,page\fP as a page URL is a reference to set the current page 
+.RE
+.PP
+
+.PP
+Definition at line 630 of file PxePlayerPageManager\&.m\&.
+.SS "- (void) updatePageIndex "
+This method should be called after rendering the particular page and update's current page index 
+.PP
+Definition at line 530 of file PxePlayerPageManager\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (id<\fBPxePlayerPageManagerDelegate\fP>) delegate\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [weak]\fP"
+
+.PP
+Definition at line 56 of file PxePlayerPageManager\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

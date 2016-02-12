@@ -1,0 +1,366 @@
+.TH "PxePlayerURLConstants.h" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerURLConstants.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBBASEURL_STRING\fP   @'PxePlayerBaseURL'"
+.br
+.ti -1c
+.RI "#define \fBBASE_URL\fP   @''"
+.br
+.ti -1c
+.RI "#define \fBBASE_TOC_URL\fP   [[NSUserDefaults standardUserDefaults] valueForKey:BASEURL_STRING]"
+.br
+.ti -1c
+.RI "#define \fBLOGIN_API\fP   @'nextext-api/api/account/login?withIdpResponse=true'"
+.br
+.ti -1c
+.RI "#define \fBOLD_LOGIN_API\fP   @'nextext-api/api/nextext/users/%@/login'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_SHELF_API\fP   @'nextext-api/api/nextext/users/%@/bookshelf'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_NAVIGATIONS_API\fP   @'nexttextweb/api/users/%@/books/%@/navigations'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_TOC_API\fP   @'nexttextweb/api/books/%@/navigations/jsonArray?type=toc'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CUSTOM_NAVIGATION_API\fP   @'nexttextweb/api/books/%@/navigations/jsonArray?type=toc&origin=origin'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_COVER_PAGE_API\fP   @'nexttextweb/api/books/%@/coverPage/json?userUuid=%@'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CHAPTERS_API\fP   @'nexttextweb/api/books/%@/chapters'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_PAGES_API\fP   @'nexttextweb/api/books/%@/chapters/%@/pages/%@/json'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_BOOKMARKS_API\fP   @'%@services-api/api/context/%@/identities/%@/bookmarks'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_ADD_BOOKMARK_API\fP   @'%@services-api/api/context/%@/identities/%@/bookmarks'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_CHECK_BOOKMARK_API\fP   @'%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_EDIT_BOOKMARK_API\fP   @'%@services-api/api/context/%@/identities/%@/bookmarks'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_DELETE_BOOKMARK_API\fP   @'%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_GET_ANNOTATIONS_API\fP   @'%@services-api/api/context/%@/identities/%@/annotations?withShared=%@'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_GET_CONTENT_ANNOTATIONS_API\fP   @'%@services-api/api/context/%@/identities/%@/annotations?uri=%@&withShared=%@'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_ADD_ANNOTATION_API\fP   @'%@services-api/api/context/%@/identities/%@/annotations'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_UPDATE_ANNOTATION_API\fP   @'%@services-api/api/context/%@/identities/%@/annotations'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_DELETE_ANNOTATION_API\fP   @'%@services-api/api/context/%@/identities/%@/annotations?contentId=%@&annotationDttm=%@'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_ADD_NOTE_API\fP   @'%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes'"
+.br
+.ti -1c
+.RI "#define \fBBOOK_DELETE_NOTE_API\fP   @'%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes/%@'"
+.br
+.ti -1c
+.RI "#define \fBREFRESH_AUTHTOKEN_API\fP   @'/users/identity/refresh'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_BOOK_CONTENT\fP   @'%@pxereader-cm/api/cm/search/?indexId=%@&q=%@&s=%d&n=%d'"
+.br
+.ti -1c
+.RI "#define \fBSEARCH_INIT\fP   @'%@pxereader-cm/api/cm/ingest'"
+.br
+.ti -1c
+.RI "#define \fBMEDIA_TYPES\fP   @'nexttextweb/api/books/%@/media-types'"
+.br
+.ti -1c
+.RI "#define \fBALL_MEDIAS\fP   @'nexttextweb/api/books/%@/allMedias'"
+.br
+.ti -1c
+.RI "#define \fBMEDIA\fP   @'%@pxereader-cm/api/cm/navigation?type=%@&indexId=%@&s=%d&n=%d'"
+.br
+.ti -1c
+.RI "#define \fBSMS_AUTHENTICATION\fP   @'http://login\&.cert\&.pearsoncmg\&.com/sso/SSOServlet2?cmd=login&okurl=http://certapachelb-344900366\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/nexttextAuthenticationSuccessMobile\&.htm?values=scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&errurl=http://certapachelb-344900366\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/nexttextIntegrationErrorMobile\&.htm?values=cause::loginfailure::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&loginurl=http://certapachelb-344900366\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/nexttextIntegrationErrorMobile\&.htm?values=cause::login::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&siteid=11444&isCourseAware=N&encPassword=N&loginname=%@&password=%@'"
+.br
+.ti -1c
+.RI "#define \fBRUMBA_AUTHENTICATION\fP   @'https://sso\&.rumba\&.int\&.pearsoncmg\&.com/sso/loginService?service=http://nexttextint1-147866391\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/schoolHomeMobile\&.htm&gateway=true&username=%@&password=%@'"
+.br
+.ti -1c
+.RI "#define \fBTOC_TEMP_URL\fP   @'http://eps\&.prsn\&.us/tutorial/api/file/982668d3-d3e7-43b1-8719-52d9445be872/content/planetepub/ChangingPlanet/OPS/toc\&.ncx'"
+.br
+.ti -1c
+.RI "#define \fBkErrMalFormedUrl\fP   1"
+.br
+.ti -1c
+.RI "#define \fBkErrServerError\fP   2"
+.br
+.ti -1c
+.RI "#define \fBkErrWrongJSON\fP   3"
+.br
+.ti -1c
+.RI "#define \fBkErrWrongJSONPost\fP   4"
+.br
+.ti -1c
+.RI "#define \fBkErrRequestDenial\fP   5"
+.br
+.ti -1c
+.RI "#define \fBkErrNetworkDown\fP   6"
+.br
+.ti -1c
+.RI "#define \fBkErrXMLFormatError\fP   7"
+.br
+.ti -1c
+.RI "#define \fBkErrAuthFailed\fP   8"
+.br
+.ti -1c
+.RI "#define \fBkParseError\fP   9"
+.br
+.ti -1c
+.RI "#define \fBPOST\fP   @'POST'"
+.br
+.ti -1c
+.RI "#define \fBGET\fP   @'GET'"
+.br
+.ti -1c
+.RI "#define \fBPUT\fP   @'PUT'"
+.br
+.ti -1c
+.RI "#define \fBDELETE\fP   @'DELETE'"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "NSString * \fBwebAPIURL\fP"
+.br
+.ti -1c
+.RI "NSString * \fBcmAPIURL\fP"
+.br
+.ti -1c
+.RI "NSString * \fBpxeServicesURL\fP"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define ALL_MEDIAS   @'nexttextweb/api/books/%@/allMedias'"
+A macro for retreiving all medias api url 
+.PP
+Definition at line 170 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BASE_TOC_URL   [[NSUserDefaults standardUserDefaults] valueForKey:BASEURL_STRING]"
+A macro for base table of content url 
+.PP
+Definition at line 40 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BASE_URL   @''"
+A macro for base url 
+.PP
+Definition at line 35 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BASEURL_STRING   @'PxePlayerBaseURL'"
+A macro for base url string 
+.PP
+Definition at line 30 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_ADD_ANNOTATION_API   @'%@services-api/api/context/%@/identities/%@/annotations'"
+A macro for add annotations api url 
+.PP
+Definition at line 125 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_ADD_BOOKMARK_API   @'%@services-api/api/context/%@/identities/%@/bookmarks'"
+A macro for add bookmark api url 
+.PP
+Definition at line 95 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_ADD_NOTE_API   @'%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes'"
+A macro for book add note api url 
+.PP
+Definition at line 140 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_BOOKMARKS_API   @'%@services-api/api/context/%@/identities/%@/bookmarks'"
+A macro for book bookmarks api url 
+.PP
+Definition at line 90 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_CHAPTERS_API   @'nexttextweb/api/books/%@/chapters'"
+A macro for book chapters api url 
+.PP
+Definition at line 80 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_CHECK_BOOKMARK_API   @'%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@'"
+A macro for book check bookmark api url 
+.PP
+Definition at line 100 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_COVER_PAGE_API   @'nexttextweb/api/books/%@/coverPage/json?userUuid=%@'"
+A macro for book cover page api url 
+.PP
+Definition at line 75 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_CUSTOM_NAVIGATION_API   @'nexttextweb/api/books/%@/navigations/jsonArray?type=toc&origin=origin'"
+A macro for custom navigation api url 
+.PP
+Definition at line 70 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_DELETE_ANNOTATION_API   @'%@services-api/api/context/%@/identities/%@/annotations?contentId=%@&annotationDttm=%@'"
+A macro for book delete annotation api url 
+.PP
+Definition at line 135 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_DELETE_BOOKMARK_API   @'%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@'"
+A macro for book delete bookmark api url 
+.PP
+Definition at line 110 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_DELETE_NOTE_API   @'%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes/%@'"
+A macro for book delete api url 
+.PP
+Definition at line 145 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_EDIT_BOOKMARK_API   @'%@services-api/api/context/%@/identities/%@/bookmarks'"
+A macro for book edit bookmark api url 
+.PP
+Definition at line 105 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_GET_ANNOTATIONS_API   @'%@services-api/api/context/%@/identities/%@/annotations?withShared=%@'"
+A macro book get annotations api url 
+.PP
+Definition at line 115 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_GET_CONTENT_ANNOTATIONS_API   @'%@services-api/api/context/%@/identities/%@/annotations?uri=%@&withShared=%@'"
+A macro for book get content annotations api url 
+.PP
+Definition at line 120 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_NAVIGATIONS_API   @'nexttextweb/api/users/%@/books/%@/navigations'"
+A macro for book navigations api url 
+.PP
+Definition at line 60 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_PAGES_API   @'nexttextweb/api/books/%@/chapters/%@/pages/%@/json'"
+A macro for book pages api url 
+.PP
+Definition at line 85 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_SHELF_API   @'nextext-api/api/nextext/users/%@/bookshelf'"
+A macro for bookshelf api url 
+.PP
+Definition at line 55 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_TOC_API   @'nexttextweb/api/books/%@/navigations/jsonArray?type=toc'"
+A macro for book table of content api url 
+.PP
+Definition at line 65 of file PxePlayerURLConstants\&.h\&.
+.SS "#define BOOK_UPDATE_ANNOTATION_API   @'%@services-api/api/context/%@/identities/%@/annotations'"
+A macro for update annotations api url 
+.PP
+Definition at line 130 of file PxePlayerURLConstants\&.h\&.
+.SS "#define DELETE   @'DELETE'"
+A macro for method name DELETE 
+.PP
+Definition at line 257 of file PxePlayerURLConstants\&.h\&.
+.SS "#define GET   @'GET'"
+A macro for method name GET 
+.PP
+Definition at line 247 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrAuthFailed   8"
+A macro for error code authentication failed 
+.PP
+Definition at line 232 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrMalFormedUrl   1"
+A macro for error code malformed url 
+.PP
+Definition at line 197 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrNetworkDown   6"
+A macro for error code network down 
+.PP
+Definition at line 222 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrRequestDenial   5"
+A macro for error code server request denial 
+.PP
+Definition at line 217 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrServerError   2"
+A macro for error code server error url 
+.PP
+Definition at line 202 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrWrongJSON   3"
+A macro for error code wrong JSON format 
+.PP
+Definition at line 207 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrWrongJSONPost   4"
+A macro for error code wrong JSON data composed to post 
+.PP
+Definition at line 212 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kErrXMLFormatError   7"
+A macro for error code wrong XML format 
+.PP
+Definition at line 227 of file PxePlayerURLConstants\&.h\&.
+.SS "#define kParseError   9"
+A macro for error code parse error occured 
+.PP
+Definition at line 237 of file PxePlayerURLConstants\&.h\&.
+.SS "#define LOGIN_API   @'nextext-api/api/account/login?withIdpResponse=true'"
+A macro for login api url 
+.PP
+Definition at line 45 of file PxePlayerURLConstants\&.h\&.
+.SS "#define MEDIA   @'%@pxereader-cm/api/cm/navigation?type=%@&indexId=%@&s=%d&n=%d'"
+A macro for retrieving media content api url 
+.PP
+Definition at line 175 of file PxePlayerURLConstants\&.h\&.
+.SS "#define MEDIA_TYPES   @'nexttextweb/api/books/%@/media-types'"
+A macro for retrieving media types api url 
+.PP
+Definition at line 165 of file PxePlayerURLConstants\&.h\&.
+.SS "#define OLD_LOGIN_API   @'nextext-api/api/nextext/users/%@/login'"
+A macro for test login api url 
+.PP
+Definition at line 50 of file PxePlayerURLConstants\&.h\&.
+.SS "#define POST   @'POST'"
+A macro for method name POST 
+.PP
+Definition at line 242 of file PxePlayerURLConstants\&.h\&.
+.SS "#define PUT   @'PUT'"
+A macro for method name PUT 
+.PP
+Definition at line 252 of file PxePlayerURLConstants\&.h\&.
+.SS "#define REFRESH_AUTHTOKEN_API   @'/users/identity/refresh'"
+A macro for refresh auth token api url 
+.PP
+Definition at line 150 of file PxePlayerURLConstants\&.h\&.
+.SS "#define RUMBA_AUTHENTICATION   @'https://sso\&.rumba\&.int\&.pearsoncmg\&.com/sso/loginService?service=http://nexttextint1-147866391\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/schoolHomeMobile\&.htm&gateway=true&username=%@&password=%@'"
+A macro for rumba authentication api url 
+.PP
+Definition at line 185 of file PxePlayerURLConstants\&.h\&.
+.SS "#define SEARCH_BOOK_CONTENT   @'%@pxereader-cm/api/cm/search/?indexId=%@&q=%@&s=%d&n=%d'"
+A macro for search book content api url 
+.PP
+Definition at line 155 of file PxePlayerURLConstants\&.h\&.
+.SS "#define SEARCH_INIT   @'%@pxereader-cm/api/cm/ingest'"
+A macro for initialise the search operation api url 
+.PP
+Definition at line 160 of file PxePlayerURLConstants\&.h\&.
+.SS "#define SMS_AUTHENTICATION   @'http://login\&.cert\&.pearsoncmg\&.com/sso/SSOServlet2?cmd=login&okurl=http://certapachelb-344900366\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/nexttextAuthenticationSuccessMobile\&.htm?values=scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&errurl=http://certapachelb-344900366\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/nexttextIntegrationErrorMobile\&.htm?values=cause::loginfailure::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&loginurl=http://certapachelb-344900366\&.us-west-1\&.elb\&.amazonaws\&.com/nexttextweb/nexttextIntegrationErrorMobile\&.htm?values=cause::login::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&siteid=11444&isCourseAware=N&encPassword=N&loginname=%@&password=%@'"
+A macro for sms authentication api url 
+.PP
+Definition at line 180 of file PxePlayerURLConstants\&.h\&.
+.SS "#define TOC_TEMP_URL   @'http://eps\&.prsn\&.us/tutorial/api/file/982668d3-d3e7-43b1-8719-52d9445be872/content/planetepub/ChangingPlanet/OPS/toc\&.ncx'"
+A macro for table of content test api url 
+.PP
+Definition at line 190 of file PxePlayerURLConstants\&.h\&.
+.SH "Variable Documentation"
+.PP 
+.SS "NSString* cmAPIURL"
+An extern variable for CM services api url 
+.PP
+Definition at line 43 of file PxePlayerInterface\&.m\&.
+.SS "NSString* pxeServicesURL"
+An extern variable for pxe services url 
+.PP
+Definition at line 45 of file PxePlayerInterface\&.m\&.
+.SS "NSString* webAPIURL"
+An extern variable for web api url 
+.PP
+Definition at line 44 of file PxePlayerInterface\&.m\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

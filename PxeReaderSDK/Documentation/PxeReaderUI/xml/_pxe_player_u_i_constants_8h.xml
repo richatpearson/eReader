@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_u_i_constants_8h" kind="file">
+    <compoundname>PxePlayerUIConstants.h</compoundname>
+    <includedby refid="_pxe_player_8m" local="yes">PxePlayer.m</includedby>
+    <includedby refid="_pxe_player_data_interface_8m" local="yes">PxePlayerDataInterface.m</includedby>
+    <includedby refid="_pxe_player_data_manager_8m" local="yes">PxePlayerDataManager.m</includedby>
+    <includedby refid="_pxe_player_page_content_view_controller_8m" local="yes">PxePlayerPageContentViewController.m</includedby>
+    <includedby refid="_pxe_player_page_manager_8m" local="yes">PxePlayerPageManager.m</includedby>
+    <includedby refid="_pxe_player_page_view_controller_8m" local="yes">PxePlayerPageViewController.m</includedby>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <includedby refid="_pxe_player_u_i_util_8m" local="yes">PxePlayerUIUtil.m</includedby>
+    <invincdepgraph>
+      <node id="244">
+        <label>PxePlayer.m</label>
+        <link refid="_pxe_player_8m"/>
+      </node>
+      <node id="251">
+        <label>PxePlayerUIUtil.m</label>
+        <link refid="_pxe_player_u_i_util_8m"/>
+      </node>
+      <node id="243">
+        <label>PxePlayerUIConstants.h</label>
+        <link refid="PxePlayerUIConstants.h"/>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="_pxe_player_u_i_kit_8h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>PxePlayerDataInterface.m</label>
+        <link refid="_pxe_player_data_interface_8m"/>
+      </node>
+      <node id="247">
+        <label>PxePlayerPageContentViewController.m</label>
+        <link refid="_pxe_player_page_content_view_controller_8m"/>
+      </node>
+      <node id="246">
+        <label>PxePlayerDataManager.m</label>
+        <link refid="_pxe_player_data_manager_8m"/>
+      </node>
+      <node id="249">
+        <label>PxePlayerPageViewController.m</label>
+        <link refid="_pxe_player_page_view_controller_8m"/>
+      </node>
+      <node id="248">
+        <label>PxePlayerPageManager.m</label>
+        <link refid="_pxe_player_page_manager_8m"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a130a6fa29b63c3319fcb494686a6f089" prot="public" static="no">
+        <name>BUNDLE_FILE</name>
+        <param><defname>__FILENAME__</defname></param>
+        <initializer>[NSString stringWithFormat:@&quot;%@&quot;,__FILENAME__]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro fucntion which returns the resource bundle path with resource name appended <bold>FILENAME</bold> file name of the resource </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="14" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a151f1f5f3420eaba72066b9e9e2fe9c4" prot="public" static="no">
+        <name>CD_DIR</name>
+        <initializer>@&quot;CD_Sqlite&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for naming the core data sqlite file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="19" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1aeee00123712d790fe00242a8f2f3f1ee" prot="public" static="no">
+        <name>PXE_SEARCH_ID</name>
+        <initializer>@&quot;searchId&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for indentifying the search id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="24" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1af13099e77f6758495424497fc707d8eb" prot="public" static="no">
+        <name>PXEPLAYER_BOOK_LOADED</name>
+        <initializer>@&quot;onBookLoaded&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book loaded event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="29" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1ae1252b709e7f1ad4a502a13f04fda997" prot="public" static="no">
+        <name>PXEPLAYER_BOOK_FAILED</name>
+        <initializer>@&quot;onBookLoadingFailed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book loading failed event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="34" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1ac941700701ac200a6bb637b3f8008308" prot="public" static="no">
+        <name>PXEPLAYER_PAGE_LOADED</name>
+        <initializer>@&quot;onPageLoaded&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for page loaded event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="39" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1aec2b872e62d39ec1293eecfa00386633" prot="public" static="no">
+        <name>PXEPLAYER_PAGE_LOADING</name>
+        <initializer>@&quot;onPageLoading&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for page loading event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="44" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1aa814b3a6f67f3a779f1fe692add9e867" prot="public" static="no">
+        <name>PXEPLAYER_PAGE_FAILED</name>
+        <initializer>@&quot;onPageLoadingFailed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book loading failed event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="49" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1ab0b11c11e8fb73fb97f0fb3a95ddb2de" prot="public" static="no">
+        <name>PXEPLAYER_PAGE_NOT_FOUND</name>
+        <initializer>@&quot;pageNotFound&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for page not found event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="54" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1aa53118b727a22c2d9e4f495c6b1f6fce" prot="public" static="no">
+        <name>PXEPLAYER_BOOK_COMPLETED</name>
+        <initializer>@&quot;onBookCompleted&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book reading completed event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="59" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a5ad12a1aed4f4fb53776037564c3fc16" prot="public" static="no">
+        <name>PXEPLAYER_INTERNET_WEAK</name>
+        <initializer>@&quot;networkNotFound&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for network not found event name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="64" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a1cd746e17545b89771d1173c868e1b62" prot="public" static="no">
+        <name>PXEPLAYER_ANNOTATION_FAILED</name>
+        <initializer>@&quot;onAnnotationRemoveFailure&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for annotation remove failure event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="69" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a63405e1f0d80fe22cb54d5ceb39f9424" prot="public" static="no">
+        <name>PXEPLAYER_ADD_ANNOTATION_EVENT</name>
+        <initializer>@&quot;onAnnotationAdd&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for annotation added event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="75" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a99069b02d55706994db51b4a059ca573" prot="public" static="no">
+        <name>PXEPLAYER_UPDATE_ANNOTATION_EVENT</name>
+        <initializer>@&quot;onAnnotationUpdate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for annotation updated event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="80" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1aecd1628dbd0640efa0f25e5e2b6fe506" prot="public" static="no">
+        <name>PXEPLAYER_REMOVE_ANNOTATION_EVENT</name>
+        <initializer>@&quot;onAnnotationRemove&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for annotation remove failure event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="85" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1ac47df00024505383ce6cdfbacddbe873" prot="public" static="no">
+        <name>PXEPLAYER_SEARCH_INITIALIZED</name>
+        <initializer>@&quot;SearchInitialized&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for search initialized event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="90" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a1c4b09f1636c4999cae7b361acc229cf" prot="public" static="no">
+        <name>PXEPLAYER_SEARCH_INIT_FAILED</name>
+        <initializer>@&quot;SearchInitFailed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for search intitialization failed event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="95" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a9d5fb6ab515e306e473d9e207d28d045" prot="public" static="no">
+        <name>PXEPLAYER_LOADED_PAGE</name>
+        <initializer>@&quot;Loaded_Page&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for loaded page event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="100" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1abae175c2fd8c57abfd792a6cf2ee0dec" prot="public" static="no">
+        <name>PXEPLAYER_FAILED_PAGE</name>
+        <initializer>@&quot;FailedPage_URL&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for failed loading page URL event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="105" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1af652d223ba14a696dcaba13d35dcc7d3" prot="public" static="no">
+        <name>PXEPLAYER_IS_HISTORY</name>
+        <initializer>@&quot;IsHistory&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for check history found in the stack event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="110" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a0a719c43738dbca6fd49ff288ed6a300" prot="public" static="no">
+        <name>PXEPLAYER_CADGET_EVENT</name>
+        <initializer>@&quot;onGadgetClick&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for cadget event name added into the NSNotifationCentre </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="115" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1ad230beaa090df8959c69d5410ab6a8ce" prot="public" static="no">
+        <name>PXEPLAYER_ALLOW_PAGE_SWIPE</name>
+        <initializer>@&quot;AllowPageSwipe&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for allow page swipe option in UIWebView </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="120" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a9268aaef58bfc3b07633c16928d9ac9e" prot="public" static="no">
+        <name>PXEPLAYER_PAGE_TRANSITION_STYLE</name>
+        <initializer>@&quot;TransitionType&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for allow transition type option in UIWebView </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="125" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a1a09ad53fd2a76f19562d51c4de3ba4e" prot="public" static="no">
+        <name>PXEPLAYER_SCALE_PAGE_TO_FIT</name>
+        <initializer>@&quot;scalePageToFit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for page content auto fit swipe option in UIWebView </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="130" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a5486060efee90e1ae463c1f0b8a24c8b" prot="public" static="no">
+        <name>PXEPLAYER_DEFAULT_FONTSIZE</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for page content font size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="135" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a03674ca862fefc1e956da65b69ed6200" prot="public" static="no">
+        <name>DEFAULT_THEME</name>
+        <initializer>@&quot;default&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for page content default theme </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="140" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1ae6ed76685d949a97b2483b6bda473b03" prot="public" static="no">
+        <name>SEPIA_THEME</name>
+        <initializer>@&quot;sepia&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for page content sepia theme </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="145" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a4e4ca451836bace64f95e938d7e83013" prot="public" static="no">
+        <name>NIGHT_THEME</name>
+        <initializer>@&quot;night&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for page content night theme </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="150" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1ad93a7a094355f620bdb98f7ab0a79a26" prot="public" static="no">
+        <name>kDataBundleName</name>
+        <initializer>@&quot;PxeReaderResources&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for pxe reader resources file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="155" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a46725e7d2bac8a1b56f7174ceedf7e79" prot="public" static="no">
+        <name>PXEPLAYER_DEFAULT_THEME</name>
+        <initializer><ref refid="_pxe_player_u_i_constants_8h_1a03674ca862fefc1e956da65b69ed6200" kindref="member">DEFAULT_THEME</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for key name for page content default theme </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="160" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_i_constants_8h_1a4462bb445fe523851d611caa4870fc55" prot="public" static="no">
+        <name>TIME_TO_REMOVE_LOADING</name>
+        <initializer>15.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for time in seconds which loading bar would render </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="165" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbe" prot="public" static="no">
+        <name>PXE_PLAYER_PAGE_SCALE</name>
+        <enumvalue id="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbea822ffd2dc44f892cd363b3a12d343bf3" prot="public">
+          <name>PXEPLAYER_SCALE_PAGE_TO_FIT_NO</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbeaeddc08379bdab2ef9de027c18e1cb798" prot="public">
+          <name>PXEPLAYER_SCALE_PAGE_TO_FIT_YES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An enumuration valriable for page auto fit option </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" line="171" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h" bodystart="170" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTUIGlobal.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>05/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_pxe_player_u_i_constants_8h_1a130a6fa29b63c3319fcb494686a6f089" refkind="member"><highlight class="preprocessor">#define<sp/>BUNDLE_FILE(__FILENAME__)<sp/>[NSString<sp/>stringWithFormat:@&quot;%@&quot;,__FILENAME__]</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="19" refid="_pxe_player_u_i_constants_8h_1a151f1f5f3420eaba72066b9e9e2fe9c4" refkind="member"><highlight class="preprocessor">#define<sp/>CD_DIR<sp/><sp/><sp/><sp/>@&quot;CD_Sqlite&quot;</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="24" refid="_pxe_player_u_i_constants_8h_1aeee00123712d790fe00242a8f2f3f1ee" refkind="member"><highlight class="preprocessor">#define<sp/>PXE_SEARCH_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;searchId&quot;</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="29" refid="_pxe_player_u_i_constants_8h_1af13099e77f6758495424497fc707d8eb" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_BOOK_LOADED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onBookLoaded&quot;</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="34" refid="_pxe_player_u_i_constants_8h_1ae1252b709e7f1ad4a502a13f04fda997" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_BOOK_FAILED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onBookLoadingFailed&quot;</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="39" refid="_pxe_player_u_i_constants_8h_1ac941700701ac200a6bb637b3f8008308" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_PAGE_LOADED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onPageLoaded&quot;</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="44" refid="_pxe_player_u_i_constants_8h_1aec2b872e62d39ec1293eecfa00386633" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_PAGE_LOADING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onPageLoading&quot;</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="49" refid="_pxe_player_u_i_constants_8h_1aa814b3a6f67f3a779f1fe692add9e867" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_PAGE_FAILED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onPageLoadingFailed&quot;</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="54" refid="_pxe_player_u_i_constants_8h_1ab0b11c11e8fb73fb97f0fb3a95ddb2de" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_PAGE_NOT_FOUND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;pageNotFound&quot;</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="59" refid="_pxe_player_u_i_constants_8h_1aa53118b727a22c2d9e4f495c6b1f6fce" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_BOOK_COMPLETED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onBookCompleted&quot;</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="64" refid="_pxe_player_u_i_constants_8h_1a5ad12a1aed4f4fb53776037564c3fc16" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_INTERNET_WEAK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;networkNotFound&quot;</highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="69" refid="_pxe_player_u_i_constants_8h_1a1cd746e17545b89771d1173c868e1b62" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_ANNOTATION_FAILED<sp/><sp/><sp/><sp/><sp/>@&quot;onAnnotationRemoveFailure&quot;</highlight></codeline>
+<codeline lineno="70"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="_pxe_player_u_i_constants_8h_1a63405e1f0d80fe22cb54d5ceb39f9424" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_ADD_ANNOTATION_EVENT<sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onAnnotationAdd&quot;</highlight></codeline>
+<codeline lineno="76"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="80" refid="_pxe_player_u_i_constants_8h_1a99069b02d55706994db51b4a059ca573" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_UPDATE_ANNOTATION_EVENT<sp/><sp/><sp/>@&quot;onAnnotationUpdate&quot;</highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="85" refid="_pxe_player_u_i_constants_8h_1aecd1628dbd0640efa0f25e5e2b6fe506" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_REMOVE_ANNOTATION_EVENT<sp/><sp/><sp/>@&quot;onAnnotationRemove&quot;</highlight></codeline>
+<codeline lineno="86"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="90" refid="_pxe_player_u_i_constants_8h_1ac47df00024505383ce6cdfbacddbe873" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_SEARCH_INITIALIZED<sp/><sp/><sp/><sp/>@&quot;SearchInitialized&quot;</highlight></codeline>
+<codeline lineno="91"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="95" refid="_pxe_player_u_i_constants_8h_1a1c4b09f1636c4999cae7b361acc229cf" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_SEARCH_INIT_FAILED<sp/><sp/><sp/><sp/>@&quot;SearchInitFailed&quot;</highlight></codeline>
+<codeline lineno="96"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="100" refid="_pxe_player_u_i_constants_8h_1a9d5fb6ab515e306e473d9e207d28d045" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_LOADED_PAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;Loaded_Page&quot;</highlight></codeline>
+<codeline lineno="101"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="105" refid="_pxe_player_u_i_constants_8h_1abae175c2fd8c57abfd792a6cf2ee0dec" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_FAILED_PAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;FailedPage_URL&quot;</highlight></codeline>
+<codeline lineno="106"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="110" refid="_pxe_player_u_i_constants_8h_1af652d223ba14a696dcaba13d35dcc7d3" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_IS_HISTORY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;IsHistory&quot;</highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="115" refid="_pxe_player_u_i_constants_8h_1a0a719c43738dbca6fd49ff288ed6a300" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_CADGET_EVENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;onGadgetClick&quot;</highlight></codeline>
+<codeline lineno="116"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="120" refid="_pxe_player_u_i_constants_8h_1ad230beaa090df8959c69d5410ab6a8ce" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_ALLOW_PAGE_SWIPE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;AllowPageSwipe&quot;</highlight></codeline>
+<codeline lineno="121"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="125" refid="_pxe_player_u_i_constants_8h_1a9268aaef58bfc3b07633c16928d9ac9e" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_PAGE_TRANSITION_STYLE<sp/><sp/><sp/><sp/><sp/>@&quot;TransitionType&quot;</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="130" refid="_pxe_player_u_i_constants_8h_1a1a09ad53fd2a76f19562d51c4de3ba4e" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_SCALE_PAGE_TO_FIT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;scalePageToFit&quot;</highlight></codeline>
+<codeline lineno="131"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="135" refid="_pxe_player_u_i_constants_8h_1a5486060efee90e1ae463c1f0b8a24c8b" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_DEFAULT_FONTSIZE<sp/>14</highlight></codeline>
+<codeline lineno="136"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="140" refid="_pxe_player_u_i_constants_8h_1a03674ca862fefc1e956da65b69ed6200" refkind="member"><highlight class="preprocessor">#define<sp/>DEFAULT_THEME<sp/>@&quot;default&quot;</highlight></codeline>
+<codeline lineno="141"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="145" refid="_pxe_player_u_i_constants_8h_1ae6ed76685d949a97b2483b6bda473b03" refkind="member"><highlight class="preprocessor">#define<sp/>SEPIA_THEME<sp/>@&quot;sepia&quot;</highlight></codeline>
+<codeline lineno="146"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="150" refid="_pxe_player_u_i_constants_8h_1a4e4ca451836bace64f95e938d7e83013" refkind="member"><highlight class="preprocessor">#define<sp/>NIGHT_THEME<sp/>@&quot;night&quot;</highlight></codeline>
+<codeline lineno="151"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="155" refid="_pxe_player_u_i_constants_8h_1ad93a7a094355f620bdb98f7ab0a79a26" refkind="member"><highlight class="preprocessor">#define<sp/>kDataBundleName<sp/>@&quot;PxeReaderResources&quot;</highlight></codeline>
+<codeline lineno="156"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="160" refid="_pxe_player_u_i_constants_8h_1a46725e7d2bac8a1b56f7174ceedf7e79" refkind="member"><highlight class="preprocessor">#define<sp/>PXEPLAYER_DEFAULT_THEME<sp/>DEFAULT_THEME</highlight></codeline>
+<codeline lineno="161"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="165" refid="_pxe_player_u_i_constants_8h_1a4462bb445fe523851d611caa4870fc55" refkind="member"><highlight class="preprocessor">#define<sp/>TIME_TO_REMOVE_LOADING<sp/>15.0</highlight></codeline>
+<codeline lineno="166"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="170" refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbe" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbe" kindref="member">PXE_PLAYER_PAGE_SCALE</ref></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172" refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbea822ffd2dc44f892cd363b3a12d343bf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbea822ffd2dc44f892cd363b3a12d343bf3" kindref="member">PXEPLAYER_SCALE_PAGE_TO_FIT_NO</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="173" refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbeaeddc08379bdab2ef9de027c18e1cb798" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbeaeddc08379bdab2ef9de027c18e1cb798" kindref="member">PXEPLAYER_SCALE_PAGE_TO_FIT_YES</ref></highlight></codeline>
+<codeline lineno="174"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerUIConstants.h"/>
+  </compounddef>
+</doxygen>

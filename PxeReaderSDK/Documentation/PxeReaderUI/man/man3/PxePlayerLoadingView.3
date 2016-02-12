@@ -1,0 +1,55 @@
+.TH "PxePlayerLoadingView" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerLoadingView \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerLoadingView\&.h>\fP
+.PP
+Inherits UIView\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBremoveView\fP"
+.br
+.in -1c
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(id) + \fBloadingViewInView:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file PxePlayerLoadingView\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "+ (id) loadingViewInView: (UIView *)aSuperview"
+This method creates and adds a loading view for covering the provided aSuperview\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIUIView,aSuperview\fP the superview that will be covered by the loading view 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id, returns the constructed view, already added as a subview of the aSuperview 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file PxePlayerLoadingView\&.m\&.
+.SS "- (void) removeView "
+This method would be called to remove the loading view from the super view 
+.PP
+Definition at line 113 of file PxePlayerLoadingView\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

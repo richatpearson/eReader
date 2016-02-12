@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_n_c_x_parser_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerNCXParser()</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSXMLParserDelegate&gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSURLConnectionDelegate&gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_n_c_x_parser_07_08_1a47cb6f705d2dce890df8e8f731ee8587" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerNCXParser()::dictionaryStack</definition>
+        <argsstring></argsstring>
+        <name>dictionaryStack</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_n_c_x_parser_07_08_1ad2b39744edeb133445e8ad99068d8bd7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableString *</type>
+        <definition>NSMutableString* PxePlayerNCXParser()::textInProgress</definition>
+        <argsstring></argsstring>
+        <name>textInProgress</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" line="17" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_n_c_x_parser_07_08_1ae221014bdbff608ceaa2aac656803f16" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSError *</type>
+        <definition>NSError* PxePlayerNCXParser()::errorPointer</definition>
+        <argsstring></argsstring>
+        <name>errorPointer</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="217">
+        <label>&lt;NSURLConnectionDelegate&gt;</label>
+      </node>
+      <node id="215">
+        <label>PxePlayerNCXParser()</label>
+        <link refid="category_pxe_player_n_c_x_parser_07_08"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>&lt;NSXMLParserDelegate&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="220">
+        <label>&lt;NSURLConnectionDelegate&gt;</label>
+      </node>
+      <node id="218">
+        <label>PxePlayerNCXParser()</label>
+        <link refid="category_pxe_player_n_c_x_parser_07_08"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>&lt;NSXMLParserDelegate&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerNCXParser.m" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_n_c_x_parser_07_08_1a47cb6f705d2dce890df8e8f731ee8587" prot="public" virt="non-virtual"><scope>PxePlayerNCXParser()</scope><name>dictionaryStack</name></member>
+      <member refid="category_pxe_player_n_c_x_parser_07_08_1ae221014bdbff608ceaa2aac656803f16" prot="public" virt="non-virtual"><scope>PxePlayerNCXParser()</scope><name>errorPointer</name></member>
+      <member refid="category_pxe_player_n_c_x_parser_07_08_1ad2b39744edeb133445e8ad99068d8bd7" prot="public" virt="non-virtual"><scope>PxePlayerNCXParser()</scope><name>textInProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,340 @@
+\hypertarget{_pxe_player_8h}{\section{Pxe\-Player.\-h File Reference}
+\label{_pxe_player_8h}\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+category \hyperlink{category_pxe_player_07_bookmarks_08}{Pxe\-Player(\-Bookmarks)}
+\item 
+category \hyperlink{category_pxe_player_07_search_08}{Pxe\-Player(\-Search)}
+\item 
+category \hyperlink{category_pxe_player_07_annotations_08}{Pxe\-Player(\-Annotations)}
+\item 
+category \hyperlink{category_pxe_player_07_media_08}{Pxe\-Player(\-Media)}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_pxe_player_8h_af9edbb5c26d471e8ebc56855fe567268}{purge\-Cached\-Data} ()
+\item 
+N\-S\-String $\ast$ \hyperlink{_pxe_player_8h_a80d21cd47308801f14dba8bc6f88354e}{get\-Context\-I\-D} ()
+\item 
+N\-S\-String $\ast$ \hyperlink{_pxe_player_8h_a1c13397812fd40966059bda2560b70b4}{get\-Identity\-I\-D} ()
+\item 
+N\-S\-String $\ast$ \hyperlink{_pxe_player_8h_ab4a894a00a98a191f331a3e193769965}{get\-N\-C\-X\-U\-R\-L} ()
+\item 
+N\-S\-String $\ast$ \hyperlink{_pxe_player_8h_a12ec013be2583937dec2f4bd91134320}{get\-Learning\-Context} ()
+\item 
+void \hyperlink{_pxe_player_8h_a0a38d278539d2b6d1344ba958b16464f}{set\-Search\-Index\-Id\-:} (N\-S\-String $\ast$search\-Index\-Id)
+\item 
+int \hyperlink{_pxe_player_8h_a2a59e2144714c28f08c22e61345e51c7}{get\-Page\-Font\-Size} ()
+\item 
+void \hyperlink{_pxe_player_8h_afe2e1ea90e26019c53d1bf386c7b7db1}{set\-Page\-Font\-Size\-:} (int font\-Size)
+\item 
+N\-S\-String $\ast$ \hyperlink{_pxe_player_8h_a324144dbc3af9481da99515ebbdd7e89}{get\-Page\-Theme} ()
+\item 
+void \hyperlink{_pxe_player_8h_aa75847778c328284d692facacffcfa12}{set\-Page\-Theme\-:} (N\-S\-String $\ast$theme)
+\item 
+void \hyperlink{_pxe_player_8h_a9fe0347c608539fa1c20943b5b954b75}{update\-Data\-Interface\-:finished\-:} (\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} $\ast$interface,\mbox{[}finished\mbox{]} is\-Success success)
+\item 
+\hyperlink{interface_pxe_player_page_view_controller}{Pxe\-Player\-Page\-View\-Controller} $\ast$ \hyperlink{_pxe_player_8h_a5c9664e564af6a144fbb732e34e44585}{render\-With\-Options\-:} (N\-S\-Dictionary $\ast$options)
+\item 
+\hyperlink{interface_pxe_player_page_view_controller}{Pxe\-Player\-Page\-View\-Controller} $\ast$ \hyperlink{_pxe_player_8h_acb8297d61836c11b3322308b1e2ab5df}{render\-Page\-:with\-Options\-:} (N\-S\-String $\ast$U\-R\-L\-Or\-Content\-I\-D,\mbox{[}with\-Options\mbox{]} N\-S\-Dictionary $\ast$options)
+\item 
+\hyperlink{interface_pxe_player_page_view_controller}{Pxe\-Player\-Page\-View\-Controller} $\ast$ \hyperlink{_pxe_player_8h_a2666925f87e541887d6da93d76aa0b51}{render\-Custom\-Playlist\-:with\-Options\-:} (N\-S\-Array $\ast$urls,\mbox{[}with\-Options\mbox{]} N\-S\-Dictionary $\ast$options)
+\item 
+\hyperlink{interface_pxe_player_page_view_controller}{Pxe\-Player\-Page\-View\-Controller} $\ast$ \hyperlink{_pxe_player_8h_ab27dfcd47db5427f4e29090478f997a3}{render\-Custom\-Playlist\-:and\-Jump\-To\-Page\-:with\-Options\-:} (N\-S\-Array $\ast$urls,\mbox{[}and\-Jump\-To\-Page\mbox{]} N\-S\-String $\ast$U\-R\-L\-Or\-Content\-I\-D,\mbox{[}with\-Options\mbox{]} N\-S\-Dictionary $\ast$options)
+\item 
+void \hyperlink{_pxe_player_8h_a505b684b0eaa398bfbb1395d0d21664d}{get\-Glossary\-With\-Completion\-Handler\-:} (N\-S\-Array $\ast$, N\-S\-Error $\ast$handler)
+\item 
+N\-S\-U\-Integer \hyperlink{_pxe_player_8h_a0a092fc30aca93fe8d92d8fdd620d027}{get\-Total\-Page\-Entry} ()
+\item 
+N\-S\-Dictionary $\ast$ \hyperlink{_pxe_player_8h_ae560879b7b82c0b923751c9b48567dce}{get\-Page\-Details\-:with\-Value\-:} (N\-S\-String $\ast$property,\mbox{[}with\-Value\mbox{]} N\-S\-String $\ast$value)
+\item 
+N\-S\-Array $\ast$ \hyperlink{_pxe_player_8h_af0456b08497a82ee1b8b7884a2b82c7f}{get\-Toc\-Tree\-:} (N\-S\-String $\ast$root\-Id)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{_pxe_player_8h_a80d21cd47308801f14dba8bc6f88354e}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Context\-I\-D@{get\-Context\-I\-D}}
+\index{get\-Context\-I\-D@{get\-Context\-I\-D}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Context\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-String$\ast$ get\-Context\-I\-D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a80d21cd47308801f14dba8bc6f88354e}
+Get the current book context\-I\-D \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the current book context id 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_a505b684b0eaa398bfbb1395d0d21664d}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Glossary\-With\-Completion\-Handler\-:@{get\-Glossary\-With\-Completion\-Handler\-:}}
+\index{get\-Glossary\-With\-Completion\-Handler\-:@{get\-Glossary\-With\-Completion\-Handler\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Glossary\-With\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}void get\-Glossary\-With\-Completion\-Handler\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-Array $\ast$}]{, }
+\item[{N\-S\-Error $\ast$}]{handler}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a505b684b0eaa398bfbb1395d0d21664d}
+Get the glossary content of the current book 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-Array,returns} & the glossary terms \\
+\hline
+{\em N\-S\-Error,returns} & error if glossary download failed \\
+\hline
+\end{DoxyParams}
+\hypertarget{_pxe_player_8h_a1c13397812fd40966059bda2560b70b4}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Identity\-I\-D@{get\-Identity\-I\-D}}
+\index{get\-Identity\-I\-D@{get\-Identity\-I\-D}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Identity\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-String$\ast$ get\-Identity\-I\-D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a1c13397812fd40966059bda2560b70b4}
+Get the current book Identity\-I\-D \begin{DoxyReturn}{Returns}
+N\-S\-String , returns the current book identity id 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_a12ec013be2583937dec2f4bd91134320}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Learning\-Context@{get\-Learning\-Context}}
+\index{get\-Learning\-Context@{get\-Learning\-Context}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Learning\-Context}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-String$\ast$ get\-Learning\-Context (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a12ec013be2583937dec2f4bd91134320}
+Get the current book learning context \begin{DoxyReturn}{Returns}
+N\-S\-String , returns the current book learning context 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_ab4a894a00a98a191f331a3e193769965}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-N\-C\-X\-U\-R\-L@{get\-N\-C\-X\-U\-R\-L}}
+\index{get\-N\-C\-X\-U\-R\-L@{get\-N\-C\-X\-U\-R\-L}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-N\-C\-X\-U\-R\-L}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-String$\ast$ get\-N\-C\-X\-U\-R\-L (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_ab4a894a00a98a191f331a3e193769965}
+Get the current book N\-C\-X\-U\-R\-L \begin{DoxyReturn}{Returns}
+N\-S\-String , returns the current book N\-C\-X U\-R\-L 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_ae560879b7b82c0b923751c9b48567dce}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Page\-Details\-:with\-Value\-:@{get\-Page\-Details\-:with\-Value\-:}}
+\index{get\-Page\-Details\-:with\-Value\-:@{get\-Page\-Details\-:with\-Value\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Page\-Details\-:with\-Value\-:}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Dictionary$\ast$ get\-Page\-Details\-:with\-Value\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-String $\ast$}]{property, }
+\item[{\mbox{[}with\-Value\mbox{]} N\-S\-String $\ast$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_ae560879b7b82c0b923751c9b48567dce}
+Get the particular book's page details as a dictionary 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,property} & is reference of particular property of the page to compare the data in Coredata \\
+\hline
+{\em N\-S\-String,value} & is a reference of value for the property \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Dictionary , returns the pages details properties and values as a N\-S\-Dictionary 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_a2a59e2144714c28f08c22e61345e51c7}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Page\-Font\-Size@{get\-Page\-Font\-Size}}
+\index{get\-Page\-Font\-Size@{get\-Page\-Font\-Size}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Page\-Font\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int get\-Page\-Font\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a2a59e2144714c28f08c22e61345e51c7}
+Get the current book page font size \begin{DoxyReturn}{Returns}
+int , returns the current page font size 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_a324144dbc3af9481da99515ebbdd7e89}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Page\-Theme@{get\-Page\-Theme}}
+\index{get\-Page\-Theme@{get\-Page\-Theme}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Page\-Theme}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-String$\ast$ get\-Page\-Theme (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a324144dbc3af9481da99515ebbdd7e89}
+Get the current book page theme \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the current book page theme 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_af0456b08497a82ee1b8b7884a2b82c7f}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Toc\-Tree\-:@{get\-Toc\-Tree\-:}}
+\index{get\-Toc\-Tree\-:@{get\-Toc\-Tree\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Toc\-Tree\-:}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Array$\ast$ get\-Toc\-Tree\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-String $\ast$}]{root\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_af0456b08497a82ee1b8b7884a2b82c7f}
+Get the current book table of contents specific branch of tree 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,root\-Id} & is a reference to retreive a particular branch from the given root id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N\-S\-Array , returns the particular branch of table of contents title from the tree 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_a0a092fc30aca93fe8d92d8fdd620d027}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!get\-Total\-Page\-Entry@{get\-Total\-Page\-Entry}}
+\index{get\-Total\-Page\-Entry@{get\-Total\-Page\-Entry}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{get\-Total\-Page\-Entry}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-U\-Integer get\-Total\-Page\-Entry (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a0a092fc30aca93fe8d92d8fdd620d027}
+Get the current book total number of pages \begin{DoxyReturn}{Returns}
+N\-S\-U\-Integer, returns total number of pages in the book 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_af9edbb5c26d471e8ebc56855fe567268}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!purge\-Cached\-Data@{purge\-Cached\-Data}}
+\index{purge\-Cached\-Data@{purge\-Cached\-Data}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{purge\-Cached\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void purge\-Cached\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_af9edbb5c26d471e8ebc56855fe567268}
+purge\-Cached\-Data\-:
+
+Remove all cached data from the filesystem.
+
+This method just remove the all cached data from the filesystem.
+
+\begin{DoxyReturn}{Returns}
+Cached data will be cleared. 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_ab27dfcd47db5427f4e29090478f997a3}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!render\-Custom\-Playlist\-:and\-Jump\-To\-Page\-:with\-Options\-:@{render\-Custom\-Playlist\-:and\-Jump\-To\-Page\-:with\-Options\-:}}
+\index{render\-Custom\-Playlist\-:and\-Jump\-To\-Page\-:with\-Options\-:@{render\-Custom\-Playlist\-:and\-Jump\-To\-Page\-:with\-Options\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{render\-Custom\-Playlist\-:and\-Jump\-To\-Page\-:with\-Options\-:}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Pxe\-Player\-Page\-View\-Controller}$\ast$ render\-Custom\-Playlist\-:and\-Jump\-To\-Page\-:with\-Options\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-Array $\ast$}]{urls, }
+\item[{\mbox{[}and\-Jump\-To\-Page\mbox{]} N\-S\-String $\ast$}]{U\-R\-L\-Or\-Content\-I\-D, }
+\item[{\mbox{[}with\-Options\mbox{]} N\-S\-Dictionary $\ast$}]{options}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_ab27dfcd47db5427f4e29090478f997a3}
+render\-Pages\-With\-U\-R\-Ls\-:and\-Jump\-To\-Page\-:with\-Options\-:
+
+Render the Page of H\-T\-M\-L content.
+
+Render H\-T\-M\-L content downloaded from the U\-R\-L's collected from the array of U\-R\-L and starts with predefined page.
+
+\begin{DoxyReturn}{Returns}
+Page of H\-T\-M\-L content would be rendered into the U\-I\-Webview. 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_a2666925f87e541887d6da93d76aa0b51}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!render\-Custom\-Playlist\-:with\-Options\-:@{render\-Custom\-Playlist\-:with\-Options\-:}}
+\index{render\-Custom\-Playlist\-:with\-Options\-:@{render\-Custom\-Playlist\-:with\-Options\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{render\-Custom\-Playlist\-:with\-Options\-:}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Pxe\-Player\-Page\-View\-Controller}$\ast$ render\-Custom\-Playlist\-:with\-Options\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-Array $\ast$}]{urls, }
+\item[{\mbox{[}with\-Options\mbox{]} N\-S\-Dictionary $\ast$}]{options}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a2666925f87e541887d6da93d76aa0b51}
+render\-Pages\-With\-U\-R\-Ls\-:with\-Options\-:
+
+Render the Page of H\-T\-M\-L content.
+
+Render H\-T\-M\-L content downloaded from the U\-R\-L's collected from the array of U\-R\-L.
+
+\begin{DoxyReturn}{Returns}
+Page of H\-T\-M\-L content would be rendered into the U\-I\-Webview. 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_acb8297d61836c11b3322308b1e2ab5df}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!render\-Page\-:with\-Options\-:@{render\-Page\-:with\-Options\-:}}
+\index{render\-Page\-:with\-Options\-:@{render\-Page\-:with\-Options\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{render\-Page\-:with\-Options\-:}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Pxe\-Player\-Page\-View\-Controller}$\ast$ render\-Page\-:with\-Options\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-String $\ast$}]{U\-R\-L\-Or\-Content\-I\-D, }
+\item[{\mbox{[}with\-Options\mbox{]} N\-S\-Dictionary $\ast$}]{options}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_acb8297d61836c11b3322308b1e2ab5df}
+render\-With\-Page\-:with\-Options\-:
+
+Render the Page of H\-T\-M\-L content.
+
+Render H\-T\-M\-L content downloaded from the independent U\-R\-L.
+
+\begin{DoxyReturn}{Returns}
+Page of H\-T\-M\-L content would be rendered into the U\-I\-Webview. 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_a5c9664e564af6a144fbb732e34e44585}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!render\-With\-Options\-:@{render\-With\-Options\-:}}
+\index{render\-With\-Options\-:@{render\-With\-Options\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{render\-With\-Options\-:}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Pxe\-Player\-Page\-View\-Controller}$\ast$ render\-With\-Options\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-Dictionary $\ast$}]{options}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a5c9664e564af6a144fbb732e34e44585}
+render\-Pages\-With\-Options\-:
+
+Render the Page of H\-T\-M\-L content.
+
+Render H\-T\-M\-L content downloaded from the U\-R\-L's collected from the N\-C\-X content.
+
+\begin{DoxyReturn}{Returns}
+Page of H\-T\-M\-L content would be rendered into the U\-I\-Webview. 
+\end{DoxyReturn}
+\hypertarget{_pxe_player_8h_afe2e1ea90e26019c53d1bf386c7b7db1}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!set\-Page\-Font\-Size\-:@{set\-Page\-Font\-Size\-:}}
+\index{set\-Page\-Font\-Size\-:@{set\-Page\-Font\-Size\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{set\-Page\-Font\-Size\-:}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Page\-Font\-Size\-: (
+\begin{DoxyParamCaption}
+\item[{int}]{font\-Size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_afe2e1ea90e26019c53d1bf386c7b7db1}
+Set the current book page font size 
+\begin{DoxyParams}{Parameters}
+{\em int,font\-Size} & as a integer values assigned to be a font size of the book \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_aa75847778c328284d692facacffcfa12}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!set\-Page\-Theme\-:@{set\-Page\-Theme\-:}}
+\index{set\-Page\-Theme\-:@{set\-Page\-Theme\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{set\-Page\-Theme\-:}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Page\-Theme\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-String $\ast$}]{theme}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_aa75847778c328284d692facacffcfa12}
+Set the current book page theme 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,theme} & is a reference to set the page current theme \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_a0a38d278539d2b6d1344ba958b16464f}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!set\-Search\-Index\-Id\-:@{set\-Search\-Index\-Id\-:}}
+\index{set\-Search\-Index\-Id\-:@{set\-Search\-Index\-Id\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{set\-Search\-Index\-Id\-:}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Search\-Index\-Id\-: (
+\begin{DoxyParamCaption}
+\item[{N\-S\-String $\ast$}]{search\-Index\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a0a38d278539d2b6d1344ba958b16464f}
+Set the current book search index id 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,search\-Index\-Id} & is a reference to set as a current book search index id \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interface_pxe_player_data_interface}{Pxe\-Player\-Data\-Interface} 
+\end{DoxySeeAlso}
+\hypertarget{_pxe_player_8h_a9fe0347c608539fa1c20943b5b954b75}{\index{Pxe\-Player.\-h@{Pxe\-Player.\-h}!update\-Data\-Interface\-:finished\-:@{update\-Data\-Interface\-:finished\-:}}
+\index{update\-Data\-Interface\-:finished\-:@{update\-Data\-Interface\-:finished\-:}!PxePlayer.h@{Pxe\-Player.\-h}}
+\subsubsection[{update\-Data\-Interface\-:finished\-:}]{\setlength{\rightskip}{0pt plus 5cm}void update\-Data\-Interface\-:finished\-: (
+\begin{DoxyParamCaption}
+\item[{{\bf Pxe\-Player\-Data\-Interface} $\ast$}]{interface, }
+\item[{\mbox{[}finished\mbox{]} is\-Success}]{success}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{_pxe_player_8h_a9fe0347c608539fa1c20943b5b954b75}
+update\-Data\-Interface\-:
+
+Set all primary data required to do all A\-P\-I services.
+
+Service A\-P\-I's would use these data to communicate with the server.
+
+\begin{DoxyReturn}{Returns}
+Data's would be in primary memory for external access. 
+\end{DoxyReturn}

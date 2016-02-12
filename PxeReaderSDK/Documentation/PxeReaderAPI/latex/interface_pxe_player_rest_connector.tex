@@ -1,0 +1,124 @@
+\hypertarget{interface_pxe_player_rest_connector}{\section{Pxe\-Player\-Rest\-Connector Class Reference}
+\label{interface_pxe_player_rest_connector}\index{Pxe\-Player\-Rest\-Connector@{Pxe\-Player\-Rest\-Connector}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Rest\-Connector.\-h$>$}
+
+Inheritance diagram for Pxe\-Player\-Rest\-Connector\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_pxe_player_rest_connector}
+\end{center}
+\end{figure}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) + \hyperlink{interface_pxe_player_rest_connector_aacb027c2407c5c21e5219d66bff46e2d}{response\-With\-Url\-:with\-Params\-:method\-:error\-:}
+\item 
+(void) + \hyperlink{interface_pxe_player_rest_connector_a7eca6e1a741f78fc80ad8664c8b336e5}{response\-With\-Url\-Async\-:with\-Params\-:method\-:completion\-Handler\-:}
+\item 
+(void) + \hyperlink{interface_pxe_player_rest_connector_a1c34113cf1bb35f1aedb9db6d19710f5}{response\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}
+\item 
+(void) + \hyperlink{interface_pxe_player_rest_connector_a595dc3781bfc62df73ebd11a49c9bc18}{response\-Data\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}
+\item 
+(void) + \hyperlink{interface_pxe_player_rest_connector_a9f4147dbbed5182a2df16b483f0f1256}{response\-With\-X\-M\-L\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file Pxe\-Player\-Rest\-Connector.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_pxe_player_rest_connector_a595dc3781bfc62df73ebd11a49c9bc18}{\index{Pxe\-Player\-Rest\-Connector@{Pxe\-Player\-Rest\-Connector}!response\-Data\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:@{response\-Data\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}}
+\index{response\-Data\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:@{response\-Data\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}!PxePlayerRestConnector@{Pxe\-Player\-Rest\-Connector}}
+\subsubsection[{response\-Data\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) response\-Data\-With\-U\-R\-L\-Async\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{url}
+\item[{withCompletionHandler:({\bf Completion\-Handler})}]{handler}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_rest_connector_a595dc3781bfc62df73ebd11a49c9bc18}
+
+
+Definition at line 188 of file Pxe\-Player\-Rest\-Connector.\-m.
+
+\hypertarget{interface_pxe_player_rest_connector_aacb027c2407c5c21e5219d66bff46e2d}{\index{Pxe\-Player\-Rest\-Connector@{Pxe\-Player\-Rest\-Connector}!response\-With\-Url\-:with\-Params\-:method\-:error\-:@{response\-With\-Url\-:with\-Params\-:method\-:error\-:}}
+\index{response\-With\-Url\-:with\-Params\-:method\-:error\-:@{response\-With\-Url\-:with\-Params\-:method\-:error\-:}!PxePlayerRestConnector@{Pxe\-Player\-Rest\-Connector}}
+\subsubsection[{response\-With\-Url\-:with\-Params\-:method\-:error\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (id) response\-With\-Url\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{api}
+\item[{withParams:(N\-S\-Dictionary$\ast$)}]{params}
+\item[{method:(N\-S\-String$\ast$)}]{method}
+\item[{error:(N\-S\-Error$\ast$$\ast$)}]{error}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_rest_connector_aacb027c2407c5c21e5219d66bff46e2d}
+response\-With\-Url\-:with\-Params\-:error\-:
+
+Performs a synchronous load of the given request, returning the formatted json object.
+
+This method initiates a synchronous request, identifies the error status, and based on error status, it will parse the json object received into appropriate Objective C object and returns it.
+
+
+\begin{DoxyParams}{Parameters}
+{\em api} & The api to request. It wont expect the complete U\-R\-L. Only the last part of the U\-R\-L is expected here. Inside the method it will prepare the full U\-R\-L based on the W\-E\-B\-A\-P\-I\-\_\-\-U\-R\-L defined in U\-R\-L\-Constants\\
+\hline
+{\em params} & The input parameters to be sent to P\-O\-S\-T request\\
+\hline
+{\em error} & Out parameter (may be N\-U\-L\-L) used if an error occurs while processing the request. Will not be modified if the load succeeds.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The formatted json object. 
+\end{DoxyReturn}
+this is section where network in not available,you can show some custom message here 
+
+Definition at line 21 of file Pxe\-Player\-Rest\-Connector.\-m.
+
+\hypertarget{interface_pxe_player_rest_connector_a1c34113cf1bb35f1aedb9db6d19710f5}{\index{Pxe\-Player\-Rest\-Connector@{Pxe\-Player\-Rest\-Connector}!response\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:@{response\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}}
+\index{response\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:@{response\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}!PxePlayerRestConnector@{Pxe\-Player\-Rest\-Connector}}
+\subsubsection[{response\-With\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) response\-With\-U\-R\-L\-Async\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{url}
+\item[{withCompletionHandler:({\bf Completion\-Handler})}]{handler}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_rest_connector_a1c34113cf1bb35f1aedb9db6d19710f5}
+
+
+Definition at line 156 of file Pxe\-Player\-Rest\-Connector.\-m.
+
+\hypertarget{interface_pxe_player_rest_connector_a7eca6e1a741f78fc80ad8664c8b336e5}{\index{Pxe\-Player\-Rest\-Connector@{Pxe\-Player\-Rest\-Connector}!response\-With\-Url\-Async\-:with\-Params\-:method\-:completion\-Handler\-:@{response\-With\-Url\-Async\-:with\-Params\-:method\-:completion\-Handler\-:}}
+\index{response\-With\-Url\-Async\-:with\-Params\-:method\-:completion\-Handler\-:@{response\-With\-Url\-Async\-:with\-Params\-:method\-:completion\-Handler\-:}!PxePlayerRestConnector@{Pxe\-Player\-Rest\-Connector}}
+\subsubsection[{response\-With\-Url\-Async\-:with\-Params\-:method\-:completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) response\-With\-Url\-Async\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{api}
+\item[{withParams:(N\-S\-Dictionary$\ast$)}]{params}
+\item[{method:(N\-S\-String$\ast$)}]{method}
+\item[{completionHandler:({\bf Completion\-Handler})}]{handler}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_rest_connector_a7eca6e1a741f78fc80ad8664c8b336e5}
+
+
+Definition at line 143 of file Pxe\-Player\-Rest\-Connector.\-m.
+
+\hypertarget{interface_pxe_player_rest_connector_a9f4147dbbed5182a2df16b483f0f1256}{\index{Pxe\-Player\-Rest\-Connector@{Pxe\-Player\-Rest\-Connector}!response\-With\-X\-M\-L\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:@{response\-With\-X\-M\-L\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}}
+\index{response\-With\-X\-M\-L\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:@{response\-With\-X\-M\-L\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}!PxePlayerRestConnector@{Pxe\-Player\-Rest\-Connector}}
+\subsubsection[{response\-With\-X\-M\-L\-U\-R\-L\-Async\-:with\-Completion\-Handler\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) response\-With\-X\-M\-L\-U\-R\-L\-Async\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{url}
+\item[{withCompletionHandler:({\bf Completion\-Handler})}]{handler}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_rest_connector_a9f4147dbbed5182a2df16b483f0f1256}
+
+
+Definition at line 173 of file Pxe\-Player\-Rest\-Connector.\-m.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_rest_connector_8h}{Pxe\-Player\-Rest\-Connector.\-h}\item 
+\hyperlink{_pxe_player_rest_connector_8m}{Pxe\-Player\-Rest\-Connector.\-m}\end{DoxyCompactItemize}

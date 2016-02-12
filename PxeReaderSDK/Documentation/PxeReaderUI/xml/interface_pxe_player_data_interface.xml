@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_data_interface" kind="class" prot="public">
+    <compoundname>PxePlayerDataInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_data_interface_8h" local="no">PxePlayerDataInterface.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a772cc60134527bb2faa87f197de4e3cc" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1adeded8526816f9d96dd088511d4046d3" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::contextId</definition>
+        <argsstring></argsstring>
+        <name>contextId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the context id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="21" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a9b508aa7db14e8852cf251308312db25" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::userId</definition>
+        <argsstring></argsstring>
+        <name>userId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="26" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1ade76fc35011aade53e15ffa5414fc153" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::ncxURL</definition>
+        <argsstring></argsstring>
+        <name>ncxURL</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the ncx URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="31" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a0c22a98d7e29a36bcf024bb58c58aad8" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::baseURL</definition>
+        <argsstring></argsstring>
+        <name>baseURL</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the base URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="36" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a98548be4b0f323ff768a5bf22f3f11c1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::authToken</definition>
+        <argsstring></argsstring>
+        <name>authToken</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the auth token </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="41" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a6e1589797ac4e892d34cbfcac8de6b89" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::searchIndexId</definition>
+        <argsstring></argsstring>
+        <name>searchIndexId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the search index id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="46" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a3a406ada658778aecd037ebe9bde9cb9" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::afterCrossRefBehaviour</definition>
+        <argsstring></argsstring>
+        <name>afterCrossRefBehaviour</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the after cross reference behaviour </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="51" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1ac749acf5d0492c35a160be17973cab81" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::bookPageTheme</definition>
+        <argsstring></argsstring>
+        <name>bookPageTheme</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book page theme </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a01914ef4755b7862ba543a0659613152" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerDataInterface::bookPageFontSize</definition>
+        <argsstring></argsstring>
+        <name>bookPageFontSize</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book page font size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="61" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a5d758a740c14531a20e76f60ad3d7893" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataInterface::learningContext</definition>
+        <argsstring></argsstring>
+        <name>learningContext</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the learning context information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="66" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_data_interface_1a782e29876259f6a3f6571794356503e0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerDataInterface::masterPlaylist</definition>
+        <argsstring></argsstring>
+        <name>masterPlaylist</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the master playlist URL&apos;s </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="71" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>NSObject</label>
+      </node>
+      <node id="36">
+        <label>PxePlayerDataInterface</label>
+        <link refid="interface_pxe_player_data_interface"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>NSObject</label>
+      </node>
+      <node id="38">
+        <label>PxePlayerDataInterface</label>
+        <link refid="interface_pxe_player_data_interface"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" line="12" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataInterface.h" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_data_interface_1a3a406ada658778aecd037ebe9bde9cb9" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>afterCrossRefBehaviour</name></member>
+      <member refid="interface_pxe_player_data_interface_1a98548be4b0f323ff768a5bf22f3f11c1" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_data_interface_1a0c22a98d7e29a36bcf024bb58c58aad8" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>baseURL</name></member>
+      <member refid="interface_pxe_player_data_interface_1a01914ef4755b7862ba543a0659613152" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>bookPageFontSize</name></member>
+      <member refid="interface_pxe_player_data_interface_1ac749acf5d0492c35a160be17973cab81" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>bookPageTheme</name></member>
+      <member refid="interface_pxe_player_data_interface_1adeded8526816f9d96dd088511d4046d3" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>contextId</name></member>
+      <member refid="interface_pxe_player_data_interface_1a5d758a740c14531a20e76f60ad3d7893" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>learningContext</name></member>
+      <member refid="interface_pxe_player_data_interface_1a782e29876259f6a3f6571794356503e0" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>masterPlaylist</name></member>
+      <member refid="interface_pxe_player_data_interface_1ade76fc35011aade53e15ffa5414fc153" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>ncxURL</name></member>
+      <member refid="interface_pxe_player_data_interface_1a6e1589797ac4e892d34cbfcac8de6b89" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>searchIndexId</name></member>
+      <member refid="interface_pxe_player_data_interface_1a9b508aa7db14e8852cf251308312db25" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>userId</name></member>
+      <member refid="interface_pxe_player_data_interface_1a772cc60134527bb2faa87f197de4e3cc" prot="public" virt="non-virtual"><scope>PxePlayerDataInterface</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

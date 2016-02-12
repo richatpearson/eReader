@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_media" kind="class" prot="public">
+    <compoundname>PxePlayerMedia</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_media_8h" local="no">PxePlayerMedia.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_media_1a718bc251d9da974b96147c52afaa33ce" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMedia::mediaId</definition>
+        <argsstring></argsstring>
+        <name>mediaId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the media id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_1a4545ba2ae21c08b68a120c469f9bcbdd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMedia::mimeType</definition>
+        <argsstring></argsstring>
+        <name>mimeType</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the mimde type </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_1ad705b8e28d0db1eef322d96b8e567c30" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMedia::contentFile</definition>
+        <argsstring></argsstring>
+        <name>contentFile</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the content file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_1aede96584e0b5b76d805532fe2c1f9a11" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMedia::pageNumber</definition>
+        <argsstring></argsstring>
+        <name>pageNumber</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page number </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_1acff05c6eaa894aeb7c9226eddce9b1da" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMedia::pageTitle</definition>
+        <argsstring></argsstring>
+        <name>pageTitle</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page title </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_1a432762edad9b851c6644edf38e55fc80" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerMedia::pageURL</definition>
+        <argsstring></argsstring>
+        <name>pageURL</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="43" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_media_1a9704e9a15dddf82344badf9708b1b70c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerMedia::breadCrumb</definition>
+        <argsstring></argsstring>
+        <name>breadCrumb</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the list of bread crumb data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="48" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the media data </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="160">
+        <label>PxePlayerMedia</label>
+        <link refid="interface_pxe_player_media"/>
+        <childnode refid="161" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="162">
+        <label>PxePlayerMedia</label>
+        <link refid="interface_pxe_player_media"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerMedia.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_media_1a9704e9a15dddf82344badf9708b1b70c" prot="public" virt="non-virtual"><scope>PxePlayerMedia</scope><name>breadCrumb</name></member>
+      <member refid="interface_pxe_player_media_1ad705b8e28d0db1eef322d96b8e567c30" prot="public" virt="non-virtual"><scope>PxePlayerMedia</scope><name>contentFile</name></member>
+      <member refid="interface_pxe_player_media_1a718bc251d9da974b96147c52afaa33ce" prot="public" virt="non-virtual"><scope>PxePlayerMedia</scope><name>mediaId</name></member>
+      <member refid="interface_pxe_player_media_1a4545ba2ae21c08b68a120c469f9bcbdd" prot="public" virt="non-virtual"><scope>PxePlayerMedia</scope><name>mimeType</name></member>
+      <member refid="interface_pxe_player_media_1aede96584e0b5b76d805532fe2c1f9a11" prot="public" virt="non-virtual"><scope>PxePlayerMedia</scope><name>pageNumber</name></member>
+      <member refid="interface_pxe_player_media_1acff05c6eaa894aeb7c9226eddce9b1da" prot="public" virt="non-virtual"><scope>PxePlayerMedia</scope><name>pageTitle</name></member>
+      <member refid="interface_pxe_player_media_1a432762edad9b851c6644edf38e55fc80" prot="public" virt="non-virtual"><scope>PxePlayerMedia</scope><name>pageURL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

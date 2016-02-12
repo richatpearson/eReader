@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_notes" kind="class" prot="public">
+    <compoundname>PxePlayerNotes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_notes_8h" local="no">PxePlayerNotes.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_notes_1a8c454cc9d07d5e77e226f9eb29728a91" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary* PxePlayerNotes::userNotesDic</definition>
+        <argsstring></argsstring>
+        <name>userNotesDic</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSDictionary variable to hold the user notes data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNotes.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNotes.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_notes_1a109ae37b63155e90c8a267fe386ea131" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary* PxePlayerNotes::sharedNotesDic</definition>
+        <argsstring></argsstring>
+        <name>sharedNotesDic</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSDictionary variable to hold the shared notes data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNotes.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNotes.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the notes </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="236">
+        <label>NSObject</label>
+      </node>
+      <node id="235">
+        <label>PxePlayerNotes</label>
+        <link refid="interface_pxe_player_notes"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="238">
+        <label>NSObject</label>
+      </node>
+      <node id="237">
+        <label>PxePlayerNotes</label>
+        <link refid="interface_pxe_player_notes"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNotes.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNotes.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_notes_1a109ae37b63155e90c8a267fe386ea131" prot="public" virt="non-virtual"><scope>PxePlayerNotes</scope><name>sharedNotesDic</name></member>
+      <member refid="interface_pxe_player_notes_1a8c454cc9d07d5e77e226f9eb29728a91" prot="public" virt="non-virtual"><scope>PxePlayerNotes</scope><name>userNotesDic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_data_manager_8m" kind="file">
+    <compoundname>PxePlayerDataManager.m</compoundname>
+    <includes refid="_pxe_player_data_manager_8h" local="yes">PxePlayerDataManager.h</includes>
+    <includes refid="_pxe_player_page_details_8h" local="yes">PxePlayerPageDetails.h</includes>
+    <includes refid="_h_m_cache_8h" local="yes">HMCache.h</includes>
+    <includes refid="_pxe_player_u_i_constants_8h" local="yes">PxePlayerUIConstants.h</includes>
+    <incdepgraph>
+      <node id="104">
+        <label>PxePlayerPageDetails.h</label>
+        <link refid="_pxe_player_page_details_8h"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="106">
+        <label>PxePlayerUIConstants.h</label>
+        <link refid="_pxe_player_u_i_constants_8h"/>
+      </node>
+      <node id="105">
+        <label>HMCache.h</label>
+        <link refid="_h_m_cache_8h"/>
+      </node>
+      <node id="102">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="101">
+        <label>PxePlayerDataManager.h</label>
+        <link refid="_pxe_player_data_manager_8h"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>PxePlayerDataManager.m</label>
+        <link refid="PxePlayerDataManager.m"/>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_pxe_player_data_manager_07_08" prot="public">PxePlayerDataManager()</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_pxe_player_data_manager_8m_1a65851a574610384769ab9350ee89a4a6" prot="public" static="no">
+        <name>kDataModelName</name>
+        <initializer>@&quot;PxePlayerDataModel&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" line="14" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_data_manager_8m_1afba7a3cf72c57ebd55162775398b0ca7" prot="public" static="no">
+        <name>kDataSqliteName</name>
+        <initializer>@&quot;PxePlayerData.sqlite&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" line="15" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReaderDataManager.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>25/11/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_data_manager_8h" kindref="compound">PxePlayerDataManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_page_details_8h" kindref="compound">PxePlayerPageDetails.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_h_m_cache_8h" kindref="compound">HMCache.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_u_i_constants_8h" kindref="compound">PxePlayerUIConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_pxe_player_data_manager_8m_1a65851a574610384769ab9350ee89a4a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>kDataModelName<sp/><sp/>@&quot;PxePlayerDataModel&quot;</highlight></codeline>
+<codeline lineno="15" refid="_pxe_player_data_manager_8m_1afba7a3cf72c57ebd55162775398b0ca7" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>kDataSqliteName<sp/>@&quot;PxePlayerData.sqlite&quot;</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_pxe_player_data_manager_07_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_data_manager" kindref="compound">PxePlayerDataManager</ref><sp/>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="category_pxe_player_data_manager_07_08_1a6b7bfe044b621bbbaf643632c6dc7e01" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSManagedObjectModel<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*objectModel;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="category_pxe_player_data_manager_07_08_1aec293ddfcfbce08c156f50fa40df004d" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSManagedObjectContext<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*objectContext;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="category_pxe_player_data_manager_07_08_1affbb8a325d42a3ce9ef30703bc9e7e54" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSPersistentStoreCoordinator<sp/><sp/>*persistentStoreCoordinator;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_data_manager" kindref="compound">PxePlayerDataManager</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Private<sp/>methods</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">-(NSString*)cachePath</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*dbPath<sp/>=<sp/>[<ref refid="interface_h_m_cache" kindref="compound">HMCache</ref><sp/><ref refid="interface_h_m_cache_1a645cab7afdf3ba10c051e4bb2176d2a2" kindref="member">createDirectory</ref>:CD_DIR];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dbPath;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Self<sp/>methods</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="interface_pxe_player_data_manager_1a61a323a6162afc1a8734d8a1f7cc89c6" refkind="member"><highlight class="normal">+(<ref refid="interface_pxe_player_data_manager" kindref="compound">PxePlayerDataManager</ref>*)<ref refid="interface_pxe_player_data_manager_1a61a323a6162afc1a8734d8a1f7cc89c6" kindref="member">sharedInstance</ref></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>dispatch_once_t<sp/>onceToken;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager" kindref="compound">PxePlayerDataManager</ref>*<sp/>instance<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_once(&amp;onceToken,<sp/>^{instance<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>alloc]<sp/>init];<sp/>});</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="interface_pxe_player_data_manager_1a0ad90b7df39403c27a446c39c4e4eb82" refkind="member"><highlight class="normal">-(void)<ref refid="interface_pxe_player_data_manager_1a0ad90b7df39403c27a446c39c4e4eb82" kindref="member">resetDataManager</ref></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSPersistentStore<sp/>*store<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator<sp/>persistentStores]<sp/>lastObject];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator<sp/>removePersistentStore:store<sp/>error:nil];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([[NSFileManager<sp/>defaultManager]<sp/>fileExistsAtPath:store.URL.path])<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[NSFileManager<sp/>defaultManager]<sp/>removeItemAtPath:store.URL.path<sp/>error:nil];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectModel)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectModel<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>reset];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![<ref refid="interface_h_m_cache" kindref="compound">HMCache</ref><sp/>removeDirectory:<ref refid="_pxe_player_u_i_constants_8h_1a151f1f5f3420eaba72066b9e9e2fe9c4" kindref="member">CD_DIR</ref>])</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DLog(</highlight><highlight class="stringliteral">@&quot;Fatel<sp/>:<sp/>file<sp/>system<sp/>failure...&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>abort();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">-(void)dealloc</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectModel<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Public<sp/>methods</highlight></codeline>
+<codeline lineno="101"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">-(NSManagedObjectModel*)getObjectModel</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectModel)<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectModel;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*bundlePath<sp/>=<sp/>[[NSBundle<sp/>mainBundle]<sp/>pathForResource:kDataBundleName<sp/>ofType:@&quot;bundle&quot;];</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*modelPath<sp/>=<sp/>[[NSBundle<sp/>bundleWithPath:bundlePath]<sp/>pathForResource:kDataModelName<sp/>ofType:@&quot;momd&quot;];</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectModel<sp/>=<sp/>[[NSManagedObjectModel<sp/>alloc]<sp/>initWithContentsOfURL:[NSURL<sp/>fileURLWithPath:modelPath]];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectModel;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">-(NSPersistentStoreCoordinator*)getPersistentStoreCoordinator</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator)<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*storePath<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>cachePath]<sp/>stringByAppendingPathComponent:kDataSqliteName];<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURL<sp/><sp/><sp/>*storeUrl<sp/>=<sp/>[NSURL<sp/>fileURLWithPath:storePath];</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary<sp/>*options<sp/>=<sp/>[NSDictionary<sp/>dictionaryWithObjectsAndKeys:[NSNumber<sp/>numberWithBool:YES],<sp/>NSMigratePersistentStoresAutomaticallyOption,[NSNumber<sp/>numberWithBool:YES],<sp/>NSInferMappingModelAutomaticallyOption,<sp/>nil];</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>NSError<sp/>*error<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator<sp/>=<sp/>[[NSPersistentStoreCoordinator<sp/>alloc]<sp/>initWithManagedObjectModel:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getObjectModel]];</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator<sp/>addPersistentStoreWithType:NSSQLiteStoreType</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configuration:nil<sp/>URL:storeUrl</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options:options<sp/>error:&amp;error])</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DLog(</highlight><highlight class="stringliteral">@&quot;Fatal<sp/>error<sp/>creating<sp/>persistent<sp/>store<sp/>%@&quot;</highlight><highlight class="normal">,[error<sp/>localizedDescription]);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>abort();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.persistentStoreCoordinator;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="interface_pxe_player_data_manager_1a6bace115219e1f02d80778c1c86e2288" refkind="member"><highlight class="normal">-(BOOL)<ref refid="interface_pxe_player_data_manager_1a6bace115219e1f02d80778c1c86e2288" kindref="member">save</ref></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>hasChanges])<sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>NSError<sp/>*error<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/><ref refid="interface_pxe_player_data_manager_1a6bace115219e1f02d80778c1c86e2288" kindref="member">save</ref>:&amp;error])<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" refkind="member"><highlight class="normal">-(NSManagedObjectContext*)<ref refid="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" kindref="member">getObjectContext</ref></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext)<sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(![NSThread<sp/>isMainThread])</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>performSelectorOnMainThread:@selector(objectContext)<sp/>withObject:nil</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>waitUntilDone:YES];</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>=<sp/>[[NSManagedObjectContext<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>setPersistentStoreCoordinator:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getPersistentStoreCoordinator]];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Fetch<sp/>methods</highlight></codeline>
+<codeline lineno="186"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" refkind="member"><highlight class="normal">-(NSArray*)fetchEntitiesForModel:(NSString*)model<sp/>withSortKey:(NSString*)sortKey<sp/>ascending:(BOOL)isAscending<sp/>withPredicate:(NSPredicate*)predicate<sp/>fetchLimit:(NSUInteger)limit<sp/>resultType:(NSUInteger)resultType</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*fetchRequest<sp/>=<sp/>[NSFetchRequest<sp/>fetchRequestWithEntityName:model];</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setFetchLimit:limit];</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setResultType:resultType];</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPredicate:predicate];</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setReturnsDistinctResults:YES];</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(sortKey)<sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setSortDescriptors:@[[NSSortDescriptor<sp/>sortDescriptorWithKey:sortKey<sp/>ascending:isAscending]]];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" kindref="member">getObjectContext</ref>]<sp/>executeFetchRequest:fetchRequest<sp/>error:nil];</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" refkind="member"><highlight class="normal">-(NSArray*)fetchEntities:(NSArray*)property<sp/>forModel:(NSString*)model<sp/>withSortKey:(NSString*)sortKey<sp/>ascending:(BOOL)isAscending<sp/>withPredicate:(NSPredicate*)predicate<sp/>fetchLimit:(NSUInteger)limit<sp/>resultType:(NSUInteger)resultType<sp/>groupBy:(NSArray*)groups</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>NSEntityDescription<sp/>*entity<sp/>=<sp/>[NSEntityDescription<sp/>entityForName:model<sp/>inManagedObjectContext:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" kindref="member">getObjectContext</ref>]];</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*fetchRequest<sp/>=<sp/>[NSFetchRequest<sp/>fetchRequestWithEntityName:model];</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setFetchLimit:limit];</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPropertiesToFetch:property];</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setResultType:resultType];</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPredicate:predicate];</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setReturnsDistinctResults:YES];</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(groups)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*groupBy<sp/>=<sp/>[[NSMutableArray<sp/>alloc]<sp/>initWithCapacity:0];</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSString<sp/>*prop<sp/>in<sp/>groups)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSAttributeDescription<sp/>*groupDesc<sp/>=<sp/>[entity.attributesByName<sp/>objectForKey:prop];</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[groupBy<sp/>addObject:groupDesc];</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPropertiesToFetch:groupBy];</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPropertiesToGroupBy:groupBy];</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(sortKey)<sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setSortDescriptors:@[[NSSortDescriptor<sp/>sortDescriptorWithKey:sortKey<sp/>ascending:isAscending]]];</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" kindref="member">getObjectContext</ref>]<sp/>executeFetchRequest:fetchRequest<sp/>error:nil];</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" refkind="member"><highlight class="normal">-(id)fetchEntity:(NSString*)property<sp/>forModel:(NSString*)model<sp/>withValue:(NSString*)value<sp/>andKey:(NSString*)key<sp/>resultType:(NSUInteger)resultType<sp/>withSortKey:(NSString*)sortKey<sp/>andAscending:(BOOL)isAscending</highlight></codeline>
+<codeline lineno="239"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchEntities</ref>:@[property]<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withSortKey</ref>:sortKey<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">ascending</ref>:isAscending<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withPredicate</ref>:[NSPredicate<sp/>predicateWithFormat:@&quot;%K<sp/>=<sp/>%@&quot;,<sp/>key,<sp/>value]<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchLimit</ref>:1<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">resultType</ref>:resultType<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">groupBy</ref>:nil];</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([results<sp/>count])<sp/>{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results[0];</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" refkind="member"><highlight class="normal">-(id)fetchEntityForCurrentBook:(NSString*)property<sp/>forModel:(NSString*)model<sp/>withValue:(NSString*)value<sp/>resultType:(NSUInteger)resultType<sp/>withSortKey:(NSString*)sortKey<sp/>andAscending:(BOOL)isAscending</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">fetchEntitiesForModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">withSortKey</ref>:sortKey<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">ascending</ref>:isAscending<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">withPredicate</ref>:[NSPredicate<sp/>predicateWithFormat:@&quot;(%K<sp/>=<sp/>%@)<sp/>AND<sp/>(book.bookId<sp/>=<sp/>%@)&quot;,<sp/>property,<sp/>value,<sp/>self.contextId]<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">fetchLimit</ref>:1<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">resultType</ref>:resultType];</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([results<sp/>count])<sp/>{</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results[0];</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="interface_pxe_player_data_manager_1a9580aae143e1e877a11cdf0ba1182657" refkind="member"><highlight class="normal">-(id)fetchEntities:(NSArray*)properties<sp/>forModel:(NSString*)model<sp/>withPredicate:(NSPredicate*)predicate<sp/>resultType:(NSUInteger)resultType<sp/>withSortKey:(NSString*)sortKey<sp/>andAscending:(BOOL)isAscending<sp/>fetchLimit:(NSUInteger)limit<sp/>andGroupBy:(NSArray*)groups</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchEntities</ref>:properties<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withSortKey</ref>:sortKey<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">ascending</ref>:isAscending<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withPredicate</ref>:predicate<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchLimit</ref>:limit<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">resultType</ref>:resultType<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">groupBy</ref>:groups];</highlight></codeline>
+<codeline lineno="263"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="interface_pxe_player_data_manager_1a91a735b462c60d518709560e1e23ed6e" refkind="member"><highlight class="normal">-(id)fetchEntity:(NSArray*)properties<sp/>forModel:(NSString*)model<sp/>withPredicate:(NSPredicate*)predicate<sp/>withSortKey:(NSString*)sortKey<sp/>andAscending:(BOOL)isAscending</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchEntities</ref>:properties<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withSortKey</ref>:sortKey<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">ascending</ref>:isAscending<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withPredicate</ref>:predicate<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchLimit</ref>:1<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">resultType</ref>:NSDictionaryResultType<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">groupBy</ref>:nil];</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([results<sp/>count])<sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results[0];</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" refkind="member"><highlight class="normal">-(id)fetchEntity:(NSString*)property<sp/>forModel:(NSString*)model<sp/>withValue:(NSString*)value<sp/>resultType:(NSUInteger)resultType<sp/>withSortKey:(NSString*)sortKey<sp/>andAscending:(BOOL)isAscending</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchEntities</ref>:@[property]<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withSortKey</ref>:sortKey<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">ascending</ref>:isAscending<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">withPredicate</ref>:[NSPredicate<sp/>predicateWithFormat:@&quot;(%K<sp/>=<sp/>%@)&quot;,<sp/>property,<sp/>value]<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">fetchLimit</ref>:1<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">resultType</ref>:resultType<sp/><ref refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kindref="member">groupBy</ref>:nil];</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([results<sp/>count])<sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results[0];</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="interface_pxe_player_data_manager_1a330908b8093f34c3562a2b1a0d3ff230" refkind="member"><highlight class="normal">-(id)fetchEntity:(NSString*)property<sp/>forModel:(NSString*)model<sp/>withValue:(NSString*)value<sp/>andKey:(NSString*)key<sp/><sp/>withSortKey:(NSString*)sortKey<sp/>andAscending:(BOOL)isAscending</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kindref="member">fetchEntity</ref>:property<sp/><ref refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kindref="member">withValue</ref>:value<sp/><ref refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kindref="member">andKey</ref>:key<sp/><ref refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kindref="member">resultType</ref>:NSDictionaryResultType<sp/><ref refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kindref="member">withSortKey</ref>:sortKey<sp/><ref refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kindref="member">andAscending</ref>:isAscending];</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" refkind="member"><highlight class="normal">-(id)fetchEntity:(NSString*)property<sp/>forModel:(NSString*)model<sp/>withValue:(NSString*)value<sp/>withSortKey:(NSString*)sortKey<sp/>andAscending:(BOOL)isAscending<sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" kindref="member">fetchEntity</ref>:property<sp/><ref refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" kindref="member">withValue</ref>:value<sp/><ref refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" kindref="member">resultType</ref>:NSDictionaryResultType<sp/><ref refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" kindref="member">withSortKey</ref>:sortKey<sp/><ref refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" kindref="member">andAscending</ref>:isAscending];</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="interface_pxe_player_data_manager_1a9cfaceea7070edda30cd674ae89ac479" refkind="member"><highlight class="normal">-(id)fetchEntity:(NSString*)property<sp/>forModel:(NSString*)model<sp/>withValue:(NSString*)value<sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" kindref="member">fetchEntity</ref>:property<sp/><ref refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" kindref="member">withValue</ref>:value<sp/><ref refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" kindref="member">withSortKey</ref>:nil<sp/><ref refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" kindref="member">andAscending</ref>:YES];</highlight></codeline>
+<codeline lineno="299"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="interface_pxe_player_data_manager_1a57e9fba86112c53f947c3966df1db23f" refkind="member"><highlight class="normal">-(id)fetchEntityForCurrentBook:(NSString*)property<sp/>forModel:(NSString*)model<sp/>withValue:(NSString*)value<sp/>{</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" kindref="member">fetchEntityForCurrentBook</ref>:property<sp/><ref refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" kindref="member">forModel</ref>:model<sp/><ref refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" kindref="member">withValue</ref>:value<sp/><ref refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" kindref="member">resultType</ref>:NSDictionaryResultType<sp/><ref refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" kindref="member">withSortKey</ref>:nil<sp/><ref refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" kindref="member">andAscending</ref>:NO];</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="interface_pxe_player_data_manager_1a777a3d39dc97a339ffd84be5c7cc2a4e" refkind="member"><highlight class="normal">-(NSUInteger)fetchMaxValue:(NSString*)model<sp/>property:(NSString*)property</highlight></codeline>
+<codeline lineno="306"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*fetchRequest<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSFetchRequest<sp/>fetchRequestWithEntityName:model];</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>NSExpression<sp/>*propertyExpression<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSExpression<sp/>expressionForKeyPath:property];</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>NSExpression<sp/>*countExpression<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSExpression<sp/>expressionForFunction:@&quot;max:&quot;<sp/>arguments:@[propertyExpression]];</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>NSPredicate<sp/>*predicate<sp/>=<sp/>[NSPredicate<sp/>predicateWithFormat:@&quot;book.bookId<sp/>=<sp/>%@&quot;,self.contextId];</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>NSExpressionDescription<sp/>*expDesc<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[[NSExpressionDescription<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>[expDesc<sp/>setName:@&quot;max&quot;];</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>[expDesc<sp/>setExpression:countExpression];</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>[expDesc<sp/>setExpressionResultType:NSInteger32AttributeType];</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setSortDescriptors:@[[NSSortDescriptor<sp/>sortDescriptorWithKey:property<sp/>ascending:NO]]];</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPredicate:predicate];</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPropertiesToFetch:@[expDesc]];</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setReturnsDistinctResults:YES];</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setFetchLimit:1];</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setResultType:NSDictionaryResultType];</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>NSError<sp/>*error<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>executeFetchRequest:fetchRequest<sp/>error:&amp;error];</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!error)</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([results<sp/>count])<sp/>{</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[results[0][@&quot;max&quot;]<sp/>integerValue];</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="interface_pxe_player_data_manager_1a47c6c2ec52346caf5a0d7fc8711703dc" refkind="member"><highlight class="normal">-(NSUInteger)fetchCount:(NSString*)model<sp/>property:(NSString*)property</highlight></codeline>
+<codeline lineno="340"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*fetchRequest<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSFetchRequest<sp/>fetchRequestWithEntityName:model];</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>NSExpression<sp/>*propertyExpression<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSExpression<sp/>expressionForKeyPath:property];</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>NSExpression<sp/>*countExpression<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSExpression<sp/>expressionForFunction:@&quot;count:&quot;<sp/>arguments:@[propertyExpression]];</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>NSPredicate<sp/>*predicate<sp/>=<sp/>[NSPredicate<sp/>predicateWithFormat:@&quot;book.bookId<sp/>=<sp/>%@&quot;,self.contextId];</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>NSExpressionDescription<sp/>*expDesc<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[[NSExpressionDescription<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>[expDesc<sp/>setName:@&quot;count&quot;];</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>[expDesc<sp/>setExpression:countExpression];</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>[expDesc<sp/>setExpressionResultType:NSInteger32AttributeType];</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPredicate:predicate];</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setPropertiesToFetch:@[expDesc]];</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setReturnsDistinctResults:YES];</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setFetchLimit:1];</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>[fetchRequest<sp/>setResultType:NSDictionaryResultType];</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>NSError<sp/>*error<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*results<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.objectContext<sp/>executeFetchRequest:fetchRequest<sp/>error:&amp;error];</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!error)</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([results<sp/>count])<sp/>{</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[results[0][@&quot;count&quot;]<sp/>integerValue];</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372" refid="interface_pxe_player_data_manager_1a1489b7de9d4bca3c97b774da1b82aaf2" refkind="member"><highlight class="normal">-(NSArray*)fetchTocTree:(NSString*)rootId</highlight></codeline>
+<codeline lineno="373"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!rootId)<sp/>{</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rootId<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;root&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/>NSPredicate<sp/>*predicate<sp/>=<sp/>[NSPredicate<sp/>predicateWithFormat:@&quot;(parentId<sp/>=<sp/>%@)<sp/>AND<sp/>(book.bookId<sp/>=<sp/>%@)&quot;,<sp/>rootId,<sp/>self.contextId];</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">fetchEntitiesForModel</ref>:NSStringFromClass([<ref refid="interface_pxe_player_page_details" kindref="compound">PxePlayerPageDetails</ref><sp/>class])<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">withSortKey</ref>:@&quot;pageNumber&quot;<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">ascending</ref>:YES<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">withPredicate</ref>:predicate<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">fetchLimit</ref>:0<sp/><ref refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kindref="member">resultType</ref>:NSDictionaryResultType];</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_base_parser_8h" kind="file">
+    <compoundname>PxePlayerBaseParser.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_pxe_player_toc_parser_8h" local="yes">parser/PxePlayerTocParser.h</includedby>
+    <includedby refid="_pxe_player_n_c_x_parser_8h" local="yes">parser/PxePlayerNCXParser.h</includedby>
+    <includedby refid="_pxe_player_u_r_l_array_parser_8h" local="yes">parser/PxePlayerURLArrayParser.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="2">
+        <label>parser/PxePlayerBaseParser.h</label>
+        <link refid="PxePlayerBaseParser.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="14">
+        <label>parser/PxePlayerURLArrayParser.h</label>
+        <link refid="_pxe_player_u_r_l_array_parser_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>PxePlayerRestConnector.m</label>
+        <link refid="_pxe_player_rest_connector_8m"/>
+      </node>
+      <node id="15">
+        <label>parser/PxePlayerURLArrayParser.m</label>
+        <link refid="_pxe_player_u_r_l_array_parser_8m"/>
+      </node>
+      <node id="5">
+        <label>parser/PxePlayerTocParser.h</label>
+        <link refid="_pxe_player_toc_parser_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>parser/PxePlayerTocParser.m</label>
+        <link refid="_pxe_player_toc_parser_8m"/>
+      </node>
+      <node id="11">
+        <label>parser/PxePlayerNCXParser.h</label>
+        <link refid="_pxe_player_n_c_x_parser_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>parser/PxePlayerNCXParser.m</label>
+        <link refid="_pxe_player_n_c_x_parser_8m"/>
+      </node>
+      <node id="9">
+        <label>parser/PxePlayerXHTMLCDParser.h</label>
+        <link refid="_pxe_player_x_h_t_m_l_c_d_parser_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>parser/PxePlayerXHTMLCDParser.m</label>
+        <link refid="_pxe_player_x_h_t_m_l_c_d_parser_8m"/>
+      </node>
+      <node id="4">
+        <label>parser/PxePlayerBaseParser.h</label>
+        <link refid="PxePlayerBaseParser.h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>parser/PxePlayerNCXCDParser.h</label>
+        <link refid="_pxe_player_n_c_x_c_d_parser_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>parser/PxePlayerNCXCDParser.m</label>
+        <link refid="_pxe_player_n_c_x_c_d_parser_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_pxe_player_base_parser-p" prot="public">PxePlayerBaseParser-p</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" prot="public" static="no">
+        <type>void(^</type>
+        <definition>typedef void(^ ParsingHandler)(id receivedNavigator, NSError *error)</definition>
+        <argsstring>)(id receivedNavigator, NSError *error)</argsstring>
+        <name>ParsingHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A block which returns the result after parsing the xhtml, ncx , html or xml content <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+<parametername>receivedNavigator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an either array or dictionary of results retreived after data has parsed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSError</parametername>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>returns if any error occured while parsing the content </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerBaseParser.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Sample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>SVV<sp/>on<sp/>10/28/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Satyam.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(^<ref refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" kindref="member">ParsingHandler</ref>)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>receivedNavigator,<sp/>NSError*<sp/>error);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="protocol_pxe_player_base_parser-p" refkind="compound"><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_pxe_player_base_parser-p" kindref="compound">PxePlayerBaseParser</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">@optional</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-(NSDictionary*)parseData:(NSData*)data;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">-(void)parseDataFromURL:(NSString*)url<sp/>withHandler:(<ref refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" kindref="member">ParsingHandler</ref>)parsingHandler;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">-(void)parseDataFromURLArray:(NSArray*)navigationArray<sp/>withHandler:(<ref refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" kindref="member">ParsingHandler</ref>)parsingHandler;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">-(void)parseDataFromNCXURL:(NSString*)url<sp/>withHandler:(<ref refid="_pxe_player_base_parser_8h_1a6d72a5cd7f1dd9483335329bca6b98f7" kindref="member">ParsingHandler</ref>)parsingHandler;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerBaseParser.h"/>
+  </compounddef>
+</doxygen>

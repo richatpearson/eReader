@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_reachability_8h" kind="file">
+    <compoundname>Reachability.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">SystemConfiguration/SystemConfiguration.h</includes>
+    <includes local="no">netinet/in.h</includes>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_rest_connector_8m" local="yes">PxePlayerRestConnector.m</includedby>
+    <includedby refid="_reachability_8m" local="yes">Reachability/Reachability.m</includedby>
+    <incdepgraph>
+      <node id="840">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="839">
+        <label>SystemConfiguration/SystemConfiguration.h</label>
+      </node>
+      <node id="837">
+        <label>Reachability/Reachability.h</label>
+        <link refid="Reachability.h"/>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+      </node>
+      <node id="838">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="843">
+        <label>PxePlayerRestConnector.m</label>
+        <link refid="_pxe_player_rest_connector_8m"/>
+      </node>
+      <node id="841">
+        <label>Reachability/Reachability.h</label>
+        <link refid="Reachability.h"/>
+        <childnode refid="842" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+        <childnode refid="844" relation="include">
+        </childnode>
+      </node>
+      <node id="844">
+        <label>Reachability/Reachability.m</label>
+        <link refid="_reachability_8m"/>
+      </node>
+      <node id="842">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_reachability" prot="public">Reachability</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_reachability_8h_1a57b587e342b277afc7325f95ef43e6af" prot="public" static="no">
+        <name>kReachabilityChangedNotification</name>
+        <initializer>@&quot;kNetworkReachabilityChangedNotification&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="59" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_reachability_8h_1afbfc456845719ac215946bb2b05eb2df" prot="public" static="no">
+        <name>NetworkStatus</name>
+        <enumvalue id="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfacb5e26d6f64b080d28d024fc7c33f00d" prot="public">
+          <name>NotReachable</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfa446f39577c3cd7ae500660da89a92895" prot="public">
+          <name>ReachableViaWiFi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfae89da9591fa7842f93953c830b33e131" prot="public">
+          <name>ReachableViaWWAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="53" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" bodystart="53" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>File:<sp/>Reachability.h</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>Abstract:<sp/>Basic<sp/>demonstration<sp/>of<sp/>how<sp/>to<sp/>use<sp/>the<sp/>SystemConfiguration<sp/>Reachablity<sp/>APIs.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>Version:<sp/>2.2</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>Disclaimer:<sp/>IMPORTANT:<sp/><sp/>This<sp/>Apple<sp/>software<sp/>is<sp/>supplied<sp/>to<sp/>you<sp/>by<sp/>Apple<sp/>Inc.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>(&quot;Apple&quot;)<sp/>in<sp/>consideration<sp/>of<sp/>your<sp/>agreement<sp/>to<sp/>the<sp/>following<sp/>terms,<sp/>and<sp/>your</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>use,<sp/>installation,<sp/>modification<sp/>or<sp/>redistribution<sp/>of<sp/>this<sp/>Apple<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>constitutes<sp/>acceptance<sp/>of<sp/>these<sp/>terms.<sp/><sp/>If<sp/>you<sp/>do<sp/>not<sp/>agree<sp/>with<sp/>these<sp/>terms,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>please<sp/>do<sp/>not<sp/>use,<sp/>install,<sp/>modify<sp/>or<sp/>redistribute<sp/>this<sp/>Apple<sp/>software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>In<sp/>consideration<sp/>of<sp/>your<sp/>agreement<sp/>to<sp/>abide<sp/>by<sp/>the<sp/>following<sp/>terms,<sp/>and<sp/>subject</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>to<sp/>these<sp/>terms,<sp/>Apple<sp/>grants<sp/>you<sp/>a<sp/>personal,<sp/>non-exclusive<sp/>license,<sp/>under</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>Apple&apos;s<sp/>copyrights<sp/>in<sp/>this<sp/>original<sp/>Apple<sp/>software<sp/>(the<sp/>&quot;Apple<sp/>Software&quot;),<sp/>to</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>use,<sp/>reproduce,<sp/>modify<sp/>and<sp/>redistribute<sp/>the<sp/>Apple<sp/>Software,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>modifications,<sp/>in<sp/>source<sp/>and/or<sp/>binary<sp/>forms;<sp/>provided<sp/>that<sp/>if<sp/>you<sp/>redistribute</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>the<sp/>Apple<sp/>Software<sp/>in<sp/>its<sp/>entirety<sp/>and<sp/>without<sp/>modifications,<sp/>you<sp/>must<sp/>retain</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>this<sp/>notice<sp/>and<sp/>the<sp/>following<sp/>text<sp/>and<sp/>disclaimers<sp/>in<sp/>all<sp/>such<sp/>redistributions</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>of<sp/>the<sp/>Apple<sp/>Software.</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>Neither<sp/>the<sp/>name,<sp/>trademarks,<sp/>service<sp/>marks<sp/>or<sp/>logos<sp/>of<sp/>Apple<sp/>Inc.<sp/>may<sp/>be<sp/>used</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived<sp/>from<sp/>the<sp/>Apple<sp/>Software<sp/>without<sp/>specific</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>prior<sp/>written<sp/>permission<sp/>from<sp/>Apple.<sp/><sp/>Except<sp/>as<sp/>expressly<sp/>stated<sp/>in<sp/>this<sp/>notice,</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>no<sp/>other<sp/>rights<sp/>or<sp/>licenses,<sp/>express<sp/>or<sp/>implied,<sp/>are<sp/>granted<sp/>by<sp/>Apple<sp/>herein,</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>including<sp/>but<sp/>not<sp/>limited<sp/>to<sp/>any<sp/>patent<sp/>rights<sp/>that<sp/>may<sp/>be<sp/>infringed<sp/>by<sp/>your</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>derivative<sp/>works<sp/>or<sp/>by<sp/>other<sp/>works<sp/>in<sp/>which<sp/>the<sp/>Apple<sp/>Software<sp/>may<sp/>be</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>incorporated.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>The<sp/>Apple<sp/>Software<sp/>is<sp/>provided<sp/>by<sp/>Apple<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>basis.<sp/><sp/>APPLE<sp/>MAKES<sp/>NO</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>WARRANTIES,<sp/>EXPRESS<sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>WITHOUT<sp/>LIMITATION<sp/>THE<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>WARRANTIES<sp/>OF<sp/>NON-INFRINGEMENT,<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>PURPOSE,<sp/>REGARDING<sp/>THE<sp/>APPLE<sp/>SOFTWARE<sp/>OR<sp/>ITS<sp/>USE<sp/>AND<sp/>OPERATION<sp/>ALONE<sp/>OR<sp/>IN</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>COMBINATION<sp/>WITH<sp/>YOUR<sp/>PRODUCTS.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>APPLE<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>SPECIAL,<sp/>INDIRECT,<sp/>INCIDENTAL<sp/>OR</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE,<sp/>REPRODUCTION,<sp/>MODIFICATION<sp/>AND/OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>DISTRIBUTION<sp/>OF<sp/>THE<sp/>APPLE<sp/>SOFTWARE,<sp/>HOWEVER<sp/>CAUSED<sp/>AND<sp/>WHETHER<sp/>UNDER<sp/>THEORY<sp/>OF</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>CONTRACT,<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE),<sp/>STRICT<sp/>LIABILITY<sp/>OR<sp/>OTHERWISE,<sp/>EVEN<sp/>IF</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>APPLE<sp/>HAS<sp/>BEEN<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>Copyright<sp/>(C)<sp/>2010<sp/>Apple<sp/>Inc.<sp/>All<sp/>Rights<sp/>Reserved.</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;SystemConfiguration/SystemConfiguration.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;netinet/in.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="54" refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfacb5e26d6f64b080d28d024fc7c33f00d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfacb5e26d6f64b080d28d024fc7c33f00d" kindref="member">NotReachable</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="55" refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfa446f39577c3cd7ae500660da89a92895" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfa446f39577c3cd7ae500660da89a92895" kindref="member">ReachableViaWiFi</ref>,</highlight></codeline>
+<codeline lineno="56" refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfae89da9591fa7842f93953c830b33e131" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2dfae89da9591fa7842f93953c830b33e131" kindref="member">ReachableViaWWAN</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}<sp/><ref refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2df" kindref="member">NetworkStatus</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_reachability_8h_1a57b587e342b277afc7325f95ef43e6af" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>kReachabilityChangedNotification<sp/>@&quot;kNetworkReachabilityChangedNotification&quot;</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="interface_reachability" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_reachability" kindref="compound">Reachability</ref>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63" refid="interface_reachability_1a4a545f7dbd36760e7a6d0aeb7cefe285" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/><ref refid="interface_reachability_1a4a545f7dbd36760e7a6d0aeb7cefe285" kindref="member">localWiFiRef</ref>;</highlight></codeline>
+<codeline lineno="64" refid="interface_reachability_1a7ccf303c2e5a2462854d2dcb452229a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SCNetworkReachabilityRef<sp/><ref refid="interface_reachability_1a7ccf303c2e5a2462854d2dcb452229a8" kindref="member">reachabilityRef</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//reachabilityWithHostName-<sp/>Use<sp/>to<sp/>check<sp/>the<sp/>reachability<sp/>of<sp/>a<sp/>particular<sp/>host<sp/>name.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">+<sp/>(<ref refid="interface_reachability" kindref="compound">Reachability</ref>*)<sp/>reachabilityWithHostName:<sp/>(NSString*)<sp/>hostName;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//reachabilityWithAddress-<sp/>Use<sp/>to<sp/>check<sp/>the<sp/>reachability<sp/>of<sp/>a<sp/>particular<sp/>IP<sp/>address.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">+<sp/>(<ref refid="interface_reachability" kindref="compound">Reachability</ref>*)<sp/>reachabilityWithAddress:<sp/>(const<sp/>struct<sp/>sockaddr_in*)<sp/>hostAddress;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//reachabilityForInternetConnection-<sp/>checks<sp/>whether<sp/>the<sp/>default<sp/>route<sp/>is<sp/>available.<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Should<sp/>be<sp/>used<sp/>by<sp/>applications<sp/>that<sp/>do<sp/>not<sp/>connect<sp/>to<sp/>a<sp/>particular<sp/>host</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">+<sp/>(<ref refid="interface_reachability" kindref="compound">Reachability</ref>*)<sp/>reachabilityForInternetConnection;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//reachabilityForLocalWiFi-<sp/>checks<sp/>whether<sp/>a<sp/>local<sp/>wifi<sp/>connection<sp/>is<sp/>available.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">+<sp/>(<ref refid="interface_reachability" kindref="compound">Reachability</ref>*)<sp/>reachabilityForLocalWiFi;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//Start<sp/>listening<sp/>for<sp/>reachability<sp/>notifications<sp/>on<sp/>the<sp/>current<sp/>run<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">-<sp/>(BOOL)<sp/>startNotifier;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">-<sp/>(void)<sp/>stopNotifier;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">-<sp/>(<ref refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2df" kindref="member">NetworkStatus</ref>)<sp/>currentReachabilityStatus;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//WWAN<sp/>may<sp/>be<sp/>available,<sp/>but<sp/>not<sp/>active<sp/>until<sp/>a<sp/>connection<sp/>has<sp/>been<sp/>established.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//WiFi<sp/>may<sp/>require<sp/>a<sp/>connection<sp/>for<sp/>VPN<sp/>on<sp/>Demand.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">-<sp/>(BOOL)<sp/>connectionRequired;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">+(BOOL)isReachable;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h"/>
+  </compounddef>
+</doxygen>

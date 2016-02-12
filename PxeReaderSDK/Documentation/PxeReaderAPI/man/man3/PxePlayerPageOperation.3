@@ -1,0 +1,68 @@
+.TH "PxePlayerPageOperation" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageOperation \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageOperation\&.h>\fP
+.PP
+Inherits NSOperation\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(id) - \fBinitWithQuery:\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetKey\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "id< \fBPxePlayerOperationDelegate\fP > \fBpageDelegate\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A simple class derived from the NSOperation to perform operation in the operation queue 
+.PP
+Definition at line 43 of file PxePlayerPageOperation\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (NSString *) getKey "
+This method would be called to retrive the operation key 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the identification key 
+.RE
+.PP
+
+.PP
+Definition at line 35 of file PxePlayerPageOperation\&.m\&.
+.SS "- (id) initWithQuery: (\fBPxePlayerPagesQuery\fP*)query"
+This method would be called to initialise the operation with required query parameters 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI\fBPxePlayerPagesQuery\fP,query\fP is a model instance contains required page information to downlaod page data from the server 
+.RE
+.PP
+
+.PP
+Definition at line 25 of file PxePlayerPageOperation\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (id<\fBPxePlayerOperationDelegate\fP>) pageDelegate\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [weak]\fP"
+A \fBPxePlayerOperationDelegate\fP protocol instance to send information to class which implements it 
+.PP
+Definition at line 49 of file PxePlayerPageOperation\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

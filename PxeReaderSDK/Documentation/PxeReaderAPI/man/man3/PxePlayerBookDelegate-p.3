@@ -1,0 +1,140 @@
+.TH "<PxePlayerBookDelegate>" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+<PxePlayerBookDelegate> \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerBookDelegate\&.h>\fP
+.PP
+Inherits <NSObject>\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(NSString *) - \fBgetAuthToken\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetUserId\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetBookId\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetCourseId\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetTocURL\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBisPageAvailable:\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBloadPageWithRelativeURL:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBloadPageWithRelativeURL:andHighlightLabels:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A informal protocol to which send's the book view controller to update or perform actions  <NSObject>, extented from \fBNSObject\fP 
+.PP
+Definition at line 14 of file PxePlayerBookDelegate\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (NSString*) getAuthToken \fC [required]\fP"
+This method would be called to get the user auth token 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the auth token as a string 
+.RE
+.PP
+
+.SS "- (NSString*) getBookId \fC [required]\fP"
+This method would be called to get the user book id 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the book id as a string 
+.RE
+.PP
+
+.SS "- (NSString*) getCourseId \fC [optional]\fP"
+This method would be called to get the user course id 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the course id as a string 
+.RE
+.PP
+
+.SS "- (NSString*) getTocURL \fC [optional]\fP"
+This method would be called to get the toc url 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the toc url as a string 
+.RE
+.PP
+
+.SS "- (NSString*) getUserId \fC [required]\fP"
+This method would be called to get the user id 
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the user id as a string 
+.RE
+.PP
+
+.SS "- (BOOL) isPageAvailable: (NSString *)relativeURL\fC [optional]\fP"
+This method would be called to check whether page with correspoding relative URL found in the core data 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,relativeURL\fP is a relative url of the page 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns the true if page found for the given relative url else returns false\&. 
+.RE
+.PP
+
+.SS "- (BOOL) loadPageWithRelativeURL: (NSString *)relativeURL\fC [optional]\fP"
+This method would be called to load the page with it's relative URL 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,relativeURL\fP is a relative url of the page 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns the true if page has been loaded successfully else returns false\&. 
+.RE
+.PP
+
+.SS "- (void) \fBloadPageWithRelativeURL:\fP (NSString *)relativeURL(NSArray *)highlights\fC [optional]\fP"
+This method would be called to load the page with it's relative URL with highlighting the book 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,relativeURL\fP is a relative url of the page 
+.br
+\fINSArray,highlights\fP is a 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns the true if page has been loaded successfully else returns false\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

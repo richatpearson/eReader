@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_toc_parser" kind="class" prot="public">
+    <compoundname>PxePlayerTocParser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="protocol_pxe_player_base_parser-p" prot="public" virt="non-virtual">&lt;PxePlayerBaseParser&gt;</basecompoundref>
+    <derivedcompoundref refid="interface_pxe_player_n_c_x_c_d_parser" prot="public" virt="non-virtual">PxePlayerNCXCDParser</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_x_h_t_m_l_c_d_parser" prot="public" virt="non-virtual">PxePlayerXHTMLCDParser</derivedcompoundref>
+    <includes refid="_pxe_player_toc_parser_8h" local="no">PxePlayerTocParser.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_toc_parser_1a4b7effc62fd499caf2df1fbd7a82b264" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerTocParser::pageNumber</definition>
+        <argsstring></argsstring>
+        <name>pageNumber</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSInteger variable to hold the page number of the page </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerTocParser.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerTocParser.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_toc_parser_1af92fc7c7e30af7e59a5d660d29ad7a02" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>PxePlayerBookDetails *</type>
+        <definition>PxePlayerBookDetails* PxePlayerTocParser::currentBook</definition>
+        <argsstring></argsstring>
+        <name>currentBook</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A PxePlayerBookDetails model to hold the book information from the generic data format. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerTocParser.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerTocParser.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class derived from the <ref refid="protocol_pxe_player_base_parser-p" kindref="compound">PxePlayerBaseParser</ref> for converting the array or dictionary of data content parsed from the NCX or URL array parser into the core data model format and returns the result as a models </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="363">
+        <label>PxePlayerNCXCDParser</label>
+        <link refid="interface_pxe_player_n_c_x_c_d_parser"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="361">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>PxePlayerXHTMLCDParser</label>
+        <link refid="interface_pxe_player_x_h_t_m_l_c_d_parser"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>PxePlayerTocParser</label>
+        <link refid="interface_pxe_player_toc_parser"/>
+        <childnode refid="360" relation="public-inheritance">
+        </childnode>
+        <childnode refid="361" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="362">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="360">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="367">
+        <label>&lt;PxePlayerBaseParser&gt;</label>
+        <link refid="protocol_pxe_player_base_parser-p"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>PxePlayerTocParser</label>
+        <link refid="interface_pxe_player_toc_parser"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="366">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerTocParser.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerTocParser.h" bodystart="18" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_toc_parser_1af92fc7c7e30af7e59a5d660d29ad7a02" prot="public" virt="non-virtual"><scope>PxePlayerTocParser</scope><name>currentBook</name></member>
+      <member refid="interface_pxe_player_toc_parser_1a4b7effc62fd499caf2df1fbd7a82b264" prot="public" virt="non-virtual"><scope>PxePlayerTocParser</scope><name>pageNumber</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1a2fa950852f2e1825b5dc923e9d66829d" prot="public" virt="virtual"><scope>PxePlayerTocParser</scope><name>parseData:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1af53b80aa420a6a41a4cb1beeef57abe5" prot="public" virt="virtual"><scope>PxePlayerTocParser</scope><name>parseDataFromNCXURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1ab7d1135887db45a14aebe304bfbcddeb" prot="public" virt="virtual"><scope>PxePlayerTocParser</scope><name>parseDataFromURL:withHandler:</name></member>
+      <member refid="protocol_pxe_player_base_parser-p_1acea3b0e43bf7c45bcd6978cf641c5097" prot="public" virt="virtual"><scope>PxePlayerTocParser</scope><name>parseDataFromURLArray:withHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

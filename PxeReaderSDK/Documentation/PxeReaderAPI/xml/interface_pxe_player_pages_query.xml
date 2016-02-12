@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_pages_query" kind="class" prot="public">
+    <compoundname>PxePlayerPagesQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_navigations_query" prot="public" virt="non-virtual">PxePlayerNavigationsQuery</basecompoundref>
+    <includes refid="_pxe_player_pages_query_8h" local="no">PxePlayerPagesQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_pages_query_1a4c1b814264358230513c88452cb38988" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPagesQuery::chaptersUUID</definition>
+        <argsstring></argsstring>
+        <name>chaptersUUID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the chapters UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_pages_query_1ad71c0d1369eccd8cde9d71afe70d6990" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPagesQuery::pagesUUID</definition>
+        <argsstring></argsstring>
+        <name>pagesUUID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the pages UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" line="24" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_pages_query_1ad20152232423918df95d9c737139c545" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPagesQuery::pageUrl</definition>
+        <argsstring></argsstring>
+        <name>pageUrl</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the page URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the pages query data </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="286">
+        <label>PxePlayerPagesQuery</label>
+        <link refid="interface_pxe_player_pages_query"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>NSObject</label>
+      </node>
+      <node id="287">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="288" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="290">
+        <label>PxePlayerPagesQuery</label>
+        <link refid="interface_pxe_player_pages_query"/>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="292">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>NSObject</label>
+      </node>
+      <node id="291">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="292" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPagesQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerPagesQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerPagesQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_pages_query_1a4c1b814264358230513c88452cb38988" prot="public" virt="non-virtual"><scope>PxePlayerPagesQuery</scope><name>chaptersUUID</name></member>
+      <member refid="interface_pxe_player_pages_query_1ad71c0d1369eccd8cde9d71afe70d6990" prot="public" virt="non-virtual"><scope>PxePlayerPagesQuery</scope><name>pagesUUID</name></member>
+      <member refid="interface_pxe_player_pages_query_1ad20152232423918df95d9c737139c545" prot="public" virt="non-virtual"><scope>PxePlayerPagesQuery</scope><name>pageUrl</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerPagesQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

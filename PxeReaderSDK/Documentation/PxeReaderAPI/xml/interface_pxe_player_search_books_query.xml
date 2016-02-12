@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_search_books_query" kind="class" prot="public">
+    <compoundname>PxePlayerSearchBooksQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_base_query" prot="public" virt="non-virtual">PxePlayerBaseQuery</basecompoundref>
+    <derivedcompoundref refid="interface_pxe_player_search_book_query" prot="public" virt="non-virtual">PxePlayerSearchBookQuery</derivedcompoundref>
+    <includes refid="_pxe_player_search_books_query_8h" local="no">PxePlayerSearchBooksQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_search_books_query_1a860b999ef5a591e01872705e09ed871f" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerSearchBooksQuery::startIndex</definition>
+        <argsstring></argsstring>
+        <name>startIndex</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSInteger variable to hold the start index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_books_query_1aac159c61fed7fa6bb0c4a1a70a7637ce" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerSearchBooksQuery::maxResults</definition>
+        <argsstring></argsstring>
+        <name>maxResults</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSInteger variable to hold the maximum results </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" line="24" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_books_query_1a417d9bda9b205c8d5727e163bcbc0e3b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerSearchBooksQuery::searchTerm</definition>
+        <argsstring></argsstring>
+        <name>searchTerm</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the search term </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" line="29" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_books_query_1a46383e9d5bfcf7c45e5dd78b5bf71aea" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerSearchBooksQuery::language</definition>
+        <argsstring></argsstring>
+        <name>language</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the language information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" line="34" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the query for search books in bookshelf </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="321">
+        <label>PxePlayerSearchURLsQuery</label>
+        <link refid="interface_pxe_player_search_u_r_ls_query"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="318" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>PxePlayerSearchBooksQuery</label>
+        <link refid="interface_pxe_player_search_books_query"/>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>PxePlayerSearchNCXQuery</label>
+        <link refid="interface_pxe_player_search_n_c_x_query"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>PxePlayerSearchBookQuery</label>
+        <link refid="interface_pxe_player_search_book_query"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="323">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="322">
+        <label>PxePlayerSearchBooksQuery</label>
+        <link refid="interface_pxe_player_search_books_query"/>
+        <childnode refid="323" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchBooksQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerSearchBooksQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_search_books_query_1a46383e9d5bfcf7c45e5dd78b5bf71aea" prot="public" virt="non-virtual"><scope>PxePlayerSearchBooksQuery</scope><name>language</name></member>
+      <member refid="interface_pxe_player_search_books_query_1aac159c61fed7fa6bb0c4a1a70a7637ce" prot="public" virt="non-virtual"><scope>PxePlayerSearchBooksQuery</scope><name>maxResults</name></member>
+      <member refid="interface_pxe_player_search_books_query_1a417d9bda9b205c8d5727e163bcbc0e3b" prot="public" virt="non-virtual"><scope>PxePlayerSearchBooksQuery</scope><name>searchTerm</name></member>
+      <member refid="interface_pxe_player_search_books_query_1a860b999ef5a591e01872705e09ed871f" prot="public" virt="non-virtual"><scope>PxePlayerSearchBooksQuery</scope><name>startIndex</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerSearchBooksQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

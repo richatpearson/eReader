@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_u_r_l_array_parser_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerURLArrayParser()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_u_r_l_array_parser_07_08_1aa35d708d3e1d7ebf08cfab204038ef13" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerURLArrayParser()::pageNumber</definition>
+        <argsstring></argsstring>
+        <name>pageNumber</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerURLArrayParser.m" line="21" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerURLArrayParser.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerURLArrayParser.m" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerURLArrayParser.m" bodystart="19" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_u_r_l_array_parser_07_08_1aa35d708d3e1d7ebf08cfab204038ef13" prot="public" virt="non-virtual"><scope>PxePlayerURLArrayParser()</scope><name>pageNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

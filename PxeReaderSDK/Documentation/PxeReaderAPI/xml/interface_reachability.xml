@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_reachability" kind="class" prot="public">
+    <compoundname>Reachability</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_reachability_8h" local="no">Reachability.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="interface_reachability_1a4a545f7dbd36760e7a6d0aeb7cefe285" prot="protected" static="no" mutable="no">
+        <type>BOOL</type>
+        <definition>BOOL Reachability::localWiFiRef</definition>
+        <argsstring></argsstring>
+        <name>localWiFiRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="63" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_reachability_1a7ccf303c2e5a2462854d2dcb452229a8" prot="protected" static="no" mutable="no">
+        <type>SCNetworkReachabilityRef</type>
+        <definition>SCNetworkReachabilityRef Reachability::reachabilityRef</definition>
+        <argsstring></argsstring>
+        <name>reachabilityRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_reachability_1a0c293c3ffea29c42e8ccbd5d2b39a769" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_reachability" kindref="compound">Reachability</ref> *</type>
+        <definition>Reachability * Reachability::reachabilityWithHostName:</definition>
+        <argsstring>(NSString *hostName)</argsstring>
+        <name>reachabilityWithHostName:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>hostName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="131" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_reachability_1add9b3533dfed13fc2215cc27bca74ace" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_reachability" kindref="compound">Reachability</ref> *</type>
+        <definition>Reachability * Reachability::reachabilityWithAddress:</definition>
+        <argsstring>(const struct sockaddr_in *hostAddress)</argsstring>
+        <name>reachabilityWithAddress:</name>
+        <param>
+          <type>const struct sockaddr_in *</type>
+          <declname>hostAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="147" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_reachability_1ad2962f5292dee6a56f43175d344c3da1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_reachability" kindref="compound">Reachability</ref> *</type>
+        <definition>Reachability * Reachability::reachabilityForInternetConnection</definition>
+        <argsstring>()</argsstring>
+        <name>reachabilityForInternetConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="163" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_reachability_1afef931b75654390d24d9c897835929f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_reachability" kindref="compound">Reachability</ref> *</type>
+        <definition>Reachability * Reachability::reachabilityForLocalWiFi</definition>
+        <argsstring>()</argsstring>
+        <name>reachabilityForLocalWiFi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="172" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_reachability_1ae0b18fcacc97f538502cf671aa583dbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL Reachability::isReachable</definition>
+        <argsstring>()</argsstring>
+        <name>isReachable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="273" bodyend="284"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_reachability_1ae20732960a222681fcc7caeb191158bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL Reachability::startNotifier</definition>
+        <argsstring>()</argsstring>
+        <name>startNotifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="100" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_reachability_1ab7907e9c8de0e4e15774e82c089e0b39" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Reachability::stopNotifier</definition>
+        <argsstring>()</argsstring>
+        <name>stopNotifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_reachability_1a8396438436e7ff3770039fb527cd1d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_reachability_8h_1afbfc456845719ac215946bb2b05eb2df" kindref="member">NetworkStatus</ref></type>
+        <definition>NetworkStatus Reachability::currentReachabilityStatus</definition>
+        <argsstring>()</argsstring>
+        <name>currentReachabilityStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="254" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_reachability_1a731496d70dd8bfbd1b364df13cac2b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL Reachability::connectionRequired</definition>
+        <argsstring>()</argsstring>
+        <name>connectionRequired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="64" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.m" bodystart="243" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="415">
+        <label>Reachability</label>
+        <link refid="interface_reachability"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="417">
+        <label>Reachability</label>
+        <link refid="interface_reachability"/>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" line="62" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/Reachability/Reachability.h" bodystart="61" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_reachability_1a731496d70dd8bfbd1b364df13cac2b4c" prot="public" virt="virtual"><scope>Reachability</scope><name>connectionRequired</name></member>
+      <member refid="interface_reachability_1a8396438436e7ff3770039fb527cd1d34" prot="public" virt="virtual"><scope>Reachability</scope><name>currentReachabilityStatus</name></member>
+      <member refid="interface_reachability_1ae0b18fcacc97f538502cf671aa583dbd" prot="public" virt="virtual"><scope>Reachability</scope><name>isReachable</name></member>
+      <member refid="interface_reachability_1a4a545f7dbd36760e7a6d0aeb7cefe285" prot="protected" virt="non-virtual"><scope>Reachability</scope><name>localWiFiRef</name></member>
+      <member refid="interface_reachability_1ad2962f5292dee6a56f43175d344c3da1" prot="public" virt="virtual"><scope>Reachability</scope><name>reachabilityForInternetConnection</name></member>
+      <member refid="interface_reachability_1afef931b75654390d24d9c897835929f5" prot="public" virt="virtual"><scope>Reachability</scope><name>reachabilityForLocalWiFi</name></member>
+      <member refid="interface_reachability_1a7ccf303c2e5a2462854d2dcb452229a8" prot="protected" virt="non-virtual"><scope>Reachability</scope><name>reachabilityRef</name></member>
+      <member refid="interface_reachability_1add9b3533dfed13fc2215cc27bca74ace" prot="public" virt="virtual"><scope>Reachability</scope><name>reachabilityWithAddress:</name></member>
+      <member refid="interface_reachability_1a0c293c3ffea29c42e8ccbd5d2b39a769" prot="public" virt="virtual"><scope>Reachability</scope><name>reachabilityWithHostName:</name></member>
+      <member refid="interface_reachability_1ae20732960a222681fcc7caeb191158bc" prot="public" virt="virtual"><scope>Reachability</scope><name>startNotifier</name></member>
+      <member refid="interface_reachability_1ab7907e9c8de0e4e15774e82c089e0b39" prot="public" virt="virtual"><scope>Reachability</scope><name>stopNotifier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

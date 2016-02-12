@@ -1,0 +1,81 @@
+\hypertarget{interface_pxe_player_page_operation}{\section{Pxe\-Player\-Page\-Operation Class Reference}
+\label{interface_pxe_player_page_operation}\index{Pxe\-Player\-Page\-Operation@{Pxe\-Player\-Page\-Operation}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Page\-Operation.\-h$>$}
+
+Inheritance diagram for Pxe\-Player\-Page\-Operation\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_pxe_player_page_operation}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_pxe_player_page_operation_ae99c6e07252b13ecb652c50e8796e830}{init\-With\-Query\-:}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{interface_pxe_player_page_operation_a808493fa4430803e7546556b27170e9a}{get\-Key}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+id$<$ \hyperlink{protocol_pxe_player_operation_delegate-p}{Pxe\-Player\-Operation\-Delegate} $>$ \hyperlink{interface_pxe_player_page_operation_a57ec43b30a26ea1b04081f9ed0b7d9a4}{page\-Delegate}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A simple class derived from the N\-S\-Operation to perform operation in the operation queue 
+
+Definition at line 43 of file Pxe\-Player\-Page\-Operation.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_pxe_player_page_operation_a808493fa4430803e7546556b27170e9a}{\index{Pxe\-Player\-Page\-Operation@{Pxe\-Player\-Page\-Operation}!get\-Key@{get\-Key}}
+\index{get\-Key@{get\-Key}!PxePlayerPageOperation@{Pxe\-Player\-Page\-Operation}}
+\subsubsection[{get\-Key}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Key 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operation_a808493fa4430803e7546556b27170e9a}
+This method would be called to retrive the operation key \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the identification key 
+\end{DoxyReturn}
+
+
+Definition at line 35 of file Pxe\-Player\-Page\-Operation.\-m.
+
+\hypertarget{interface_pxe_player_page_operation_ae99c6e07252b13ecb652c50e8796e830}{\index{Pxe\-Player\-Page\-Operation@{Pxe\-Player\-Page\-Operation}!init\-With\-Query\-:@{init\-With\-Query\-:}}
+\index{init\-With\-Query\-:@{init\-With\-Query\-:}!PxePlayerPageOperation@{Pxe\-Player\-Page\-Operation}}
+\subsubsection[{init\-With\-Query\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-Query\-: 
+\begin{DoxyParamCaption}
+\item[{({\bf Pxe\-Player\-Pages\-Query}$\ast$)}]{query}
+\end{DoxyParamCaption}
+}}\label{interface_pxe_player_page_operation_ae99c6e07252b13ecb652c50e8796e830}
+This method would be called to initialise the operation with required query parameters 
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{interface_pxe_player_pages_query}{Pxe\-Player\-Pages\-Query},query} & is a model instance contains required page information to downlaod page data from the server \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 25 of file Pxe\-Player\-Page\-Operation.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_pxe_player_page_operation_a57ec43b30a26ea1b04081f9ed0b7d9a4}{\index{Pxe\-Player\-Page\-Operation@{Pxe\-Player\-Page\-Operation}!page\-Delegate@{page\-Delegate}}
+\index{page\-Delegate@{page\-Delegate}!PxePlayerPageOperation@{Pxe\-Player\-Page\-Operation}}
+\subsubsection[{page\-Delegate}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id$<${\bf Pxe\-Player\-Operation\-Delegate}$>$) page\-Delegate\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [weak]}}}\label{interface_pxe_player_page_operation_a57ec43b30a26ea1b04081f9ed0b7d9a4}
+A \hyperlink{protocol_pxe_player_operation_delegate-p}{Pxe\-Player\-Operation\-Delegate} protocol instance to send information to class which implements it 
+
+Definition at line 49 of file Pxe\-Player\-Page\-Operation.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_page_operation_8h}{Pxe\-Player\-Page\-Operation.\-h}\item 
+\hyperlink{_pxe_player_page_operation_8m}{Pxe\-Player\-Page\-Operation.\-m}\end{DoxyCompactItemize}

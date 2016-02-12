@@ -1,0 +1,472 @@
+.TH "PxePlayerDataManager" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerDataManager \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerDataManager\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBresetDataManager\fP"
+.br
+.ti -1c
+.RI "(NSManagedObjectContext *) - \fBgetObjectContext\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBsave\fP"
+.br
+.ti -1c
+.RI "(NSArray *) - \fBfetchEntitiesForModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:\fP"
+.br
+.ti -1c
+.RI "(NSArray *) - \fBfetchEntities:forModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:groupBy:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntities:forModel:withPredicate:resultType:withSortKey:andAscending:fetchLimit:andGroupBy:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntity:forModel:withValue:resultType:withSortKey:andAscending:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntity:forModel:withValue:andKey:resultType:withSortKey:andAscending:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntity:forModel:withValue:andKey:withSortKey:andAscending:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntity:forModel:withValue:withSortKey:andAscending:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntity:forModel:withPredicate:withSortKey:andAscending:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntity:forModel:withValue:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntityForCurrentBook:forModel:withValue:resultType:withSortKey:andAscending:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBfetchEntityForCurrentBook:forModel:withValue:\fP"
+.br
+.ti -1c
+.RI "(NSArray *) - \fBfetchTocTree:\fP"
+.br
+.ti -1c
+.RI "(NSUInteger) - \fBfetchMaxValue:property:\fP"
+.br
+.ti -1c
+.RI "(NSUInteger) - \fBfetchCount:property:\fP"
+.br
+.in -1c
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(\fBPxePlayerDataManager\fP *) + \fBsharedInstance\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "NSString * \fBcontextId\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Simple data manager class which handles core data operations of add, edit, delete and update data on the core data persistent storage\&. 
+.PP
+Definition at line 15 of file PxePlayerDataManager\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (NSUInteger) fetchCount: (NSString*)model(NSString*)property"
+This method would be called to fetch the total count of the records from data store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,property\fP is a field in the specific record 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger , returns the total count of the given property from records 
+.RE
+.PP
+
+.PP
+Definition at line 339 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntities: (NSArray*)properties(NSString*)model(NSPredicate*)predicate(NSUInteger)resultType(NSString*)sortKey(BOOL)isAscending(NSUInteger)limit(NSArray*)groups"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,array\fP of properties should be fetched from the records 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSPredicate,predicate\fP is an instance of NSPredicate with conditions to filters the records while fetching \&. 
+.br
+\fINSUInteger,resultType\fP is an enumerated value which decides the format of the records whether dictionary or model 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.br
+\fINSUInteger,limit\fP is an unsigned integer used for limitting the number of records should be fetched 
+.br
+\fINSArray,array\fP of properties used for grouping the records 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSArray , returns the array of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 260 of file PxePlayerDataManager\&.m\&.
+.SS "- (NSArray *) fetchEntities: (NSArray*)property(NSString*)model(NSString*)sortKey(BOOL)isAscending(NSPredicate*)predicate(NSUInteger)limit(NSUInteger)resultType(NSArray*)groups"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,array\fP of properties should be fetched from the records 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.br
+\fINSPredicate,predicate\fP is an instance of NSPredicate with conditions to filters the records while fetching \&. 
+.br
+\fINSUInteger,limit\fP is an unsigned integer used for limitting the number of records should be fetched 
+.br
+\fINSUInteger,resultType\fP is an enumerated value which decides the format of the records whether dictionary or model 
+.br
+\fINSArray,array\fP of properties used for grouping the records 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSArray , returns the array of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 205 of file PxePlayerDataManager\&.m\&.
+.SS "- (NSArray *) fetchEntitiesForModel: (NSString*)model(NSString*)sortKey(BOOL)isAscending(NSPredicate*)predicate(NSUInteger)limit(NSUInteger)resultType"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.br
+\fINSPredicate,predicate\fP is an instance of NSPredicate with conditions to filters the records while fetching \&. 
+.br
+\fINSUInteger,limit\fP is an unsigned integer used for limitting the number of records should be fetched 
+.br
+\fINSUInteger,resultType\fP is an enumerated value which decides the format of the records whether dictionary or model 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSArray , returns the array of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 187 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntity: (NSArray*)properties(NSString*)model(NSPredicate*)predicate(NSString*)sortKey(BOOL)isAscending"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,array\fP of properties should be fetched from the records 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSPredicate,predicate\fP is an instance of NSPredicate with conditions to filters the records while fetching \&. 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSArray , returns the array of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 265 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntity: (NSString*)property(NSString*)model(NSString*)value"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is a field in the specific record 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,value\fP is a value of property field in the specific record 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id , returns the array or dictionary of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 297 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntity: (NSString*)property(NSString*)model(NSString*)value(NSString*)key(NSUInteger)resultType(NSString*)sortKey(BOOL)isAscending"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is a field in the specific record 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,value\fP is a value of property field in the specific record 
+.br
+\fINSString,key\fP is a name of property field in the specific record 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.br
+\fINSUInteger,resultType\fP is an enumerated value which decides the format of the records whether dictionary or model 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id , returns the array or dictionary of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 238 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntity: (NSString*)property(NSString*)model(NSString*)value(NSString*)key(NSString*)sortKey(BOOL)isAscending"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is a field in the specific record 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,value\fP is a value of property field in the specific record 
+.br
+\fINSString,key\fP is a name of property field in the specific record 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id , returns the array or dictionary of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 287 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntity: (NSString*)property(NSString*)model(NSString*)value(NSUInteger)resultType(NSString*)sortKey(BOOL)isAscending"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is a field in the specific record 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,value\fP is a value of property field in the specific record 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.br
+\fINSUInteger,resultType\fP is an enumerated value which decides the format of the records whether dictionary or model 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id , returns the array or dictionary of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 276 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntity: (NSString*)property(NSString*)model(NSString*)value(NSString*)sortKey(BOOL)isAscending"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is a field in the specific record 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,value\fP is a value of property field in the specific record 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id , returns the array or dictionary of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 292 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntityForCurrentBook: (NSString*)property(NSString*)model(NSString*)value"
+This methd would be called for fetch current book records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is a field in the specific record 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,value\fP is a value of property field in the specific record 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id , returns the array or dictionary of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 301 of file PxePlayerDataManager\&.m\&.
+.SS "- (id) fetchEntityForCurrentBook: (NSString*)property(NSString*)model(NSString*)value(NSUInteger)resultType(NSString*)sortKey(BOOL)isAscending"
+This methd would be called for fetch records from the core data persistent store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,property\fP is a field in the specific record 
+.br
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,value\fP is a value of property field in the specific record 
+.br
+\fINSString,sortKey\fP for fetching records sorted by the given key 
+.br
+\fIBOOL,isAscending\fP is a boolean value for sort records by ascend if true else sort by descend\&. 
+.br
+\fINSUInteger,resultType\fP is an enumerated value which decides the format of the records whether dictionary or model 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+id , returns the array or dictionary of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 249 of file PxePlayerDataManager\&.m\&.
+.SS "- (NSUInteger) fetchMaxValue: (NSString*)model(NSString*)property"
+This method would be called to fetch the record which have the maximum value on specific property 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,model\fP is a class name of type of record should be fetched 
+.br
+\fINSString,property\fP is a field in the specific record 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSUInteger , returns the maximum value of the given property from records 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file PxePlayerDataManager\&.m\&.
+.SS "- (NSArray *) fetchTocTree: (NSString*)rootId"
+This methd would be called for fetch table of contents of current book records from the data store 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,rootId\fP is a string used for fetching branch of records belongs to the root id 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSArray , returns the array of records fetched from data store 
+.RE
+.PP
+
+.PP
+Definition at line 372 of file PxePlayerDataManager\&.m\&.
+.SS "- (NSManagedObjectContext *) getObjectContext "
+This method would be called to get the current object context of the core data persistent store 
+.PP
+\fBReturns:\fP
+.RS 4
+NSManagedObjectContext, returns the current object context 
+.RE
+.PP
+
+.PP
+Definition at line 166 of file PxePlayerDataManager\&.m\&.
+.SS "- (void) resetDataManager "
+This method would be called to reset the singleton instance, gloabal variables and data stored in the persistent store 
+.PP
+Definition at line 63 of file PxePlayerDataManager\&.m\&.
+.SS "- (BOOL) save "
+This method would be called to save or update the recoreds in the core data 
+.PP
+\fBReturns:\fP
+.RS 4
+BOOL, returns the boolean value for whether record saves successfully or not 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+[NSManagedObjectContex \fB- save\fP:] 
+.RE
+.PP
+
+.PP
+Definition at line 152 of file PxePlayerDataManager\&.m\&.
+.SS "+ (\fBPxePlayerDataManager\fP *) sharedInstance "
+A singleton instance of the data manager 
+.PP
+\fBReturns:\fP
+.RS 4
+\fBPxePlayerDataManager\fP, returns the static singleton instance of the \fBPxePlayerDataManager\fP 
+.RE
+.PP
+
+.PP
+Definition at line 53 of file PxePlayerDataManager\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (NSString*) contextId\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+A NSString variable to hold context id of the book 
+.PP
+Definition at line 20 of file PxePlayerDataManager\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

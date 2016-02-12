@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="protocol_pxe_player_operation_delegate-p" kind="protocol" prot="public">
+    <compoundname>PxePlayerOperationDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="category_pxe_player_page_operations_07_08" prot="public" virt="non-virtual">PxePlayerPageOperations()</derivedcompoundref>
+    <includes refid="_pxe_player_page_operation_8h" local="no">PxePlayerPageOperation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_pxe_player_operation_delegate-p_1a3b2105606b8df469075d5cfc9931c726" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerOperationDelegate-p::operationSuccess:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>operationSuccess:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called when given operation has been successfull executed <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to identify the operation in the queue </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_pxe_player_operation_delegate-p_1aa51ed881ea55a516cfc01025a564ccd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerOperationDelegate-p::operationFailed:error:</definition>
+        <argsstring>(NSString *key,[error] NSError *error)</argsstring>
+        <name>operationFailed:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called when given operation has been failed <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to identify the operation in the queue </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSError</parametername>
+<parametername>returns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cause of error </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" line="38" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Protocol which send&apos;s the instructions while parsing to the class which implemented it  &lt;NSObject&gt;, extented from <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="255">
+        <label>PxePlayerPageOperations()</label>
+        <link refid="category_pxe_player_page_operations_07_08"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>&lt;PxePlayerOperationDelegate&gt;</label>
+        <link refid="protocol_pxe_player_operation_delegate-p"/>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="256">
+        <label>&lt;PxePlayerOperationDelegate&gt;</label>
+        <link refid="protocol_pxe_player_operation_delegate-p"/>
+        <childnode refid="257" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperation.h" bodystart="16" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_operation_delegate-p_1aa51ed881ea55a516cfc01025a564ccd5" prot="public" virt="virtual"><scope>PxePlayerOperationDelegate-p</scope><name>operationFailed:error:</name></member>
+      <member refid="protocol_pxe_player_operation_delegate-p_1a3b2105606b8df469075d5cfc9931c726" prot="public" virt="virtual"><scope>PxePlayerOperationDelegate-p</scope><name>operationSuccess:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

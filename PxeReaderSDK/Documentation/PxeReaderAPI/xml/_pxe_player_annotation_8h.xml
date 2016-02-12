@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_annotation_8h" kind="file">
+    <compoundname>PxePlayerAnnotation.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_pxe_player_annotation_8m" local="yes">PxePlayerAnnotation.m</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_parser_8m" local="yes">PxePlayerParser.m</includedby>
+    <includedby refid="_pxe_player_query_parser_8m" local="yes">PxePlayerQueryParser.m</includedby>
+    <incdepgraph>
+      <node id="139">
+        <label>PxePlayerAnnotation.h</label>
+        <link refid="PxePlayerAnnotation.h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="141">
+        <label>PxePlayerAnnotation.h</label>
+        <link refid="PxePlayerAnnotation.h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>PxePlayerAnnotation.m</label>
+        <link refid="_pxe_player_annotation_8m"/>
+      </node>
+      <node id="145">
+        <label>PxePlayerQueryParser.m</label>
+        <link refid="_pxe_player_query_parser_8m"/>
+      </node>
+      <node id="144">
+        <label>PxePlayerParser.m</label>
+        <link refid="_pxe_player_parser_8m"/>
+      </node>
+      <node id="143">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_annotation" prot="public">PxePlayerAnnotation</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerAnnotation.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>07/11/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="interface_pxe_player_annotation" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_annotation" kindref="compound">PxePlayerAnnotation</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="interface_pxe_player_annotation_1ad4de16b477c5185f1e2cc7e3dc381478" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_annotation_1ad4de16b477c5185f1e2cc7e3dc381478" kindref="member">uri</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="interface_pxe_player_annotation_1ab9e7b0ca1d2b10388be7ee64fa7f348b" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_annotation_1ab9e7b0ca1d2b10388be7ee64fa7f348b" kindref="member">range</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="interface_pxe_player_annotation_1a9ea3bee20ee473fc614a0e0d6201dc8c" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_annotation_1a9ea3bee20ee473fc614a0e0d6201dc8c" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="interface_pxe_player_annotation_1a385bff815a8ba52e6c228d0cb0003e2f" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_annotation_1a385bff815a8ba52e6c228d0cb0003e2f" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="interface_pxe_player_annotation_1a3c3cccd23a46f7ed8726e4788ca32517" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_annotation_1a3c3cccd23a46f7ed8726e4788ca32517" kindref="member">noteText</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="interface_pxe_player_annotation_1a49526a2d5685f06b970713a85f4e18c5" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/><sp/>*<ref refid="interface_pxe_player_annotation_1a49526a2d5685f06b970713a85f4e18c5" kindref="member">contentId</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="interface_pxe_player_annotation_1afe13281cb5ee83fbaee6367daf2519df" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSString<sp/>*<ref refid="interface_pxe_player_annotation_1afe13281cb5ee83fbaee6367daf2519df" kindref="member">annotationDttm</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAnnotation.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_07_08" kind="category" prot="public">
+    <compoundname>PxePlayer()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_07_08_1a2b4c72b789a077b36de37eb9bcfb4d76" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type><ref refid="interface_pxe_player_data_interface" kindref="compound">PxePlayerDataInterface</ref> *</type>
+        <definition>PxePlayerDataInterface* PxePlayer()::dataInterface</definition>
+        <argsstring></argsstring>
+        <name>dataInterface</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" line="51" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>PxePlayer()</label>
+        <link refid="category_pxe_player_07_08"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>dataInterface</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>NSObject</label>
+      </node>
+      <node id="14">
+        <label>PxePlayerDataInterface</label>
+        <link refid="interface_pxe_player_data_interface"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" line="49" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayer.m" bodystart="49" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_07_08_1a2b4c72b789a077b36de37eb9bcfb4d76" prot="public" virt="non-virtual"><scope>PxePlayer()</scope><name>dataInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

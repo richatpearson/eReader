@@ -1,0 +1,80 @@
+.TH "PxePlayerRestConnector" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerRestConnector \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerRestConnector\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(id) + \fBresponseWithUrl:withParams:method:error:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBresponseWithUrlAsync:withParams:method:completionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBresponseWithURLAsync:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBresponseDataWithURLAsync:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBresponseWithXMLURLAsync:withCompletionHandler:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 12 of file PxePlayerRestConnector\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "+ (void) responseDataWithURLAsync: (NSString*)url(\fBCompletionHandler\fP)handler"
+
+.PP
+Definition at line 188 of file PxePlayerRestConnector\&.m\&.
+.SS "+ (id) responseWithUrl: (NSString*)api(NSDictionary*)params(NSString*)method(NSError**)error"
+responseWithUrl:withParams:error:
+.PP
+Performs a synchronous load of the given request, returning the formatted json object\&.
+.PP
+This method initiates a synchronous request, identifies the error status, and based on error status, it will parse the json object received into appropriate Objective C object and returns it\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIapi\fP The api to request\&. It wont expect the complete URL\&. Only the last part of the URL is expected here\&. Inside the method it will prepare the full URL based on the WEBAPI_URL defined in URLConstants
+.br
+\fIparams\fP The input parameters to be sent to POST request
+.br
+\fIerror\fP Out parameter (may be NULL) used if an error occurs while processing the request\&. Will not be modified if the load succeeds\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The formatted json object\&. 
+.RE
+.PP
+this is section where network in not available,you can show some custom message here 
+.PP
+Definition at line 21 of file PxePlayerRestConnector\&.m\&.
+.SS "+ (void) responseWithURLAsync: (NSString*)url(\fBCompletionHandler\fP)handler"
+
+.PP
+Definition at line 156 of file PxePlayerRestConnector\&.m\&.
+.SS "+ (void) responseWithUrlAsync: (NSString*)api(NSDictionary*)params(NSString*)method(\fBCompletionHandler\fP)handler"
+
+.PP
+Definition at line 143 of file PxePlayerRestConnector\&.m\&.
+.SS "+ (void) responseWithXMLURLAsync: (NSString*)url(\fBCompletionHandler\fP)handler"
+
+.PP
+Definition at line 173 of file PxePlayerRestConnector\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

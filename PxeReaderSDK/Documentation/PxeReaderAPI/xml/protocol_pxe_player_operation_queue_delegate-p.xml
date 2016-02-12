@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="protocol_pxe_player_operation_queue_delegate-p" kind="protocol" prot="public">
+    <compoundname>PxePlayerOperationQueueDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="_pxe_player_page_operations_8h" local="no">PxePlayerPageOperations.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_pxe_player_operation_queue_delegate-p_1a4a01f1612ffbce8c1076a67907d25110" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerOperationQueueDelegate-p::OperationFinished:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>OperationFinished:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called when given operation has been finished <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to identify the operation in the queue </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Protocol which send&apos;s the instructions while parsing to the class which implemented it  &lt;NSObject&gt;, extented from <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="258">
+        <label>&lt;PxePlayerOperationQueueDelegate&gt;</label>
+        <link refid="protocol_pxe_player_operation_queue_delegate-p"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="260">
+        <label>&lt;PxePlayerOperationQueueDelegate&gt;</label>
+        <link refid="protocol_pxe_player_operation_queue_delegate-p"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" bodystart="16" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_operation_queue_delegate-p_1a4a01f1612ffbce8c1076a67907d25110" prot="public" virt="virtual"><scope>PxePlayerOperationQueueDelegate-p</scope><name>OperationFinished:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

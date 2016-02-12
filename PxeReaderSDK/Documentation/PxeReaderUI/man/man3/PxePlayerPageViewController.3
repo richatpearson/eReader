@@ -1,0 +1,339 @@
+.TH "PxePlayerPageViewController" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageViewController \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageViewController\&.h>\fP
+.PP
+Inherits UIViewController\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(id) - \fBinitWithURL:andCustomPlaylistURLs:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBinitWithURL:andCustomPlaylistURLs:withOptions:\fP"
+.br
+.ti -1c
+.RI "(id) - \fBinitWithURL:andCustomPlaylistURLs:andGotoPage:withOptions:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBscrollPageToDirection:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgotoPageWithContentID:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgotoPageWithPageURL:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgotoPageWithPageURL:andHighlightLabels:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBgotoPageWithPageId:withURL:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBjumpToPage:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBswitchViewMode:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBpopHistory\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBhasPrevious\fP"
+.br
+.ti -1c
+.RI "(BOOL) - \fBhasNext\fP"
+.br
+.ti -1c
+.RI "(NSNumber *) - \fBgetCurrentPageNumber\fP"
+.br
+.ti -1c
+.RI "(NSUInteger) - \fBgetTotalPagesCount\fP"
+.br
+.ti -1c
+.RI "(NSString *) - \fBgetCurrentPageURL\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsetBookPageFontSize:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsetBookPageTheme:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsetAnnotationLabel:\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "id< \fBPxePlayerPageViewDelegate\fP > \fBdelegate\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class to display a book pages navigation \&. 
+.PP
+Definition at line 38 of file PxePlayerPageViewController\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (NSNumber *) getCurrentPageNumber "
+Returns the current page's page number 
+.PP
+Definition at line 475 of file PxePlayerPageViewController\&.m\&.
+.SS "- (NSString *) getCurrentPageURL "
+Returns the current page's URL 
+.PP
+Definition at line 548 of file PxePlayerPageViewController\&.m\&.
+.SS "- (NSUInteger) getTotalPagesCount "
+Returns total pages count in the book 
+.PP
+Definition at line 485 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) gotoPageWithContentID: (NSString*)pageId"
+Navigate to the particular page by using pageId 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageId\fP is a reference to jump to the particular page 
+.RE
+.PP
+
+.PP
+Definition at line 494 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) gotoPageWithPageId: (NSString*)pageId(NSString*)pageURL"
+Navigate to the particular page by using pageURL and navigate further within a page using pageId 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageId\fP is a reference to jump to the title with in a particular page 
+.br
+\fINSString,pageUrl\fP is a reference to jump to the particular page 
+.RE
+.PP
+
+.PP
+Definition at line 510 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) gotoPageWithPageURL: (NSString*)pageUrl"
+Navigate to the particular page by using pageURL 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageUrl\fP is a reference to jump to the particular page 
+.RE
+.PP
+
+.PP
+Definition at line 506 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) \fBgotoPageWithPageURL:\fP (NSString *)pageUrl(NSArray*)labels"
+Navigate to the particular page by using pageUrl and should show the highlights in the page 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageUrl\fP is a reference to jump to the particular page 
+.br
+\fINSArray,labels\fP is references of higlights area in the page 
+.RE
+.PP
+
+.PP
+Definition at line 531 of file PxePlayerPageViewController\&.m\&.
+.SS "- (BOOL) hasNext "
+Returns true until the page navigation has not reached last page 
+.PP
+Definition at line 471 of file PxePlayerPageViewController\&.m\&.
+.SS "- (BOOL) hasPrevious "
+Returns true until the page navigation has not reached first page 
+.PP
+Definition at line 467 of file PxePlayerPageViewController\&.m\&.
+.SS "- (id) initWithURL: (id)masterdata(NSArray*)custompages"
+Instantiate the class with preloaded information to customize the page navigation\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIid,masterdata\fP to be either NSArray of page URL's or NSString of NCX file URL 
+.br
+\fINSArray,custompages\fP should be array of pageURL's should be collected from primary NCX data and user allowed to navigate only given page URL's\&. 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fB- initWithURL:andCustomPlaylistURLs:withOptions:\fP 
+.PP
+\fB- initWithURL:andCustomPlaylistURLs:andGotoPage:withOptions:\fP 
+.RE
+.PP
+
+.PP
+Definition at line 98 of file PxePlayerPageViewController\&.m\&.
+.SS "- (id) initWithURL: (id)masterdata(NSArray*)custompages(NSString*)page(NSDictionary*)options"
+Instantiate the class with preloaded information to customize the page navigation\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIid,masterdata\fP to be either NSArray of page URL's or NSString of NCX file URL 
+.br
+\fINSArray,custompages\fP should be array of pageURL's should be collected from primary NCX data and user allowed to navigate only given page URL's\&. 
+.br
+\fINSString,page\fP should be either any book pageURL or pageID to start reading from the launch\&. 
+.br
+\fINSDictionary,options\fP allows the UI customisation 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fB- initWithURL:andCustomPlaylistURLs:\fP 
+.PP
+\fB- initWithURL:andCustomPlaylistURLs:withOptions:\fP 
+.RE
+.PP
+
+.PP
+Definition at line 139 of file PxePlayerPageViewController\&.m\&.
+.SS "- (id) initWithURL: (id)masterdata(NSArray*)custompages(NSDictionary*)options"
+Instantiate the class with preloaded information to customize the page navigation\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIid,masterdata\fP to be either NSArray of page URL's or NSString of NCX file URL 
+.br
+\fINSArray,custompages\fP should be array of pageURL's should be collected from primary NCX data and user allowed to navigate only given page URL's\&. 
+.br
+\fINSDictionary,options\fP allows the UI customisation 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fB- initWithURL:andCustomPlaylistURLs:\fP 
+.PP
+\fB- initWithURL:andCustomPlaylistURLs:andGotoPage:withOptions:\fP 
+.RE
+.PP
+
+.PP
+Definition at line 117 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) jumpToPage: (NSNumber*)pageNumber"
+Navigate to the particular page by using pageNumber 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageNumber\fP is a reference to jump to the particular page 
+.RE
+.PP
+
+.PP
+Definition at line 617 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) popHistory "
+Undo the history of page navigation 
+.PP
+Definition at line 544 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) scrollPageToDirection: (BOOL)isLeft"
+Navigate page from left to right or vice versa 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIBOOL,isLeft\fP is true page navigate backword else forward 
+.RE
+.PP
+
+.PP
+Definition at line 401 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) setAnnotationLabel: (NSString*)label"
+Navigate to the particular page by using pageId 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,pageId\fP is a reference to jump to the particular page
+.RE
+.PP
+Set the annotation label to rendered on the screen 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,label\fP is a reference to jump to the particular page 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerPageContentViewController\fP 
+.RE
+.PP
+
+.PP
+Definition at line 926 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) setBookPageFontSize: (int)fontSize"
+Customise the book page's static font size 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIint,fontSize\fP to adjust the size of the font
+.RE
+.PP
+Customise the font size of the pages in the book 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIint,fontSize\fP is a reference to set the size of the font to be applied on the page text's 
+.RE
+.PP
+
+.PP
+Definition at line 900 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) setBookPageTheme: (NSString*)theme"
+Customise the book page's static theme 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItheme,NSString\fP to change the theme of the page
+.RE
+.PP
+Customise the theme of the pages in the book 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,theme\fP is a reference to set the theme of the pages in book, example sepia,night-mode etc \&.\&.\&. 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerPageContentViewController\fP 
+.RE
+.PP
+
+.PP
+Definition at line 913 of file PxePlayerPageViewController\&.m\&.
+.SS "- (void) switchViewMode: (BOOL)toVertical"
+SWitch the view mode from vertical to horizontal and vice versa 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIBOOL,toVertical\fP is true navigation happens vertical else horizontal 
+.RE
+.PP
+
+.PP
+Definition at line 568 of file PxePlayerPageViewController\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (id<\fBPxePlayerPageViewDelegate\fP>) delegate\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [weak]\fP"
+Delegate instance which external class can communicate to the self class\&. 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerPageViewDelegate\fP 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file PxePlayerPageViewController\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

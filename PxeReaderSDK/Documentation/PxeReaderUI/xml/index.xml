@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.4">
+  <compound refid="interface_h_m_cache" kind="class"><name>HMCache</name>
+    <member refid="interface_h_m_cache_1a6bdf784a54d7769ecd74ede7e3144b97" kind="function"><name>resetCache</name></member>
+    <member refid="interface_h_m_cache_1a8608ca43aaceb46957be9651133b0ca2" kind="function"><name>setObject:forKey:</name></member>
+    <member refid="interface_h_m_cache_1a129a4f9b8f97fe5d6d91c4b40ce2cf12" kind="function"><name>objectForKey:</name></member>
+    <member refid="interface_h_m_cache_1a94647093b59901a003c740cb60d0b503" kind="function"><name>removeObject:</name></member>
+    <member refid="interface_h_m_cache_1ae93bd9319423f1567d93d621563207a5" kind="function"><name>clearOldFiles</name></member>
+    <member refid="interface_h_m_cache_1afbf507c62ac548dc5d622ccf9c5677f5" kind="function"><name>createCacheSubDirectory:</name></member>
+    <member refid="interface_h_m_cache_1a645cab7afdf3ba10c051e4bb2176d2a2" kind="function"><name>createDirectory:</name></member>
+    <member refid="interface_h_m_cache_1a77f18b032b046ab8b6aed93444c777a1" kind="function"><name>removeDirectory:</name></member>
+    <member refid="interface_h_m_cache_1aebd9c067580569f1b703e17a96ace2db" kind="function"><name>setObject:forKey:withNewPath:</name></member>
+    <member refid="interface_h_m_cache_1ad8b8bc321146bed180346c14ec284a57" kind="function"><name>objectForKey:withPath:</name></member>
+    <member refid="interface_h_m_cache_1aa796cf777c3fb02a18385b4ee47637a5" kind="function"><name>removeCacheSubDirectory:</name></member>
+  </compound>
+  <compound refid="category_n_s_string_07_extension_08" kind="category"><name>NSString(Extension)</name>
+    <member refid="category_n_s_string_07_extension_08_1adf829178160030048cbdf0a60cada542" kind="function"><name>md5</name></member>
+    <member refid="category_n_s_string_07_extension_08_1accba6459f501dacc498568ef32a6c262" kind="function"><name>compareNumberStrings:</name></member>
+  </compound>
+  <compound refid="protocol_page_content_delegate-p" kind="protocol"><name>PageContentDelegate-p</name>
+    <member refid="protocol_page_content_delegate-p_1a8ec70410318e1c9491a3b8ff90fb3e5b" kind="function"><name>scalePageToFit</name></member>
+    <member refid="protocol_page_content_delegate-p_1a84551682c91a6d18ddad35d016d47a90" kind="function"><name>loadBrowserWithURL:</name></member>
+    <member refid="protocol_page_content_delegate-p_1a7fa10de862bfb7fd786eeead48ce7f55" kind="function"><name>pageContentDidLoad:</name></member>
+    <member refid="protocol_page_content_delegate-p_1ad32506ebb19d686baabc0991f0b28833" kind="function"><name>pageContentLoading:</name></member>
+    <member refid="protocol_page_content_delegate-p_1a50f6ce09e4eceba345c4bed40422d38e" kind="function"><name>pageLoadFailed:</name></member>
+  </compound>
+  <compound refid="class_pxe_player" kind="class"><name>PxePlayer</name>
+  </compound>
+  <compound refid="category_pxe_player_07_08" kind="category"><name>PxePlayer()</name>
+    <member refid="category_pxe_player_07_08_1a2b4c72b789a077b36de37eb9bcfb4d76" kind="property"><name>dataInterface</name></member>
+  </compound>
+  <compound refid="category_pxe_player_07_annotations_08" kind="category"><name>PxePlayer(Annotations)</name>
+    <member refid="category_pxe_player_07_annotations_08_1af77b76a936a039550119cb381f6fadaa" kind="function"><name>getAnnotationsWithCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_annotations_08_1adc782f450891626f9a8a643e86ea4b63" kind="function"><name>getAllAnnotationsWithCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_annotations_08_1a0b8a6759a8033cd36d53ee9f2c942dbd" kind="function"><name>getAnnotationsForContent:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_annotations_08_1ab9277ba9cb562ee39249fcd4aec564e3" kind="function"><name>getAllAnnotationsForContent:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_annotations_08_1ab9fa27896dac76e5fbd93c33f11c6593" kind="function"><name>addAnnotations:forContentID:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_annotations_08_1a64c8f18a69509f87d7b68edd5c180ba6" kind="function"><name>updateAnnotations:forContentID:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_annotations_08_1a68b66342678e553a27733485471d00de" kind="function"><name>deleteAnnotationForContentID:WithCompletionHandler:</name></member>
+  </compound>
+  <compound refid="category_pxe_player_07_bookmarks_08" kind="category"><name>PxePlayer(Bookmarks)</name>
+    <member refid="category_pxe_player_07_bookmarks_08_1adf67269a9769654658af61f2f897a8b8" kind="function"><name>getBookmarksWithCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_bookmarks_08_1ad4c6c1fcc23ebfdc02eecaa3d1de4c9f" kind="function"><name>addBookmarkWithTitle:andURL:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_bookmarks_08_1ad3d6230226f923cdca730348588d6f82" kind="function"><name>checkBookmarkWithURL:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_bookmarks_08_1a78ee75ca33ea7b6a2da7a5df32bffe7d" kind="function"><name>editBookmarkWithTitle:andURL:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_bookmarks_08_1ac0571c27d0176f77e2ab5032dad9d2d1" kind="function"><name>deleteBookmarkWithURL:withCompletionHandler:</name></member>
+  </compound>
+  <compound refid="category_pxe_player_07_media_08" kind="category"><name>PxePlayer(Media)</name>
+    <member refid="category_pxe_player_07_media_08_1a6dbce3db863cdd13fc40f0b64624a843" kind="function"><name>getMedia:withCompletionHandler:</name></member>
+  </compound>
+  <compound refid="category_pxe_player_07_medias_08" kind="category"><name>PxePlayer(Medias)</name>
+  </compound>
+  <compound refid="category_pxe_player_07_search_08" kind="category"><name>PxePlayer(Search)</name>
+    <member refid="category_pxe_player_07_search_08_1acaf2f1bc4d262bd134d2adac85466d4e" kind="function"><name>submitNCXUrlForIndexing:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_search_08_1abb97b28097be6751b5941b3149c4e3b6" kind="function"><name>submitUrlsForIndexing:withCompletionHandler:</name></member>
+    <member refid="category_pxe_player_07_search_08_1ae5bdbf7faea3fb4c58be4d995c96f648" kind="function"><name>searchContent:from:withSize:withCompletionHandler:</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_alert_view" kind="class"><name>PxePlayerAlertView</name>
+    <member refid="interface_pxe_player_alert_view_1a791feec3c06df0d7a1df9f92ee7ec83b" kind="function"><name>addCustomValue:withKey:</name></member>
+    <member refid="interface_pxe_player_alert_view_1a56b5ad4f1e2c89604c7b4fb528d202b3" kind="function"><name>removeCustomValue:</name></member>
+    <member refid="interface_pxe_player_alert_view_1a49e659b5368d59df5ec5e9f22776afa8" kind="function"><name>getCustomValue:</name></member>
+  </compound>
+  <compound refid="category_pxe_player_alert_view_07_08" kind="category"><name>PxePlayerAlertView()</name>
+    <member refid="category_pxe_player_alert_view_07_08_1a2f6dbf6218d685095b0d041309b21723" kind="property"><name>values</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_book_details" kind="class"><name>PxePlayerBookDetails</name>
+    <member refid="interface_pxe_player_book_details_1a0d116169121d2c2ff845beebdc18e8f7" kind="property"><name>bookId</name></member>
+    <member refid="interface_pxe_player_book_details_1a34d0ade8fbd6a3bbe7cba760dec26d8c" kind="property"><name>bookTitle</name></member>
+    <member refid="interface_pxe_player_book_details_1a6da96231ab61dc6eed9e7856ebded73c" kind="property"><name>pages</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_data_interface" kind="class"><name>PxePlayerDataInterface</name>
+    <member refid="interface_pxe_player_data_interface_1a772cc60134527bb2faa87f197de4e3cc" kind="property"><name>userName</name></member>
+    <member refid="interface_pxe_player_data_interface_1adeded8526816f9d96dd088511d4046d3" kind="property"><name>contextId</name></member>
+    <member refid="interface_pxe_player_data_interface_1a9b508aa7db14e8852cf251308312db25" kind="property"><name>userId</name></member>
+    <member refid="interface_pxe_player_data_interface_1ade76fc35011aade53e15ffa5414fc153" kind="property"><name>ncxURL</name></member>
+    <member refid="interface_pxe_player_data_interface_1a0c22a98d7e29a36bcf024bb58c58aad8" kind="property"><name>baseURL</name></member>
+    <member refid="interface_pxe_player_data_interface_1a98548be4b0f323ff768a5bf22f3f11c1" kind="property"><name>authToken</name></member>
+    <member refid="interface_pxe_player_data_interface_1a6e1589797ac4e892d34cbfcac8de6b89" kind="property"><name>searchIndexId</name></member>
+    <member refid="interface_pxe_player_data_interface_1a3a406ada658778aecd037ebe9bde9cb9" kind="property"><name>afterCrossRefBehaviour</name></member>
+    <member refid="interface_pxe_player_data_interface_1ac749acf5d0492c35a160be17973cab81" kind="property"><name>bookPageTheme</name></member>
+    <member refid="interface_pxe_player_data_interface_1a01914ef4755b7862ba543a0659613152" kind="property"><name>bookPageFontSize</name></member>
+    <member refid="interface_pxe_player_data_interface_1a5d758a740c14531a20e76f60ad3d7893" kind="property"><name>learningContext</name></member>
+    <member refid="interface_pxe_player_data_interface_1a782e29876259f6a3f6571794356503e0" kind="property"><name>masterPlaylist</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_data_manager" kind="class"><name>PxePlayerDataManager</name>
+    <member refid="interface_pxe_player_data_manager_1a09ec53de035d5a7a96604fa92eaab758" kind="property"><name>contextId</name></member>
+    <member refid="interface_pxe_player_data_manager_1a61a323a6162afc1a8734d8a1f7cc89c6" kind="function"><name>sharedInstance</name></member>
+    <member refid="interface_pxe_player_data_manager_1a0ad90b7df39403c27a446c39c4e4eb82" kind="function"><name>resetDataManager</name></member>
+    <member refid="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" kind="function"><name>getObjectContext</name></member>
+    <member refid="interface_pxe_player_data_manager_1a6bace115219e1f02d80778c1c86e2288" kind="function"><name>save</name></member>
+    <member refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" kind="function"><name>fetchEntitiesForModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" kind="function"><name>fetchEntities:forModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:groupBy:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a9580aae143e1e877a11cdf0ba1182657" kind="function"><name>fetchEntities:forModel:withPredicate:resultType:withSortKey:andAscending:fetchLimit:andGroupBy:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" kind="function"><name>fetchEntity:forModel:withValue:resultType:withSortKey:andAscending:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" kind="function"><name>fetchEntity:forModel:withValue:andKey:resultType:withSortKey:andAscending:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a330908b8093f34c3562a2b1a0d3ff230" kind="function"><name>fetchEntity:forModel:withValue:andKey:withSortKey:andAscending:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" kind="function"><name>fetchEntity:forModel:withValue:withSortKey:andAscending:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a91a735b462c60d518709560e1e23ed6e" kind="function"><name>fetchEntity:forModel:withPredicate:withSortKey:andAscending:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a9cfaceea7070edda30cd674ae89ac479" kind="function"><name>fetchEntity:forModel:withValue:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" kind="function"><name>fetchEntityForCurrentBook:forModel:withValue:resultType:withSortKey:andAscending:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a57e9fba86112c53f947c3966df1db23f" kind="function"><name>fetchEntityForCurrentBook:forModel:withValue:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a1489b7de9d4bca3c97b774da1b82aaf2" kind="function"><name>fetchTocTree:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a777a3d39dc97a339ffd84be5c7cc2a4e" kind="function"><name>fetchMaxValue:property:</name></member>
+    <member refid="interface_pxe_player_data_manager_1a47c6c2ec52346caf5a0d7fc8711703dc" kind="function"><name>fetchCount:property:</name></member>
+  </compound>
+  <compound refid="category_pxe_player_data_manager_07_08" kind="category"><name>PxePlayerDataManager()</name>
+    <member refid="category_pxe_player_data_manager_07_08_1a6b7bfe044b621bbbaf643632c6dc7e01" kind="property"><name>objectModel</name></member>
+    <member refid="category_pxe_player_data_manager_07_08_1aec293ddfcfbce08c156f50fa40df004d" kind="property"><name>objectContext</name></member>
+    <member refid="category_pxe_player_data_manager_07_08_1affbb8a325d42a3ce9ef30703bc9e7e54" kind="property"><name>persistentStoreCoordinator</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_light_box_view_controller" kind="class"><name>PxePlayerLightBoxViewController</name>
+    <member refid="interface_pxe_player_light_box_view_controller_1a0603939be7a9337d50eedf4e1b5116bf" kind="property"><name>boxInfo</name></member>
+  </compound>
+  <compound refid="category_pxe_player_light_box_view_controller_07_08" kind="category"><name>PxePlayerLightBoxViewController()</name>
+    <member refid="category_pxe_player_light_box_view_controller_07_08_1a754a4ef5b70d22c93867ef86763deea2" kind="property"><name>info</name></member>
+    <member refid="category_pxe_player_light_box_view_controller_07_08_1a5bcc63386d137a4305c4ab196f0ecd56" kind="property"><name>caption</name></member>
+    <member refid="category_pxe_player_light_box_view_controller_07_08_1a683c2dc890d472035ed660510611b177" kind="property"><name>imageView</name></member>
+    <member refid="category_pxe_player_light_box_view_controller_07_08_1a48cc80b9f885fd8abbff0f1ea380582b" kind="property"><name>wView</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_list_page" kind="class"><name>PxePlayerListPage</name>
+    <member refid="interface_pxe_player_list_page_1a71b187ae06b78a81b0039e24b97ec243" kind="property"><name>pageIndex</name></member>
+    <member refid="interface_pxe_player_list_page_1a1cc9ccb5cb6469d229ec0d504ce70d21" kind="property"><name>pageURL</name></member>
+    <member refid="interface_pxe_player_list_page_1a6ae590b4ac2d96af1bdc01b6ff1c5ce7" kind="property"><name>urlTag</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_loading_view" kind="class"><name>PxePlayerLoadingView</name>
+    <member refid="interface_pxe_player_loading_view_1af369e5258443bcf7c4420fab7012e2bc" kind="function"><name>loadingViewInView:</name></member>
+    <member refid="interface_pxe_player_loading_view_1a6b4358f253d0ceec53276830a2c064ba" kind="function"><name>removeView</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_page_content_view_controller" kind="class"><name>PxePlayerPageContentViewController</name>
+    <member refid="interface_pxe_player_page_content_view_controller_1abc82821b4b3302687cee6029b156f0fd" kind="property"><name>delegate</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1ac1ee65bf42d314bdfb0e8f6e933ea826" kind="function"><name>initWithPage:withFrame:andDelegate:</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1ac48e24862e5965de2e8bb122207a54e7" kind="function"><name>loadPage</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a6e0cc4d9f70477ebac454c4ca421ed46" kind="function"><name>isPageDidLoad</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a14807e6d4cdaea7a2cc4ba87b7a59e3b" kind="function"><name>setPageId:</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1ae168e36dd9a9b4d6f613ca0e613a6989" kind="function"><name>getPageAbsoluteURL</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a12057b213465a87807f385f538184364" kind="function"><name>getPageRelativeURL</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1aa0c98549d530b0e72cacb71e517d14cc" kind="function"><name>getPageUUID</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a2ee7ab5ab5d4159e5fd53ca2538e5d6a" kind="function"><name>highlightSearchWords:</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a5b826204805d08a5ab828230895a4115" kind="function"><name>updateFont</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a1d1a289d82656dec419bdece231cfdfc" kind="function"><name>updateTheme</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a83dc743081b3625226cae810fbe027a5" kind="function"><name>gotoURLTag:</name></member>
+    <member refid="interface_pxe_player_page_content_view_controller_1a1cd7abe0cc5c6ed1fe9251a8e6e32d43" kind="function"><name>setAnnotationLabel:</name></member>
+  </compound>
+  <compound refid="category_pxe_player_page_content_view_controller_07_08" kind="category"><name>PxePlayerPageContentViewController()</name>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1af3d11a7f11a11796661c27580d6ce029" kind="property"><name>viewDidAppeared</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1afd96b3c3ba599231417556b69275bdbc" kind="property"><name>isPageLoaded</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1a2ad90ffea6617ce2f6ca5d342290ce56" kind="property"><name>contentFrame</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1a12806241fb1086aa491618dd59071798" kind="property"><name>loadingView</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1a482fc28ef887b97f6a6aefdee082900c" kind="property"><name>page</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1a6018e38b2c25be9266b21662eb93f0a1" kind="property"><name>pageUUID</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1aabac4af63563001986de19c537ba14a7" kind="property"><name>pageContent</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1af669d904b91e14ee5a23586242056f8f" kind="property"><name>highlights</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1aed72d78725a3cab4c50c195b60681fa0" kind="property"><name>annotationsSharable</name></member>
+    <member refid="category_pxe_player_page_content_view_controller_07_08_1a2dd826b7fd5d227afac08b130812ebb6" kind="property"><name>loadingViewTimer</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_page_details" kind="class"><name>PxePlayerPageDetails</name>
+    <member refid="interface_pxe_player_page_details_1a014167c06505941bf9634f8038b077d6" kind="property"><name>isChildren</name></member>
+    <member refid="interface_pxe_player_page_details_1a5a67b53e316c637fb9f251efc06dbb0a" kind="property"><name>pageId</name></member>
+    <member refid="interface_pxe_player_page_details_1a48af8f668bcac26661b2f62913a0d2a1" kind="property"><name>pageNumber</name></member>
+    <member refid="interface_pxe_player_page_details_1a6b184fb3390508be1580cb0eb8a5ba40" kind="property"><name>pageTitle</name></member>
+    <member refid="interface_pxe_player_page_details_1ae3b8a467041b75c0f224901ff9b7ab76" kind="property"><name>pageURL</name></member>
+    <member refid="interface_pxe_player_page_details_1ad234d8017a3d5b7d76877bf682b879df" kind="property"><name>urlTag</name></member>
+    <member refid="interface_pxe_player_page_details_1a89b10d9e8c8dd323eab65c4675596f80" kind="property"><name>parentId</name></member>
+    <member refid="interface_pxe_player_page_details_1a6f45840f71adb8e50bd8f077d4368db6" kind="property"><name>book</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_page_manager" kind="class"><name>PxePlayerPageManager</name>
+    <member refid="interface_pxe_player_page_manager_1a7951815ab7a221d5150dc74a1fb10606" kind="property"><name>delegate</name></member>
+    <member refid="interface_pxe_player_page_manager_1a8f9edd477523edd9403157d3ec4d9272" kind="function"><name>initWithNCXUrl:withCustomPlaylist:andDelegate:</name></member>
+    <member refid="interface_pxe_player_page_manager_1a1acb70790e9716c43ec76ead84660df5" kind="function"><name>initWithMasterPlaylist:withCustomPlaylist:andDelegate:</name></member>
+    <member refid="interface_pxe_player_page_manager_1a2bcb750b8adc89ba486a938a2cd41912" kind="function"><name>nextPage</name></member>
+    <member refid="interface_pxe_player_page_manager_1a537e1ae0451bb4bd2505567dd131c0cf" kind="function"><name>prevPage</name></member>
+    <member refid="interface_pxe_player_page_manager_1a498ec415cdee48cf98d3987b27d1e255" kind="function"><name>getCurrentPage</name></member>
+    <member refid="interface_pxe_player_page_manager_1a424c106ea5215cdc09717245ebea3550" kind="function"><name>gotoPageByPageId:</name></member>
+    <member refid="interface_pxe_player_page_manager_1aa936790b8353f99bd80ab0a103a617cc" kind="function"><name>gotoPageByPageURL:</name></member>
+    <member refid="interface_pxe_player_page_manager_1a8df6da237f836f15071bb4f89d6341ee" kind="function"><name>gotoPageByPageNumber:</name></member>
+    <member refid="interface_pxe_player_page_manager_1a3bc250a6d660a4bc896d3a4246acb71a" kind="function"><name>pageDidLoad</name></member>
+    <member refid="interface_pxe_player_page_manager_1a29541675ce1b0d7ad4eebe09911ad110" kind="function"><name>updatePageIndex</name></member>
+    <member refid="interface_pxe_player_page_manager_1a280a0550516439315df7c060e55cb381" kind="function"><name>resetCurrentPage:</name></member>
+    <member refid="interface_pxe_player_page_manager_1a8601082d8343001cc1a83ba95c01dc2b" kind="function"><name>refreshCurrentPage</name></member>
+    <member refid="interface_pxe_player_page_manager_1a84ea3e77704e458a85e6fb141eab5802" kind="function"><name>refreshPage:</name></member>
+    <member refid="interface_pxe_player_page_manager_1a5a1c671b75d0ce7b77750679abf4b740" kind="function"><name>isFirstPage</name></member>
+    <member refid="interface_pxe_player_page_manager_1ad6efc3fb86987d93e9dbc66de3e2e0c2" kind="function"><name>isLastPage</name></member>
+    <member refid="interface_pxe_player_page_manager_1ae10baa45f460312dc9220334f6658d10" kind="function"><name>getCurrentPageNumber</name></member>
+    <member refid="interface_pxe_player_page_manager_1a052fc55b8da41bde1a68cdd70be2fac9" kind="function"><name>getTotalPagesCount</name></member>
+    <member refid="interface_pxe_player_page_manager_1ae71c769ffff71a00e03d28ad618232f7" kind="function"><name>getCurrentPageIndex</name></member>
+    <member refid="interface_pxe_player_page_manager_1a5de236ad53cb1a1f0317b37b574ca80c" kind="function"><name>getVirtualCurrentPageIndex</name></member>
+    <member refid="interface_pxe_player_page_manager_1ac95267a16f83a65107f5994a1cfb36ef" kind="function"><name>getCurrentPageId</name></member>
+    <member refid="interface_pxe_player_page_manager_1a557a12a6602edf9850a6d8732509bbfe" kind="function"><name>popHistory</name></member>
+  </compound>
+  <compound refid="category_pxe_player_page_manager_07_08" kind="category"><name>PxePlayerPageManager()</name>
+    <member refid="category_pxe_player_page_manager_07_08_1a6593a02ae5353431f23a8fd7c74dd256" kind="property"><name>isPlaylist</name></member>
+    <member refid="category_pxe_player_page_manager_07_08_1adb201d14e3ca4f38e9ec2065f952c288" kind="property"><name>totalPages</name></member>
+    <member refid="category_pxe_player_page_manager_07_08_1a05c4bdb4a35995cd2323311a4ddd5990" kind="property"><name>currentPage</name></member>
+    <member refid="category_pxe_player_page_manager_07_08_1accf769375dab7b61ec6e72229026cb9b" kind="property"><name>virtualCurrentPage</name></member>
+    <member refid="category_pxe_player_page_manager_07_08_1a30a7e06d49dbb6083d1680e33cbe9935" kind="property"><name>tocUrl</name></member>
+    <member refid="category_pxe_player_page_manager_07_08_1a67cd80bd4518f3d9f2a13575878543f6" kind="property"><name>histories</name></member>
+    <member refid="category_pxe_player_page_manager_07_08_1ada0666ce9183a61c6523ccd9eaf56382" kind="property"><name>customPlaylist</name></member>
+    <member refid="category_pxe_player_page_manager_07_08_1a736f70880c4e6ba6af0bb9a793096333" kind="property"><name>pageOperations</name></member>
+  </compound>
+  <compound refid="protocol_pxe_player_page_manager_delegate-p" kind="protocol"><name>PxePlayerPageManagerDelegate-p</name>
+    <member refid="protocol_pxe_player_page_manager_delegate-p_1ab19330eab5624f423791da6812efc0ab" kind="function"><name>pagesAdded:</name></member>
+    <member refid="protocol_pxe_player_page_manager_delegate-p_1aeb75c84d29e81b0a3ac17767dba10966" kind="function"><name>pageDownloaded:</name></member>
+    <member refid="protocol_pxe_player_page_manager_delegate-p_1a005cdc99a2922d6e600f445d467a0862" kind="function"><name>pageDownloadFailed:</name></member>
+    <member refid="protocol_pxe_player_page_manager_delegate-p_1a965d42f03bfb8c212f52f871eda34ddd" kind="function"><name>contentsDownloadSuccess</name></member>
+    <member refid="protocol_pxe_player_page_manager_delegate-p_1a9d9667b05a3d1cccd431612772ff0ec4" kind="function"><name>contentsDownloadFailed:</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_pages_web_view" kind="class"><name>PxePlayerPagesWebView</name>
+    <member refid="interface_pxe_player_pages_web_view_1a2432d7db13054d3dc7e3d20ab833d3ae" kind="function"><name>initWithFrame:withScalePageToFit:</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_page_view_controller" kind="class"><name>PxePlayerPageViewController</name>
+    <member refid="interface_pxe_player_page_view_controller_1a2aa145c2a06f8708869f4a3d7e7aad1d" kind="property"><name>delegate</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a15e65a86dea35012359faacb38a052f8" kind="function"><name>initWithURL:andCustomPlaylistURLs:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a150d11a91f41f65c2ffd52da4fa2f9a5" kind="function"><name>initWithURL:andCustomPlaylistURLs:withOptions:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a38fb0bb294f187bb8dc81dbe21dacc0a" kind="function"><name>initWithURL:andCustomPlaylistURLs:andGotoPage:withOptions:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a40badd98cae44b3d03c20ec165fd773f" kind="function"><name>scrollPageToDirection:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a31022922e291d882cc1bcf6d72f267fe" kind="function"><name>gotoPageWithContentID:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a0e1cda32a90e77d3383f53329100e22f" kind="function"><name>gotoPageWithPageURL:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1aa2cb3d55fb9db0d8f1e7b76b071016d0" kind="function"><name>gotoPageWithPageURL:andHighlightLabels:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1ad0f33745ff3ff26d40bd8f0e62058ace" kind="function"><name>gotoPageWithPageId:withURL:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1ad94e55ba622c0c1f455f3eb025ab3d90" kind="function"><name>jumpToPage:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a8b9ce2b2307483d7c2b485afa0621a15" kind="function"><name>switchViewMode:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a8bff4c9f6e912f14863b8fa9f7566910" kind="function"><name>popHistory</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a74be84589bce81321372227d27cea5b9" kind="function"><name>hasPrevious</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1ab7e8d7fae4dcf5f87529e4468e5ad287" kind="function"><name>hasNext</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a98135b6e1b2dd17973b2db1ee47cb186" kind="function"><name>getCurrentPageNumber</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1ae7cfbbed2cb483ece5385144dd4aa6a1" kind="function"><name>getTotalPagesCount</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1ab17a437ea8b74377c0183d0b358402dc" kind="function"><name>getCurrentPageURL</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a1d44823b8e79857f80749ebf251d9198" kind="function"><name>setBookPageFontSize:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a382176f9c765a985289f223da4203a30" kind="function"><name>setBookPageTheme:</name></member>
+    <member refid="interface_pxe_player_page_view_controller_1a455fa7a207f1302e1c3ffb12ebb537dc" kind="function"><name>setAnnotationLabel:</name></member>
+  </compound>
+  <compound refid="category_pxe_player_page_view_controller_07_08" kind="category"><name>PxePlayerPageViewController()</name>
+    <member refid="category_pxe_player_page_view_controller_07_08_1af365be45f0c1dee605f424d149e23bbe" kind="property"><name>isPageAnimating</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1aee05105a7a1e6407c1e86b6ed04ae2a9" kind="property"><name>shouldAllowPageSwipe</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1ae3b736e136429f4b8cc93b93fa680703" kind="property"><name>startPage</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1afb00dbfd0c479fe097a1fd1357826fd8" kind="property"><name>pagesContainer</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1a7a2a974b2f99a60d2557c304281e6226" kind="property"><name>pageViewController</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1a5d1f551e72ef07acb9057d1c68d4e4a3" kind="property"><name>transitionStyle</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1a2d0cd55db172a5b8d943ab0ad47d555d" kind="property"><name>scalePage</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1aff618947eec45f461b189b6971198a5d" kind="property"><name>pageManager</name></member>
+    <member refid="category_pxe_player_page_view_controller_07_08_1a52b8cccbb0b8acb9ae499f77281c65fd" kind="property"><name>loadingView</name></member>
+  </compound>
+  <compound refid="protocol_pxe_player_page_view_delegate-p" kind="protocol"><name>PxePlayerPageViewDelegate-p</name>
+    <member refid="protocol_pxe_player_page_view_delegate-p_1aeaaaa9ea06735b83f38baf406f7772e4" kind="function"><name>updatePageViewUI:orLastPage:andPageNumber:</name></member>
+  </compound>
+  <compound refid="interface_pxe_player_u_i_util" kind="class"><name>PxePlayerUIUtil</name>
+    <member refid="interface_pxe_player_u_i_util_1af97dd508a062ea331f21cee822c18ac1" kind="function"><name>createLabelWithTitle:frame:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1aeb918f401925afac57dc304b3293fb9a" kind="function"><name>createLabelWithTitle:frame:alignment:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a23a5563a7da90892b24e091aca290393" kind="function"><name>createLabelWithTitle:frame:alignment:withFont:backGroundColor:textColor:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1ad917830f6ccb35dd5c109f1697a0fc2b" kind="function"><name>createBarButtonItemFixedSpaceWithTarget:action:width:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a6ba382d8495af6d997eb7da8a57bfee0" kind="function"><name>createButtonWithBackgroundImage:andText:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a54829e9c57be3d689bcb8da8f52ba9d3" kind="function"><name>createButtonWithImage:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1afedfe9c0eff74632f51318cfea86840c" kind="function"><name>createButtonWithFrame:type:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a385726137b2739f0a1e437b4cacf275b" kind="function"><name>createButtonWithFrame:title:type:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a729f6ec35dbdca08068b30fe32d5dc6e" kind="function"><name>createTextFieldWithFrame:text:placeHolder:borderStyle:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a143f1a5e07d96431e447647b287dc454" kind="function"><name>createTextFieldWithFrame:text:placeHolder:borderStyle:secure:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a86fcafd38ae7f5614668732298ceeaf9" kind="function"><name>createTextFieldWithFrame:text:placeHolder:borderStyle:autoCorrection:autoCapitalization:secure:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a64f43190f41d0231b4c02793599997f6" kind="function"><name>createImageViewWithFileName:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a54a2cf2dea981e5a5f6b7a8a5553e66a" kind="function"><name>createImageViewWithFileName:frame:contentMode:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1a8850dea22f4068a87db5f114adf2dda9" kind="function"><name>createImageViewWithImage:frame:backgroundColor:contentMode:</name></member>
+    <member refid="interface_pxe_player_u_i_util_1aa137ea48d4c71652c77b66712c35e227" kind="function"><name>getLine:withColor:</name></member>
+  </compound>
+  <compound refid="category_u_i_navigation_controller_07_orientation_08" kind="category"><name>UINavigationController(Orientation)</name>
+  </compound>
+  <compound refid="_h_m_cache_8h" kind="file"><name>HMCache.h</name>
+  </compound>
+  <compound refid="_h_m_cache_8m" kind="file"><name>HMCache.m</name>
+    <member refid="_h_m_cache_8m_1ae26a7846021c56ab178f79ad14e64d13" kind="variable"><name>cacheTime</name></member>
+  </compound>
+  <compound refid="_n_s_string_09_extension_8h" kind="file"><name>NSString+Extension.h</name>
+  </compound>
+  <compound refid="_n_s_string_09_extension_8m" kind="file"><name>NSString+Extension.m</name>
+  </compound>
+  <compound refid="_pxe_player_8h" kind="file"><name>PxePlayer.h</name>
+    <member refid="_pxe_player_8h_1a70960ec9360beb35d03b0882dcb6c0f5" kind="function"><name>sharedInstance</name></member>
+    <member refid="_pxe_player_8h_1af9edbb5c26d471e8ebc56855fe567268" kind="function"><name>purgeCachedData</name></member>
+    <member refid="_pxe_player_8h_1a80d21cd47308801f14dba8bc6f88354e" kind="function"><name>getContextID</name></member>
+    <member refid="_pxe_player_8h_1a1c13397812fd40966059bda2560b70b4" kind="function"><name>getIdentityID</name></member>
+    <member refid="_pxe_player_8h_1ab4a894a00a98a191f331a3e193769965" kind="function"><name>getNCXURL</name></member>
+    <member refid="_pxe_player_8h_1a12ec013be2583937dec2f4bd91134320" kind="function"><name>getLearningContext</name></member>
+    <member refid="_pxe_player_8h_1a0a38d278539d2b6d1344ba958b16464f" kind="function"><name>setSearchIndexId:</name></member>
+    <member refid="_pxe_player_8h_1a2a59e2144714c28f08c22e61345e51c7" kind="function"><name>getPageFontSize</name></member>
+    <member refid="_pxe_player_8h_1afe2e1ea90e26019c53d1bf386c7b7db1" kind="function"><name>setPageFontSize:</name></member>
+    <member refid="_pxe_player_8h_1a324144dbc3af9481da99515ebbdd7e89" kind="function"><name>getPageTheme</name></member>
+    <member refid="_pxe_player_8h_1aa75847778c328284d692facacffcfa12" kind="function"><name>setPageTheme:</name></member>
+    <member refid="_pxe_player_8h_1a9fe0347c608539fa1c20943b5b954b75" kind="function"><name>updateDataInterface:finished:</name></member>
+    <member refid="_pxe_player_8h_1a5c9664e564af6a144fbb732e34e44585" kind="function"><name>renderWithOptions:</name></member>
+    <member refid="_pxe_player_8h_1acb8297d61836c11b3322308b1e2ab5df" kind="function"><name>renderPage:withOptions:</name></member>
+    <member refid="_pxe_player_8h_1a2666925f87e541887d6da93d76aa0b51" kind="function"><name>renderCustomPlaylist:withOptions:</name></member>
+    <member refid="_pxe_player_8h_1ab27dfcd47db5427f4e29090478f997a3" kind="function"><name>renderCustomPlaylist:andJumpToPage:withOptions:</name></member>
+    <member refid="_pxe_player_8h_1a505b684b0eaa398bfbb1395d0d21664d" kind="function"><name>getGlossaryWithCompletionHandler:</name></member>
+    <member refid="_pxe_player_8h_1a0a092fc30aca93fe8d92d8fdd620d027" kind="function"><name>getTotalPageEntry</name></member>
+    <member refid="_pxe_player_8h_1ae560879b7b82c0b923751c9b48567dce" kind="function"><name>getPageDetails:withValue:</name></member>
+    <member refid="_pxe_player_8h_1af0456b08497a82ee1b8b7884a2b82c7f" kind="function"><name>getTocTree:</name></member>
+  </compound>
+  <compound refid="_pxe_player_8m" kind="file"><name>PxePlayer.m</name>
+  </compound>
+  <compound refid="_pxe_player_alert_view_8h" kind="file"><name>PxePlayerAlertView.h</name>
+  </compound>
+  <compound refid="_pxe_player_alert_view_8m" kind="file"><name>PxePlayerAlertView.m</name>
+  </compound>
+  <compound refid="_pxe_player_book_details_8h" kind="file"><name>PxePlayerBookDetails.h</name>
+  </compound>
+  <compound refid="_pxe_player_book_details_8m" kind="file"><name>PxePlayerBookDetails.m</name>
+  </compound>
+  <compound refid="_pxe_player_data_interface_8h" kind="file"><name>PxePlayerDataInterface.h</name>
+  </compound>
+  <compound refid="_pxe_player_data_interface_8m" kind="file"><name>PxePlayerDataInterface.m</name>
+  </compound>
+  <compound refid="_pxe_player_data_manager_8h" kind="file"><name>PxePlayerDataManager.h</name>
+  </compound>
+  <compound refid="_pxe_player_data_manager_8m" kind="file"><name>PxePlayerDataManager.m</name>
+    <member refid="_pxe_player_data_manager_8m_1a65851a574610384769ab9350ee89a4a6" kind="define"><name>kDataModelName</name></member>
+    <member refid="_pxe_player_data_manager_8m_1afba7a3cf72c57ebd55162775398b0ca7" kind="define"><name>kDataSqliteName</name></member>
+  </compound>
+  <compound refid="_pxe_player_light_box_view_controller_8h" kind="file"><name>PxePlayerLightBoxViewController.h</name>
+  </compound>
+  <compound refid="_pxe_player_light_box_view_controller_8m" kind="file"><name>PxePlayerLightBoxViewController.m</name>
+    <member refid="_pxe_player_light_box_view_controller_8m_1a8b35c31a875dce9467976e987473f338" kind="define"><name>MEDIA_TYPE</name></member>
+    <member refid="_pxe_player_light_box_view_controller_8m_1a80cbb428871c2f9a6eddb49b205fef16" kind="define"><name>MEDIA_TYPE_IMAGE</name></member>
+    <member refid="_pxe_player_light_box_view_controller_8m_1a3995cc67918d52e77d55b28d469eee15" kind="define"><name>MEDIA_URL_PATH</name></member>
+    <member refid="_pxe_player_light_box_view_controller_8m_1aedafbf17bb4aeb39c35e2ec4a9bbb2c9" kind="define"><name>MEDIA_TITLE</name></member>
+    <member refid="_pxe_player_light_box_view_controller_8m_1a0909fbb91bacb1e60334c1f77a245cdf" kind="define"><name>MEDIA_CAPTION</name></member>
+  </compound>
+  <compound refid="_pxe_player_list_page_8h" kind="file"><name>PxePlayerListPage.h</name>
+  </compound>
+  <compound refid="_pxe_player_list_page_8m" kind="file"><name>PxePlayerListPage.m</name>
+  </compound>
+  <compound refid="_pxe_player_loading_view_8h" kind="file"><name>PxePlayerLoadingView.h</name>
+  </compound>
+  <compound refid="_pxe_player_loading_view_8m" kind="file"><name>PxePlayerLoadingView.m</name>
+    <member refid="_pxe_player_loading_view_8m_1a7934878bc85a9b631f271a9219127325" kind="function"><name>NewPathWithRoundRect</name></member>
+  </compound>
+  <compound refid="_pxe_player_page_content_view_controller_8h" kind="file"><name>PxePlayerPageContentViewController.h</name>
+  </compound>
+  <compound refid="_pxe_player_page_content_view_controller_8m" kind="file"><name>PxePlayerPageContentViewController.m</name>
+    <member refid="_pxe_player_page_content_view_controller_8m_1abd5c8ab57c190a6522ccdbf0ed7577da" kind="define"><name>DISABLED</name></member>
+    <member refid="_pxe_player_page_content_view_controller_8m_1ae4f07d825461436e02843325c7b6ed8d" kind="define"><name>LINK_DEFAULT</name></member>
+    <member refid="_pxe_player_page_content_view_controller_8m_1a3e04b2b5d8fad15e9a642cc22d60f347" kind="define"><name>LINK_SEPIA</name></member>
+    <member refid="_pxe_player_page_content_view_controller_8m_1a1328728c1a9ca1fae01eb59db4985986" kind="define"><name>LINK_NIGHT</name></member>
+    <member refid="_pxe_player_page_content_view_controller_8m_1aa5ff02efa13c3bc572cb5bf288befd98" kind="define"><name>LINK_DEFAULT_DISABLED</name></member>
+    <member refid="_pxe_player_page_content_view_controller_8m_1a0aef83cd9439768b0613cd4042e7654a" kind="define"><name>LINK_SEPIA_DISABLED</name></member>
+    <member refid="_pxe_player_page_content_view_controller_8m_1a4570b6e710a09a48f6f5c622ed32b746" kind="define"><name>LINK_NIGHT_DISABLED</name></member>
+  </compound>
+  <compound refid="_pxe_player_page_details_8h" kind="file"><name>PxePlayerPageDetails.h</name>
+  </compound>
+  <compound refid="_pxe_player_page_details_8m" kind="file"><name>PxePlayerPageDetails.m</name>
+  </compound>
+  <compound refid="_pxe_player_page_manager_8h" kind="file"><name>PxePlayerPageManager.h</name>
+  </compound>
+  <compound refid="_pxe_player_page_manager_8m" kind="file"><name>PxePlayerPageManager.m</name>
+    <member refid="_pxe_player_page_manager_8m_1aff6e58c053aac3f19793f9e3c8082862" kind="define"><name>INITIAL_DOWNLOAD_COUNT</name></member>
+    <member refid="_pxe_player_page_manager_8m_1a6c8ca3c5a462c3e1937fd1a1e7b30b96" kind="define"><name>PAGE_DOWNLOAD_LENGTH</name></member>
+    <member refid="_pxe_player_page_manager_8m_1ad77c21d0edd7ba072798eda8d149c13f" kind="define"><name>MAX_HISTORY_COUNT</name></member>
+    <member refid="_pxe_player_page_manager_8m_1a03f2d54957f77b96ba4f7e54dd783dcd" kind="define"><name>NCX_NAVMAP</name></member>
+    <member refid="_pxe_player_page_manager_8m_1af857dadf3a3bea85bd103e680000c410" kind="define"><name>NCX_NAVPOINT</name></member>
+    <member refid="_pxe_player_page_manager_8m_1af063dca085ff822ee2948a17bdcdd0f9" kind="define"><name>NCX_ID</name></member>
+    <member refid="_pxe_player_page_manager_8m_1acb7aff89969e8246f074e9602dd02b3c" kind="define"><name>NCX_NAV_LABEL</name></member>
+    <member refid="_pxe_player_page_manager_8m_1a1a582e92e105b29cdf154ee8ed4bf4da" kind="define"><name>NCX_NAV_TEXT</name></member>
+    <member refid="_pxe_player_page_manager_8m_1a6a78f7aba0362b380611c708af770f8b" kind="define"><name>NCX_NAV_TITLE</name></member>
+    <member refid="_pxe_player_page_manager_8m_1a7361badcaf1d419e06e453182b62dd38" kind="define"><name>NCX_PLAYORDER</name></member>
+    <member refid="_pxe_player_page_manager_8m_1a378ca30c6b19c67d7013d32a69870cf6" kind="define"><name>NCX_TEXT</name></member>
+    <member refid="_pxe_player_page_manager_8m_1aa0c3ee14111b2ce035c1f8cd3dea6b5f" kind="define"><name>NCX_CONTENT</name></member>
+    <member refid="_pxe_player_page_manager_8m_1a67a82ad4196f8d4cfe98a239e58e8c6f" kind="define"><name>NCX_SRC</name></member>
+  </compound>
+  <compound refid="_pxe_player_pages_web_view_8h" kind="file"><name>PxePlayerPagesWebView.h</name>
+  </compound>
+  <compound refid="_pxe_player_pages_web_view_8m" kind="file"><name>PxePlayerPagesWebView.m</name>
+  </compound>
+  <compound refid="_pxe_player_page_view_controller_8h" kind="file"><name>PxePlayerPageViewController.h</name>
+  </compound>
+  <compound refid="_pxe_player_page_view_controller_8m" kind="file"><name>PxePlayerPageViewController.m</name>
+    <member refid="_pxe_player_page_view_controller_8m_1a58fc61e2ef431f37961e7699c5d49dd9" kind="enum"><name>ALERT_TAGS</name></member>
+    <member refid="_pxe_player_page_view_controller_8m_1a58fc61e2ef431f37961e7699c5d49dd9ad978f7019593009f17311fe511e4d49c" kind="enumvalue"><name>ADD_BOOKMARK_TAG</name></member>
+    <member refid="_pxe_player_page_view_controller_8m_1a58fc61e2ef431f37961e7699c5d49dd9a573636addad489a140411024c3a7c52e" kind="enumvalue"><name>EDIT_BOOKMARK_TAG</name></member>
+    <member refid="_pxe_player_page_view_controller_8m_1a58fc61e2ef431f37961e7699c5d49dd9a44bb2ec0635d4b7e39ec95be70b46ec6" kind="enumvalue"><name>DELETE_BOOKMARK_TAG</name></member>
+    <member refid="_pxe_player_page_view_controller_8m_1a58fc61e2ef431f37961e7699c5d49dd9ae20c1cbbc800cf141eab82603add822e" kind="enumvalue"><name>BOOKMARK_NO_TITLE_TAG</name></member>
+    <member refid="_pxe_player_page_view_controller_8m_1a58fc61e2ef431f37961e7699c5d49dd9ac0bc5c16a3a6f07fc9fe9106f846ecc2" kind="enumvalue"><name>ERROR_TAG</name></member>
+  </compound>
+  <compound refid="_pxe_player_u_i_constants_8h" kind="file"><name>PxePlayerUIConstants.h</name>
+    <member refid="_pxe_player_u_i_constants_8h_1a130a6fa29b63c3319fcb494686a6f089" kind="define"><name>BUNDLE_FILE</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a151f1f5f3420eaba72066b9e9e2fe9c4" kind="define"><name>CD_DIR</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1aeee00123712d790fe00242a8f2f3f1ee" kind="define"><name>PXE_SEARCH_ID</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1af13099e77f6758495424497fc707d8eb" kind="define"><name>PXEPLAYER_BOOK_LOADED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1ae1252b709e7f1ad4a502a13f04fda997" kind="define"><name>PXEPLAYER_BOOK_FAILED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1ac941700701ac200a6bb637b3f8008308" kind="define"><name>PXEPLAYER_PAGE_LOADED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1aec2b872e62d39ec1293eecfa00386633" kind="define"><name>PXEPLAYER_PAGE_LOADING</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1aa814b3a6f67f3a779f1fe692add9e867" kind="define"><name>PXEPLAYER_PAGE_FAILED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1ab0b11c11e8fb73fb97f0fb3a95ddb2de" kind="define"><name>PXEPLAYER_PAGE_NOT_FOUND</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1aa53118b727a22c2d9e4f495c6b1f6fce" kind="define"><name>PXEPLAYER_BOOK_COMPLETED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a5ad12a1aed4f4fb53776037564c3fc16" kind="define"><name>PXEPLAYER_INTERNET_WEAK</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a1cd746e17545b89771d1173c868e1b62" kind="define"><name>PXEPLAYER_ANNOTATION_FAILED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a63405e1f0d80fe22cb54d5ceb39f9424" kind="define"><name>PXEPLAYER_ADD_ANNOTATION_EVENT</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a99069b02d55706994db51b4a059ca573" kind="define"><name>PXEPLAYER_UPDATE_ANNOTATION_EVENT</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1aecd1628dbd0640efa0f25e5e2b6fe506" kind="define"><name>PXEPLAYER_REMOVE_ANNOTATION_EVENT</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1ac47df00024505383ce6cdfbacddbe873" kind="define"><name>PXEPLAYER_SEARCH_INITIALIZED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a1c4b09f1636c4999cae7b361acc229cf" kind="define"><name>PXEPLAYER_SEARCH_INIT_FAILED</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a9d5fb6ab515e306e473d9e207d28d045" kind="define"><name>PXEPLAYER_LOADED_PAGE</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1abae175c2fd8c57abfd792a6cf2ee0dec" kind="define"><name>PXEPLAYER_FAILED_PAGE</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1af652d223ba14a696dcaba13d35dcc7d3" kind="define"><name>PXEPLAYER_IS_HISTORY</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a0a719c43738dbca6fd49ff288ed6a300" kind="define"><name>PXEPLAYER_CADGET_EVENT</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1ad230beaa090df8959c69d5410ab6a8ce" kind="define"><name>PXEPLAYER_ALLOW_PAGE_SWIPE</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a9268aaef58bfc3b07633c16928d9ac9e" kind="define"><name>PXEPLAYER_PAGE_TRANSITION_STYLE</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a1a09ad53fd2a76f19562d51c4de3ba4e" kind="define"><name>PXEPLAYER_SCALE_PAGE_TO_FIT</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a5486060efee90e1ae463c1f0b8a24c8b" kind="define"><name>PXEPLAYER_DEFAULT_FONTSIZE</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a03674ca862fefc1e956da65b69ed6200" kind="define"><name>DEFAULT_THEME</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1ae6ed76685d949a97b2483b6bda473b03" kind="define"><name>SEPIA_THEME</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a4e4ca451836bace64f95e938d7e83013" kind="define"><name>NIGHT_THEME</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1ad93a7a094355f620bdb98f7ab0a79a26" kind="define"><name>kDataBundleName</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a46725e7d2bac8a1b56f7174ceedf7e79" kind="define"><name>PXEPLAYER_DEFAULT_THEME</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a4462bb445fe523851d611caa4870fc55" kind="define"><name>TIME_TO_REMOVE_LOADING</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbe" kind="enum"><name>PXE_PLAYER_PAGE_SCALE</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbea822ffd2dc44f892cd363b3a12d343bf3" kind="enumvalue"><name>PXEPLAYER_SCALE_PAGE_TO_FIT_NO</name></member>
+    <member refid="_pxe_player_u_i_constants_8h_1a92d42dca9ac9dbf207df53072704dbbeaeddc08379bdab2ef9de027c18e1cb798" kind="enumvalue"><name>PXEPLAYER_SCALE_PAGE_TO_FIT_YES</name></member>
+  </compound>
+  <compound refid="_pxe_player_u_i_kit_8h" kind="file"><name>PxePlayerUIKit.h</name>
+  </compound>
+  <compound refid="_pxe_player_u_i_util_8h" kind="file"><name>PxePlayerUIUtil.h</name>
+  </compound>
+  <compound refid="_pxe_player_u_i_util_8m" kind="file"><name>PxePlayerUIUtil.m</name>
+    <member refid="_pxe_player_u_i_util_8m_1a5fb29d5e3888f0f8b682015cf83d1232" kind="define"><name>kDefaultFont</name></member>
+    <member refid="_pxe_player_u_i_util_8m_1af5ed9b00be278364deb681ab3744c8e8" kind="define"><name>kDefaultBgColor</name></member>
+    <member refid="_pxe_player_u_i_util_8m_1a6cec25d74ab1b41fe3f9752348020516" kind="define"><name>kDefaultTextColor</name></member>
+  </compound>
+</doxygenindex>

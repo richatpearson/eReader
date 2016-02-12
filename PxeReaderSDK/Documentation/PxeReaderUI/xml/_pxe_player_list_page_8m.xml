@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_list_page_8m" kind="file">
+    <compoundname>PxePlayerListPage.m</compoundname>
+    <includes refid="_pxe_player_list_page_8h" local="yes">PxePlayerListPage.h</includes>
+    <incdepgraph>
+      <node id="129">
+        <label>PxePlayerListPage.h</label>
+        <link refid="_pxe_player_list_page_8h"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>PxePlayerListPage.m</label>
+        <link refid="PxePlayerListPage.m"/>
+        <childnode refid="129" relation="include">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="130">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerListPage.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxeReader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>11/12/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_pxe_player_list_page_8h" kindref="compound">PxePlayerListPage.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_list_page" kindref="compound">PxePlayerListPage</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">@dynamic<sp/><ref refid="interface_pxe_player_list_page_1a71b187ae06b78a81b0039e24b97ec243" kindref="member">pageIndex</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">@dynamic<sp/><ref refid="interface_pxe_player_list_page_1a1cc9ccb5cb6469d229ec0d504ce70d21" kindref="member">pageURL</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">@dynamic<sp/><ref refid="interface_pxe_player_list_page_1a6ae590b4ac2d96af1bdc01b6ff1c5ce7" kindref="member">urlTag</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerListPage.m"/>
+  </compounddef>
+</doxygen>

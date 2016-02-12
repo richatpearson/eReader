@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_search_pages" kind="class" prot="public">
+    <compoundname>PxePlayerSearchPages</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_search_pages_8h" local="no">PxePlayerSearchPages.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_search_pages_1ada69e63edca53b5ecf862d1b0568453e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerSearchPages::totalPages</definition>
+        <argsstring></argsstring>
+        <name>totalPages</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSInteger variable to hold the total pages count per download </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_pages_1a780f08fec4487c31591628298e7f0bcd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerSearchPages::totalResults</definition>
+        <argsstring></argsstring>
+        <name>totalResults</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSInteger variable to hold the total results fetched </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_pages_1ab512213e84c5e0d03c73c7c86e74e903" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerSearchPages::searchedItems</definition>
+        <argsstring></argsstring>
+        <name>searchedItems</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSMutableArray variable to hold the string or model of searched items </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_search_pages_1a54907b85c2fa2e242a3032a7ff4b6bc5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSArray *</type>
+        <definition>NSArray* PxePlayerSearchPages::labels</definition>
+        <argsstring></argsstring>
+        <name>labels</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSArray variable to hold the highlights labels </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to handle the searched pages content </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="339">
+        <label>PxePlayerSearchPages</label>
+        <link refid="interface_pxe_player_search_pages"/>
+        <childnode refid="340" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="341">
+        <label>PxePlayerSearchPages</label>
+        <link refid="interface_pxe_player_search_pages"/>
+        <childnode refid="342" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_search_pages_1a54907b85c2fa2e242a3032a7ff4b6bc5" prot="public" virt="non-virtual"><scope>PxePlayerSearchPages</scope><name>labels</name></member>
+      <member refid="interface_pxe_player_search_pages_1ab512213e84c5e0d03c73c7c86e74e903" prot="public" virt="non-virtual"><scope>PxePlayerSearchPages</scope><name>searchedItems</name></member>
+      <member refid="interface_pxe_player_search_pages_1ada69e63edca53b5ecf862d1b0568453e" prot="public" virt="non-virtual"><scope>PxePlayerSearchPages</scope><name>totalPages</name></member>
+      <member refid="interface_pxe_player_search_pages_1a780f08fec4487c31591628298e7f0bcd" prot="public" virt="non-virtual"><scope>PxePlayerSearchPages</scope><name>totalResults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

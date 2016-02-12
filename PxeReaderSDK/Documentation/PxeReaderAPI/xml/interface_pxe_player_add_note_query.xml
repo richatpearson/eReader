@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_add_note_query" kind="class" prot="public">
+    <compoundname>PxePlayerAddNoteQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_notes_query" prot="public" virt="non-virtual">PxePlayerNotesQuery</basecompoundref>
+    <includes refid="_pxe_player_add_note_query_8h" local="no">PxePlayerAddNoteQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_add_note_query_1ae672dcec8caabe679146321fae6f7249" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* PxePlayerAddNoteQuery::roleTypeId</definition>
+        <argsstring></argsstring>
+        <name>roleTypeId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the role type id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_add_note_query_1a43eaa116777daa69de084d8b82c90022" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* PxePlayerAddNoteQuery::noteStartPos</definition>
+        <argsstring></argsstring>
+        <name>noteStartPos</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSNumber variable to hold the note start position </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" line="25" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_add_note_query_1adf1994bd1cad22ee5241e05f8ff1513d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* PxePlayerAddNoteQuery::noteEndPos</definition>
+        <argsstring></argsstring>
+        <name>noteEndPos</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSNumber variable to hold the note end position </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" line="30" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_add_note_query_1acbba394938104676d54315480c713611" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerAddNoteQuery::note</definition>
+        <argsstring></argsstring>
+        <name>note</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the note text </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" line="35" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class derived from the <ref refid="interface_pxe_player_notes_query" kindref="compound">PxePlayerNotesQuery</ref> to parse the add note query into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>PxePlayerNotesQuery</label>
+        <link refid="interface_pxe_player_notes_query"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>PxePlayerAddNoteQuery</label>
+        <link refid="interface_pxe_player_add_note_query"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>NSObject</label>
+      </node>
+      <node id="17">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>PxePlayerNotesQuery</label>
+        <link refid="interface_pxe_player_notes_query"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>PxePlayerAddNoteQuery</label>
+        <link refid="interface_pxe_player_add_note_query"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>NSObject</label>
+      </node>
+      <node id="22">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerAddNoteQuery.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_notes_query_1a66597b0335428b0dc9c3c1fef4ad3fee" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>contentId</name></member>
+      <member refid="interface_pxe_player_add_note_query_1acbba394938104676d54315480c713611" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>note</name></member>
+      <member refid="interface_pxe_player_add_note_query_1adf1994bd1cad22ee5241e05f8ff1513d" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>noteEndPos</name></member>
+      <member refid="interface_pxe_player_add_note_query_1a43eaa116777daa69de084d8b82c90022" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>noteStartPos</name></member>
+      <member refid="interface_pxe_player_notes_query_1a4e8cb70602c3cf22f44a258f925763f0" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>pageUUID</name></member>
+      <member refid="interface_pxe_player_add_note_query_1ae672dcec8caabe679146321fae6f7249" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>roleTypeId</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerAddNoteQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

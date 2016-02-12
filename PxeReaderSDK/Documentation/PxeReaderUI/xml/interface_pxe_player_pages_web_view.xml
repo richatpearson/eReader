@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_pages_web_view" kind="class" prot="public">
+    <compoundname>PxePlayerPagesWebView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIWebView</basecompoundref>
+    <includes refid="_pxe_player_pages_web_view_8h" local="no">PxePlayerPagesWebView.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_pages_web_view_1a2432d7db13054d3dc7e3d20ab833d3ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerPagesWebView::initWithFrame:withScalePageToFit:</definition>
+        <argsstring>(CGRect frame,[withScalePageToFit] BOOL scalePageToFit)</argsstring>
+        <name>initWithFrame:withScalePageToFit:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[withScalePageToFit]</attributes>
+          <type>BOOL</type>
+          <declname>scalePageToFit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method creates the UIWebView instance with custom frame and content auto fit option <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>CGRect</parametername>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the custom frame for web view </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>scalePageToFit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the boolean value to enable/disable auto fit in the UIWebView </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id, returns the UIWebView instance created with given properties </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPagesWebView.h" line="88" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPagesWebView.m" bodystart="18" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to render a page web view </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="91">
+        <label>UIWebView</label>
+      </node>
+      <node id="90">
+        <label>PxePlayerPagesWebView</label>
+        <link refid="interface_pxe_player_pages_web_view"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="93">
+        <label>UIWebView</label>
+      </node>
+      <node id="92">
+        <label>PxePlayerPagesWebView</label>
+        <link refid="interface_pxe_player_pages_web_view"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPagesWebView.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPagesWebView.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_pages_web_view_1a2432d7db13054d3dc7e3d20ab833d3ae" prot="public" virt="virtual"><scope>PxePlayerPagesWebView</scope><name>initWithFrame:withScalePageToFit:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

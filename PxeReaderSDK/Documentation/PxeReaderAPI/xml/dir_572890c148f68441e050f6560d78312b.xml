@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_572890c148f68441e050f6560d78312b" kind="dir">
+    <compoundname>parser</compoundname>
+    <innerfile refid="_pxe_player_base_parser_8h">PxePlayerBaseParser.h</innerfile>
+    <innerfile refid="_pxe_player_n_c_x_c_d_parser_8h">PxePlayerNCXCDParser.h</innerfile>
+    <innerfile refid="_pxe_player_n_c_x_c_d_parser_8m">PxePlayerNCXCDParser.m</innerfile>
+    <innerfile refid="_pxe_player_n_c_x_parser_8h">PxePlayerNCXParser.h</innerfile>
+    <innerfile refid="_pxe_player_n_c_x_parser_8m">PxePlayerNCXParser.m</innerfile>
+    <innerfile refid="_pxe_player_toc_parser_8h">PxePlayerTocParser.h</innerfile>
+    <innerfile refid="_pxe_player_toc_parser_8m">PxePlayerTocParser.m</innerfile>
+    <innerfile refid="_pxe_player_u_r_l_array_parser_8h">PxePlayerURLArrayParser.h</innerfile>
+    <innerfile refid="_pxe_player_u_r_l_array_parser_8m">PxePlayerURLArrayParser.m</innerfile>
+    <innerfile refid="_pxe_player_x_h_t_m_l_c_d_parser_8h">PxePlayerXHTMLCDParser.h</innerfile>
+    <innerfile refid="_pxe_player_x_h_t_m_l_c_d_parser_8m">PxePlayerXHTMLCDParser.m</innerfile>
+    <innerfile refid="_pxe_player_x_m_l_parser_8h">PxePlayerXMLParser.h</innerfile>
+    <innerfile refid="_pxe_player_x_m_l_parser_8m">PxePlayerXMLParser.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/"/>
+  </compounddef>
+</doxygen>

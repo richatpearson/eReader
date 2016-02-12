@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_search_pages_8h" kind="file">
+    <compoundname>PxePlayerSearchPages.h</compoundname>
+    <includedby refid="_pxe_player_interface_8m" local="yes">PxePlayerInterface.m</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_parser_8m" local="yes">PxePlayerParser.m</includedby>
+    <includedby refid="_pxe_player_search_pages_8m" local="yes">PxePlayerSearchPages.m</includedby>
+    <invincdepgraph>
+      <node id="768">
+        <label>PxePlayerInterface.m</label>
+        <link refid="_pxe_player_interface_8m"/>
+      </node>
+      <node id="770">
+        <label>PxePlayerParser.m</label>
+        <link refid="_pxe_player_parser_8m"/>
+      </node>
+      <node id="767">
+        <label>PxePlayerSearchPages.h</label>
+        <link refid="PxePlayerSearchPages.h"/>
+        <childnode refid="768" relation="include">
+        </childnode>
+        <childnode refid="769" relation="include">
+        </childnode>
+        <childnode refid="770" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="771">
+        <label>PxePlayerSearchPages.m</label>
+        <link refid="_pxe_player_search_pages_8m"/>
+      </node>
+      <node id="769">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_search_pages" prot="public">PxePlayerSearchPages</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerSearchPages.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PxePlayerApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>11/09/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="interface_pxe_player_search_pages" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_search_pages" kindref="compound">PxePlayerSearchPages</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="interface_pxe_player_search_pages_1ada69e63edca53b5ecf862d1b0568453e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>NSInteger<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_search_pages_1ada69e63edca53b5ecf862d1b0568453e" kindref="member">totalPages</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="interface_pxe_player_search_pages_1a780f08fec4487c31591628298e7f0bcd" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>NSInteger<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_pxe_player_search_pages_1a780f08fec4487c31591628298e7f0bcd" kindref="member">totalResults</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="interface_pxe_player_search_pages_1ab512213e84c5e0d03c73c7c86e74e903" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSMutableArray<sp/><sp/><sp/><sp/>*<ref refid="interface_pxe_player_search_pages_1ab512213e84c5e0d03c73c7c86e74e903" kindref="member">searchedItems</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="interface_pxe_player_search_pages_1a54907b85c2fa2e242a3032a7ff4b6bc5" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSArray<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="interface_pxe_player_search_pages_1a54907b85c2fa2e242a3032a7ff4b6bc5" kindref="member">labels</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerSearchPages.h"/>
+  </compounddef>
+</doxygen>

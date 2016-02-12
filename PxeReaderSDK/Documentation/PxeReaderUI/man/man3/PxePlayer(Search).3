@@ -1,0 +1,81 @@
+.TH "PxePlayer(Search)" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayer(Search) \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayer\&.h>\fP
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBsubmitNCXUrlForIndexing:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsubmitUrlsForIndexing:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBsearchContent:from:withSize:withCompletionHandler:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 329 of file PxePlayer\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) searchContent: (NSString*)searchTerm(NSInteger)resultStartOffset(NSInteger)numberOfResults(PxePlayerSearchPages*, NSError*)handler"
+searchContent:withMaxResults:andPageNumber:withCompletionHandler
+.PP
+Search any content inside the book\&.
+.PP
+This method search the content in the book and returns the results of pages reference which holds the search content\&.
+.PP
+\fBReturns:\fP
+.RS 4
+Returns the pages reference having search terms \&. 
+.RE
+.PP
+
+.PP
+Definition at line 344 of file PxePlayer\&.m\&.
+.SS "- (void) submitNCXUrlForIndexing: (NSString*)url(NSString*, NSError*)handler"
+Submit the NCX URL for CM indexing to intialize the search and media content preparation \&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,url\fP is a reference of NCX URL to be send to server for indexing and media content prepartion \&. 
+.br
+\fI(void\fP (^)(NSString*, NSError*))handler, is a block which receives the index id for given NCX URL 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+completionHandler:(void (^)(NSString*, NSError*))handler; 
+.RE
+.PP
+
+.PP
+Definition at line 323 of file PxePlayer\&.m\&.
+.SS "- (void) submitUrlsForIndexing: (NSArray*)urls(NSString*, NSError*)handler"
+Get the current book table of contents specific branch of tree 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,rootId\fP is a reference to retreive a particular branch from the given root id 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSArray , returns the particular branch of table of contents title from the tree 
+.RE
+.PP
+
+.PP
+Definition at line 334 of file PxePlayer\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

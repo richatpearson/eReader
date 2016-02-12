@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_book_shelf" kind="class" prot="public">
+    <compoundname>PxePlayerBookShelf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_book_shelf_8h" local="no">PxePlayerBookShelf.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_book_shelf_1acda2f34c3ec62d2da9a6e0d388fb8db6" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerBookShelf::books</definition>
+        <argsstring></argsstring>
+        <name>books</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSMutableArray variable to hold the list of book model </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookShelf.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookShelf.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the book shelf data into the model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="96">
+        <label>PxePlayerBookShelf</label>
+        <link refid="interface_pxe_player_book_shelf"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="98">
+        <label>PxePlayerBookShelf</label>
+        <link refid="interface_pxe_player_book_shelf"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookShelf.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerBookShelf.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_book_shelf_1acda2f34c3ec62d2da9a6e0d388fb8db6" prot="public" virt="non-virtual"><scope>PxePlayerBookShelf</scope><name>books</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

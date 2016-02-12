@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_x_m_l_parser_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerXMLParser()</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSXMLParserDelegate&gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_x_m_l_parser_07_08_1a2ac17699086734e46e39a1bfd8b3f749" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* PxePlayerXMLParser()::collections</definition>
+        <argsstring></argsstring>
+        <name>collections</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" line="13" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_x_m_l_parser_07_08_1abf485c61ffa04ef93bc172c965b45553" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* PxePlayerXMLParser()::entity</definition>
+        <argsstring></argsstring>
+        <name>entity</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_x_m_l_parser_07_08_1a8b6c70906722a1b5a4cb50d148ef22d2" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableString *</type>
+        <definition>NSMutableString* PxePlayerXMLParser()::textInProgress</definition>
+        <argsstring></argsstring>
+        <name>textInProgress</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="412">
+        <label>&lt;NSXMLParserDelegate&gt;</label>
+      </node>
+      <node id="411">
+        <label>PxePlayerXMLParser()</label>
+        <link refid="category_pxe_player_x_m_l_parser_07_08"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="414">
+        <label>&lt;NSXMLParserDelegate&gt;</label>
+      </node>
+      <node id="413">
+        <label>PxePlayerXMLParser()</label>
+        <link refid="category_pxe_player_x_m_l_parser_07_08"/>
+        <childnode refid="414" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" line="11" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_x_m_l_parser_07_08_1a2ac17699086734e46e39a1bfd8b3f749" prot="public" virt="non-virtual"><scope>PxePlayerXMLParser()</scope><name>collections</name></member>
+      <member refid="category_pxe_player_x_m_l_parser_07_08_1abf485c61ffa04ef93bc172c965b45553" prot="public" virt="non-virtual"><scope>PxePlayerXMLParser()</scope><name>entity</name></member>
+      <member refid="category_pxe_player_x_m_l_parser_07_08_1a8b6c70906722a1b5a4cb50d148ef22d2" prot="public" virt="non-virtual"><scope>PxePlayerXMLParser()</scope><name>textInProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

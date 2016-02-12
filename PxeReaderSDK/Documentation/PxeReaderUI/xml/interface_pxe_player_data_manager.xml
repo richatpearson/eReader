@@ -1,0 +1,1213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_data_manager" kind="class" prot="public">
+    <compoundname>PxePlayerDataManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_data_manager_8h" local="no">PxePlayerDataManager.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_data_manager_1a09ec53de035d5a7a96604fa92eaab758" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerDataManager::contextId</definition>
+        <argsstring></argsstring>
+        <name>contextId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold context id of the book </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a61a323a6162afc1a8734d8a1f7cc89c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_pxe_player_data_manager" kindref="compound">PxePlayerDataManager</ref> *</type>
+        <definition>PxePlayerDataManager * PxePlayerDataManager::sharedInstance</definition>
+        <argsstring>()</argsstring>
+        <name>sharedInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A singleton instance of the data manager <simplesect kind="return"><para><ref refid="interface_pxe_player_data_manager" kindref="compound">PxePlayerDataManager</ref>, returns the static singleton instance of the <ref refid="interface_pxe_player_data_manager" kindref="compound">PxePlayerDataManager</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="53" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a0ad90b7df39403c27a446c39c4e4eb82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerDataManager::resetDataManager</definition>
+        <argsstring>()</argsstring>
+        <name>resetDataManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to reset the singleton instance, gloabal variables and data stored in the persistent store </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="63" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSManagedObjectContext *</type>
+        <definition>NSManagedObjectContext * PxePlayerDataManager::getObjectContext</definition>
+        <argsstring>()</argsstring>
+        <name>getObjectContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to get the current object context of the core data persistent store <simplesect kind="return"><para>NSManagedObjectContext, returns the current object context </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="166" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a6bace115219e1f02d80778c1c86e2288" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerDataManager::save</definition>
+        <argsstring>()</argsstring>
+        <name>save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to save or update the recoreds in the core data <simplesect kind="return"><para>BOOL, returns the boolean value for whether record saves successfully or not </para></simplesect>
+<simplesect kind="see"><para>[NSManagedObjectContex <ref refid="interface_pxe_player_data_manager_1a6bace115219e1f02d80778c1c86e2288" kindref="member">- save</ref>:] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="152" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * PxePlayerDataManager::fetchEntitiesForModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:</definition>
+        <argsstring>(NSString *model,[withSortKey] NSString *sortKey,[ascending] BOOL isAscending,[withPredicate] NSPredicate *predicate,[fetchLimit] NSUInteger limit,[resultType] NSUInteger resultType)</argsstring>
+        <name>fetchEntitiesForModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[ascending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <param>
+          <attributes>[withPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[fetchLimit]</attributes>
+          <type>NSUInteger</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <attributes>[resultType]</attributes>
+          <type>NSUInteger</type>
+          <declname>resultType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSPredicate</parametername>
+<parametername>predicate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an instance of NSPredicate with conditions to filters the records while fetching . </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an unsigned integer used for limitting the number of records should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>resultType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an enumerated value which decides the format of the records whether dictionary or model </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSArray , returns the array of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="187" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * PxePlayerDataManager::fetchEntities:forModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:groupBy:</definition>
+        <argsstring>(NSArray *property,[forModel] NSString *model,[withSortKey] NSString *sortKey,[ascending] BOOL isAscending,[withPredicate] NSPredicate *predicate,[fetchLimit] NSUInteger limit,[resultType] NSUInteger resultType,[groupBy] NSArray *groups)</argsstring>
+        <name>fetchEntities:forModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:groupBy:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[ascending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <param>
+          <attributes>[withPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[fetchLimit]</attributes>
+          <type>NSUInteger</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <attributes>[resultType]</attributes>
+          <type>NSUInteger</type>
+          <declname>resultType</declname>
+        </param>
+        <param>
+          <attributes>[groupBy]</attributes>
+          <type>NSArray *</type>
+          <declname>groups</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of properties should be fetched from the records </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSPredicate</parametername>
+<parametername>predicate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an instance of NSPredicate with conditions to filters the records while fetching . </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an unsigned integer used for limitting the number of records should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>resultType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an enumerated value which decides the format of the records whether dictionary or model </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of properties used for grouping the records </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSArray , returns the array of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="205" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a9580aae143e1e877a11cdf0ba1182657" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntities:forModel:withPredicate:resultType:withSortKey:andAscending:fetchLimit:andGroupBy:</definition>
+        <argsstring>(NSArray *properties,[forModel] NSString *model,[withPredicate] NSPredicate *predicate,[resultType] NSUInteger resultType,[withSortKey] NSString *sortKey,[andAscending] BOOL isAscending,[fetchLimit] NSUInteger limit,[andGroupBy] NSArray *groups)</argsstring>
+        <name>fetchEntities:forModel:withPredicate:resultType:withSortKey:andAscending:fetchLimit:andGroupBy:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>properties</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[resultType]</attributes>
+          <type>NSUInteger</type>
+          <declname>resultType</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[andAscending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <param>
+          <attributes>[fetchLimit]</attributes>
+          <type>NSUInteger</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <attributes>[andGroupBy]</attributes>
+          <type>NSArray *</type>
+          <declname>groups</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of properties should be fetched from the records </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSPredicate</parametername>
+<parametername>predicate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an instance of NSPredicate with conditions to filters the records while fetching . </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>resultType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an enumerated value which decides the format of the records whether dictionary or model </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an unsigned integer used for limitting the number of records should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of properties used for grouping the records </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSArray , returns the array of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntity:forModel:withValue:resultType:withSortKey:andAscending:</definition>
+        <argsstring>(NSString *property,[forModel] NSString *model,[withValue] NSString *value,[resultType] NSUInteger resultType,[withSortKey] NSString *sortKey,[andAscending] BOOL isAscending)</argsstring>
+        <name>fetchEntity:forModel:withValue:resultType:withSortKey:andAscending:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[resultType]</attributes>
+          <type>NSUInteger</type>
+          <declname>resultType</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[andAscending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a value of property field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>resultType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an enumerated value which decides the format of the records whether dictionary or model </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id , returns the array or dictionary of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="276" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntity:forModel:withValue:andKey:resultType:withSortKey:andAscending:</definition>
+        <argsstring>(NSString *property,[forModel] NSString *model,[withValue] NSString *value,[andKey] NSString *key,[resultType] NSUInteger resultType,[withSortKey] NSString *sortKey,[andAscending] BOOL isAscending)</argsstring>
+        <name>fetchEntity:forModel:withValue:andKey:resultType:withSortKey:andAscending:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[andKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[resultType]</attributes>
+          <type>NSUInteger</type>
+          <declname>resultType</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[andAscending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a value of property field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a name of property field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>resultType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an enumerated value which decides the format of the records whether dictionary or model </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id , returns the array or dictionary of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="238" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a330908b8093f34c3562a2b1a0d3ff230" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntity:forModel:withValue:andKey:withSortKey:andAscending:</definition>
+        <argsstring>(NSString *property,[forModel] NSString *model,[withValue] NSString *value,[andKey] NSString *key,[withSortKey] NSString *sortKey,[andAscending] BOOL isAscending)</argsstring>
+        <name>fetchEntity:forModel:withValue:andKey:withSortKey:andAscending:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[andKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[andAscending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a value of property field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a name of property field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id , returns the array or dictionary of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="287" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntity:forModel:withValue:withSortKey:andAscending:</definition>
+        <argsstring>(NSString *property,[forModel] NSString *model,[withValue] NSString *value,[withSortKey] NSString *sortKey,[andAscending] BOOL isAscending)</argsstring>
+        <name>fetchEntity:forModel:withValue:withSortKey:andAscending:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[andAscending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a value of property field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id , returns the array or dictionary of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="292" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a91a735b462c60d518709560e1e23ed6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntity:forModel:withPredicate:withSortKey:andAscending:</definition>
+        <argsstring>(NSArray *properties,[forModel] NSString *model,[withPredicate] NSPredicate *predicate,[withSortKey] NSString *sortKey,[andAscending] BOOL isAscending)</argsstring>
+        <name>fetchEntity:forModel:withPredicate:withSortKey:andAscending:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>properties</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[andAscending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of properties should be fetched from the records </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSPredicate</parametername>
+<parametername>predicate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an instance of NSPredicate with conditions to filters the records while fetching . </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSArray , returns the array of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="265" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a9cfaceea7070edda30cd674ae89ac479" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntity:forModel:withValue:</definition>
+        <argsstring>(NSString *property,[forModel] NSString *model,[withValue] NSString *value)</argsstring>
+        <name>fetchEntity:forModel:withValue:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a value of property field in the specific record </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id , returns the array or dictionary of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="297" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntityForCurrentBook:forModel:withValue:resultType:withSortKey:andAscending:</definition>
+        <argsstring>(NSString *property,[forModel] NSString *model,[withValue] NSString *value,[resultType] NSUInteger resultType,[withSortKey] NSString *sortKey,[andAscending] BOOL isAscending)</argsstring>
+        <name>fetchEntityForCurrentBook:forModel:withValue:resultType:withSortKey:andAscending:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[resultType]</attributes>
+          <type>NSUInteger</type>
+          <declname>resultType</declname>
+        </param>
+        <param>
+          <attributes>[withSortKey]</attributes>
+          <type>NSString *</type>
+          <declname>sortKey</declname>
+        </param>
+        <param>
+          <attributes>[andAscending]</attributes>
+          <type>BOOL</type>
+          <declname>isAscending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a value of property field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>sortKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for fetching records sorted by the given key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BOOL</parametername>
+<parametername>isAscending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a boolean value for sort records by ascend if true else sort by descend. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSUInteger</parametername>
+<parametername>resultType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is an enumerated value which decides the format of the records whether dictionary or model </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id , returns the array or dictionary of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="249" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a57e9fba86112c53f947c3966df1db23f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerDataManager::fetchEntityForCurrentBook:forModel:withValue:</definition>
+        <argsstring>(NSString *property,[forModel] NSString *model,[withValue] NSString *value)</argsstring>
+        <name>fetchEntityForCurrentBook:forModel:withValue:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <attributes>[forModel]</attributes>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[withValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch current book records from the core data persistent store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a value of property field in the specific record </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id , returns the array or dictionary of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="301" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a1489b7de9d4bca3c97b774da1b82aaf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * PxePlayerDataManager::fetchTocTree:</definition>
+        <argsstring>(NSString *rootId)</argsstring>
+        <name>fetchTocTree:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>rootId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This methd would be called for fetch table of contents of current book records from the data store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>rootId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a string used for fetching branch of records belongs to the root id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSArray , returns the array of records fetched from data store </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="372" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a777a3d39dc97a339ffd84be5c7cc2a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger PxePlayerDataManager::fetchMaxValue:property:</definition>
+        <argsstring>(NSString *model,[property] NSString *property)</argsstring>
+        <name>fetchMaxValue:property:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[property]</attributes>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to fetch the record which have the maximum value on specific property <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSUInteger , returns the maximum value of the given property from records </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="305" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_data_manager_1a47c6c2ec52346caf5a0d7fc8711703dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger PxePlayerDataManager::fetchCount:property:</definition>
+        <argsstring>(NSString *model,[property] NSString *property)</argsstring>
+        <name>fetchCount:property:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <attributes>[property]</attributes>
+          <type>NSString *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to fetch the total count of the records from data store <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a class name of type of record should be fetched </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a field in the specific record </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSUInteger , returns the total count of the given property from records </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="339" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple data manager class which handles core data operations of add, edit, delete and update data on the core data persistent storage. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>PxePlayerDataManager</label>
+        <link refid="interface_pxe_player_data_manager"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>PxePlayerDataManager</label>
+        <link refid="interface_pxe_player_data_manager"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" line="16" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_data_manager_1a09ec53de035d5a7a96604fa92eaab758" prot="public" virt="non-virtual"><scope>PxePlayerDataManager</scope><name>contextId</name></member>
+      <member refid="interface_pxe_player_data_manager_1a47c6c2ec52346caf5a0d7fc8711703dc" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchCount:property:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a9580aae143e1e877a11cdf0ba1182657" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntities:forModel:withPredicate:resultType:withSortKey:andAscending:fetchLimit:andGroupBy:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a0c8e256d49098492ce4321c3279d18cf" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntities:forModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:groupBy:</name></member>
+      <member refid="interface_pxe_player_data_manager_1ac1364c4e2092c8e8bac70f2d0414afd6" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntitiesForModel:withSortKey:ascending:withPredicate:fetchLimit:resultType:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a91a735b462c60d518709560e1e23ed6e" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntity:forModel:withPredicate:withSortKey:andAscending:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a9cfaceea7070edda30cd674ae89ac479" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntity:forModel:withValue:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a6496f883d62c062fcbb2c54f420edc17" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntity:forModel:withValue:andKey:resultType:withSortKey:andAscending:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a330908b8093f34c3562a2b1a0d3ff230" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntity:forModel:withValue:andKey:withSortKey:andAscending:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a942085f5dca3135ef85620cf3548fbf7" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntity:forModel:withValue:resultType:withSortKey:andAscending:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a1598d37ec5515df318bb6395fb55373d" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntity:forModel:withValue:withSortKey:andAscending:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a57e9fba86112c53f947c3966df1db23f" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntityForCurrentBook:forModel:withValue:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a287665eadcaa56862dbff0c8f4b80306" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchEntityForCurrentBook:forModel:withValue:resultType:withSortKey:andAscending:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a777a3d39dc97a339ffd84be5c7cc2a4e" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchMaxValue:property:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a1489b7de9d4bca3c97b774da1b82aaf2" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>fetchTocTree:</name></member>
+      <member refid="interface_pxe_player_data_manager_1a385a3455e034595d6e803affd5086beb" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>getObjectContext</name></member>
+      <member refid="interface_pxe_player_data_manager_1a0ad90b7df39403c27a446c39c4e4eb82" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>resetDataManager</name></member>
+      <member refid="interface_pxe_player_data_manager_1a6bace115219e1f02d80778c1c86e2288" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>save</name></member>
+      <member refid="interface_pxe_player_data_manager_1a61a323a6162afc1a8734d8a1f7cc89c6" prot="public" virt="virtual"><scope>PxePlayerDataManager</scope><name>sharedInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

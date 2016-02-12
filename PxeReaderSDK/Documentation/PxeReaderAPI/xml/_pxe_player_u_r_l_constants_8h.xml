@@ -1,0 +1,701 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_u_r_l_constants_8h" kind="file">
+    <compoundname>PxePlayerURLConstants.h</compoundname>
+    <includedby refid="_pxe_player_interface_8m" local="yes">PxePlayerInterface.m</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_rest_connector_8m" local="yes">PxePlayerRestConnector.m</includedby>
+    <invincdepgraph>
+      <node id="818">
+        <label>PxePlayerRestConnector.m</label>
+        <link refid="_pxe_player_rest_connector_8m"/>
+      </node>
+      <node id="816">
+        <label>PxePlayerInterface.m</label>
+        <link refid="_pxe_player_interface_8m"/>
+      </node>
+      <node id="815">
+        <label>PxePlayerURLConstants.h</label>
+        <link refid="PxePlayerURLConstants.h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="817" relation="include">
+        </childnode>
+        <childnode refid="818" relation="include">
+        </childnode>
+      </node>
+      <node id="817">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a5aa7163ec240de8e19cb380d8661a05e" prot="public" static="no">
+        <name>BASEURL_STRING</name>
+        <initializer>@&quot;PxePlayerBaseURL&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for base url string </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="30" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1acbb11c1e34784cf1e3147029f942bfd6" prot="public" static="no">
+        <name>BASE_URL</name>
+        <initializer>@&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for base url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="35" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a0c1310f844a5e83e402165bcf0a67abf" prot="public" static="no">
+        <name>BASE_TOC_URL</name>
+        <initializer>[[NSUserDefaults standardUserDefaults] valueForKey:BASEURL_STRING]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for base table of content url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="40" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ad0eb9a8cec9190703bf04448ee4938b8" prot="public" static="no">
+        <name>LOGIN_API</name>
+        <initializer>@&quot;nextext-api/api/account/login?withIdpResponse=true&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for login api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="45" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a851e92d079c48f1167b7516f637b84e8" prot="public" static="no">
+        <name>OLD_LOGIN_API</name>
+        <initializer>@&quot;nextext-api/api/nextext/users/%@/login&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for test login api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="50" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a3dfa1618f5e66205fccf4aff3f3b191c" prot="public" static="no">
+        <name>BOOK_SHELF_API</name>
+        <initializer>@&quot;nextext-api/api/nextext/users/%@/bookshelf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for bookshelf api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="55" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a488876c84e7520aa042ac7c454672f60" prot="public" static="no">
+        <name>BOOK_NAVIGATIONS_API</name>
+        <initializer>@&quot;nexttextweb/api/users/%@/books/%@/navigations&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book navigations api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="60" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1addc7f02b4532512cb62fadeeaf622dc9" prot="public" static="no">
+        <name>BOOK_TOC_API</name>
+        <initializer>@&quot;nexttextweb/api/books/%@/navigations/jsonArray?type=toc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book table of content api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="65" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a2326e2af2e10417420adfedf2f9b2b97" prot="public" static="no">
+        <name>BOOK_CUSTOM_NAVIGATION_API</name>
+        <initializer>@&quot;nexttextweb/api/books/%@/navigations/jsonArray?type=toc&amp;origin=origin&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for custom navigation api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="70" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a0670b37c1b5cd041bb81d2ec18899ea8" prot="public" static="no">
+        <name>BOOK_COVER_PAGE_API</name>
+        <initializer>@&quot;nexttextweb/api/books/%@/coverPage/json?userUuid=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book cover page api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="75" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ab959bf2a0898f1878b579e9481fbfc40" prot="public" static="no">
+        <name>BOOK_CHAPTERS_API</name>
+        <initializer>@&quot;nexttextweb/api/books/%@/chapters&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book chapters api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="80" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a5bd8f88fa5c49d8bee5f39d41700332e" prot="public" static="no">
+        <name>BOOK_PAGES_API</name>
+        <initializer>@&quot;nexttextweb/api/books/%@/chapters/%@/pages/%@/json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book pages api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="85" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ab32239562363c7b1fd7d058fec2b28e5" prot="public" static="no">
+        <name>BOOK_BOOKMARKS_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book bookmarks api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="90" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a676a26152aea7f8d07591a50ebaf8e6c" prot="public" static="no">
+        <name>BOOK_ADD_BOOKMARK_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for add bookmark api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="95" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a984c3a723504a377a06d3584b01dc96f" prot="public" static="no">
+        <name>BOOK_CHECK_BOOKMARK_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book check bookmark api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="100" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a87ccf32e5ddaacadf711d38cb0508f98" prot="public" static="no">
+        <name>BOOK_EDIT_BOOKMARK_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book edit bookmark api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="105" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a1485d162aae21dce68d977091734ddd9" prot="public" static="no">
+        <name>BOOK_DELETE_BOOKMARK_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book delete bookmark api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="110" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1aa304ab8797ec5494cee4a30d1ef44840" prot="public" static="no">
+        <name>BOOK_GET_ANNOTATIONS_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/annotations?withShared=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro book get annotations api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="115" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1aed428deb5654d359cd3da32dcd4216d9" prot="public" static="no">
+        <name>BOOK_GET_CONTENT_ANNOTATIONS_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/annotations?uri=%@&amp;withShared=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book get content annotations api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="120" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ad6854ed5624de5ad7eb04483a22e1f99" prot="public" static="no">
+        <name>BOOK_ADD_ANNOTATION_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/annotations&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for add annotations api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="125" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a5b6478b8116628f8b3126fa2ae41ef8f" prot="public" static="no">
+        <name>BOOK_UPDATE_ANNOTATION_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/annotations&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for update annotations api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="130" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a9e50433629dc60de7ce606d0f4b84b5a" prot="public" static="no">
+        <name>BOOK_DELETE_ANNOTATION_API</name>
+        <initializer>@&quot;%@services-api/api/context/%@/identities/%@/annotations?contentId=%@&amp;annotationDttm=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book delete annotation api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="135" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a5b9e43e55bea687390ce75f7afb602c6" prot="public" static="no">
+        <name>BOOK_ADD_NOTE_API</name>
+        <initializer>@&quot;%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book add note api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="140" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a4dab209f68392e5267483f5b6fc044ce" prot="public" static="no">
+        <name>BOOK_DELETE_NOTE_API</name>
+        <initializer>@&quot;%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes/%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for book delete api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="145" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a24d8b58a0f74ad6e2eb6d549342ba1f3" prot="public" static="no">
+        <name>REFRESH_AUTHTOKEN_API</name>
+        <initializer>@&quot;/users/identity/refresh&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for refresh auth token api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="150" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1acf8dd52b84d6d26762f9d9234d67ce51" prot="public" static="no">
+        <name>SEARCH_BOOK_CONTENT</name>
+        <initializer>@&quot;%@pxereader-cm/api/cm/search/?indexId=%@&amp;q=%@&amp;s=%d&amp;n=%d&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for search book content api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="155" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a6c77757e103908149058a780ba5f4092" prot="public" static="no">
+        <name>SEARCH_INIT</name>
+        <initializer>@&quot;%@pxereader-cm/api/cm/ingest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for initialise the search operation api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="160" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a548a47eaa92d6003cf30aed2bbc066e2" prot="public" static="no">
+        <name>MEDIA_TYPES</name>
+        <initializer>@&quot;nexttextweb/api/books/%@/media-types&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for retrieving media types api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="165" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a2846654ae749338b59c970c70275501f" prot="public" static="no">
+        <name>ALL_MEDIAS</name>
+        <initializer>@&quot;nexttextweb/api/books/%@/allMedias&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for retreiving all medias api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="170" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ab22f262f4f2aaeb6dafc02d71d12379a" prot="public" static="no">
+        <name>MEDIA</name>
+        <initializer>@&quot;%@pxereader-cm/api/cm/navigation?type=%@&amp;indexId=%@&amp;s=%d&amp;n=%d&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for retrieving media content api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="175" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ade3d06985cb629df34f6161f7d3969e7" prot="public" static="no">
+        <name>SMS_AUTHENTICATION</name>
+        <initializer>@&quot;http://login.cert.pearsoncmg.com/sso/SSOServlet2?cmd=login&amp;okurl=http://certapachelb-344900366.us-west-1.elb.amazonaws.com/nexttextweb/nexttextAuthenticationSuccessMobile.htm?values=scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&amp;errurl=http://certapachelb-344900366.us-west-1.elb.amazonaws.com/nexttextweb/nexttextIntegrationErrorMobile.htm?values=cause::loginfailure::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&amp;loginurl=http://certapachelb-344900366.us-west-1.elb.amazonaws.com/nexttextweb/nexttextIntegrationErrorMobile.htm?values=cause::login::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&amp;siteid=11444&amp;isCourseAware=N&amp;encPassword=N&amp;loginname=%@&amp;password=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for sms authentication api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="180" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a07c312f4ca8e1e286171ac12150bda46" prot="public" static="no">
+        <name>RUMBA_AUTHENTICATION</name>
+        <initializer>@&quot;https://sso.rumba.int.pearsoncmg.com/sso/loginService?service=http://nexttextint1-147866391.us-west-1.elb.amazonaws.com/nexttextweb/schoolHomeMobile.htm&amp;gateway=true&amp;username=%@&amp;password=%@&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for rumba authentication api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="185" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a286e21934bb2f0917ef37aee2766f618" prot="public" static="no">
+        <name>TOC_TEMP_URL</name>
+        <initializer>@&quot;http://eps.prsn.us/tutorial/api/file/982668d3-d3e7-43b1-8719-52d9445be872/content/planetepub/ChangingPlanet/OPS/toc.ncx&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for table of content test api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="190" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a662ebef031668a476e67d0adc78aaffa" prot="public" static="no">
+        <name>kErrMalFormedUrl</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code malformed url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="197" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a28084f3ce10fbe0fc7e1f67ddd084663" prot="public" static="no">
+        <name>kErrServerError</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code server error url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="202" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1aa5b9cb8f7e614157251a149d8c1ebcd3" prot="public" static="no">
+        <name>kErrWrongJSON</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code wrong JSON format </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="207" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a58644af0696586f391035c50f0249c74" prot="public" static="no">
+        <name>kErrWrongJSONPost</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code wrong JSON data composed to post </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="212" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1af611c819c875d29b10ff39f86f5e83f7" prot="public" static="no">
+        <name>kErrRequestDenial</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code server request denial </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="217" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ab6046ab6440682a0e2770b9f78f2a3a4" prot="public" static="no">
+        <name>kErrNetworkDown</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code network down </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="222" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1ab4128994b272103e74ab257bb07b2b6f" prot="public" static="no">
+        <name>kErrXMLFormatError</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code wrong XML format </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="227" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a5dc63819978ac740fef71fc4e666f5dd" prot="public" static="no">
+        <name>kErrAuthFailed</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code authentication failed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="232" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a6f8b58599d78eb5ff2ab561d7f978525" prot="public" static="no">
+        <name>kParseError</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for error code parse error occured </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="237" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1aaa567395088118b7a0aec48af9278fa1" prot="public" static="no">
+        <name>POST</name>
+        <initializer>@&quot;POST&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for method name POST </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="242" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a982a66f513611f7f83ebfa4b4ecf1df9" prot="public" static="no">
+        <name>GET</name>
+        <initializer>@&quot;GET&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for method name GET </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="247" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1a2fa975ab3c002cee7fc36722a3fa3ad5" prot="public" static="no">
+        <name>PUT</name>
+        <initializer>@&quot;PUT&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for method name PUT </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="252" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_pxe_player_u_r_l_constants_8h_1abbbe5949f3c1f72e439924f8cf503509" prot="public" static="no">
+        <name>DELETE</name>
+        <initializer>@&quot;DELETE&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for method name DELETE </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="257" column="9" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_pxe_player_u_r_l_constants_8h_1aa23be3ed695e5256b0624a7db7701754" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* webAPIURL</definition>
+        <argsstring></argsstring>
+        <name>webAPIURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An extern variable for web api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_pxe_player_u_r_l_constants_8h_1a8b87a160862d1423478ce6d5ada158e9" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* cmAPIURL</definition>
+        <argsstring></argsstring>
+        <name>cmAPIURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An extern variable for CM services api url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_pxe_player_u_r_l_constants_8h_1af516d93d072cbb23f55cc19781f1c9b0" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* pxeServicesURL</definition>
+        <argsstring></argsstring>
+        <name>pxeServicesURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An extern variable for pxe services url </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h" line="25" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerInterface.m" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>URLConstants.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Satyanarayana<sp/>on<sp/>28/06/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>NTApi_URLConstants_h</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NTApi_URLConstants_h</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="15"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<ref refid="_pxe_player_interface_8m_1aa23be3ed695e5256b0624a7db7701754" kindref="member">webAPIURL</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<ref refid="_pxe_player_interface_8m_1a8b87a160862d1423478ce6d5ada158e9" kindref="member">cmAPIURL</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<ref refid="_pxe_player_interface_8m_1af516d93d072cbb23f55cc19781f1c9b0" kindref="member">pxeServicesURL</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_pxe_player_u_r_l_constants_8h_1a5aa7163ec240de8e19cb380d8661a05e" refkind="member"><highlight class="preprocessor">#define<sp/>BASEURL_STRING<sp/>@&quot;PxePlayerBaseURL&quot;</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="35" refid="_pxe_player_u_r_l_constants_8h_1acbb11c1e34784cf1e3147029f942bfd6" refkind="member"><highlight class="preprocessor">#define<sp/>BASE_URL<sp/>@&quot;&quot;</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="40" refid="_pxe_player_u_r_l_constants_8h_1a0c1310f844a5e83e402165bcf0a67abf" refkind="member"><highlight class="preprocessor">#define<sp/>BASE_TOC_URL<sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>valueForKey:BASEURL_STRING]</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="45" refid="_pxe_player_u_r_l_constants_8h_1ad0eb9a8cec9190703bf04448ee4938b8" refkind="member"><highlight class="preprocessor">#define<sp/>LOGIN_API<sp/><sp/>@&quot;nextext-api/api/account/login?withIdpResponse=true&quot;</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="50" refid="_pxe_player_u_r_l_constants_8h_1a851e92d079c48f1167b7516f637b84e8" refkind="member"><highlight class="preprocessor">#define<sp/>OLD_LOGIN_API<sp/><sp/>@&quot;nextext-api/api/nextext/users/%@/login&quot;</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="55" refid="_pxe_player_u_r_l_constants_8h_1a3dfa1618f5e66205fccf4aff3f3b191c" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_SHELF_API<sp/>@&quot;nextext-api/api/nextext/users/%@/bookshelf&quot;</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="60" refid="_pxe_player_u_r_l_constants_8h_1a488876c84e7520aa042ac7c454672f60" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_NAVIGATIONS_API<sp/>@&quot;nexttextweb/api/users/%@/books/%@/navigations&quot;</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="65" refid="_pxe_player_u_r_l_constants_8h_1addc7f02b4532512cb62fadeeaf622dc9" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_TOC_API<sp/>@&quot;nexttextweb/api/books/%@/navigations/jsonArray?type=toc&quot;</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="70" refid="_pxe_player_u_r_l_constants_8h_1a2326e2af2e10417420adfedf2f9b2b97" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_CUSTOM_NAVIGATION_API<sp/>@&quot;nexttextweb/api/books/%@/navigations/jsonArray?type=toc&amp;origin=origin&quot;</highlight></codeline>
+<codeline lineno="71"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="75" refid="_pxe_player_u_r_l_constants_8h_1a0670b37c1b5cd041bb81d2ec18899ea8" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_COVER_PAGE_API<sp/>@&quot;nexttextweb/api/books/%@/coverPage/json?userUuid=%@&quot;</highlight></codeline>
+<codeline lineno="76"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="80" refid="_pxe_player_u_r_l_constants_8h_1ab959bf2a0898f1878b579e9481fbfc40" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_CHAPTERS_API<sp/>@&quot;nexttextweb/api/books/%@/chapters&quot;</highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="85" refid="_pxe_player_u_r_l_constants_8h_1a5bd8f88fa5c49d8bee5f39d41700332e" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_PAGES_API<sp/>@&quot;nexttextweb/api/books/%@/chapters/%@/pages/%@/json&quot;</highlight></codeline>
+<codeline lineno="86"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="90" refid="_pxe_player_u_r_l_constants_8h_1ab32239562363c7b1fd7d058fec2b28e5" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_BOOKMARKS_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks&quot;</highlight></codeline>
+<codeline lineno="91"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="95" refid="_pxe_player_u_r_l_constants_8h_1a676a26152aea7f8d07591a50ebaf8e6c" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_ADD_BOOKMARK_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks&quot;</highlight></codeline>
+<codeline lineno="96"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="100" refid="_pxe_player_u_r_l_constants_8h_1a984c3a723504a377a06d3584b01dc96f" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_CHECK_BOOKMARK_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@&quot;</highlight></codeline>
+<codeline lineno="101"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="105" refid="_pxe_player_u_r_l_constants_8h_1a87ccf32e5ddaacadf711d38cb0508f98" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_EDIT_BOOKMARK_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks&quot;</highlight></codeline>
+<codeline lineno="106"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="110" refid="_pxe_player_u_r_l_constants_8h_1a1485d162aae21dce68d977091734ddd9" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_DELETE_BOOKMARK_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/bookmarks?uri=%@&quot;</highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="115" refid="_pxe_player_u_r_l_constants_8h_1aa304ab8797ec5494cee4a30d1ef44840" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_GET_ANNOTATIONS_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/annotations?withShared=%@&quot;</highlight></codeline>
+<codeline lineno="116"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="120" refid="_pxe_player_u_r_l_constants_8h_1aed428deb5654d359cd3da32dcd4216d9" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_GET_CONTENT_ANNOTATIONS_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/annotations?uri=%@&amp;withShared=%@&quot;</highlight></codeline>
+<codeline lineno="121"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="125" refid="_pxe_player_u_r_l_constants_8h_1ad6854ed5624de5ad7eb04483a22e1f99" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_ADD_ANNOTATION_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/annotations&quot;</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="130" refid="_pxe_player_u_r_l_constants_8h_1a5b6478b8116628f8b3126fa2ae41ef8f" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_UPDATE_ANNOTATION_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/annotations&quot;</highlight></codeline>
+<codeline lineno="131"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="135" refid="_pxe_player_u_r_l_constants_8h_1a9e50433629dc60de7ce606d0f4b84b5a" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_DELETE_ANNOTATION_API<sp/>@&quot;%@services-api/api/context/%@/identities/%@/annotations?contentId=%@&amp;annotationDttm=%@&quot;</highlight></codeline>
+<codeline lineno="136"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="140" refid="_pxe_player_u_r_l_constants_8h_1a5b9e43e55bea687390ce75f7afb602c6" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_ADD_NOTE_API<sp/>@&quot;%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes&quot;</highlight></codeline>
+<codeline lineno="141"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="145" refid="_pxe_player_u_r_l_constants_8h_1a4dab209f68392e5267483f5b6fc044ce" refkind="member"><highlight class="preprocessor">#define<sp/>BOOK_DELETE_NOTE_API<sp/>@&quot;%@nexttextweb/api/users/%@/books/%@/chapters/%@/pages/%@/notes/%@&quot;</highlight></codeline>
+<codeline lineno="146"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="150" refid="_pxe_player_u_r_l_constants_8h_1a24d8b58a0f74ad6e2eb6d549342ba1f3" refkind="member"><highlight class="preprocessor">#define<sp/>REFRESH_AUTHTOKEN_API<sp/>@&quot;/users/identity/refresh&quot;</highlight></codeline>
+<codeline lineno="151"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="155" refid="_pxe_player_u_r_l_constants_8h_1acf8dd52b84d6d26762f9d9234d67ce51" refkind="member"><highlight class="preprocessor">#define<sp/>SEARCH_BOOK_CONTENT<sp/>@&quot;%@pxereader-cm/api/cm/search/?indexId=%@&amp;q=%@&amp;s=%d&amp;n=%d&quot;</highlight></codeline>
+<codeline lineno="156"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="160" refid="_pxe_player_u_r_l_constants_8h_1a6c77757e103908149058a780ba5f4092" refkind="member"><highlight class="preprocessor">#define<sp/>SEARCH_INIT<sp/>@&quot;%@pxereader-cm/api/cm/ingest&quot;</highlight></codeline>
+<codeline lineno="161"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="165" refid="_pxe_player_u_r_l_constants_8h_1a548a47eaa92d6003cf30aed2bbc066e2" refkind="member"><highlight class="preprocessor">#define<sp/>MEDIA_TYPES<sp/>@&quot;nexttextweb/api/books/%@/media-types&quot;</highlight></codeline>
+<codeline lineno="166"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="170" refid="_pxe_player_u_r_l_constants_8h_1a2846654ae749338b59c970c70275501f" refkind="member"><highlight class="preprocessor">#define<sp/>ALL_MEDIAS<sp/>@&quot;nexttextweb/api/books/%@/allMedias&quot;</highlight></codeline>
+<codeline lineno="171"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="175" refid="_pxe_player_u_r_l_constants_8h_1ab22f262f4f2aaeb6dafc02d71d12379a" refkind="member"><highlight class="preprocessor">#define<sp/>MEDIA<sp/>@&quot;%@pxereader-cm/api/cm/navigation?type=%@&amp;indexId=%@&amp;s=%d&amp;n=%d&quot;</highlight></codeline>
+<codeline lineno="176"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="180" refid="_pxe_player_u_r_l_constants_8h_1ade3d06985cb629df34f6161f7d3969e7" refkind="member"><highlight class="preprocessor">#define<sp/>SMS_AUTHENTICATION<sp/>@&quot;http://login.cert.pearsoncmg.com/sso/SSOServlet2?cmd=login&amp;okurl=http://certapachelb-344900366.us-west-1.elb.amazonaws.com/nexttextweb/nexttextAuthenticationSuccessMobile.htm?values=scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&amp;errurl=http://certapachelb-344900366.us-west-1.elb.amazonaws.com/nexttextweb/nexttextIntegrationErrorMobile.htm?values=cause::loginfailure::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&amp;loginurl=http://certapachelb-344900366.us-west-1.elb.amazonaws.com/nexttextweb/nexttextIntegrationErrorMobile.htm?values=cause::login::scenario::1::nextTextSession::nextTextSession::invokeType::standalone::isIPad::N&amp;siteid=11444&amp;isCourseAware=N&amp;encPassword=N&amp;loginname=%@&amp;password=%@&quot;</highlight></codeline>
+<codeline lineno="181"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="185" refid="_pxe_player_u_r_l_constants_8h_1a07c312f4ca8e1e286171ac12150bda46" refkind="member"><highlight class="preprocessor">#define<sp/>RUMBA_AUTHENTICATION<sp/>@&quot;https://sso.rumba.int.pearsoncmg.com/sso/loginService?service=http://nexttextint1-147866391.us-west-1.elb.amazonaws.com/nexttextweb/schoolHomeMobile.htm&amp;gateway=true&amp;username=%@&amp;password=%@&quot;</highlight></codeline>
+<codeline lineno="186"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="190" refid="_pxe_player_u_r_l_constants_8h_1a286e21934bb2f0917ef37aee2766f618" refkind="member"><highlight class="preprocessor">#define<sp/>TOC_TEMP_URL<sp/>@&quot;http://eps.prsn.us/tutorial/api/file/982668d3-d3e7-43b1-8719-52d9445be872/content/planetepub/ChangingPlanet/OPS/toc.ncx&quot;</highlight></codeline>
+<codeline lineno="191"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Error<sp/>Codes</highlight></codeline>
+<codeline lineno="193"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="197" refid="_pxe_player_u_r_l_constants_8h_1a662ebef031668a476e67d0adc78aaffa" refkind="member"><highlight class="preprocessor">#define<sp/>kErrMalFormedUrl<sp/>1</highlight></codeline>
+<codeline lineno="198"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="202" refid="_pxe_player_u_r_l_constants_8h_1a28084f3ce10fbe0fc7e1f67ddd084663" refkind="member"><highlight class="preprocessor">#define<sp/>kErrServerError<sp/>2</highlight></codeline>
+<codeline lineno="203"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="207" refid="_pxe_player_u_r_l_constants_8h_1aa5b9cb8f7e614157251a149d8c1ebcd3" refkind="member"><highlight class="preprocessor">#define<sp/>kErrWrongJSON<sp/>3</highlight></codeline>
+<codeline lineno="208"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="212" refid="_pxe_player_u_r_l_constants_8h_1a58644af0696586f391035c50f0249c74" refkind="member"><highlight class="preprocessor">#define<sp/>kErrWrongJSONPost<sp/>4</highlight></codeline>
+<codeline lineno="213"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="217" refid="_pxe_player_u_r_l_constants_8h_1af611c819c875d29b10ff39f86f5e83f7" refkind="member"><highlight class="preprocessor">#define<sp/>kErrRequestDenial<sp/>5</highlight></codeline>
+<codeline lineno="218"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="222" refid="_pxe_player_u_r_l_constants_8h_1ab6046ab6440682a0e2770b9f78f2a3a4" refkind="member"><highlight class="preprocessor">#define<sp/>kErrNetworkDown<sp/>6</highlight></codeline>
+<codeline lineno="223"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="227" refid="_pxe_player_u_r_l_constants_8h_1ab4128994b272103e74ab257bb07b2b6f" refkind="member"><highlight class="preprocessor">#define<sp/>kErrXMLFormatError<sp/>7</highlight></codeline>
+<codeline lineno="228"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="232" refid="_pxe_player_u_r_l_constants_8h_1a5dc63819978ac740fef71fc4e666f5dd" refkind="member"><highlight class="preprocessor">#define<sp/>kErrAuthFailed<sp/>8</highlight></codeline>
+<codeline lineno="233"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="237" refid="_pxe_player_u_r_l_constants_8h_1a6f8b58599d78eb5ff2ab561d7f978525" refkind="member"><highlight class="preprocessor">#define<sp/>kParseError<sp/>9</highlight></codeline>
+<codeline lineno="238"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="242" refid="_pxe_player_u_r_l_constants_8h_1aaa567395088118b7a0aec48af9278fa1" refkind="member"><highlight class="preprocessor">#define<sp/>POST<sp/>@&quot;POST&quot;</highlight></codeline>
+<codeline lineno="243"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="247" refid="_pxe_player_u_r_l_constants_8h_1a982a66f513611f7f83ebfa4b4ecf1df9" refkind="member"><highlight class="preprocessor">#define<sp/>GET<sp/><sp/>@&quot;GET&quot;</highlight></codeline>
+<codeline lineno="248"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="252" refid="_pxe_player_u_r_l_constants_8h_1a2fa975ab3c002cee7fc36722a3fa3ad5" refkind="member"><highlight class="preprocessor">#define<sp/>PUT<sp/>@&quot;PUT&quot;</highlight></codeline>
+<codeline lineno="253"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="257" refid="_pxe_player_u_r_l_constants_8h_1abbbe5949f3c1f72e439924f8cf503509" refkind="member"><highlight class="preprocessor">#define<sp/>DELETE<sp/>@&quot;DELETE&quot;</highlight></codeline>
+<codeline lineno="258"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerURLConstants.h"/>
+  </compounddef>
+</doxygen>

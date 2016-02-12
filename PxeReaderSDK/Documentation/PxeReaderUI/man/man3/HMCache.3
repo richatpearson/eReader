@@ -1,0 +1,190 @@
+.TH "HMCache" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+HMCache \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <HMCache\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) + \fBresetCache\fP"
+.br
+.ti -1c
+.RI "(void) + \fBsetObject:forKey:\fP"
+.br
+.ti -1c
+.RI "(id) + \fBobjectForKey:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBremoveObject:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBclearOldFiles\fP"
+.br
+.ti -1c
+.RI "(NSString *) + \fBcreateCacheSubDirectory:\fP"
+.br
+.ti -1c
+.RI "(NSString *) + \fBcreateDirectory:\fP"
+.br
+.ti -1c
+.RI "(BOOL) + \fBremoveDirectory:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBsetObject:forKey:withNewPath:\fP"
+.br
+.ti -1c
+.RI "(NSData *) + \fBobjectForKey:withPath:\fP"
+.br
+.ti -1c
+.RI "(BOOL) + \fBremoveCacheSubDirectory:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 9 of file HMCache\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "+ (void) clearOldFiles "
+This method would be called to delete expired cached data 
+.PP
+Definition at line 161 of file HMCache\&.m\&.
+.SS "+ (NSString *) createCacheSubDirectory: (NSString*)dirName"
+This method would be called to to create sub directory in to the HM cache directory 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,dirName\fP which need to be assigned as a directory name 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the created sub directory path 
+.RE
+.PP
+
+.PP
+Definition at line 28 of file HMCache\&.m\&.
+.SS "+ (NSString *) createDirectory: (NSString*)dirName"
+This method would be called to to create sub directory in to the HM cache directory 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,dirName\fP which need to be assigned as a directory name 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+NSString, returns the created directory path 
+.RE
+.PP
+
+.PP
+Definition at line 39 of file HMCache\&.m\&.
+.SS "+ (NSData *) objectForKey: (NSString*)key"
+This method would be called to retrieve the cached data from the local file system 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP which required to to identify the cached data 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file HMCache\&.m\&.
+.SS "+ (NSData *) \fBobjectForKey:\fP (NSString*)key(NSString*)path"
+This method would be called to retrieve the cached data from the specified file path in the local file system 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP which required to to identify the cached data 
+.br
+\fINSString,path\fP which required to to identify the cached path 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file HMCache\&.m\&.
+.SS "+ (BOOL) removeCacheSubDirectory: (NSString*)dirName"
+Remove the cached sub directory and it's contents 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,dirName\fP which need to be identify the locationo of the directory 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file HMCache\&.m\&.
+.SS "+ (BOOL) removeDirectory: (NSString*)dirName"
+Removes the directory from the cache directory 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,dirName\fP is a name of the directory which required to identify the directory location 
+.RE
+.PP
+
+.PP
+Definition at line 57 of file HMCache\&.m\&.
+.SS "+ (void) removeObject: (NSString*)key"
+Remove the particular cached data from the file system using key 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,key\fP which need to be identify the cached data to be deleted 
+.RE
+.PP
+
+.PP
+Definition at line 152 of file HMCache\&.m\&.
+.SS "+ (void) resetCache "
+This method would be called to remove all the cached files from local file system and resets the all User defaults 
+.PP
+\fBSee Also:\fP
+.RS 4
+NSUserDefaults 
+.RE
+.PP
+
+.PP
+Definition at line 15 of file HMCache\&.m\&.
+.SS "+ (void) setObject: (NSData*)data(NSString*)key"
+This method would be called to store data on the local cache with key for identity of the cached file 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSData,data\fP which need to be stored 
+.br
+\fINSString,key\fP which required to identify the cached data in the local file system 
+.RE
+.PP
+
+.PP
+Definition at line 133 of file HMCache\&.m\&.
+.SS "+ (void) setObject: (NSData *)data(NSString *)key(NSString*)pathName"
+This method would be called to store data on the specified file path with key for identity of the cached file 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSData,data\fP which need to be stored 
+.br
+\fINSString,key\fP which required to identify the cached data in the local file system 
+.br
+\fINSString,pathName\fP which required to store the file in specifi location 
+.RE
+.PP
+
+.PP
+Definition at line 93 of file HMCache\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

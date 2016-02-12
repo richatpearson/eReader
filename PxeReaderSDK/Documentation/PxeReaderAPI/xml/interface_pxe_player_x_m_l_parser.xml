@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_x_m_l_parser" kind="class" prot="public">
+    <compoundname>PxePlayerXMLParser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_x_m_l_parser_8h" local="no">PxePlayerXMLParser.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_x_m_l_parser_1a2082f89d8d56c1875b734687072b7b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * PxePlayerXMLParser::parseData:</definition>
+        <argsstring>(NSData *data)</argsstring>
+        <name>parseData:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to parse data and returns the parsed result as a dictionary format <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSData</parametername>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>need to be parsed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.h" line="31" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.m" bodystart="21" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class for parsing XML content in to the generic data format such as NSArray or NSDictionary </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="407">
+        <label>PxePlayerXMLParser</label>
+        <link refid="interface_pxe_player_x_m_l_parser"/>
+        <childnode refid="408" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="409">
+        <label>PxePlayerXMLParser</label>
+        <link refid="interface_pxe_player_x_m_l_parser"/>
+        <childnode refid="410" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/parser/PxePlayerXMLParser.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_x_m_l_parser_1a2082f89d8d56c1875b734687072b7b9e" prot="public" virt="virtual"><scope>PxePlayerXMLParser</scope><name>parseData:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

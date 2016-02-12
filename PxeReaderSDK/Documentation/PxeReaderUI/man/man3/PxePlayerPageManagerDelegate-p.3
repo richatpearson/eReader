@@ -1,0 +1,82 @@
+.TH "<PxePlayerPageManagerDelegate>" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+<PxePlayerPageManagerDelegate> \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerPageManager\&.h>\fP
+.PP
+Inherits <NSObject>\&.
+.PP
+Inherited by \fBPxePlayerPageViewController()\fP\&.
+.SS "Instance Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) - \fBpagesAdded:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBpageDownloaded:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBpageDownloadFailed:\fP"
+.br
+.ti -1c
+.RI "(void) - \fBcontentsDownloadSuccess\fP"
+.br
+.ti -1c
+.RI "(void) - \fBcontentsDownloadFailed:\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A simple protocol which target class can implement to receive the notification status from the \fBPxePlayerPageManager\fP 
+.PP
+Definition at line 16 of file PxePlayerPageManager\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "- (void) contentsDownloadFailed: (NSError *)error"
+This method wil be called when page content download has been failed 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSError,error\fP information about the page content download failed 
+.RE
+.PP
+
+.SS "- (void) contentsDownloadSuccess "
+This method will be called when page content has been downloaded 
+.SS "- (void) pageDownloaded: (NSString *)page"
+This method will be called when particular page has been downloaded 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSString,page,currently\fP downloaded page 
+.RE
+.PP
+
+.SS "- (void) pageDownloadFailed: (NSError *)error"
+This method will be called when particular page download has been failed 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSError,error\fP information about the download failed 
+.RE
+.PP
+
+.SS "- (void) pagesAdded: (NSArray *)pages"
+This method will be called when pages has been added into the download queue 
+.PP
+\fBParameters:\fP
+.RS 4
+\fINSArray,pages,array\fP of pages added into the queue 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

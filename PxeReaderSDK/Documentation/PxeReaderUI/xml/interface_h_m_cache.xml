@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_h_m_cache" kind="class" prot="public">
+    <compoundname>HMCache</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_h_m_cache_8h" local="no">HMCache.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_h_m_cache_1a6bdf784a54d7769ecd74ede7e3144b97" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HMCache::resetCache</definition>
+        <argsstring>()</argsstring>
+        <name>resetCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to remove all the cached files from local file system and resets the all User defaults <simplesect kind="see"><para>NSUserDefaults </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1a8608ca43aaceb46957be9651133b0ca2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HMCache::setObject:forKey:</definition>
+        <argsstring>(NSData *data,[forKey] NSString *key)</argsstring>
+        <name>setObject:forKey:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to store data on the local cache with key for identity of the cached file <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSData</parametername>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which need to be stored </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which required to identify the cached data in the local file system </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="133" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1a129a4f9b8f97fe5d6d91c4b40ce2cf12" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>NSData * HMCache::objectForKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>objectForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to retrieve the cached data from the local file system <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which required to to identify the cached data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="119" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1a94647093b59901a003c740cb60d0b503" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HMCache::removeObject:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>removeObject:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the particular cached data from the file system using key <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which need to be identify the cached data to be deleted </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="152" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1ae93bd9319423f1567d93d621563207a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HMCache::clearOldFiles</definition>
+        <argsstring>()</argsstring>
+        <name>clearOldFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to delete expired cached data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="161" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1afbf507c62ac548dc5d622ccf9c5677f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * HMCache::createCacheSubDirectory:</definition>
+        <argsstring>(NSString *dirName)</argsstring>
+        <name>createCacheSubDirectory:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>dirName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to to create sub directory in to the HM cache directory <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>dirName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which need to be assigned as a directory name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSString, returns the created sub directory path </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1a645cab7afdf3ba10c051e4bb2176d2a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * HMCache::createDirectory:</definition>
+        <argsstring>(NSString *dirName)</argsstring>
+        <name>createDirectory:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>dirName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to to create sub directory in to the HM cache directory <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>dirName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which need to be assigned as a directory name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSString, returns the created directory path </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="39" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1a77f18b032b046ab8b6aed93444c777a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL HMCache::removeDirectory:</definition>
+        <argsstring>(NSString *dirName)</argsstring>
+        <name>removeDirectory:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>dirName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the directory from the cache directory <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>dirName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a name of the directory which required to identify the directory location </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="57" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1aebd9c067580569f1b703e17a96ace2db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HMCache::setObject:forKey:withNewPath:</definition>
+        <argsstring>(NSData *data,[forKey] NSString *key,[withNewPath] NSString *pathName)</argsstring>
+        <name>setObject:forKey:withNewPath:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[withNewPath]</attributes>
+          <type>NSString *</type>
+          <declname>pathName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to store data on the specified file path with key for identity of the cached file <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSData</parametername>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which need to be stored </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which required to identify the cached data in the local file system </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>pathName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which required to store the file in specifi location </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="93" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1ad8b8bc321146bed180346c14ec284a57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * HMCache::objectForKey:withPath:</definition>
+        <argsstring>(NSString *key,[withPath] NSString *path)</argsstring>
+        <name>objectForKey:withPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[withPath]</attributes>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to retrieve the cached data from the specified file path in the local file system <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which required to to identify the cached data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which required to to identify the cached path </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="105" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_m_cache_1aa796cf777c3fb02a18385b4ee47637a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL HMCache::removeCacheSubDirectory:</definition>
+        <argsstring>(NSString *dirName)</argsstring>
+        <name>removeCacheSubDirectory:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>dirName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the cached sub directory and it&apos;s contents <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>dirName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which need to be identify the locationo of the directory </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="1" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.m" bodystart="76" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>HMCache</label>
+        <link refid="interface_h_m_cache"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>HMCache</label>
+        <link refid="interface_h_m_cache"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" line="10" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/HMCache.h" bodystart="9" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_h_m_cache_1ae93bd9319423f1567d93d621563207a5" prot="public" virt="virtual"><scope>HMCache</scope><name>clearOldFiles</name></member>
+      <member refid="interface_h_m_cache_1afbf507c62ac548dc5d622ccf9c5677f5" prot="public" virt="virtual"><scope>HMCache</scope><name>createCacheSubDirectory:</name></member>
+      <member refid="interface_h_m_cache_1a645cab7afdf3ba10c051e4bb2176d2a2" prot="public" virt="virtual"><scope>HMCache</scope><name>createDirectory:</name></member>
+      <member refid="interface_h_m_cache_1a129a4f9b8f97fe5d6d91c4b40ce2cf12" prot="public" virt="virtual"><scope>HMCache</scope><name>objectForKey:</name></member>
+      <member refid="interface_h_m_cache_1ad8b8bc321146bed180346c14ec284a57" prot="public" virt="virtual"><scope>HMCache</scope><name>objectForKey:withPath:</name></member>
+      <member refid="interface_h_m_cache_1aa796cf777c3fb02a18385b4ee47637a5" prot="public" virt="virtual"><scope>HMCache</scope><name>removeCacheSubDirectory:</name></member>
+      <member refid="interface_h_m_cache_1a77f18b032b046ab8b6aed93444c777a1" prot="public" virt="virtual"><scope>HMCache</scope><name>removeDirectory:</name></member>
+      <member refid="interface_h_m_cache_1a94647093b59901a003c740cb60d0b503" prot="public" virt="virtual"><scope>HMCache</scope><name>removeObject:</name></member>
+      <member refid="interface_h_m_cache_1a6bdf784a54d7769ecd74ede7e3144b97" prot="public" virt="virtual"><scope>HMCache</scope><name>resetCache</name></member>
+      <member refid="interface_h_m_cache_1a8608ca43aaceb46957be9651133b0ca2" prot="public" virt="virtual"><scope>HMCache</scope><name>setObject:forKey:</name></member>
+      <member refid="interface_h_m_cache_1aebd9c067580569f1b703e17a96ace2db" prot="public" virt="virtual"><scope>HMCache</scope><name>setObject:forKey:withNewPath:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

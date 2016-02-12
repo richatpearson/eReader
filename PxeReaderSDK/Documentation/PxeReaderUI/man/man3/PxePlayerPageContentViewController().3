@@ -1,0 +1,91 @@
+.TH "PxePlayerPageContentViewController()" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageContentViewController() \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "BOOL \fBviewDidAppeared\fP"
+.br
+.ti -1c
+.RI "BOOL \fBisPageLoaded\fP"
+.br
+.ti -1c
+.RI "CGRect \fBcontentFrame\fP"
+.br
+.ti -1c
+.RI "\fBPxePlayerLoadingView\fP * \fBloadingView\fP"
+.br
+.ti -1c
+.RI "NSString * \fBpage\fP"
+.br
+.ti -1c
+.RI "NSString * \fBpageUUID\fP"
+.br
+.ti -1c
+.RI "\fBPxePlayerPagesWebView\fP * \fBpageContent\fP"
+.br
+.ti -1c
+.RI "NSArray * \fBhighlights\fP"
+.br
+.ti -1c
+.RI "BOOL \fBannotationsSharable\fP"
+.br
+.ti -1c
+.RI "NSTimer * \fBloadingViewTimer\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 30 of file PxePlayerPageContentViewController\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (BOOL) annotationsSharable\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+BOOL variable to check the annotation is sharable or not 
+.PP
+Definition at line 75 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (CGRect) contentFrame\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+CGRect variable to for setting the frame for the content view 
+.PP
+Definition at line 45 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (NSArray*) highlights\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+NSArray variable for having the array of highlights label 
+.PP
+Definition at line 70 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (BOOL) isPageLoaded\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+Bool value defines the status of whether page has been loaded or not 
+.PP
+Definition at line 40 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (\fBPxePlayerLoadingView\fP*) loadingView\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+\fBPxePlayerLoadingView\fP instance for showing loading view on the super view 
+.PP
+Definition at line 50 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (NSTimer*) loadingViewTimer\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+NSTimer variable to terminate the loading view at time interval 
+.PP
+Definition at line 80 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (NSString*) page\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+NSString variable for page url 
+.PP
+Definition at line 55 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (\fBPxePlayerPagesWebView\fP*) pageContent\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+UIWebview instance for loading the page html content 
+.PP
+Definition at line 65 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (NSString*) pageUUID\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+NSString variable for page UUID 
+.PP
+Definition at line 60 of file PxePlayerPageContentViewController\&.m\&.
+.SS "- (BOOL) viewDidAppeared\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+Bool value which set the status of whether view has been rendered or not 
+.PP
+Definition at line 35 of file PxePlayerPageContentViewController\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.

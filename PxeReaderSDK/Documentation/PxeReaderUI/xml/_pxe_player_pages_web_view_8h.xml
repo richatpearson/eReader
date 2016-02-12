@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_pages_web_view_8h" kind="file">
+    <compoundname>PxePlayerPagesWebView.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_pxe_player_page_content_view_controller_8m" local="yes">PxePlayerPageContentViewController.m</includedby>
+    <includedby refid="_pxe_player_pages_web_view_8m" local="yes">PxePlayerPagesWebView.m</includedby>
+    <includedby refid="_pxe_player_u_i_kit_8h" local="yes">PxePlayerUIKit.h</includedby>
+    <incdepgraph>
+      <node id="208">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="207">
+        <label>PxePlayerPagesWebView.h</label>
+        <link refid="PxePlayerPagesWebView.h"/>
+        <childnode refid="208" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="212">
+        <label>PxePlayerUIKit.h</label>
+        <link refid="_pxe_player_u_i_kit_8h"/>
+        <childnode refid="212" relation="include">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>PxePlayerPagesWebView.h</label>
+        <link refid="PxePlayerPagesWebView.h"/>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>PxePlayerPagesWebView.m</label>
+        <link refid="_pxe_player_pages_web_view_8m"/>
+      </node>
+      <node id="210">
+        <label>PxePlayerPageContentViewController.m</label>
+        <link refid="_pxe_player_page_content_view_controller_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_pages_web_view" prot="public">PxePlayerPagesWebView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTPagesWebView.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>10/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="interface_pxe_player_pages_web_view" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_pages_web_view" kindref="compound">PxePlayerPagesWebView</ref><sp/>:<sp/>UIWebView</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame<sp/>withScalePageToFit:(BOOL)scalePageToFit;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPagesWebView.h"/>
+  </compounddef>
+</doxygen>

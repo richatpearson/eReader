@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_page_operations_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerPageOperations()</compoundname>
+    <basecompoundref refid="protocol_pxe_player_operation_delegate-p" prot="public" virt="non-virtual">&lt;PxePlayerOperationDelegate&gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_page_operations_07_08_1a29883d3f799de7d14a2bfbb6f1404a29" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSOperationQueue *</type>
+        <definition>NSOperationQueue* PxePlayerPageOperations()::downloadQueue</definition>
+        <argsstring></argsstring>
+        <name>downloadQueue</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_operations_07_08_1aace2ae68fd45d3842ef28df4c9a4fef7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* PxePlayerPageOperations()::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="280">
+        <label>PxePlayerPageOperations()</label>
+        <link refid="category_pxe_player_page_operations_07_08"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>&lt;PxePlayerOperationDelegate&gt;</label>
+        <link refid="protocol_pxe_player_operation_delegate-p"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="283">
+        <label>PxePlayerPageOperations()</label>
+        <link refid="category_pxe_player_page_operations_07_08"/>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>&lt;PxePlayerOperationDelegate&gt;</label>
+        <link refid="protocol_pxe_player_operation_delegate-p"/>
+        <childnode refid="285" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="285">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" line="17" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_page_operations_07_08_1a29883d3f799de7d14a2bfbb6f1404a29" prot="public" virt="non-virtual"><scope>PxePlayerPageOperations()</scope><name>downloadQueue</name></member>
+      <member refid="protocol_pxe_player_operation_delegate-p_1aa51ed881ea55a516cfc01025a564ccd5" prot="public" virt="virtual"><scope>PxePlayerPageOperations()</scope><name>operationFailed:error:</name></member>
+      <member refid="category_pxe_player_page_operations_07_08_1aace2ae68fd45d3842ef28df4c9a4fef7" prot="public" virt="non-virtual"><scope>PxePlayerPageOperations()</scope><name>operations</name></member>
+      <member refid="protocol_pxe_player_operation_delegate-p_1a3b2105606b8df469075d5cfc9931c726" prot="public" virt="virtual"><scope>PxePlayerPageOperations()</scope><name>operationSuccess:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

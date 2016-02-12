@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="3" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PxeAnnotation" representedClassName="PxeAnnotation" syncable="YES">
+        <attribute name="annotation_datetime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="color_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_mathml" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="labels" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marked_for_delete" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="note_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="queued" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="range" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selected_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shareable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="annotations" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PxeAnnotations" inverseName="annotation" inverseEntity="PxeAnnotations" syncable="YES"/>
+    </entity>
+    <entity name="PxeAnnotations" representedClassName="PxeAnnotations" syncable="YES">
+        <attribute name="annotations_identity_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contents_uri" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_my_annotation" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="annotation" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PxeAnnotation" inverseName="annotations" inverseEntity="PxeAnnotation" syncable="YES"/>
+        <relationship name="context" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PxeContext" inverseName="annotations" inverseEntity="PxeContext" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="context"/>
+                <index value="contents_uri"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="PxeBookMark" representedClassName="PxeBookMark" versionHashModifier="12" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="markedDelete" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="queued" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="context" maxCount="1" deletionRule="Nullify" destinationEntity="PxeContext" inverseName="bookmarks" inverseEntity="PxeContext" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="context"/>
+                <index value="url"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="PxeContext" representedClassName="PxeContext" versionHashModifier="2" syncable="YES">
+        <attribute name="context_base_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="context_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="search_index_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toc_url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="annotations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PxeAnnotations" inverseName="context" inverseEntity="PxeAnnotations" syncable="YES"/>
+        <relationship name="baskets" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="PxeCustomBasketDetail" inverseName="context" inverseEntity="PxeCustomBasketDetail" syncable="YES"/>
+        <relationship name="bookmarks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PxeBookMark" inverseName="context" inverseEntity="PxeBookMark" syncable="YES"/>
+        <relationship name="glossarys" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PxeGlossary" inverseName="context" inverseEntity="PxeGlossary" syncable="YES"/>
+        <relationship name="pages" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="PxePageDetail" inverseName="context" inverseEntity="PxePageDetail" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PxeUser" inverseName="contexts" inverseEntity="PxeUser" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="user"/>
+                <index value="context_id"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="PxeCustomBasketDetail" representedClassName="PxeCustomBasketDetail" syncable="YES">
+        <attribute name="isChildren" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="pageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pageNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="pageTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlTag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="context" maxCount="1" deletionRule="Nullify" destinationEntity="PxeContext" inverseName="baskets" inverseEntity="PxeContext" syncable="YES"/>
+    </entity>
+    <entity name="PxeGlossary" representedClassName="PxeGlossary" versionHashModifier="11" syncable="YES">
+        <attribute name="definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="term" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="context" maxCount="1" deletionRule="Nullify" destinationEntity="PxeContext" inverseName="glossarys" inverseEntity="PxeContext" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="context"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="PxeListPage" representedClassName="PxeListPage" versionHashModifier="7" syncable="YES">
+        <attribute name="pageIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlTag" optional="YES" attributeType="String" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="pageURL"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="PxePageDetail" representedClassName="PxePageDetail" versionHashModifier="8" syncable="YES">
+        <attribute name="isChildren" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="pageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pageNumber" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="pageTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlTag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="context" maxCount="1" deletionRule="Nullify" destinationEntity="PxeContext" inverseName="pages" inverseEntity="PxeContext" syncable="YES"/>
+        <relationship name="printPage" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PxePrintPage" inverseName="page" inverseEntity="PxePrintPage" versionHashModifier="2" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="context"/>
+                <index value="pageNumber"/>
+                <index value="pageURL"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="PxePrintPage" representedClassName="PxePrintPage" versionHashModifier="2" syncable="YES">
+        <attribute name="pageNumber" optional="YES" attributeType="String" versionHashModifier="1" syncable="YES"/>
+        <attribute name="pageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlTag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="page" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PxePageDetail" inverseName="printPage" inverseEntity="PxePageDetail" versionHashModifier="2" syncable="YES"/>
+    </entity>
+    <entity name="PxeUser" representedClassName="PxeUser" versionHashModifier="2" syncable="YES">
+        <attribute name="identity_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contexts" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="PxeContext" inverseName="user" inverseEntity="PxeContext" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="identity_id"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="PxeAnnotation" positionX="70" positionY="-421" width="128" height="223"/>
+        <element name="PxeAnnotations" positionX="243" positionY="-352" width="128" height="118"/>
+        <element name="PxeBookMark" positionX="115" positionY="63" width="128" height="133"/>
+        <element name="PxeContext" positionX="423" positionY="-162" width="128" height="195"/>
+        <element name="PxeCustomBasketDetail" positionX="-144" positionY="-154" width="209" height="163"/>
+        <element name="PxeGlossary" positionX="639" positionY="-225" width="128" height="103"/>
+        <element name="PxeListPage" positionX="666" positionY="9" width="128" height="88"/>
+        <element name="PxePageDetail" positionX="603" positionY="189" width="128" height="180"/>
+        <element name="PxePrintPage" positionX="142" positionY="315" width="128" height="105"/>
+        <element name="PxeUser" positionX="405" positionY="89" width="128" height="75"/>
+    </elements>
+</model>

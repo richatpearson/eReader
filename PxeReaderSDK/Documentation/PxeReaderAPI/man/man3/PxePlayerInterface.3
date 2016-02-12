@@ -1,0 +1,256 @@
+.TH "PxePlayerInterface" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerInterface \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#import <PxePlayerInterface\&.h>\fP
+.PP
+Inherits NSObject\&.
+.SS "Class Methods"
+
+.in +1c
+.ti -1c
+.RI "(void) + \fBsetNextextServerEndPoint:\fP"
+.br
+.ti -1c
+.RI "(NSString *) + \fBgetServerBaseURL\fP"
+.br
+.ti -1c
+.RI "(void) + \fBauthenticate:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBauthenticateOld:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBauthenticateWithSMSServer:andPassword:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBauthenticateWithRUMBAServer:andPassword:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetTOC:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetBookShelf:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetChapters:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetBookmarks:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBaddBookmark:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBdeleteBookmark:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBeditBookmark:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetAnnotationsForContext:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetAllAnnotationsForContext:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetAnnotationsForContent:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetAllAnnotationsForContent:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBaddAnnotation:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBupdateAnnotation:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBdeleteAnnotation:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBsearchContentInBook:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBsubmitNCXUrlForIndexing:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBsubmitUrlsForIndexing:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetMedia:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetCustomNavigation:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetNCXToc:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetNCXPage:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBcheckBookmark:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBgetGlossary:withCompletionHandler:\fP"
+.br
+.ti -1c
+.RI "(void) + \fBsetSearchServerEndPoint:\fP"
+.br
+.ti -1c
+.RI "(NSString *) + \fBgetServerCMURL\fP"
+.br
+.ti -1c
+.RI "(void) + \fBsetPxeServerEndPoint:\fP"
+.br
+.ti -1c
+.RI "(NSString *) + \fBgetPxeServerURL\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 54 of file PxePlayerInterface\&.h\&.
+.SH "Method Documentation"
+.PP 
+.SS "+ (void) addAnnotation: (\fBPxePlayerAddAnnotationQuery\fP*)query(\fBPxePlayerAnnotations\fP*, NSError*)handler"
+
+.PP
+Definition at line 340 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) addBookmark: (\fBPxePlayerBookmarkQuery\fP*)query(\fBPxePlayerBookmark\fP*, NSError*)handler"
+
+.PP
+Definition at line 210 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) authenticate: (\fBPxePlayerUserQuery\fP*)query(\fBPxePlayerUser\fP*, NSError*)handler"
+
+.PP
+Definition at line 73 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) authenticateOld: (\fBPxePlayerOldUserQuery\fP*)query(\fBPxePlayerUser\fP*, NSError*)handler"
+
+.PP
+Definition at line 96 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) authenticateWithRUMBAServer: (NSString*)userName(NSString*)password(\fBPxePlayerUser\fP*, NSError*)handler"
+
+.PP
+Definition at line 133 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) authenticateWithSMSServer: (NSString*)userName(NSString*)password(\fBPxePlayerUser\fP*, NSError*)handler"
+
+.PP
+Definition at line 120 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) checkBookmark: (\fBPxePlayerBookmarkQuery\fP*)query(\fBPxePlayerCheckBookmark\fP*, NSError*)handler"
+
+.PP
+Definition at line 226 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) deleteAnnotation: (\fBPxePlayerNoteDeleteQuery\fP*)query(\fBPxePlayerDeleteAnnotation\fP*, NSError*)handler"
+
+.PP
+Definition at line 370 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) deleteBookmark: (\fBPxePlayerBookmarkQuery\fP*)query(\fBPxePlayerBookmark\fP*, NSError*)handler"
+
+.PP
+Definition at line 262 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) editBookmark: (\fBPxePlayerBookmarkQuery\fP*)query(\fBPxePlayerBookmark\fP*, NSError*)handler"
+
+.PP
+Definition at line 245 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getAllAnnotationsForContent: (\fBPxePlayerContentAnnotationsQuery\fP*)query(\fBPxePlayerNotes\fP*, NSError*)handler"
+
+.PP
+Definition at line 325 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getAllAnnotationsForContext: (\fBPxePlayerNavigationsQuery\fP*)query(\fBPxePlayerNotes\fP*, NSError*)handler"
+
+.PP
+Definition at line 294 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getAnnotationsForContent: (\fBPxePlayerContentAnnotationsQuery\fP*)query(\fBPxePlayerNotes\fP*, NSError*)handler"
+
+.PP
+Definition at line 310 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getAnnotationsForContext: (\fBPxePlayerNavigationsQuery\fP*)query(\fBPxePlayerNotes\fP*, NSError*)handler"
+
+.PP
+Definition at line 278 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getBookmarks: (\fBPxePlayerNavigationsQuery\fP*)query(\fBPxePlayerBookmarks\fP*, NSError*)handler"
+
+.PP
+Definition at line 194 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getBookShelf: (\fBPxePlayerBookQuery\fP*)query(\fBPxePlayerBookShelf\fP*, NSError*)handler"
+
+.PP
+Definition at line 162 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getChapters: (\fBPxePlayerChaptersQuery\fP*)query(\fBPxePlayerChapters\fP*, NSError*)handler"
+
+.PP
+Definition at line 178 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getCustomNavigation: (\fBPxePlayerTocQuery\fP*)query(\fBPxePlayerToc\fP*, NSError*)handler"
+
+.PP
+Definition at line 448 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getGlossary: (NSString*)apiURL(id, NSError*)handler"
+
+.PP
+Definition at line 526 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getMedia: (\fBPxePlayerMediaQuery\fP*)query(NSArray*, NSError*)handler"
+
+.PP
+Definition at line 433 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getNCXPage: (\fBPxePlayerPagesQuery\fP*)query(\fBPxePlayerPage\fP*, NSError*)handler"
+
+.PP
+Definition at line 506 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getNCXToc: (NSString*)apiURL(\fBPxePlayerToc\fP*, NSError*)handler"
+
+.PP
+Definition at line 464 of file PxePlayerInterface\&.m\&.
+.SS "+ (NSString *) getPxeServerURL "
+
+.PP
+Definition at line 69 of file PxePlayerInterface\&.m\&.
+.SS "+ (NSString *) getServerBaseURL "
+
+.PP
+Definition at line 61 of file PxePlayerInterface\&.m\&.
+.SS "+ (NSString *) getServerCMURL "
+
+.PP
+Definition at line 65 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) getTOC: (\fBPxePlayerTocQuery\fP*)query(\fBPxePlayerToc\fP*, NSError*)handler"
+
+.PP
+Definition at line 146 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) searchContentInBook: (\fBPxePlayerSearchBookQuery\fP*)query(\fBPxePlayerSearchPages\fP*, NSError*)handler"
+
+.PP
+Definition at line 385 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) setNextextServerEndPoint: (NSString*)baseURL"
+
+.PP
+Definition at line 49 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) setPxeServerEndPoint: (NSString*)pxeURL"
+
+.PP
+Definition at line 57 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) setSearchServerEndPoint: (NSString*)cmURL"
+
+.PP
+Definition at line 53 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) submitNCXUrlForIndexing: (\fBPxePlayerSearchNCXQuery\fP*)query(NSString*, NSError*)handler"
+
+.PP
+Definition at line 401 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) submitUrlsForIndexing: (\fBPxePlayerSearchURLsQuery\fP*)query(NSString*, NSError*)handler"
+
+.PP
+Definition at line 418 of file PxePlayerInterface\&.m\&.
+.SS "+ (void) updateAnnotation: (\fBPxePlayerAddAnnotationQuery\fP*)query(\fBPxePlayerAnnotations\fP*, NSError*)handler"
+
+.PP
+Definition at line 355 of file PxePlayerInterface\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

@@ -1,0 +1,18 @@
+xcschememanagement.plist
+PxeReaderTests.xcscheme
+PxeReader.xcscheme
+PxeReaderResources.xcscheme
+PxeReaderUI.xcscheme
+UserInterfaceState.xcuserstate
+PxeReader.xccheckout
+WorkspaceSettings.xcsettings
+PxeReaderUI Tests.xcscheme
+Breakpoints_v2.xcbkptlist
+.dat5581.0c3
+xcuserdata
+.DS_Store
+DS_Store
+build
+*.xcworkspace
+PxePlayerSampleApp/Debug-universal
+PxePlayerSampleApp/Release-universal

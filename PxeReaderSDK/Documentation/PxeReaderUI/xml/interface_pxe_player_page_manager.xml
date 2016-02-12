@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_page_manager" kind="class" prot="public">
+    <compoundname>PxePlayerPageManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_page_manager_8h" local="no">PxePlayerPageManager.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_page_manager_1a7951815ab7a221d5150dc74a1fb10606" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="weak">
+        <type>id&lt; <ref refid="protocol_pxe_player_page_manager_delegate-p" kindref="compound">PxePlayerPageManagerDelegate</ref> &gt;</type>
+        <definition>id&lt;PxePlayerPageManagerDelegate&gt; PxePlayerPageManager::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a8f9edd477523edd9403157d3ec4d9272" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerPageManager::initWithNCXUrl:withCustomPlaylist:andDelegate:</definition>
+        <argsstring>(NSString *url,[withCustomPlaylist] NSArray *urls,[andDelegate] id delegate)</argsstring>
+        <name>initWithNCXUrl:withCustomPlaylist:andDelegate:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[withCustomPlaylist]</attributes>
+          <type>NSArray *</type>
+          <declname>urls</declname>
+        </param>
+        <param>
+          <attributes>[andDelegate]</attributes>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instantiate the class with pre-required properties to render a UI <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as a NCX URL used to download toc XML and content. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>urls</parametername>
+<parametername>cutom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>playlist url&apos;s which user can speicifically navigate to the filtered list of pages from the book </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+<parametername>delegate</parametername>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class can implement it to receive notification </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="interface_pxe_player_page_manager_1a1acb70790e9716c43ec76ead84660df5" kindref="member">- initWithMasterPlaylist:withCustomPlaylist:andDelegate:</ref> </para><simplesectsep/><para><ref refid="protocol_pxe_player_page_manager_delegate-p" kindref="compound">PxePlayerPageManagerDelegate</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="285" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a1acb70790e9716c43ec76ead84660df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id PxePlayerPageManager::initWithMasterPlaylist:withCustomPlaylist:andDelegate:</definition>
+        <argsstring>(NSArray *masterurls,[withCustomPlaylist] NSArray *urls,[andDelegate] id delegate)</argsstring>
+        <name>initWithMasterPlaylist:withCustomPlaylist:andDelegate:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>masterurls</declname>
+        </param>
+        <param>
+          <attributes>[withCustomPlaylist]</attributes>
+          <type>NSArray *</type>
+          <declname>urls</declname>
+        </param>
+        <param>
+          <attributes>[andDelegate]</attributes>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instantiate the class with pre-required properties to render a UI <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>masterurls</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as a list of url&apos;s in which user can navigate pages </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>urls</parametername>
+<parametername>cutom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>playlist url&apos;s which user can speicifically navigate to the filtered list of pages from the master playlist </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+<parametername>delegate</parametername>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class can implement it to receive notification </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="interface_pxe_player_page_manager_1a8f9edd477523edd9403157d3ec4d9272" kindref="member">- initWithNCXUrl:withCustomPlaylist:andDelegate:</ref> </para><simplesectsep/><para><ref refid="protocol_pxe_player_page_manager_delegate-p" kindref="compound">PxePlayerPageManagerDelegate</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="305" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a2bcb750b8adc89ba486a938a2cd41912" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageManager::nextPage</definition>
+        <argsstring>()</argsstring>
+        <name>nextPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Navigate to the next page and returns it&apos;s URL <simplesect kind="return"><para>NSString, returns the next page&apos;s URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="540" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a537e1ae0451bb4bd2505567dd131c0cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageManager::prevPage</definition>
+        <argsstring>()</argsstring>
+        <name>prevPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Navigate to the previous page and returns it&apos;s URL <simplesect kind="return"><para>NSString, returns the previous page&apos;s URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="573" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a498ec415cdee48cf98d3987b27d1e255" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageManager::getCurrentPage</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the currently rendered page <simplesect kind="return"><para>NSString, returns the current page&apos;s URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="606" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a424c106ea5215cdc09717245ebea3550" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageManager::gotoPageByPageId:</definition>
+        <argsstring>(NSString *pageId)</argsstring>
+        <name>gotoPageByPageId:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pageId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Navigate to the page by using page id <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>pageId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a reference to jump to the particular page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSString, newly navigated page&apos;s URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="432" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1aa936790b8353f99bd80ab0a103a617cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageManager::gotoPageByPageURL:</definition>
+        <argsstring>(NSString *pageURL)</argsstring>
+        <name>gotoPageByPageURL:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pageURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Navigate to the particular page by using page URL <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>pageURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a reference to jump to the particular page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSString, newly navigated page&apos;s URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="462" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a8df6da237f836f15071bb4f89d6341ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageManager::gotoPageByPageNumber:</definition>
+        <argsstring>(NSNumber *pageNumber)</argsstring>
+        <name>gotoPageByPageNumber:</name>
+        <param>
+          <type>NSNumber *</type>
+          <declname>pageNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Navigate to the particular page by using page number <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>pageNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a reference to jump to the particular page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSString, newly navigated page&apos;s URL </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="397" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a3bc250a6d660a4bc896d3a4246acb71a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManager::pageDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>pageDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will be called when current page has been loaded </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="534" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a29541675ce1b0d7ad4eebe09911ad110" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManager::updatePageIndex</definition>
+        <argsstring>()</argsstring>
+        <name>updatePageIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method should be called after rendering the particular page and update&apos;s current page index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="530" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a280a0550516439315df7c060e55cb381" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManager::resetCurrentPage:</definition>
+        <argsstring>(NSString *page)</argsstring>
+        <name>resetCurrentPage:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method should be called to reset the current page index <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>page</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as a page URL is a reference to set the current page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="630" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a8601082d8343001cc1a83ba95c01dc2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManager::refreshCurrentPage</definition>
+        <argsstring>()</argsstring>
+        <name>refreshCurrentPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Refresh the current page by freshly downloading the page content and render it and reset the current page properties </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="369" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a84ea3e77704e458a85e6fb141eab5802" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageManager::refreshPage:</definition>
+        <argsstring>(NSString *pageId)</argsstring>
+        <name>refreshPage:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pageId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Refresh the particular page by freshly downloading the page content to reset the page properties <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>pageId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a reference to refresh the particular page </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="383" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a5a1c671b75d0ce7b77750679abf4b740" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageManager::isFirstPage</definition>
+        <argsstring>()</argsstring>
+        <name>isFirstPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns if the current page has first page of the book <simplesect kind="return"><para>BOOL, returns true if the page is first page of the book </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="640" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1ad6efc3fb86987d93e9dbc66de3e2e0c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageManager::isLastPage</definition>
+        <argsstring>()</argsstring>
+        <name>isLastPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns if the current page has last page of the book <simplesect kind="return"><para>BOOL, returns true if the page is last page of the book </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="648" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1ae10baa45f460312dc9220334f6658d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerPageManager::getCurrentPageNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPageNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns the current page number <simplesect kind="return"><para>NSUInteger, returns the current page number </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="502" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a052fc55b8da41bde1a68cdd70be2fac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger PxePlayerPageManager::getTotalPagesCount</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalPagesCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns the total pages count in the book <simplesect kind="return"><para>NSUInteger, returns the total page count in the book </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="522" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1ae71c769ffff71a00e03d28ad618232f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerPageManager::getCurrentPageIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPageIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns the current page index <simplesect kind="return"><para>NSUInteger, returns the current page index </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="498" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a5de236ad53cb1a1f0317b37b574ca80c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger PxePlayerPageManager::getVirtualCurrentPageIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getVirtualCurrentPageIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns the current transition page index <simplesect kind="return"><para>NSUInteger, returns the current transitiosn page index </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="526" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1ac95267a16f83a65107f5994a1cfb36ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * PxePlayerPageManager::getCurrentPageId</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPageId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns the current page&apos;s page id <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>returns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current page id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="356" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_manager_1a557a12a6602edf9850a6d8732509bbfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *</type>
+        <definition>NSNumber * PxePlayerPageManager::popHistory</definition>
+        <argsstring>()</argsstring>
+        <name>popHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method pop out the page stored in the history stack (LIFO) <simplesect kind="return"><para>NSNumber, remove the last stored page number for history reference and returns the removed page number </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="56" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.m" bodystart="186" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class which manages pages download queue and sends the required information to the target class to rendering a page and maintaining the queue</para><para><ref refid="interface_pxe_player_page_manager" kindref="compound">PxePlayerPageManager</ref> class implementation where all methods should be defined </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>PxePlayerPageManager</label>
+        <link refid="interface_pxe_player_page_manager"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="79">
+        <label>PxePlayerPageManager</label>
+        <link refid="interface_pxe_player_page_manager"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" line="55" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageManager.h" bodystart="54" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_page_manager_1a7951815ab7a221d5150dc74a1fb10606" prot="public" virt="non-virtual"><scope>PxePlayerPageManager</scope><name>delegate</name></member>
+      <member refid="interface_pxe_player_page_manager_1a498ec415cdee48cf98d3987b27d1e255" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>getCurrentPage</name></member>
+      <member refid="interface_pxe_player_page_manager_1ac95267a16f83a65107f5994a1cfb36ef" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>getCurrentPageId</name></member>
+      <member refid="interface_pxe_player_page_manager_1ae71c769ffff71a00e03d28ad618232f7" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>getCurrentPageIndex</name></member>
+      <member refid="interface_pxe_player_page_manager_1ae10baa45f460312dc9220334f6658d10" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>getCurrentPageNumber</name></member>
+      <member refid="interface_pxe_player_page_manager_1a052fc55b8da41bde1a68cdd70be2fac9" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>getTotalPagesCount</name></member>
+      <member refid="interface_pxe_player_page_manager_1a5de236ad53cb1a1f0317b37b574ca80c" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>getVirtualCurrentPageIndex</name></member>
+      <member refid="interface_pxe_player_page_manager_1a424c106ea5215cdc09717245ebea3550" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>gotoPageByPageId:</name></member>
+      <member refid="interface_pxe_player_page_manager_1a8df6da237f836f15071bb4f89d6341ee" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>gotoPageByPageNumber:</name></member>
+      <member refid="interface_pxe_player_page_manager_1aa936790b8353f99bd80ab0a103a617cc" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>gotoPageByPageURL:</name></member>
+      <member refid="interface_pxe_player_page_manager_1a1acb70790e9716c43ec76ead84660df5" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>initWithMasterPlaylist:withCustomPlaylist:andDelegate:</name></member>
+      <member refid="interface_pxe_player_page_manager_1a8f9edd477523edd9403157d3ec4d9272" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>initWithNCXUrl:withCustomPlaylist:andDelegate:</name></member>
+      <member refid="interface_pxe_player_page_manager_1a5a1c671b75d0ce7b77750679abf4b740" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>isFirstPage</name></member>
+      <member refid="interface_pxe_player_page_manager_1ad6efc3fb86987d93e9dbc66de3e2e0c2" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>isLastPage</name></member>
+      <member refid="interface_pxe_player_page_manager_1a2bcb750b8adc89ba486a938a2cd41912" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>nextPage</name></member>
+      <member refid="interface_pxe_player_page_manager_1a3bc250a6d660a4bc896d3a4246acb71a" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>pageDidLoad</name></member>
+      <member refid="interface_pxe_player_page_manager_1a557a12a6602edf9850a6d8732509bbfe" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>popHistory</name></member>
+      <member refid="interface_pxe_player_page_manager_1a537e1ae0451bb4bd2505567dd131c0cf" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>prevPage</name></member>
+      <member refid="interface_pxe_player_page_manager_1a8601082d8343001cc1a83ba95c01dc2b" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>refreshCurrentPage</name></member>
+      <member refid="interface_pxe_player_page_manager_1a84ea3e77704e458a85e6fb141eab5802" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>refreshPage:</name></member>
+      <member refid="interface_pxe_player_page_manager_1a280a0550516439315df7c060e55cb381" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>resetCurrentPage:</name></member>
+      <member refid="interface_pxe_player_page_manager_1a29541675ce1b0d7ad4eebe09911ad110" prot="public" virt="virtual"><scope>PxePlayerPageManager</scope><name>updatePageIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

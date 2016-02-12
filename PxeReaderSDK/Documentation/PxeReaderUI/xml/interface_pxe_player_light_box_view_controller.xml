@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_light_box_view_controller" kind="class" prot="public">
+    <compoundname>PxePlayerLightBoxViewController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <includes refid="_pxe_player_light_box_view_controller_8h" local="no">PxePlayerLightBoxViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_light_box_view_controller_1a0603939be7a9337d50eedf4e1b5116bf" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary* PxePlayerLightBoxViewController::boxInfo</definition>
+        <argsstring></argsstring>
+        <name>boxInfo</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NSDictionary object which holds the necessary object information to render into the screen </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLightBoxViewController.h" line="20" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLightBoxViewController.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple class to display image, gadget and external URL&apos;s in the lightbox view </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>PxePlayerLightBoxViewController</label>
+        <link refid="interface_pxe_player_light_box_view_controller"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="48">
+        <label>PxePlayerLightBoxViewController</label>
+        <link refid="interface_pxe_player_light_box_view_controller"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLightBoxViewController.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerLightBoxViewController.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_light_box_view_controller_1a0603939be7a9337d50eedf4e1b5116bf" prot="public" virt="non-virtual"><scope>PxePlayerLightBoxViewController</scope><name>boxInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_page_operations" kind="class" prot="public">
+    <compoundname>PxePlayerPageOperations</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_page_operations_8h" local="no">PxePlayerPageOperations.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_page_operations_1a7f4807bfd10dd5df697157d960312e01" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="weak">
+        <type>id&lt; <ref refid="protocol_pxe_player_operation_queue_delegate-p" kindref="compound">PxePlayerOperationQueueDelegate</ref> &gt;</type>
+        <definition>id&lt;PxePlayerOperationQueueDelegate&gt; PxePlayerPageOperations::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A <ref refid="protocol_pxe_player_operation_queue_delegate-p" kindref="compound">PxePlayerOperationQueueDelegate</ref> protocol instance to send information to class which implements it </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1aad149c96714e9b45fc27a9cf7f4e685d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageOperations::addOperation:withAuthToken:andUserId:</definition>
+        <argsstring>(NSString *page,[withAuthToken] NSString *authToken,[andUserId] NSString *userId)</argsstring>
+        <name>addOperation:withAuthToken:andUserId:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <attributes>[withAuthToken]</attributes>
+          <type>NSString *</type>
+          <declname>authToken</declname>
+        </param>
+        <param>
+          <attributes>[andUserId]</attributes>
+          <type>NSString *</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to add page download operation into the operation queue <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>page</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>that needs to be downloaded </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>authToken</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is required to attach with query stirng when initiate download data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>userId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is required to attach with query stirng when initiate download data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="105" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1ac9235b0d49bcadab7cdb92e006706043" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageOperations::addOperations:withPriorityIndex:andAuthToken:andUserId:</definition>
+        <argsstring>(NSArray *operations,[withPriorityIndex] NSInteger priorityIndex,[andAuthToken] NSString *authToken,[andUserId] NSString *userId)</argsstring>
+        <name>addOperations:withPriorityIndex:andAuthToken:andUserId:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>operations</declname>
+        </param>
+        <param>
+          <attributes>[withPriorityIndex]</attributes>
+          <type>NSInteger</type>
+          <declname>priorityIndex</declname>
+        </param>
+        <param>
+          <attributes>[andAuthToken]</attributes>
+          <type>NSString *</type>
+          <declname>authToken</declname>
+        </param>
+        <param>
+          <attributes>[andUserId]</attributes>
+          <type>NSString *</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be to list of page download operation into the operation queue <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSArray</parametername>
+<parametername>operations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a list of page details that need to be downloaded from the server </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSInteger</parametername>
+<parametername>priorityIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a index to set the priority level for the operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>authToken</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is required to attach with query stirng when initiate download data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>userId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is required to attach with query stirng when initiate download data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="66" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1abbbea4de9ce2d040313f310be02b0bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageOperations::cancelAllOperations</definition>
+        <argsstring>()</argsstring>
+        <name>cancelAllOperations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to cancel all page download operation in the operation queue </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1ac7449d561b1bdb4c89003679abfaf88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageOperations::suspendAllOperations</definition>
+        <argsstring>()</argsstring>
+        <name>suspendAllOperations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to suspend all page download operation in the operation queue </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="190" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1a159fb3ede9c90760684aec304e8e8124" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PxePlayerPageOperations::resumeAllOperations</definition>
+        <argsstring>()</argsstring>
+        <name>resumeAllOperations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to resume all suspended page download operation in the operation queue </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="194" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1a86e99a43d95db1b30b23e7c816f7cdf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageOperations::setOperationPriority:priority:</definition>
+        <argsstring>(NSString *key,[priority] NSInteger priority)</argsstring>
+        <name>setOperationPriority:priority:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[priority]</attributes>
+          <type>NSInteger</type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to set the each operation priority level in the operation queue <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>used to identify the operation in the queue </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NSInteger</parametername>
+<parametername>priority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is level of the priority in the queue </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>BOOL, return yes if operation priority successfully set else return no as a error </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="126" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1a0718a649b13638e766d121557d5aac88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageOperations::isOperationFound:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>isOperationFound:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to check whether particular operation found in the queue <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to identify the operation in the queue </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="136" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_pxe_player_page_operations_1a95fa29d8fe3e1955d4114d187a27f164" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageOperations::cancelOperation:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>cancelOperation:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method would be called to cancel the particular operation in the queue <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NSString</parametername>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to identity the operation in the queue </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>BOOL, return yes if operation successfully cancelled else return no as a error </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.m" bodystart="145" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to manage the operations in the queue </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="276">
+        <label>PxePlayerPageOperations</label>
+        <link refid="interface_pxe_player_page_operations"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="278">
+        <label>PxePlayerPageOperations</label>
+        <link refid="interface_pxe_player_page_operations"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" line="34" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerPageOperations.h" bodystart="33" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_page_operations_1aad149c96714e9b45fc27a9cf7f4e685d" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>addOperation:withAuthToken:andUserId:</name></member>
+      <member refid="interface_pxe_player_page_operations_1ac9235b0d49bcadab7cdb92e006706043" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>addOperations:withPriorityIndex:andAuthToken:andUserId:</name></member>
+      <member refid="interface_pxe_player_page_operations_1abbbea4de9ce2d040313f310be02b0bb6" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>cancelAllOperations</name></member>
+      <member refid="interface_pxe_player_page_operations_1a95fa29d8fe3e1955d4114d187a27f164" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>cancelOperation:</name></member>
+      <member refid="interface_pxe_player_page_operations_1a7f4807bfd10dd5df697157d960312e01" prot="public" virt="non-virtual"><scope>PxePlayerPageOperations</scope><name>delegate</name></member>
+      <member refid="interface_pxe_player_page_operations_1a0718a649b13638e766d121557d5aac88" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>isOperationFound:</name></member>
+      <member refid="interface_pxe_player_page_operations_1a159fb3ede9c90760684aec304e8e8124" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>resumeAllOperations</name></member>
+      <member refid="interface_pxe_player_page_operations_1a86e99a43d95db1b30b23e7c816f7cdf8" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>setOperationPriority:priority:</name></member>
+      <member refid="interface_pxe_player_page_operations_1ac7449d561b1bdb4c89003679abfaf88a" prot="public" virt="virtual"><scope>PxePlayerPageOperations</scope><name>suspendAllOperations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

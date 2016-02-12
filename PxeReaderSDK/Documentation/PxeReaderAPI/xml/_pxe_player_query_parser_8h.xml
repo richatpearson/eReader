@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_pxe_player_query_parser_8h" kind="file">
+    <compoundname>PxePlayerQueryParser.h</compoundname>
+    <includedby refid="_pxe_player_interface_8m" local="yes">PxePlayerInterface.m</includedby>
+    <includedby refid="_pxe_player_kit_8h" local="yes">PxePlayerKit.h</includedby>
+    <includedby refid="_pxe_player_query_parser_8m" local="yes">PxePlayerQueryParser.m</includedby>
+    <invincdepgraph>
+      <node id="671">
+        <label>PxePlayerQueryParser.h</label>
+        <link refid="PxePlayerQueryParser.h"/>
+        <childnode refid="672" relation="include">
+        </childnode>
+        <childnode refid="673" relation="include">
+        </childnode>
+        <childnode refid="674" relation="include">
+        </childnode>
+      </node>
+      <node id="674">
+        <label>PxePlayerQueryParser.m</label>
+        <link refid="_pxe_player_query_parser_8m"/>
+      </node>
+      <node id="672">
+        <label>PxePlayerInterface.m</label>
+        <link refid="_pxe_player_interface_8m"/>
+      </node>
+      <node id="673">
+        <label>PxePlayerKit.h</label>
+        <link refid="_pxe_player_kit_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_pxe_player_query_parser" prot="public">PxePlayerQueryParser</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTQueryParser.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NTApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Saro<sp/>Bear<sp/>on<sp/>02/07/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Happiest<sp/>Minds.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_old_user_query" kindref="compound">PxePlayerOldUserQuery</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_user_query" kindref="compound">PxePlayerUserQuery</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_toc_query" kindref="compound">PxePlayerTocQuery</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_chapters_query" kindref="compound">PxePlayerChaptersQuery</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_pages_query" kindref="compound">PxePlayerPagesQuery</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_book_query" kindref="compound">PxePlayerBookQuery</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_bookmark_query" kindref="compound">PxePlayerBookmarkQuery</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_add_annotation_query" kindref="compound">PxePlayerAddAnnotationQuery</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_search_n_c_x_query" kindref="compound">PxePlayerSearchNCXQuery</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_search_u_r_ls_query" kindref="compound">PxePlayerSearchURLsQuery</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_pxe_player_search_book_query" kindref="compound">PxePlayerSearchBookQuery</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="interface_pxe_player_query_parser" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_pxe_player_query_parser" kindref="compound">PxePlayerQueryParser</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseUserQuery:</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Performs<sp/>parsing<sp/>PxePlayerUserQuery,</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerUserQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>PxePlayerUserQuery</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>PxePlayerUserQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">+(NSDictionary*)<sp/>parseUserQuery:(<ref refid="interface_pxe_player_user_query" kindref="compound">PxePlayerUserQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">+(NSDictionary*)<sp/>parseOldUserQuery:(<ref refid="interface_pxe_player_old_user_query" kindref="compound">PxePlayerOldUserQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseTOCQuery:</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Performs<sp/>parsing<sp/>PxePlayerTocQuery,</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerTocQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>PxePlayerTocQuery</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>PxePlayerTocQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">+(NSDictionary*)<sp/>parseTOCQuery:(<ref refid="interface_pxe_player_toc_query" kindref="compound">PxePlayerTocQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseChaptersQuery:</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Performs<sp/>parsing<sp/>PxePlayerChaptersQuery,</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerChaptersQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>PxePlayerChaptersQuery</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>PxePlayerChaptersQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">+(NSDictionary*)<sp/>parseChaptersQuery:(<ref refid="interface_pxe_player_chapters_query" kindref="compound">PxePlayerChaptersQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parsePagesQuery:</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Performs<sp/>parsing<sp/>PxePlayerPagesQuery,</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerPagesQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>PxePlayerPagesQuery</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>PxePlayerPagesQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">+(NSDictionary*)<sp/>parsePagesQuery:(<ref refid="interface_pxe_player_pages_query" kindref="compound">PxePlayerPagesQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseBookShelfQuery:</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">+(NSDictionary*)<sp/>parseBookShelfQuery:(<ref refid="interface_pxe_player_book_query" kindref="compound">PxePlayerBookQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseNavigationsQuery:</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">+(NSDictionary*)<sp/>parseNavigationsQuery:(<ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseBookmarkQuery:</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">+(NSDictionary*)<sp/>parseBookmarkQuery:(<ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseAddBookmarkQuery:</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal">+(NSDictionary*)<sp/>parseAddBookmarkQuery:(<ref refid="interface_pxe_player_bookmark_query" kindref="compound">PxePlayerBookmarkQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseNotesQuery:</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal">+(NSDictionary*)<sp/>parseNotesQuery:(<ref refid="interface_pxe_player_navigations_query" kindref="compound">PxePlayerNavigationsQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseAddAnnotationQuery:</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="254"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal">+(NSDictionary*)<sp/>parseAddAnnotationQuery:(<ref refid="interface_pxe_player_add_annotation_query" kindref="compound">PxePlayerAddAnnotationQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseUpdateAnnotationQuery:</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="268"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="269"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="271"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="274"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="280"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="281"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="282"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal">+(NSDictionary*)<sp/>parseUpdateAnnotationQuery:(<ref refid="interface_pxe_player_add_annotation_query" kindref="compound">PxePlayerAddAnnotationQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="288"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseSearchBookQuery:</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="290"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="291"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="292"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="293"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="294"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="297"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="298"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="299"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="300"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="301"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="302"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="303"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal">+(NSDictionary*)<sp/>parseSearchBookQuery:(<ref refid="interface_pxe_player_search_book_query" kindref="compound">PxePlayerSearchBookQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="312"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseInitSearchNCXQuery:</highlight></codeline>
+<codeline lineno="313"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="314"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="315"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="316"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="317"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="318"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="321"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="322"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="323"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="324"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="325"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="326"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="327"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="328"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="329"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="330"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal">+(NSDictionary*)<sp/>parseInitSearchNCXQuery:(<ref refid="interface_pxe_player_search_n_c_x_query" kindref="compound">PxePlayerSearchNCXQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="336"><highlight class="comment"><sp/>@method<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parseInitSearchURLsQuery:</highlight></codeline>
+<codeline lineno="337"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="338"><highlight class="comment"><sp/>@abstract</highlight></codeline>
+<codeline lineno="339"><highlight class="comment"><sp/>Performs<sp/>parsing<sp/>PxePlayerBookQuery,</highlight></codeline>
+<codeline lineno="340"><highlight class="comment"><sp/>returning<sp/>the<sp/>formatted<sp/>NSDictionary<sp/>object.</highlight></codeline>
+<codeline lineno="341"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="342"><highlight class="comment"><sp/>@discussion</highlight></codeline>
+<codeline lineno="343"><highlight class="comment"><sp/>This<sp/>method<sp/>performs<sp/>parsing<sp/>of<sp/>PxePlayerBookQuery<sp/>object<sp/>into<sp/>appropriate</highlight></codeline>
+<codeline lineno="344"><highlight class="comment"><sp/>NSDictionary<sp/>object<sp/>and<sp/>returns<sp/>it<sp/>as<sp/>expected<sp/>by<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="345"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="346"><highlight class="comment"><sp/>@param</highlight></codeline>
+<codeline lineno="347"><highlight class="comment"><sp/>PxePlayerBookQuery</highlight></codeline>
+<codeline lineno="348"><highlight class="comment"><sp/>The<sp/>PxePlayerBookQuery<sp/>object<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>sent<sp/>to<sp/>the<sp/>server.</highlight></codeline>
+<codeline lineno="349"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="350"><highlight class="comment"><sp/>@result</highlight></codeline>
+<codeline lineno="351"><highlight class="comment"><sp/>NSDictionary</highlight></codeline>
+<codeline lineno="352"><highlight class="comment"><sp/>Returns<sp/>NSDictionary<sp/>object<sp/>after<sp/>parsing.</highlight></codeline>
+<codeline lineno="353"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="354"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal">+(NSDictionary*)<sp/>parseInitSearchURLsQuery:(<ref refid="interface_pxe_player_search_u_r_ls_query" kindref="compound">PxePlayerSearchURLsQuery</ref>*)query;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerQueryParser.h"/>
+  </compounddef>
+</doxygen>

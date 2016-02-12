@@ -1,0 +1,25 @@
+var interface_pxe_player_page_manager =
+[
+    [ "getCurrentPage", "interface_pxe_player_page_manager.html#a498ec415cdee48cf98d3987b27d1e255", null ],
+    [ "getCurrentPageId", "interface_pxe_player_page_manager.html#ac95267a16f83a65107f5994a1cfb36ef", null ],
+    [ "getCurrentPageIndex", "interface_pxe_player_page_manager.html#ae71c769ffff71a00e03d28ad618232f7", null ],
+    [ "getCurrentPageNumber", "interface_pxe_player_page_manager.html#ae10baa45f460312dc9220334f6658d10", null ],
+    [ "getTotalPagesCount", "interface_pxe_player_page_manager.html#a052fc55b8da41bde1a68cdd70be2fac9", null ],
+    [ "getVirtualCurrentPageIndex", "interface_pxe_player_page_manager.html#a5de236ad53cb1a1f0317b37b574ca80c", null ],
+    [ "gotoPageByPageId:", "interface_pxe_player_page_manager.html#a424c106ea5215cdc09717245ebea3550", null ],
+    [ "gotoPageByPageNumber:", "interface_pxe_player_page_manager.html#a8df6da237f836f15071bb4f89d6341ee", null ],
+    [ "gotoPageByPageURL:", "interface_pxe_player_page_manager.html#aa936790b8353f99bd80ab0a103a617cc", null ],
+    [ "initWithMasterPlaylist:withCustomPlaylist:andDelegate:", "interface_pxe_player_page_manager.html#a1acb70790e9716c43ec76ead84660df5", null ],
+    [ "initWithNCXUrl:withCustomPlaylist:andDelegate:", "interface_pxe_player_page_manager.html#a8f9edd477523edd9403157d3ec4d9272", null ],
+    [ "isFirstPage", "interface_pxe_player_page_manager.html#a5a1c671b75d0ce7b77750679abf4b740", null ],
+    [ "isLastPage", "interface_pxe_player_page_manager.html#ad6efc3fb86987d93e9dbc66de3e2e0c2", null ],
+    [ "nextPage", "interface_pxe_player_page_manager.html#a2bcb750b8adc89ba486a938a2cd41912", null ],
+    [ "pageDidLoad", "interface_pxe_player_page_manager.html#a3bc250a6d660a4bc896d3a4246acb71a", null ],
+    [ "popHistory", "interface_pxe_player_page_manager.html#a557a12a6602edf9850a6d8732509bbfe", null ],
+    [ "prevPage", "interface_pxe_player_page_manager.html#a537e1ae0451bb4bd2505567dd131c0cf", null ],
+    [ "refreshCurrentPage", "interface_pxe_player_page_manager.html#a8601082d8343001cc1a83ba95c01dc2b", null ],
+    [ "refreshPage:", "interface_pxe_player_page_manager.html#a84ea3e77704e458a85e6fb141eab5802", null ],
+    [ "resetCurrentPage:", "interface_pxe_player_page_manager.html#a280a0550516439315df7c060e55cb381", null ],
+    [ "updatePageIndex", "interface_pxe_player_page_manager.html#a29541675ce1b0d7ad4eebe09911ad110", null ],
+    [ "delegate", "interface_pxe_player_page_manager.html#a7951815ab7a221d5150dc74a1fb10606", null ]
+];

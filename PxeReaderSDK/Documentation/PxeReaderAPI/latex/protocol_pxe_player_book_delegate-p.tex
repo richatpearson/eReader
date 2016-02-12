@@ -1,0 +1,145 @@
+\hypertarget{protocol_pxe_player_book_delegate-p}{\section{$<$Pxe\-Player\-Book\-Delegate$>$ Protocol Reference}
+\label{protocol_pxe_player_book_delegate-p}\index{$<$\-Pxe\-Player\-Book\-Delegate$>$@{$<$\-Pxe\-Player\-Book\-Delegate$>$}}
+}
+
+
+{\ttfamily \#import $<$Pxe\-Player\-Book\-Delegate.\-h$>$}
+
+Inheritance diagram for $<$Pxe\-Player\-Book\-Delegate$>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{protocol_pxe_player_book_delegate-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_a771400d6215f4dfdec837caf8aac2dcd}{get\-Auth\-Token}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_ab3fa8102745d211184d278219650e0b1}{get\-User\-Id}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_a6d001a4776ec1f88a60fd217d1669742}{get\-Book\-Id}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_a28464d6c265ff75c4841e7284547b1cf}{get\-Course\-Id}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_aac1a9c5f8447d689ca3480ae63970691}{get\-Toc\-U\-R\-L}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_a0ac191ff606c13517b72328ce22cc140}{is\-Page\-Available\-:}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_a5d3cee036beea1a63be6d5db307bd9fb}{load\-Page\-With\-Relative\-U\-R\-L\-:}
+\item 
+(void) -\/ \hyperlink{protocol_pxe_player_book_delegate-p_af75d39de105332fc8422ea0f0d7de94d}{load\-Page\-With\-Relative\-U\-R\-L\-:and\-Highlight\-Labels\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A informal protocol to which send's the book view controller to update or perform actions  $<$\-N\-S\-Object$>$, extented from \hyperlink{class_n_s_object-p}{N\-S\-Object} 
+
+Definition at line 14 of file Pxe\-Player\-Book\-Delegate.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{protocol_pxe_player_book_delegate-p_a771400d6215f4dfdec837caf8aac2dcd}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!get\-Auth\-Token@{get\-Auth\-Token}}
+\index{get\-Auth\-Token@{get\-Auth\-Token}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{get\-Auth\-Token}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) get\-Auth\-Token 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [required]}}}\label{protocol_pxe_player_book_delegate-p_a771400d6215f4dfdec837caf8aac2dcd}
+This method would be called to get the user auth token \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the auth token as a string 
+\end{DoxyReturn}
+\hypertarget{protocol_pxe_player_book_delegate-p_a6d001a4776ec1f88a60fd217d1669742}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!get\-Book\-Id@{get\-Book\-Id}}
+\index{get\-Book\-Id@{get\-Book\-Id}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{get\-Book\-Id}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) get\-Book\-Id 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [required]}}}\label{protocol_pxe_player_book_delegate-p_a6d001a4776ec1f88a60fd217d1669742}
+This method would be called to get the user book id \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the book id as a string 
+\end{DoxyReturn}
+\hypertarget{protocol_pxe_player_book_delegate-p_a28464d6c265ff75c4841e7284547b1cf}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!get\-Course\-Id@{get\-Course\-Id}}
+\index{get\-Course\-Id@{get\-Course\-Id}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{get\-Course\-Id}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) get\-Course\-Id 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_book_delegate-p_a28464d6c265ff75c4841e7284547b1cf}
+This method would be called to get the user course id \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the course id as a string 
+\end{DoxyReturn}
+\hypertarget{protocol_pxe_player_book_delegate-p_aac1a9c5f8447d689ca3480ae63970691}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!get\-Toc\-U\-R\-L@{get\-Toc\-U\-R\-L}}
+\index{get\-Toc\-U\-R\-L@{get\-Toc\-U\-R\-L}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{get\-Toc\-U\-R\-L}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) get\-Toc\-U\-R\-L 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_book_delegate-p_aac1a9c5f8447d689ca3480ae63970691}
+This method would be called to get the toc url \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the toc url as a string 
+\end{DoxyReturn}
+\hypertarget{protocol_pxe_player_book_delegate-p_ab3fa8102745d211184d278219650e0b1}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!get\-User\-Id@{get\-User\-Id}}
+\index{get\-User\-Id@{get\-User\-Id}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{get\-User\-Id}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) get\-User\-Id 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [required]}}}\label{protocol_pxe_player_book_delegate-p_ab3fa8102745d211184d278219650e0b1}
+This method would be called to get the user id \begin{DoxyReturn}{Returns}
+N\-S\-String, returns the user id as a string 
+\end{DoxyReturn}
+\hypertarget{protocol_pxe_player_book_delegate-p_a0ac191ff606c13517b72328ce22cc140}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!is\-Page\-Available\-:@{is\-Page\-Available\-:}}
+\index{is\-Page\-Available\-:@{is\-Page\-Available\-:}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{is\-Page\-Available\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) is\-Page\-Available\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{relative\-U\-R\-L}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_book_delegate-p_a0ac191ff606c13517b72328ce22cc140}
+This method would be called to check whether page with correspoding relative U\-R\-L found in the core data 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,relative\-U\-R\-L} & is a relative url of the page \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns the true if page found for the given relative url else returns false. 
+\end{DoxyReturn}
+\hypertarget{protocol_pxe_player_book_delegate-p_a5d3cee036beea1a63be6d5db307bd9fb}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!load\-Page\-With\-Relative\-U\-R\-L\-:@{load\-Page\-With\-Relative\-U\-R\-L\-:}}
+\index{load\-Page\-With\-Relative\-U\-R\-L\-:@{load\-Page\-With\-Relative\-U\-R\-L\-:}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{load\-Page\-With\-Relative\-U\-R\-L\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) load\-Page\-With\-Relative\-U\-R\-L\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{relative\-U\-R\-L}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_book_delegate-p_a5d3cee036beea1a63be6d5db307bd9fb}
+This method would be called to load the page with it's relative U\-R\-L 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,relative\-U\-R\-L} & is a relative url of the page \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns the true if page has been loaded successfully else returns false. 
+\end{DoxyReturn}
+\hypertarget{protocol_pxe_player_book_delegate-p_af75d39de105332fc8422ea0f0d7de94d}{\index{Pxe\-Player\-Book\-Delegate-\/p@{Pxe\-Player\-Book\-Delegate-\/p}!load\-Page\-With\-Relative\-U\-R\-L\-:and\-Highlight\-Labels\-:@{load\-Page\-With\-Relative\-U\-R\-L\-:and\-Highlight\-Labels\-:}}
+\index{load\-Page\-With\-Relative\-U\-R\-L\-:and\-Highlight\-Labels\-:@{load\-Page\-With\-Relative\-U\-R\-L\-:and\-Highlight\-Labels\-:}!PxePlayerBookDelegate-p@{Pxe\-Player\-Book\-Delegate-\/p}}
+\subsubsection[{load\-Page\-With\-Relative\-U\-R\-L\-:and\-Highlight\-Labels\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) {\bf load\-Page\-With\-Relative\-U\-R\-L\-:} 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{relative\-U\-R\-L}
+\item[{andHighlightLabels:(N\-S\-Array $\ast$)}]{highlights}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_pxe_player_book_delegate-p_af75d39de105332fc8422ea0f0d7de94d}
+This method would be called to load the page with it's relative U\-R\-L with highlighting the book 
+\begin{DoxyParams}{Parameters}
+{\em N\-S\-String,relative\-U\-R\-L} & is a relative url of the page \\
+\hline
+{\em N\-S\-Array,highlights} & is a \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+B\-O\-O\-L, returns the true if page has been loaded successfully else returns false. 
+\end{DoxyReturn}
+
+
+The documentation for this protocol was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pxe_player_book_delegate_8h}{Pxe\-Player\-Book\-Delegate.\-h}\end{DoxyCompactItemize}

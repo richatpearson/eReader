@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_data_manager_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerDataManager()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_data_manager_07_08_1a6b7bfe044b621bbbaf643632c6dc7e01" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSManagedObjectModel *</type>
+        <definition>NSManagedObjectModel* PxePlayerDataManager()::objectModel</definition>
+        <argsstring></argsstring>
+        <name>objectModel</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSManagetObjectModel variable for create object model on the particular location for core data persistent store </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" line="22" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_data_manager_07_08_1aec293ddfcfbce08c156f50fa40df004d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSManagedObjectContext *</type>
+        <definition>NSManagedObjectContext* PxePlayerDataManager()::objectContext</definition>
+        <argsstring></argsstring>
+        <name>objectContext</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSManagedObjectContext variable for create context for the current store coordinator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" line="27" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_data_manager_07_08_1affbb8a325d42a3ce9ef30703bc9e7e54" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSPersistentStoreCoordinator *</type>
+        <definition>NSPersistentStoreCoordinator* PxePlayerDataManager()::persistentStoreCoordinator</definition>
+        <argsstring></argsstring>
+        <name>persistentStoreCoordinator</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSPersistentStoreCoordinator variable for create store coordinator for the specific location </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" line="32" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" line="17" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerDataManager.m" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_pxe_player_data_manager_07_08_1aec293ddfcfbce08c156f50fa40df004d" prot="public" virt="non-virtual"><scope>PxePlayerDataManager()</scope><name>objectContext</name></member>
+      <member refid="category_pxe_player_data_manager_07_08_1a6b7bfe044b621bbbaf643632c6dc7e01" prot="public" virt="non-virtual"><scope>PxePlayerDataManager()</scope><name>objectModel</name></member>
+      <member refid="category_pxe_player_data_manager_07_08_1affbb8a325d42a3ce9ef30703bc9e7e54" prot="public" virt="non-virtual"><scope>PxePlayerDataManager()</scope><name>persistentStoreCoordinator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

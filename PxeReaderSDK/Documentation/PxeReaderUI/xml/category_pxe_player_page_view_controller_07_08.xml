@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="category_pxe_player_page_view_controller_07_08" kind="category" prot="public">
+    <compoundname>PxePlayerPageViewController()</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;UIPageViewControllerDataSource&gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;UIPageViewControllerDelegate&gt;</basecompoundref>
+    <basecompoundref refid="protocol_pxe_player_page_manager_delegate-p" prot="public" virt="non-virtual">&lt;PxePlayerPageManagerDelegate&gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1af365be45f0c1dee605f424d149e23bbe" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageViewController()::isPageAnimating</definition>
+        <argsstring></argsstring>
+        <name>isPageAnimating</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if page is in transistion </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="45" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1aee05105a7a1e6407c1e86b6ed04ae2a9" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL PxePlayerPageViewController()::shouldAllowPageSwipe</definition>
+        <argsstring></argsstring>
+        <name>shouldAllowPageSwipe</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable/Disable page swipe to navigation option. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="50" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1ae3b736e136429f4b8cc93b93fa680703" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerPageViewController()::startPage</definition>
+        <argsstring></argsstring>
+        <name>startPage</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts book reading from the particular page </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="55" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1afb00dbfd0c479fe097a1fd1357826fd8" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* PxePlayerPageViewController()::pagesContainer</definition>
+        <argsstring></argsstring>
+        <name>pagesContainer</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores the page content view controller instances. <simplesect kind="see"><para><ref refid="interface_pxe_player_page_content_view_controller" kindref="compound">PxePlayerPageContentViewController</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="61" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1a7a2a974b2f99a60d2557c304281e6226" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>UIPageViewController *</type>
+        <definition>UIPageViewController* PxePlayerPageViewController()::pageViewController</definition>
+        <argsstring></argsstring>
+        <name>pageViewController</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Container Instance of UIPageViewController which holds the pageContent and page navigation options <simplesect kind="see"><para>UIPageViewController </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="67" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1a5d1f551e72ef07acb9057d1c68d4e4a3" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSUInteger</type>
+        <definition>NSUInteger PxePlayerPageViewController()::transitionStyle</definition>
+        <argsstring></argsstring>
+        <name>transitionStyle</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Option to set the transition style of the UIPageViewContoller </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="72" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1a2d0cd55db172a5b8d943ab0ad47d555d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSUInteger</type>
+        <definition>NSUInteger PxePlayerPageViewController()::scalePage</definition>
+        <argsstring></argsstring>
+        <name>scalePage</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Option to customise the page WebView scale content to fit <simplesect kind="see"><para>UIWebView , scalePageContentToFit </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="78" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1aff618947eec45f461b189b6971198a5d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type><ref refid="interface_pxe_player_page_manager" kindref="compound">PxePlayerPageManager</ref> *</type>
+        <definition>PxePlayerPageManager* PxePlayerPageViewController()::pageManager</definition>
+        <argsstring></argsstring>
+        <name>pageManager</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class to handle downloading NCX content and helper for page navigation &amp; download <simplesect kind="see"><para><ref refid="interface_pxe_player_page_manager" kindref="compound">PxePlayerPageManager</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="84" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_pxe_player_page_view_controller_07_08_1a52b8cccbb0b8acb9ae499f77281c65fd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type><ref refid="interface_pxe_player_loading_view" kindref="compound">PxePlayerLoadingView</ref> *</type>
+        <definition>PxePlayerLoadingView* PxePlayerPageViewController()::loadingView</definition>
+        <argsstring></argsstring>
+        <name>loadingView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overlay screen of showing loading status <simplesect kind="see"><para><ref refid="interface_pxe_player_loading_view" kindref="compound">PxePlayerLoadingView</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="90" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class extension to display a book pages navigation . </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="98">
+        <label>PxePlayerPageViewController()</label>
+        <link refid="category_pxe_player_page_view_controller_07_08"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>&lt;PxePlayerPageManagerDelegate&gt;</label>
+        <link refid="protocol_pxe_player_page_manager_delegate-p"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="99">
+        <label>&lt;UIPageViewControllerDataSource&gt;</label>
+      </node>
+      <node id="100">
+        <label>&lt;UIPageViewControllerDelegate&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="103">
+        <label>PxePlayerPageViewController()</label>
+        <link refid="category_pxe_player_page_view_controller_07_08"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+        <childnode refid="108" relation="usage">
+          <edgelabel>loadingView</edgelabel>
+        </childnode>
+        <childnode refid="110" relation="usage">
+          <edgelabel>pageManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="106">
+        <label>&lt;PxePlayerPageManagerDelegate&gt;</label>
+        <link refid="protocol_pxe_player_page_manager_delegate-p"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>PxePlayerPageManager</label>
+        <link refid="interface_pxe_player_page_manager"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>PxePlayerLoadingView</label>
+        <link refid="interface_pxe_player_loading_view"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="104">
+        <label>&lt;UIPageViewControllerDataSource&gt;</label>
+      </node>
+      <node id="105">
+        <label>&lt;UIPageViewControllerDelegate&gt;</label>
+      </node>
+      <node id="109">
+        <label>UIView</label>
+      </node>
+      <node id="111">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" line="40" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApiUI/PxePlayerPageViewController.m" bodystart="40" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1a9d9667b05a3d1cccd431612772ff0ec4" prot="public" virt="virtual"><scope>PxePlayerPageViewController()</scope><name>contentsDownloadFailed:</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1a965d42f03bfb8c212f52f871eda34ddd" prot="public" virt="virtual"><scope>PxePlayerPageViewController()</scope><name>contentsDownloadSuccess</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1af365be45f0c1dee605f424d149e23bbe" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>isPageAnimating</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1a52b8cccbb0b8acb9ae499f77281c65fd" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>loadingView</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1aeb75c84d29e81b0a3ac17767dba10966" prot="public" virt="virtual"><scope>PxePlayerPageViewController()</scope><name>pageDownloaded:</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1a005cdc99a2922d6e600f445d467a0862" prot="public" virt="virtual"><scope>PxePlayerPageViewController()</scope><name>pageDownloadFailed:</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1aff618947eec45f461b189b6971198a5d" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>pageManager</name></member>
+      <member refid="protocol_pxe_player_page_manager_delegate-p_1ab19330eab5624f423791da6812efc0ab" prot="public" virt="virtual"><scope>PxePlayerPageViewController()</scope><name>pagesAdded:</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1afb00dbfd0c479fe097a1fd1357826fd8" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>pagesContainer</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1a7a2a974b2f99a60d2557c304281e6226" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>pageViewController</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1a2d0cd55db172a5b8d943ab0ad47d555d" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>scalePage</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1aee05105a7a1e6407c1e86b6ed04ae2a9" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>shouldAllowPageSwipe</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1ae3b736e136429f4b8cc93b93fa680703" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>startPage</name></member>
+      <member refid="category_pxe_player_page_view_controller_07_08_1a5d1f551e72ef07acb9057d1c68d4e4a3" prot="public" virt="non-virtual"><scope>PxePlayerPageViewController()</scope><name>transitionStyle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_navigations_query" kind="class" prot="public">
+    <compoundname>PxePlayerNavigationsQuery</compoundname>
+    <basecompoundref refid="interface_pxe_player_base_query" prot="public" virt="non-virtual">PxePlayerBaseQuery</basecompoundref>
+    <derivedcompoundref refid="interface_pxe_player_add_annotation_query" prot="public" virt="non-virtual">PxePlayerAddAnnotationQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_bookmark_query" prot="public" virt="non-virtual">PxePlayerBookmarkQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_chapters_query" prot="public" virt="non-virtual">PxePlayerChaptersQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_content_annotations_query" prot="public" virt="non-virtual">PxePlayerContentAnnotationsQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_delete_bookmark_query" prot="public" virt="non-virtual">PxePlayerDeleteBookmarkQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_media_query" prot="public" virt="non-virtual">PxePlayerMediaQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_notes_query" prot="public" virt="non-virtual">PxePlayerNotesQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_pages_query" prot="public" virt="non-virtual">PxePlayerPagesQuery</derivedcompoundref>
+    <derivedcompoundref refid="interface_pxe_player_toc_query" prot="public" virt="non-virtual">PxePlayerTocQuery</derivedcompoundref>
+    <includes refid="_pxe_player_navigations_query_8h" local="no">PxePlayerNavigationsQuery.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerNavigationsQuery::bookUUID</definition>
+        <argsstring></argsstring>
+        <name>bookUUID</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the book UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNavigationsQuery.h" line="19" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNavigationsQuery.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class to parse the navigation query </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="188">
+        <label>PxePlayerMediaQuery</label>
+        <link refid="interface_pxe_player_media_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>PxePlayerNoteDeleteQuery</label>
+        <link refid="interface_pxe_player_note_delete_query"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>PxePlayerContentAnnotationsQuery</label>
+        <link refid="interface_pxe_player_content_annotations_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>PxePlayerPagesQuery</label>
+        <link refid="interface_pxe_player_pages_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>PxePlayerBookmarkQuery</label>
+        <link refid="interface_pxe_player_bookmark_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>PxePlayerNotesQuery</label>
+        <link refid="interface_pxe_player_notes_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>PxePlayerDeleteBookmarkQuery</label>
+        <link refid="interface_pxe_player_delete_bookmark_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>PxePlayerChaptersQuery</label>
+        <link refid="interface_pxe_player_chapters_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>PxePlayerAddAnnotationQuery</label>
+        <link refid="interface_pxe_player_add_annotation_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>PxePlayerAddNoteQuery</label>
+        <link refid="interface_pxe_player_add_note_query"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>NSObject</label>
+      </node>
+      <node id="180">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>PxePlayerTocQuery</label>
+        <link refid="interface_pxe_player_toc_query"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="195">
+        <label>PxePlayerBaseQuery</label>
+        <link refid="interface_pxe_player_base_query"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>NSObject</label>
+      </node>
+      <node id="194">
+        <label>PxePlayerNavigationsQuery</label>
+        <link refid="interface_pxe_player_navigations_query"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNavigationsQuery.h" line="15" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerNavigationsQuery.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_base_query_1a49d8f664fabf9e51a73def504d460a63" prot="public" virt="non-virtual"><scope>PxePlayerNavigationsQuery</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_navigations_query_1a1266ecf2f78b4331a6f1efa1c7015ea2" prot="public" virt="non-virtual"><scope>PxePlayerNavigationsQuery</scope><name>bookUUID</name></member>
+      <member refid="interface_pxe_player_base_query_1a767888800e1aa6448405207e57ab4c9b" prot="public" virt="non-virtual"><scope>PxePlayerNavigationsQuery</scope><name>userUUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

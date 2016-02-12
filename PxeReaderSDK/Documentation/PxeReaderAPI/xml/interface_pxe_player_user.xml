@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="interface_pxe_player_user" kind="class" prot="public">
+    <compoundname>PxePlayerUser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_pxe_player_user_8h" local="no">PxePlayerUser.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_pxe_player_user_1a485261fd8e11e460f318ba14ef6484e0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::uuid</definition>
+        <argsstring></argsstring>
+        <name>uuid</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user UID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="18" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1ac61d65d5588236d1d011d2ea1d8aa71c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="23" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1af3074e4f38e3083152cb1a2109bffa82" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::firstName</definition>
+        <argsstring></argsstring>
+        <name>firstName</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user first name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="28" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1ae3090771746d08c97a05cff607924477" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::lastName</definition>
+        <argsstring></argsstring>
+        <name>lastName</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user last name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="33" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1a1a39f13f885fbf6dfea1ccc0856ca13a" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user email </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="38" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1aa0dfff35b9add60a790f31b11e952bd0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::role</definition>
+        <argsstring></argsstring>
+        <name>role</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user role </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="43" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1a3e471652db745d470f639bd926e49ee7" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::authToken</definition>
+        <argsstring></argsstring>
+        <name>authToken</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the user auth token </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="48" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1a618d6c7e2c35d106c6accf4702c87d9a" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* PxePlayerUser::sessionId</definition>
+        <argsstring></argsstring>
+        <name>sessionId</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSString variable to hold the session id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="53" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_pxe_player_user_1af6e60b5781ab406dbbff7ccb8a91803d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* PxePlayerUser::expiresAfter</definition>
+        <argsstring></argsstring>
+        <name>expiresAfter</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A NSNumber variable to hold the expires after time interval </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="58" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple class for handling user data downloaded from the server </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="387">
+        <label>PxePlayerUser</label>
+        <link refid="interface_pxe_player_user"/>
+        <childnode refid="388" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="389">
+        <label>PxePlayerUser</label>
+        <link refid="interface_pxe_player_user"/>
+        <childnode refid="390" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" line="14" column="1" bodyfile="/Users/TITANIUM/Projects/pxereaderios/PxeReaderSDK/PxePlayerApi/PxePlayerUser.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_pxe_player_user_1a3e471652db745d470f639bd926e49ee7" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>authToken</name></member>
+      <member refid="interface_pxe_player_user_1a1a39f13f885fbf6dfea1ccc0856ca13a" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>email</name></member>
+      <member refid="interface_pxe_player_user_1af6e60b5781ab406dbbff7ccb8a91803d" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>expiresAfter</name></member>
+      <member refid="interface_pxe_player_user_1af3074e4f38e3083152cb1a2109bffa82" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>firstName</name></member>
+      <member refid="interface_pxe_player_user_1ae3090771746d08c97a05cff607924477" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>lastName</name></member>
+      <member refid="interface_pxe_player_user_1aa0dfff35b9add60a790f31b11e952bd0" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>role</name></member>
+      <member refid="interface_pxe_player_user_1a618d6c7e2c35d106c6accf4702c87d9a" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>sessionId</name></member>
+      <member refid="interface_pxe_player_user_1ac61d65d5588236d1d011d2ea1d8aa71c" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>userName</name></member>
+      <member refid="interface_pxe_player_user_1a485261fd8e11e460f318ba14ef6484e0" prot="public" virt="non-virtual"><scope>PxePlayerUser</scope><name>uuid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

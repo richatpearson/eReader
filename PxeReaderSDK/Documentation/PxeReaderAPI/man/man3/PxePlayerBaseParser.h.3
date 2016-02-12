@@ -1,0 +1,43 @@
+.TH "parser/PxePlayerBaseParser.h" 3 "Mon Apr 28 2014" "PxeReaderAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+parser/PxePlayerBaseParser.h \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#import <Foundation/Foundation\&.h>\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "protocol \fB<PxePlayerBaseParser>\fP"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef void(^ \fBParsingHandler\fP )(id receivedNavigator, NSError *error)"
+.br
+.in -1c
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef void(^ ParsingHandler)(id receivedNavigator, NSError *error)"
+A block which returns the result after parsing the xhtml, ncx , html or xml content 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIid,receivedNavigator\fP is an either array or dictionary of results retreived after data has parsed 
+.br
+\fINSError,error\fP returns if any error occured while parsing the content 
+.RE
+.PP
+
+.PP
+Definition at line 16 of file PxePlayerBaseParser\&.h\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderAPI from the source code\&.

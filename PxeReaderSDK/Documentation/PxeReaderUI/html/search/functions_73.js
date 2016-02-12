@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['save',['save',['../interface_pxe_player_data_manager.html#a6bace115219e1f02d80778c1c86e2288',1,'PxePlayerDataManager']]],
+  ['scalepagetofit',['scalePageToFit',['../protocol_page_content_delegate-p.html#a8ec70410318e1c9491a3b8ff90fb3e5b',1,'PageContentDelegate-p']]],
+  ['scrollpagetodirection_3a',['scrollPageToDirection:',['../interface_pxe_player_page_view_controller.html#a40badd98cae44b3d03c20ec165fd773f',1,'PxePlayerPageViewController']]],
+  ['searchcontent_3afrom_3awithsize_3awithcompletionhandler_3a',['searchContent:from:withSize:withCompletionHandler:',['../category_pxe_player_07_search_08.html#ae5bdbf7faea3fb4c58be4d995c96f648',1,'PxePlayer(Search)']]],
+  ['setannotationlabel_3a',['setAnnotationLabel:',['../interface_pxe_player_page_content_view_controller.html#a1cd7abe0cc5c6ed1fe9251a8e6e32d43',1,'PxePlayerPageContentViewController::setAnnotationLabel:()'],['../interface_pxe_player_page_view_controller.html#a455fa7a207f1302e1c3ffb12ebb537dc',1,'PxePlayerPageViewController::setAnnotationLabel:()']]],
+  ['setbookpagefontsize_3a',['setBookPageFontSize:',['../interface_pxe_player_page_view_controller.html#a1d44823b8e79857f80749ebf251d9198',1,'PxePlayerPageViewController']]],
+  ['setbookpagetheme_3a',['setBookPageTheme:',['../interface_pxe_player_page_view_controller.html#a382176f9c765a985289f223da4203a30',1,'PxePlayerPageViewController']]],
+  ['setobject_3aforkey_3a',['setObject:forKey:',['../interface_h_m_cache.html#a8608ca43aaceb46957be9651133b0ca2',1,'HMCache']]],
+  ['setobject_3aforkey_3awithnewpath_3a',['setObject:forKey:withNewPath:',['../interface_h_m_cache.html#aebd9c067580569f1b703e17a96ace2db',1,'HMCache']]],
+  ['setpagefontsize_3a',['setPageFontSize:',['../_pxe_player_8h.html#afe2e1ea90e26019c53d1bf386c7b7db1',1,'PxePlayer.h']]],
+  ['setpageid_3a',['setPageId:',['../interface_pxe_player_page_content_view_controller.html#a14807e6d4cdaea7a2cc4ba87b7a59e3b',1,'PxePlayerPageContentViewController']]],
+  ['setpagetheme_3a',['setPageTheme:',['../_pxe_player_8h.html#aa75847778c328284d692facacffcfa12',1,'PxePlayer.h']]],
+  ['setsearchindexid_3a',['setSearchIndexId:',['../_pxe_player_8h.html#a0a38d278539d2b6d1344ba958b16464f',1,'PxePlayer.h']]],
+  ['sharedinstance',['sharedInstance',['../interface_pxe_player_data_manager.html#a61a323a6162afc1a8734d8a1f7cc89c6',1,'PxePlayerDataManager']]],
+  ['submitncxurlforindexing_3awithcompletionhandler_3a',['submitNCXUrlForIndexing:withCompletionHandler:',['../category_pxe_player_07_search_08.html#acaf2f1bc4d262bd134d2adac85466d4e',1,'PxePlayer(Search)']]],
+  ['submiturlsforindexing_3awithcompletionhandler_3a',['submitUrlsForIndexing:withCompletionHandler:',['../category_pxe_player_07_search_08.html#abb97b28097be6751b5941b3149c4e3b6',1,'PxePlayer(Search)']]],
+  ['switchviewmode_3a',['switchViewMode:',['../interface_pxe_player_page_view_controller.html#a8b9ce2b2307483d7c2b485afa0621a15',1,'PxePlayerPageViewController']]]
+];

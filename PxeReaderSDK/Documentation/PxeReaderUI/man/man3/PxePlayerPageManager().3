@@ -1,0 +1,97 @@
+.TH "PxePlayerPageManager()" 3 "Mon Apr 28 2014" "PxeReaderUI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PxePlayerPageManager() \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits <PxePlayerOperationQueueDelegate>\&.
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "BOOL \fBisPlaylist\fP"
+.br
+.ti -1c
+.RI "NSInteger \fBtotalPages\fP"
+.br
+.ti -1c
+.RI "NSInteger \fBcurrentPage\fP"
+.br
+.ti -1c
+.RI "NSInteger \fBvirtualCurrentPage\fP"
+.br
+.ti -1c
+.RI "NSString * \fBtocUrl\fP"
+.br
+.ti -1c
+.RI "NSMutableArray * \fBhistories\fP"
+.br
+.ti -1c
+.RI "NSArray * \fBcustomPlaylist\fP"
+.br
+.ti -1c
+.RI "PxePlayerPageOperations * \fBpageOperations\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBPxePlayerPageManager\fP class extension where private variables and methods to be declared 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBPxePlayerOperationQueueDelegate\fP 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file PxePlayerPageManager\&.m\&.
+.SH "Property Documentation"
+.PP 
+.SS "- (NSInteger) currentPage\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+NSInteger which hold the current page index 
+.PP
+Definition at line 61 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSArray*) customPlaylist\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+NSArray , array of URL's which used to be render custom playlist from the book 
+.PP
+Definition at line 81 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSMutableArray*) histories\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+NSMutableArray which holds the array of pages that user navigated that user can undo the navigation 
+.PP
+Definition at line 76 of file PxePlayerPageManager\&.m\&.
+.SS "- (BOOL) isPlaylist\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+Bool value which sets the book has custom playlist or not 
+.PP
+Definition at line 51 of file PxePlayerPageManager\&.m\&.
+.SS "- (PxePlayerPageOperations*) pageOperations\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+PxePlayerPageOperations are download queue which holds the array of page URL's to download sequentially 
+.PP
+\fBSee Also:\fP
+.RS 4
+PxePlayerPageOperations 
+.PP
+PxePlayerPageOperation 
+.RE
+.PP
+
+.PP
+Definition at line 88 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSString*) tocUrl\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [strong]\fP"
+NSString value which holds the toc NCX URL 
+.PP
+Definition at line 71 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSInteger) totalPages\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+NSInteger value which set the total number of pages in the book 
+.PP
+Definition at line 56 of file PxePlayerPageManager\&.m\&.
+.SS "- (NSInteger) virtualCurrentPage\fC [read]\fP, \fC [write]\fP, \fC [nonatomic]\fP, \fC [assign]\fP"
+NSInteger which hold the current transition page index 
+.PP
+Definition at line 66 of file PxePlayerPageManager\&.m\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PxeReaderUI from the source code\&.
